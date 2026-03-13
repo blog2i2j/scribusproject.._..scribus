@@ -14,7 +14,7 @@ else()
 		markdownim.cpp
 	)
 
-    set(SCRIBUS_MARKDOWN_IM_PLUGIN "MARKDOWNimplugin")
+	set(SCRIBUS_MARKDOWN_IM_PLUGIN "markdownimplugin")
 
 	add_library(${SCRIBUS_MARKDOWN_IM_PLUGIN} MODULE ${MARKDOWN_IM_PLUGIN_SOURCES})
 
