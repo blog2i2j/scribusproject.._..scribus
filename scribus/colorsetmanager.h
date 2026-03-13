@@ -27,9 +27,9 @@ struct ApplicationPrefs;
 class SCRIBUS_API ColorSetManager
 {
 	public:
-		ColorSetManager();
-		~ColorSetManager();
-		
+		ColorSetManager() = default;
+		~ColorSetManager() = default;
+
 		void initialiseDefaultPrefs(struct ApplicationPrefs& appPrefs);
 		void findPaletteLocations();
 		void searchDir(const QString& path, QMap<QString, QString> &pList, QTreeWidgetItem* parent = nullptr);

@@ -26,10 +26,6 @@ for which a new license (GPL+exception) is in place.
 #include <QByteArray>
 #include <QDebug>
 
-ColorSetManager::ColorSetManager() = default;
-
-ColorSetManager::~ColorSetManager() = default;
-
 void ColorSetManager::initialiseDefaultPrefs(struct ApplicationPrefs& appPrefs)
 {
 	QString defaultSwatch = ScPaths::instance().shareDir() + "swatches/" + "Scribus_Basic.xml";
