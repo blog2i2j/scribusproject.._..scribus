@@ -1422,6 +1422,22 @@ void Scribus150Format::writeSections(ScXmlStreamWriter & docu) const
 			case Type_None:
 				docu.writeAttribute("Type", "Type_None");
 				break;
+			case Type_Bengali:
+			case Type_Burmese:
+			case Type_Devanagari:
+			case Type_Greek:
+			case Type_Gujarati:
+			case Type_Gurmukhi:
+			case Type_Kannada:
+			case Type_Khmer:
+			case Type_Lao:
+			case Type_Malayalam:
+			case Type_Odia:
+			case Type_Tamil:
+			case Type_Telugu:
+			case Type_Thai:
+			case Type_Tibetan:
+				break;
 		}
 		docu.writeAttribute("Start", (*it).sectionstartindex);
 		docu.writeAttribute("Reversed", (*it).reversed);
@@ -1536,6 +1552,22 @@ void  Scribus150Format::writeNotesStyles(ScXmlStreamWriter & docu, const QString
 				break;
 			case Type_None:
 				docu.writeAttribute("Type", "Type_None");
+				break;
+			case Type_Bengali:
+			case Type_Burmese:
+			case Type_Devanagari:
+			case Type_Greek:
+			case Type_Gujarati:
+			case Type_Gurmukhi:
+			case Type_Kannada:
+			case Type_Khmer:
+			case Type_Lao:
+			case Type_Malayalam:
+			case Type_Odia:
+			case Type_Tamil:
+			case Type_Telugu:
+			case Type_Thai:
+			case Type_Tibetan:
 				break;
 		}
 		docu.writeAttribute("Range", (int) noteStyle->range());
