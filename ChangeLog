@@ -2,6 +2,10 @@ Scribus - 1.7.3 (Released 2026-xx-xx)
 =========================================
 https://bugs.scribus.net/changelog_page.php?version_id=134
 
+0017188: [General]  ‘void ppdClose(ppd_file_t*)’ is deprecated (cbradney)
+0007095: [Text Frames / Story Editor]  Add ability to remove unused styles (cbradney)
+0017783: [General]  Scribus crashes when layouting text of inline elements (jghali)
+0017780: [Plug-ins]  Add ability to create barcodes from scripter (cbradney)
 0017779: [Plug-ins]  Barcode plugin updates (cbradney)
 0013519: [Canvas]  Redraw Issue for multiple text frames (cbradney)
 0011182: [Language Tools]  [Multi-threading] Launching the new spellchecker takes extremely long (cbradney)
