@@ -168,11 +168,12 @@ CupsOptions::CupsOptions(QWidget* parent, const QString& device) : QDialog( pare
 			};
 
 			// Enumerate all supported IPP options
+			#ifdef HAVE_CUPS
 			for (int attr_idx = 0; ipp_attributes[attr_idx] != nullptr; attr_idx++)
 			{
 				addIPPOption(ipp_attributes[attr_idx], dest, dinfo);
 			}
-
+			#endif
 			cupsFreeDestInfo(dinfo);
 		}
 		cupsFreeDests(num_dests, dests);
