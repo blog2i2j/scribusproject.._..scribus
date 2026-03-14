@@ -3148,7 +3148,7 @@ void ScribusMainWindow::updateColorLists()
 	if (!HaveDoc)
 		return;
 	requestUpdate(reqColorsUpdate | reqLineStylesUpdate);
-	m_styleManager->updateColorList();
+	m_styleManager->refreshLists();
 }
 
 bool ScribusMainWindow::slotFileOpen()
@@ -9257,7 +9257,7 @@ void ScribusMainWindow::slotReplaceColors()
 	if (doc->useImageColorEffects())
 		doc->recalcPicturesRes(ScribusDoc::RecalcPicRes_ImageWithColorEffectsOnly);
 	requestUpdate(reqColorsUpdate | reqLineStylesUpdate);
-	m_styleManager->updateColorList();
+	m_styleManager->refreshLists();
 	if (doc->m_Selection->isNotEmpty())
 		doc->m_Selection->itemAt(0)->emitAllToGUI();
 	view->DrawNew();

@@ -29,7 +29,7 @@ public:
 	~StyleManager();
 
 	void addStyle(StyleItem *item);
-	void updateColorList();
+	void refreshLists();
 
 	void showAsNewParagraphStyle();
 	void showAsNewCharacterStyle();
@@ -37,6 +37,18 @@ public:
 	void showAsEditParagraphStyle(const QString& name);
 	void showAsEditCharacterStyle(const QString& name);
 	void showAsEditLineStyle(const QString& name);
+	/**
+	 * @brief Reload all style data from the document and rebuild the
+	 * style view tree.
+	 *
+	 * Call this when styles have been modified outside the Style Manager
+	 * (e.g. by the scripter or by preferences dialogs) and the UI needs
+	 * to reflect the current state of the document's styles.
+	 *
+	 * This clears the style view, reloads each StyleItem from the
+	 * document, and recreates the tree and associated shortcut actions.
+	 */
+	void reloadStyles();
 
 	QMap<QString,Keys> keyMap();
 
@@ -68,7 +80,6 @@ private:
 	QAction            *m_rcpDeleteId { nullptr };
 	QAction            *m_rcpEditId { nullptr };
 	QAction            *m_rcpCloneId { nullptr };
-//	QAction            *m_rcpToScrapId;
 	ScrAction	*m_selectedStyleAction { nullptr };
 
 	bool                m_isEditMode { true };
@@ -120,6 +131,20 @@ private slots:
 	void slotOk();
 	void slotApply();
 	void slotDelete();
+	/**
+	 * @brief Find and remove all styles not in use by any document content.
+	 *
+	 * Scans all page items, master page items, frame items, and pattern
+	 * items to determine which styles are actually referenced. Any style
+	 * that is not referenced and is not a default style is offered for
+	 * removal. Parent styles of used styles are always preserved.
+	 *
+	 * Operates through the Style Manager's normal edit/apply flow:
+	 * enters edit mode, calls deleteStyles() on temp copies for each
+	 * StyleItem, then commits via slotOk(). The user is shown a
+	 * confirmation dialog before any styles are removed.
+	 */
+	void slotDeleteUnused();
 	void slotImport();
 	void slotEdit();
 	void slotClone();

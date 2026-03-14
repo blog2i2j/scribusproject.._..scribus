@@ -998,6 +998,141 @@ void ScribusDoc::enableCMS(bool enable)
 }
 
 
+int ScribusDoc::removeUnusedStyles()
+{
+	ResourceCollection usedResources;
+	getUsedStylesFromItems(usedResources);
+
+	int removedCount = 0;
+
+	// Paragraph styles
+	StyleSet<ParagraphStyle> newParagraphStyleSet;
+	for (int i = 0; i < m_docParagraphStyles.count(); ++i)
+	{
+		const ParagraphStyle& ps = m_docParagraphStyles[i];
+		if (ps.isDefaultStyle() || !ps.hasName() ||
+				usedResources.styles().contains(ps.name()))
+			newParagraphStyleSet.create(ps);
+		else
+			++removedCount;
+	}
+	if (newParagraphStyleSet.count() != m_docParagraphStyles.count())
+		redefineStyles(newParagraphStyleSet, true);
+
+	// Character styles
+	StyleSet<CharStyle> newCharStyleSet;
+	for (int i = 0; i < m_docCharStyles.count(); ++i)
+	{
+		const CharStyle& cs = m_docCharStyles[i];
+		if (cs.isDefaultStyle() || !cs.hasName() ||
+				usedResources.charStyles().contains(cs.name()))
+			newCharStyleSet.create(cs);
+		else
+			++removedCount;
+	}
+	if (newCharStyleSet.count() != m_docCharStyles.count())
+		redefineCharStyles(newCharStyleSet, true);
+
+	// Table styles
+
+	StyleSet<TableStyle> newTableStyleSet;
+	for (int i = 0; i < m_docTableStyles.count(); ++i)
+	{
+		const TableStyle& ts = m_docTableStyles[i];
+		if (ts.isDefaultStyle() || !ts.hasName() ||
+				usedResources.tableStyles().contains(ts.name()))
+			newTableStyleSet.create(ts);
+		else
+			++removedCount;
+	}
+	if (newTableStyleSet.count() != m_docTableStyles.count())
+		redefineTableStyles(newTableStyleSet, true);
+
+	// Cell styles
+	StyleSet<CellStyle> newCellStyleSet;
+	for (int i = 0; i < m_docCellStyles.count(); ++i)
+	{
+		const CellStyle& cs = m_docCellStyles[i];
+		if (cs.isDefaultStyle() || !cs.hasName() ||
+				usedResources.cellStyles().contains(cs.name()))
+			newCellStyleSet.create(cs);
+		else
+			++removedCount;
+	}
+	if (newCellStyleSet.count() != m_docCellStyles.count())
+		redefineCellStyles(newCellStyleSet, true);
+
+	// Line styles
+	QStringList toRemove;
+	for (auto it = docLineStyles.cbegin(); it != docLineStyles.cend(); ++it)
+	{
+		if (!usedResources.lineStyles().contains(it.key()))
+			toRemove.append(it.key());
+	}
+	for (const QString& name : toRemove)
+	{
+		docLineStyles.remove(name);
+		++removedCount;
+	}
+
+	if (removedCount > 0)
+	{
+		scMW()->requestUpdate(reqTextStylesUpdate);
+		changed();
+		changedPagePreview();
+	}
+
+	return removedCount;
+}
+
+
+void ScribusDoc::getUsedStylesFromItems(ResourceCollection& lists) const
+{
+	// Same item walk as getNamedResources(), but deliberately omitting
+	// the loops over m_docParagraphStyles, m_docCharStyles,
+	// m_docTableStyles, m_docCellStyles. Those loops cause every
+	// defined style to appear "used" via parent-chain collection.
+
+	lists.availableFonts = AllFonts;
+	lists.availableColors = const_cast<ColorList*>(&PageColors);
+
+	// MasterItems then DocItems
+	const QList<PageItem*>* itemlist = &MasterItems;
+	while (itemlist != nullptr)
+	{
+		for (int i = 0; i < itemlist->count(); ++i)
+		{
+			const PageItem* currItem = itemlist->at(i);
+			if (currItem)
+				currItem->getNamedResources(lists);
+		}
+		if (itemlist == &MasterItems)
+			itemlist = &DocItems;
+		else
+			itemlist = nullptr;
+	}
+
+	// FrameItems
+	for (auto itf = FrameItems.cbegin(); itf != FrameItems.cend(); ++itf)
+	{
+		const PageItem* currItem = itf.value();
+		if (currItem)
+			currItem->getNamedResources(lists);
+	}
+
+	// Pattern items
+	for (auto it = docPatterns.cbegin(); it != docPatterns.cend(); ++it)
+	{
+		const ScPattern& pa = *it;
+		for (int i = 0; i < pa.items.count(); ++i)
+			pa.items.at(i)->getNamedResources(lists);
+	}
+
+	// Protect default styles
+	lists.collectStyle(CommonStrings::DefaultParagraphStyle);
+	lists.collectCharStyle(CommonStrings::DefaultCharacterStyle);
+}
+
 void ScribusDoc::getNamedResources(ResourceCollection& lists) const
 {
 	lists.availableFonts = AllFonts;
@@ -1017,7 +1152,7 @@ void ScribusDoc::getNamedResources(ResourceCollection& lists) const
 		else
 			itemlist = nullptr;
 	}
-	for (QHash<int, PageItem*>::const_iterator itf = FrameItems.begin(); itf != FrameItems.end(); ++itf)
+	for (auto itf = FrameItems.cbegin(); itf != FrameItems.cend(); ++itf)
 	{
 		const PageItem *currItem = itf.value();
 		if (currItem)
@@ -1032,20 +1167,20 @@ void ScribusDoc::getNamedResources(ResourceCollection& lists) const
 	for (int i = 0; i < m_docCellStyles.count(); ++i)
 		m_docCellStyles[i].getNamedResources(lists);
 	
-	for (auto it = docPatterns.begin(); it != docPatterns.end(); ++it)
+	for (auto it = docPatterns.cbegin(); it != docPatterns.cend(); ++it)
 	{
 		ScPattern pa = *it;
-		for (int o = 0; o < pa.items.count(); o++)
+		for (int i = 0; i < pa.items.count(); i++)
 		{
-			pa.items.at(o)->getNamedResources(lists);
+			pa.items.at(i)->getNamedResources(lists);
 		}
 	}
-	for (auto itg = docGradients.begin(); itg != docGradients.end(); ++itg)
+	for (auto itg = docGradients.cbegin(); itg != docGradients.cend(); ++itg)
 	{
 		QList<VColorStop*> cstops = itg.value().colorStops();
-		for (int cst = 0; cst < itg.value().stops(); ++cst)
+		for (int i = 0; i < itg.value().stops(); ++i)
 		{
-			lists.collectColor(cstops.at(cst)->name);
+			lists.collectColor(cstops.at(i)->name);
 		}
 	}
 }
@@ -1369,7 +1504,7 @@ void ScribusDoc::redefineStyles(const StyleSet<ParagraphStyle>& newStyles, bool 
 	if (removeUnused)
 	{
 		QMap<QString, QString> deletion;
-		QString deflt("");
+		QString deflt;
 		for (int i=0; i < m_docParagraphStyles.count(); ++i)
 		{
 			const QString& nam(m_docParagraphStyles[i].name());
@@ -1406,7 +1541,7 @@ void ScribusDoc::redefineCharStyles(const StyleSet<CharStyle>& newStyles, bool r
 	if (removeUnused)
 	{
 		QMap<QString, QString> deletion;
-		QString deflt("");
+		QString deflt;
 		for (int i = 0; i < m_docCharStyles.count(); ++i)
 		{
 			const QString& nam(m_docCharStyles[i].name());
@@ -1427,7 +1562,7 @@ void ScribusDoc::redefineTableStyles(const StyleSet<TableStyle>& newStyles, bool
 	if (removeUnused)
 	{
 		QMap<QString, QString> deletion;
-		QString deflt("");
+		QString deflt;
 		for (int i = 0; i < m_docTableStyles.count(); ++i)
 		{
 			const QString& nam(m_docTableStyles[i].name());
@@ -1448,7 +1583,7 @@ void ScribusDoc::redefineCellStyles(const StyleSet<CellStyle>& newStyles, bool r
 	if (removeUnused)
 	{
 		QMap<QString, QString> deletion;
-		QString deflt("");
+		QString deflt;
 		for (int i = 0; i < m_docCellStyles.count(); ++i)
 		{
 			const QString& nam(m_docCellStyles[i].name());

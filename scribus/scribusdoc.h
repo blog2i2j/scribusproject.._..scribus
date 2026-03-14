@@ -620,6 +620,39 @@ public:
 	 */
 	void replaceCellStyles(const QMap<QString, QString>& newNameForOld);
 
+	/**
+	 * @brief Remove all unused styles from the document.
+	 *
+	 * Uses getUsedStylesFromItems() to determine which styles are in use,
+	 * then removes all paragraph, character, table, cell, and line styles
+	 * that are not referenced by any document content. Default styles are
+	 * never removed.
+	 *
+	 * This operates directly on the document's live style sets and commits
+	 * immediately. It does not go through the Style Manager's temp copy
+	 * mechanism. Callers should refresh the Style Manager UI afterwards
+	 * by calling StyleManager::reloadStyles() if the palette is active.
+	 *
+	 * @return the number of styles removed
+	 */
+	int removeUnusedStyles();
+	/**
+	 * @brief Collect the names of all styles referenced by document content.
+	 *
+	 * This is similar to getNamedResources() but deliberately omits the
+	 * iteration over defined style sets (m_docParagraphStyles, etc.).
+	 * Only styles actually referenced by page items, master page items,
+	 * frame items, and pattern items are collected. Default styles are
+	 * always included.
+	 *
+	 * ParagraphStyle::getNamedResources() and CharStyle::getNamedResources()
+	 * walk parent chains automatically, so ancestor styles of any used
+	 * style will also appear in the collection.
+	 *
+	 * @param lists ResourceCollection to populate with used style names
+	 */
+	void getUsedStylesFromItems(ResourceCollection& lists) const;
+
 	void getNamedResources(ResourceCollection& lists) const;
 	struct ResMapped
 	{
@@ -676,6 +709,8 @@ public:
 	 * @param newNameForOld a map which maps the name of any style to remove to a new stylename
 	 */
 	void replaceCharStyles(const QMap<QString,QString>& newNameForOld);
+
+
 
 	/**
 	 * @brief Should guides be locked or not

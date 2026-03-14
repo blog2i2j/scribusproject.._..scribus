@@ -58,8 +58,8 @@ void Prefs_Typography::updateParagraphStyles(QString removedID, QString newID)
 	m_Doc->replaceNamedResources(res);
 
 	// We also need to update the Style Manager to load the updated paragraph styles.
-	// updateColorList() does what we want.
-	m_Doc->scMW()->styleMgr()->updateColorList();
+	// refreshLists() does what we want.
+	m_Doc->scMW()->styleMgr()->refreshLists();
 }
 
 void Prefs_Typography::restoreDefaults(struct ApplicationPrefs *prefsData)

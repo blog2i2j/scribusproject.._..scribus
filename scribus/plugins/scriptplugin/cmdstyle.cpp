@@ -533,6 +533,22 @@ PyObject *scribus_gettablestyles(PyObject* /* self */)
 	return styleList;
 }
 
+PyObject* scribus_removeunusedstyles(PyObject*)
+{
+	if (!checkHaveDocument())
+		return nullptr;
+	ScribusMainWindow* mw = ScCore->primaryMainWindow();
+	int removed = mw->doc->removeUnusedStyles();
+	// Refresh the Style Manager if it's open, so its cached
+	// style lists and tree view reflect the changes.
+	// refreshLists() reloads all style types from the doc
+	if (removed > 0)
+		mw->styleMgr()->reloadStyles();
+	return PyLong_FromLong(removed);
+}
+
+
+
 /*! HACK: this removes "warning: 'blah' defined but not used" compiler warnings
 with header files structure untouched (docstrings are kept near declarations)
 PV */
@@ -547,5 +563,6 @@ void cmdstyledocwarnings()
 	   << scribus_getcharstyles__doc__
 	   << scribus_getlinestyles__doc__
 	   << scribus_getparagraphstyles__doc__
-	   << scribus_gettablestyles__doc__;
+	   << scribus_gettablestyles__doc__
+	   << scribus_removeunusedstyles__doc__;
 }

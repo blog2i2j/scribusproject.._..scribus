@@ -158,5 +158,18 @@ Return a list of the names of all table styles in the current document.\n\
 "));
 PyObject *scribus_gettablestyles(PyObject * /*self*/);
 
+/*! docstring */
+PyDoc_STRVAR(scribus_removeunusedstyles__doc__,
+QT_TR_NOOP("removeUnusedStyles() -> int\n\
+\n\
+Remove all unused paragraph, character, table, cell, and line styles\n\
+from the current document. A style is considered unused if it is not\n\
+applied to any object in the document and is not an ancestor of a\n\
+style that is in use. Default styles are never removed.\n\
+\n\
+Returns the number of styles removed.\n\
+"));
+PyObject *scribus_removeunusedstyles(PyObject * /*self*/);
+
 #endif
 

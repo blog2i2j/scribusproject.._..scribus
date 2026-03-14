@@ -504,6 +504,7 @@ PyMethodDef scribus_methods[] = {
 	{ "redrawAll", (PyCFunction) scribus_redraw, METH_NOARGS, tr(scribus_redraw__doc__)},
 	{ "removeTableColumns", scribus_removetablecolumns, METH_VARARGS, tr(scribus_removetablecolumns__doc__)},
 	{ "removeTableRows", scribus_removetablerows, METH_VARARGS, tr(scribus_removetablerows__doc__)},
+	{ "removeUnusedStyles", (PyCFunction) scribus_removeunusedstyles, METH_VARARGS, tr(scribus_removeunusedstyles__doc__)},
 	{ "renderFont", (PyCFunction) scribus_renderfont, METH_VARARGS|METH_KEYWORDS, tr(scribus_renderfont__doc__)},
 	{ "replaceColor", scribus_replcolor, METH_VARARGS, tr(scribus_replcolor__doc__)},
 	{ "resizeTableColumn", scribus_resizetablecolumn, METH_VARARGS, tr(scribus_resizetablecolumn__doc__)},
