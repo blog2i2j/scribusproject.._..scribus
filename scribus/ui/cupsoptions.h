@@ -24,6 +24,14 @@ for which a new license (GPL+exception) is in place.
 #ifndef CUPSOPTIONS_H
 #define CUPSOPTIONS_H
 
+#include "scconfig.h"
+
+#ifdef HAVE_CUPS
+#include <cups/cups.h>
+// PPD API is deprecated in CUPS 2.x, using IPP attributes instead
+// Old: #include <cups/ppd.h>
+#endif
+
 #include <QDialog>
 #include <QMap>
 #include <QList>
@@ -46,39 +54,45 @@ class PrefsContext;
 
 class SCRIBUS_API CupsOptions : public QDialog
 {
-    Q_OBJECT
+	Q_OBJECT
 
-public: 
-	CupsOptions(QWidget* parent, const QString& device);
-	~CupsOptions();
+	public:
+		CupsOptions(QWidget* parent, const QString& device);
+		~CupsOptions();
 
-	struct OptionData
-	{ 
-		int comboIndex;
-		QString keyword;
-	};
+		struct OptionData
+		{
+			int comboIndex;
+			QString keyword;
+		};
 
-	QString defaultOptionValue(const QString& optionKey) const;
-	bool    useDefaultValue(const QString& optionKey) const;
+		QString defaultOptionValue(const QString& optionKey) const;
+		bool useDefaultValue(const QString& optionKey) const;
 
-	const QMap<QString, OptionData>& options() const { return m_keyToDataMap; }
-	QStringList optionKeys() { return m_keyToDataMap.keys(); }
+		const QMap<QString, OptionData>& options() const { return m_keyToDataMap; }
+		QStringList optionKeys() { return m_keyToDataMap.keys(); }
 
-	int     optionIndex(const QString& optionKey) const;
-	QString optionText(const QString& optionKey) const;
+		int optionIndex(const QString& optionKey) const;
+		QString optionText(const QString& optionKey) const;
 
-protected:
-	QVBoxLayout*  CupsOptionsLayout;
-	QHBoxLayout*  Layout2;
-	QPushButton*  PushButton1;
-	QPushButton*  PushButton2;
-	QTableWidget* Table;
+#ifdef HAVE_CUPS
+	private:
+		void addIPPOption(const char* ipp_name, cups_dest_t* dest, cups_dinfo_t* dinfo);
+		QString getIPPOptionDisplayName(const char* ipp_name) const;
+#endif
 
-	PrefsContext* prefs;
-	
-	QList<QComboBox*> m_optionCombos;
-	QMap<QString, OptionData> m_keyToDataMap;
-	QMap<QString, QString> m_keyToDefault;
+	protected:
+		QVBoxLayout*  CupsOptionsLayout;
+		QHBoxLayout*  Layout2;
+		QPushButton*  PushButton1;
+		QPushButton*  PushButton2;
+		QTableWidget* Table;
+
+		PrefsContext* prefs;
+
+		QList<QComboBox*> m_optionCombos;
+		QMap<QString, OptionData> m_keyToDataMap;
+		QMap<QString, QString> m_keyToDefault;
 };
 
 #endif

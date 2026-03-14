@@ -23,30 +23,25 @@ for which a new license (GPL+exception) is in place.
 
 #include "cupsoptions.h"
 
-#include <QHBoxLayout>
-#include <QVBoxLayout>
-#include <QPushButton>
 #include <QComboBox>
+#include <QHBoxLayout>
 #include <QHeaderView>
+#include <QPixmap>
+#include <QPrinter>
+#include <QPrinterInfo>
+#include <QPushButton>
+#include <QSpacerItem>
+#include <QStringList>
 #include <QTableWidget>
 #include <QTableWidgetItem>
-#include <QPixmap>
-#include <QStringList>
 #include <QToolTip>
-#include <QSpacerItem>
-#include <QPrinterInfo>
-#include <QPrinter>
+#include <QVBoxLayout>
 
-#include "prefsmanager.h"
+#include "commonstrings.h"
+#include "iconmanager.h"
 #include "prefscontext.h"
 #include "prefsfile.h"
-#include "commonstrings.h"
-#include "scconfig.h"
-#ifdef HAVE_CUPS
-#include <cups/cups.h>
-#include <cups/ppd.h>
-#endif
-#include "iconmanager.h"
+#include "prefsmanager.h"
 
 CupsOptions::CupsOptions(QWidget* parent, const QString& device) : QDialog( parent )
 {
@@ -72,14 +67,16 @@ CupsOptions::CupsOptions(QWidget* parent, const QString& device) : QDialog( pare
 	headerH->setSectionsMovable( false );
 	headerH->setSectionResizeMode(QHeaderView::Fixed);
 	Table->setMinimumSize(300, 100);
+
 #ifdef HAVE_CUPS
+/* ========== OLD DEPRECATED PPD-BASED CODE (CUPS 1.x) ==========
 	int i;
 	cups_dest_t *dests;
 	cups_dest_t *dest;
 	int num_dests;
-	const char *filename;	/* PPD filename */
-	ppd_file_t *ppd = nullptr;				/* PPD data */
-	ppd_group_t *group = nullptr;			/* Current group */
+	const char *filename;	// PPD filename
+	ppd_file_t *ppd = nullptr;				// PPD data
+	ppd_group_t *group = nullptr;			// Current group
 	num_dests = cupsGetDests(&dests);
 	dest = cupsGetDest(device.toLocal8Bit().constData(), nullptr, num_dests, dests);
 	if (!(dest == nullptr || (filename = cupsGetPPD(dest->name)) == nullptr || (ppd = ppdOpenFile(filename)) == nullptr))
@@ -93,8 +90,8 @@ CupsOptions::CupsOptions(QWidget* parent, const QString& device) : QDialog( pare
 		for (i = ppd->num_groups, group = ppd->groups; i > 0; i --, ++group)
 		{
 			int ix;
-			ppd_option_t	*option;	/* Current option */
-			ppd_choice_t	*choice;	/* Current choice */
+			ppd_option_t	*option;	// Current option
+			ppd_choice_t	*choice;	// Current choice
 			for (ix = group->num_options, option = group->options; ix > 0; ix --, ++option)
 			{
 				int j;
@@ -130,6 +127,53 @@ CupsOptions::CupsOptions(QWidget* parent, const QString& device) : QDialog( pare
 		ppdClose(ppd);
 		cupsFreeDests(num_dests, dests);
 	}
+========== END OLD CODE ========== */
+// ========== NEW IPP-BASED CODE (CUPS 2.x) ==========
+	cups_dest_t *dests = nullptr;
+	cups_dest_t *dest = nullptr;
+	int num_dests = 0;
+
+	// cupsGetDests is still valid but cupsGetDests2 is recommended
+	num_dests = cupsGetDests2(CUPS_HTTP_DEFAULT, &dests);
+	dest = cupsGetDest(device.toLocal8Bit().constData(), nullptr, num_dests, dests);
+
+	if (dest != nullptr)
+	{
+		// Use cupsCopyDestInfo instead of cupsGetPPD + ppdOpenFile
+		cups_dinfo_t *dinfo = cupsCopyDestInfo(CUPS_HTTP_DEFAULT, dest);
+
+		if (dinfo != nullptr)
+		{
+			QStringList opts;
+			QString marked;
+			m_keyToDataMap.clear();
+			m_keyToDefault.clear();
+
+			// Common IPP attributes to enumerate
+			const char *ipp_attributes[] = {
+				"media",              // Paper size
+				"media-source",       // Paper tray/source
+				"sides",              // Duplex/Simplex
+				"print-quality",      // Print quality
+				"print-color-mode",   // Color/Grayscale/Monochrome
+				"output-bin",         // Output tray
+				"finishings",         // Stapling, hole-punching, etc
+				nullptr
+			};
+
+			// Enumerate all supported IPP options
+
+			for (int attr_idx = 0; ipp_attributes[attr_idx] != nullptr; attr_idx++)
+			{
+				addIPPOption(ipp_attributes[attr_idx], dest, dinfo);
+			}
+			cupsFreeDestInfo(dinfo);
+		}
+		cupsFreeDests(num_dests, dests);
+	}
+// ========== END NEW CODE ==========
+
+
 	struct OptionData optionData;
 
 	Table->setRowCount(Table->rowCount() + 1);
@@ -233,6 +277,146 @@ CupsOptions::CupsOptions(QWidget* parent, const QString& device) : QDialog( pare
 	connect( PushButton2, SIGNAL( clicked() ), this, SLOT( reject() ) );
 	connect( PushButton1, SIGNAL( clicked() ), this, SLOT( accept() ) );
 }
+
+#ifdef HAVE_CUPS
+// New helper method to add IPP options to the table
+void CupsOptions::addIPPOption(const char* ipp_name, cups_dest_t* dest, cups_dinfo_t* dinfo)
+{
+	// Find if this attribute is supported
+	ipp_attribute_t *attr = cupsFindDestSupported(CUPS_HTTP_DEFAULT, dest, dinfo, ipp_name);
+	if (!attr)
+		return; // Not supported by this printer
+
+	int count = ippGetCount(attr);
+	if (count <= 0)
+		return; // No choices available
+
+	QStringList opts;
+	QString marked;
+	struct OptionData optionData;
+
+	// Get human-readable name for the option
+	QString optionName = getIPPOptionDisplayName(ipp_name);
+
+	// Get all available choices
+	for (int i = 0; i < count; i++)
+	{
+		const char *choice = nullptr;
+
+		// Different value types need different getters
+		ipp_tag_t value_tag = ippGetValueTag(attr);
+		switch (value_tag)
+		{
+			case IPP_TAG_KEYWORD:
+			case IPP_TAG_NAME:
+			case IPP_TAG_TEXT:
+			case IPP_TAG_URI:
+				choice = ippGetString(attr, i, nullptr);
+				break;
+			case IPP_TAG_INTEGER:
+			case IPP_TAG_ENUM:
+				{
+					int int_val = ippGetInteger(attr, i);
+					choice = QString::number(int_val).toUtf8().constData();
+				}
+				break;
+			default:
+				continue; // Skip unsupported types
+		}
+
+		if (choice)
+			opts.append(QString::fromUtf8(choice));
+	}
+
+	if (opts.isEmpty())
+		return;
+
+	// Get current/default value
+	// First check current options set on destination
+	const char *current_value = cupsGetOption(ipp_name, dest->num_options, dest->options);
+
+	// If not set, try to get the default
+	if (!current_value)
+	{
+		QString default_attr_name = QString("%1-default").arg(ipp_name);
+		ipp_attribute_t *def_attr = cupsFindDestDefault(CUPS_HTTP_DEFAULT, dest, dinfo, default_attr_name.toUtf8().constData());
+		if (def_attr)
+			current_value = ippGetString(def_attr, 0, nullptr);
+	}
+
+	if (current_value)
+		marked = QString::fromUtf8(current_value);
+	else if (!opts.isEmpty())
+		marked = opts.first(); // Use first option as default
+
+	// Add to table
+	Table->setRowCount(Table->rowCount() + 1);
+	Table->setItem(Table->rowCount() - 1, 0, new QTableWidgetItem(optionName));
+
+	QComboBox *item = new QComboBox(this);
+	item->setEditable(false);
+	m_optionCombos.append(item);
+	optionData.comboIndex = m_optionCombos.count() - 1;
+	optionData.keyword = QString::fromUtf8(ipp_name);
+	m_keyToDataMap[optionName] = optionData;
+
+	item->addItems(opts);
+
+	// Restore previously saved selection
+	int lastSelected = prefs->getInt(optionName, 0);
+	if (lastSelected >= opts.count())
+		lastSelected = 0;
+
+	// Try to select the marked/default value
+	if (!marked.isEmpty())
+	{
+		int markedIdx = opts.indexOf(marked);
+		if (markedIdx >= 0)
+			lastSelected = markedIdx;
+	}
+
+	item->setCurrentIndex(lastSelected);
+	m_keyToDefault[optionName] = marked;
+	Table->setCellWidget(Table->rowCount() - 1, 1, item);
+}
+
+// Helper to convert IPP attribute names to human-readable names
+QString CupsOptions::getIPPOptionDisplayName(const char* ipp_name) const
+{
+	QString name(ipp_name);
+
+	// Map common IPP names to friendly display names
+	if (name == "media")
+		return tr("Paper Size");
+	else if (name == "media-source")
+		return tr("Paper Source");
+	else if (name == "sides")
+		return tr("Duplex");
+	else if (name == "print-quality")
+		return tr("Print Quality");
+	else if (name == "print-color-mode")
+		return tr("Color Mode");
+	else if (name == "output-bin")
+		return tr("Output Tray");
+	else if (name == "finishings")
+		return tr("Finishing");
+	else
+	{
+		// Convert "some-attribute-name" to "Some Attribute Name"
+		name.replace('-', ' ');
+		if (!name.isEmpty())
+		{
+			name[0] = name[0].toUpper();
+			for (int i = 1; i < name.length(); i++)
+			{
+				if (name[i-1] == ' ')
+					name[i] = name[i].toUpper();
+			}
+		}
+		return name;
+	}
+}
+#endif
 
 CupsOptions::~CupsOptions()
 {
