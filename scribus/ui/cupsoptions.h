@@ -24,12 +24,6 @@ for which a new license (GPL+exception) is in place.
 #ifndef CUPSOPTIONS_H
 #define CUPSOPTIONS_H
 
-#ifdef HAVE_CUPS
-#include <cups/cups.h>
-// PPD API is deprecated in CUPS 2.x, using IPP attributes instead
-// Old: #include <cups/ppd.h>
-#endif
-
 #include <QDialog>
 #include <QMap>
 #include <QList>
@@ -70,15 +64,8 @@ public:
 	const QMap<QString, OptionData>& options() const { return m_keyToDataMap; }
 	QStringList optionKeys() { return m_keyToDataMap.keys(); }
 
-	int optionIndex(const QString& optionKey) const;
+	int     optionIndex(const QString& optionKey) const;
 	QString optionText(const QString& optionKey) const;
-
-	// Add these new private methods to the class declaration:
-	#ifdef HAVE_CUPS
-	private:
-		void addIPPOption(const char* ipp_name, cups_dest_t* dest, cups_dinfo_t* dinfo);
-		QString getIPPOptionDisplayName(const char* ipp_name) const;
-	#endif
 
 protected:
 	QVBoxLayout*  CupsOptionsLayout;
