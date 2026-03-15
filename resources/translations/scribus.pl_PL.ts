@@ -10263,18 +10263,15 @@ przekształcając dane wektorowe na obiekty Scribusa.</translation>
 <context>
     <name>ImportPagesPlugin</name>
     <message>
-        <location filename="../../scribus/plugins/import/pages/importpagesplugin.cpp" line="61"/>
         <source>Import iWorks Pages...</source>
-        <translation>Importuj pliki Pages iWorks...</translation>
+        <translation type="vanished">Importuj pliki Pages iWorks...</translation>
     </message>
     <message>
-        <location filename="../../scribus/plugins/import/pages/importpagesplugin.cpp" line="63"/>
         <location filename="../../scribus/plugins/import/pages/importpagesplugin.cpp" line="97"/>
         <source>iWorks Pages</source>
         <translation>Pages iWorks</translation>
     </message>
     <message>
-        <location filename="../../scribus/plugins/import/pages/importpagesplugin.cpp" line="64"/>
         <location filename="../../scribus/plugins/import/pages/importpagesplugin.cpp" line="98"/>
         <source>iWorks Pages (*.pages *.PAGES)</source>
         <translation>Pages iWorks (*.pages *.PAGES)</translation>
@@ -10283,6 +10280,21 @@ przekształcając dane wektorowe na obiekty Scribusa.</translation>
         <location filename="../../scribus/plugins/import/pages/importpagesplugin.cpp" line="81"/>
         <source>Imports iWorks Pages Files</source>
         <translation>Importuje pliki Pages iWorks</translation>
+    </message>
+    <message>
+        <location filename="../../scribus/plugins/import/pages/importpagesplugin.cpp" line="61"/>
+        <source>Import iWork Pages...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../scribus/plugins/import/pages/importpagesplugin.cpp" line="63"/>
+        <source>iWork Pages</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../scribus/plugins/import/pages/importpagesplugin.cpp" line="64"/>
+        <source>iWork Pages (*.pages *.PAGES)</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/import/pages/importpagesplugin.cpp" line="82"/>
@@ -27210,9 +27222,8 @@ Zewnętrzne dowiązania
         <translation>palpa</translation>
     </message>
     <message>
-        <location filename="../../scribus/langmgr.cpp" line="495"/>
         <source>Panjabi</source>
-        <translation>pendżabski</translation>
+        <translation type="vanished">pendżabski</translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="496"/>
@@ -27774,6 +27785,11 @@ Zewnętrzne dowiązania
         <location filename="../../scribus/langmgr.cpp" line="227"/>
         <source>Dutch</source>
         <translation>holenderski</translation>
+    </message>
+    <message>
+        <location filename="../../scribus/langmgr.cpp" line="495"/>
+        <source>Panjabi (India)</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="506"/>

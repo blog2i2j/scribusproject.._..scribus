@@ -663,7 +663,7 @@
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1621"/>
         <source>&amp;Aspect ratio is Locked</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Aspect ratio is Locked</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1625"/>
@@ -768,27 +768,27 @@
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1673"/>
         <source>lowercase</source>
-        <translation type="unfinished"></translation>
+        <translation>lowercase</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1674"/>
         <source>UPPERCASE</source>
-        <translation type="unfinished"></translation>
+        <translation>UPPERCASE</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1675"/>
         <source>Sentence case</source>
-        <translation type="unfinished"></translation>
+        <translation>Sentence case</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1676"/>
         <source>Capitalize</source>
-        <translation type="unfinished"></translation>
+        <translation>Capitalise</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1677"/>
         <source>tOGGLE cASE</source>
-        <translation type="unfinished"></translation>
+        <translation>tOGGLE cASE</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1681"/>
@@ -3225,17 +3225,17 @@
     <message>
         <location filename="../../scribus/plugins/barcodegenerator/barcodegenerator.ui" line="425"/>
         <source>Module Reduction</source>
-        <translation type="unfinished"></translation>
+        <translation>Module Reduction</translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/barcodegenerator/barcodegenerator.ui" line="437"/>
         <source>Ink spread compensation for print output (0 = none)</source>
-        <translation type="unfinished"></translation>
+        <translation>Ink spread compensation for print output (0 = none)</translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/barcodegenerator/barcodegenerator.ui" line="456"/>
         <source>0.00</source>
-        <translation type="unfinished"></translation>
+        <translation>0.00</translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/barcodegenerator/barcodegenerator.ui" line="251"/>
@@ -7234,37 +7234,37 @@ See the Edit Colours section of the documentation for more details.</translation
     <message>
         <location filename="../../scribus/ui/cupsoptions.cpp" line="390"/>
         <source>Paper Size</source>
-        <translation type="unfinished"></translation>
+        <translation>Paper Size</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/cupsoptions.cpp" line="392"/>
         <source>Paper Source</source>
-        <translation type="unfinished"></translation>
+        <translation>Paper Source</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/cupsoptions.cpp" line="394"/>
         <source>Duplex</source>
-        <translation type="unfinished"></translation>
+        <translation>Duplex</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/cupsoptions.cpp" line="396"/>
         <source>Print Quality</source>
-        <translation type="unfinished"></translation>
+        <translation>Print Quality</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/cupsoptions.cpp" line="398"/>
         <source>Color Mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Colour Mode</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/cupsoptions.cpp" line="400"/>
         <source>Output Tray</source>
-        <translation type="unfinished"></translation>
+        <translation>Output Tray</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/cupsoptions.cpp" line="402"/>
         <source>Finishing</source>
-        <translation type="unfinished"></translation>
+        <translation>Finishing</translation>
     </message>
 </context>
 <context>
@@ -10259,18 +10259,15 @@ converting their vector data into Scribus objects.</translation>
 <context>
     <name>ImportPagesPlugin</name>
     <message>
-        <location filename="../../scribus/plugins/import/pages/importpagesplugin.cpp" line="61"/>
         <source>Import iWorks Pages...</source>
-        <translation>Import iWorks Pages...</translation>
+        <translation type="vanished">Import iWorks Pages...</translation>
     </message>
     <message>
-        <location filename="../../scribus/plugins/import/pages/importpagesplugin.cpp" line="63"/>
         <location filename="../../scribus/plugins/import/pages/importpagesplugin.cpp" line="97"/>
         <source>iWorks Pages</source>
         <translation>iWorks Pages</translation>
     </message>
     <message>
-        <location filename="../../scribus/plugins/import/pages/importpagesplugin.cpp" line="64"/>
         <location filename="../../scribus/plugins/import/pages/importpagesplugin.cpp" line="98"/>
         <source>iWorks Pages (*.pages *.PAGES)</source>
         <translation>iWorks Pages (*.pages *.PAGES)</translation>
@@ -10279,6 +10276,21 @@ converting their vector data into Scribus objects.</translation>
         <location filename="../../scribus/plugins/import/pages/importpagesplugin.cpp" line="81"/>
         <source>Imports iWorks Pages Files</source>
         <translation>Imports iWorks Pages Files</translation>
+    </message>
+    <message>
+        <location filename="../../scribus/plugins/import/pages/importpagesplugin.cpp" line="61"/>
+        <source>Import iWork Pages...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../scribus/plugins/import/pages/importpagesplugin.cpp" line="63"/>
+        <source>iWork Pages</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../scribus/plugins/import/pages/importpagesplugin.cpp" line="64"/>
+        <source>iWork Pages (*.pages *.PAGES)</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/import/pages/importpagesplugin.cpp" line="82"/>
@@ -12625,17 +12637,17 @@ If no handle is selected all handles will be reset.</source>
     <message>
         <location filename="../../scribus/ui/multipleduplicate.ui" line="389"/>
         <source>Number of copies:</source>
-        <translation type="unfinished"></translation>
+        <translation>Number of copies:</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/multipleduplicate.ui" line="402"/>
         <source>Maximum number of duplicates to be created</source>
-        <translation type="unfinished"></translation>
+        <translation>Maximum number of duplicates to be created</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/multipleduplicate.ui" line="405"/>
         <source>Auto</source>
-        <translation type="unfinished">Auto</translation>
+        <translation>Auto</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/multipleduplicate.ui" line="435"/>
@@ -27181,9 +27193,8 @@ External Links</translation>
         <translation>Palpa</translation>
     </message>
     <message>
-        <location filename="../../scribus/langmgr.cpp" line="495"/>
         <source>Panjabi</source>
-        <translation>Panjabi</translation>
+        <translation type="vanished">Panjabi</translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="496"/>
@@ -27498,17 +27509,17 @@ External Links</translation>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="575"/>
         <source>Spanish (Colombia)</source>
-        <translation type="unfinished"></translation>
+        <translation>Spanish (Colombia)</translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="577"/>
         <source>Spanish (Mexico)</source>
-        <translation type="unfinished"></translation>
+        <translation>Spanish (Mexico)</translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="578"/>
         <source>Spanish (Venezuela)</source>
-        <translation type="unfinished"></translation>
+        <translation>Spanish (Venezuela)</translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="579"/>
@@ -27745,6 +27756,11 @@ External Links</translation>
         <location filename="../../scribus/langmgr.cpp" line="227"/>
         <source>Dutch</source>
         <translation>Dutch</translation>
+    </message>
+    <message>
+        <location filename="../../scribus/langmgr.cpp" line="495"/>
+        <source>Panjabi (India)</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="506"/>
@@ -32551,111 +32567,111 @@ Therefore the image may be not correct</source>
         <location filename="../../scribus/numeration.cpp" line="48"/>
         <location filename="../../scribus/numeration.cpp" line="49"/>
         <source>Arabic: </source>
-        <translation type="unfinished"></translation>
+        <translation>Arabic: </translation>
     </message>
     <message>
         <location filename="../../scribus/numeration.cpp" line="51"/>
         <source>Bengali: </source>
-        <translation type="unfinished"></translation>
+        <translation>Bengali: </translation>
     </message>
     <message>
         <location filename="../../scribus/numeration.cpp" line="52"/>
         <source>Burmese: </source>
-        <translation type="unfinished"></translation>
+        <translation>Burmese: </translation>
     </message>
     <message>
         <location filename="../../scribus/numeration.cpp" line="54"/>
         <source>Devanagari: </source>
-        <translation type="unfinished"></translation>
+        <translation>Devanagari: </translation>
     </message>
     <message>
         <location filename="../../scribus/numeration.cpp" line="55"/>
         <source>Greek: </source>
-        <translation type="unfinished"></translation>
+        <translation>Greek: </translation>
     </message>
     <message>
         <location filename="../../scribus/numeration.cpp" line="56"/>
         <source>Gujarati: </source>
-        <translation type="unfinished"></translation>
+        <translation>Gujarati: </translation>
     </message>
     <message>
         <location filename="../../scribus/numeration.cpp" line="57"/>
         <source>Gurmukhi: </source>
-        <translation type="unfinished"></translation>
+        <translation>Gurmukhi: </translation>
     </message>
     <message>
         <location filename="../../scribus/numeration.cpp" line="58"/>
         <source>Hebrew: </source>
-        <translation type="unfinished"></translation>
+        <translation>Hebrew: </translation>
     </message>
     <message>
         <location filename="../../scribus/numeration.cpp" line="59"/>
         <source>Kannada: </source>
-        <translation type="unfinished"></translation>
+        <translation>Kannada: </translation>
     </message>
     <message>
         <location filename="../../scribus/numeration.cpp" line="60"/>
         <source>Khmer: </source>
-        <translation type="unfinished"></translation>
+        <translation>Khmer: </translation>
     </message>
     <message>
         <location filename="../../scribus/numeration.cpp" line="61"/>
         <source>Lao: </source>
-        <translation type="unfinished"></translation>
+        <translation>Lao: </translation>
     </message>
     <message>
         <location filename="../../scribus/numeration.cpp" line="62"/>
         <source>Malayalam: </source>
-        <translation type="unfinished"></translation>
+        <translation>Malayalam: </translation>
     </message>
     <message>
         <location filename="../../scribus/numeration.cpp" line="63"/>
         <source>Odia: </source>
-        <translation type="unfinished"></translation>
+        <translation>Odia: </translation>
     </message>
     <message>
         <location filename="../../scribus/numeration.cpp" line="64"/>
         <source>Tamil: </source>
-        <translation type="unfinished"></translation>
+        <translation>Tamil: </translation>
     </message>
     <message>
         <location filename="../../scribus/numeration.cpp" line="65"/>
         <source>Telugu: </source>
-        <translation type="unfinished"></translation>
+        <translation>Telugu: </translation>
     </message>
     <message>
         <location filename="../../scribus/numeration.cpp" line="66"/>
         <source>Thai: </source>
-        <translation type="unfinished"></translation>
+        <translation>Thai: </translation>
     </message>
     <message>
         <location filename="../../scribus/numeration.cpp" line="67"/>
         <source>Tibetan: </source>
-        <translation type="unfinished"></translation>
+        <translation>Tibetan: </translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/scriptplugin/cmdbarcode.cpp" line="74"/>
         <source>Ghostscript is not available.</source>
         <comment>python error</comment>
-        <translation type="unfinished"></translation>
+        <translation>Ghostscript is not available.</translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/scriptplugin/cmdbarcode.cpp" line="83"/>
         <source>Barcode plugin is not available.</source>
         <comment>python error</comment>
-        <translation type="unfinished"></translation>
+        <translation>Barcode plugin is not available.</translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/scriptplugin/cmdbarcode.cpp" line="104"/>
         <source>Barcode generation failed.</source>
         <comment>python error</comment>
-        <translation type="unfinished"></translation>
+        <translation>Barcode generation failed.</translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/scriptplugin/cmdbarcode.cpp" line="105"/>
         <source>Barcode generation failed: %1</source>
         <comment>python error</comment>
-        <translation type="unfinished"></translation>
+        <translation>Barcode generation failed: %1</translation>
     </message>
 </context>
 <context>
@@ -35845,7 +35861,7 @@ Caution: this will increase the file size!</translation>
     <message>
         <location filename="../../scribus/ui/scmwmenumanager.cpp" line="62"/>
         <source>Text Transformation</source>
-        <translation type="unfinished"></translation>
+        <translation>Text Transformation</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/scmwmenumanager.cpp" line="64"/>
@@ -36755,7 +36771,7 @@ Consider using the Preflight Verifier to correct them</translation>
     <message>
         <location filename="../../scribus/scribus.cpp" line="1094"/>
         <source>Text Transformation</source>
-        <translation type="unfinished"></translation>
+        <translation>Text Transformation</translation>
     </message>
     <message>
         <location filename="../../scribus/scribus.cpp" line="1191"/>
@@ -38383,7 +38399,7 @@ Consider using the Preflight Verifier to correct them</translation>
     <message>
         <location filename="../../scribus/ui/stylemanager.cpp" line="111"/>
         <source>Find and remove all styles not used by any object in the document</source>
-        <translation type="unfinished"></translation>
+        <translation>Find and remove all styles not used by any object in the document</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/stylemanager.cpp" line="163"/>
@@ -38437,24 +38453,26 @@ Consider using the Preflight Verifier to correct them</translation>
         <location filename="../../scribus/ui/stylemanager.cpp" line="509"/>
         <location filename="../../scribus/ui/stylemanager.cpp" line="520"/>
         <source>Remove Unused Styles</source>
-        <translation type="unfinished"></translation>
+        <translation>Remove Unused Styles</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/stylemanager.cpp" line="510"/>
         <source>All styles in this document are in use. Nothing to remove.</source>
-        <translation type="unfinished"></translation>
+        <translation>All styles in this document are in use. Nothing to remove.</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/stylemanager.cpp" line="515"/>
         <source>Found %1 unused style(s):
 
 </source>
-        <translation type="unfinished"></translation>
+        <translation>Found %1 unused style(s):
+
+</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/stylemanager.cpp" line="518"/>
         <source>Remove all unused styles?</source>
-        <translation type="unfinished"></translation>
+        <translation>Remove all unused styles?</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/stylemanager.cpp" line="854"/>
@@ -38516,7 +38534,7 @@ Consider using the Preflight Verifier to correct them</translation>
     <message>
         <location filename="../../scribus/ui/stylemanager.ui" line="163"/>
         <source>Delete Unused</source>
-        <translation type="unfinished"></translation>
+        <translation>Delete Unused</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/stylemanager.ui" line="302"/>
@@ -41210,12 +41228,12 @@ X: %4, Y: %5</translation>
     <message>
         <location filename="../../scribus/undomanager.cpp" line="623"/>
         <source>Lock aspect ratio</source>
-        <translation type="unfinished"></translation>
+        <translation>Lock aspect ratio</translation>
     </message>
     <message>
         <location filename="../../scribus/undomanager.cpp" line="624"/>
         <source>Unlock aspect ratio</source>
-        <translation type="unfinished"></translation>
+        <translation>Unlock aspect ratio</translation>
     </message>
     <message>
         <location filename="../../scribus/undomanager.cpp" line="625"/>
@@ -41706,27 +41724,27 @@ X: %4, Y: %5</translation>
     <message>
         <location filename="../../scribus/undomanager.cpp" line="850"/>
         <source>Convert to lower case</source>
-        <translation type="unfinished"></translation>
+        <translation>Convert to lower case</translation>
     </message>
     <message>
         <location filename="../../scribus/undomanager.cpp" line="851"/>
         <source>Convert to upper case</source>
-        <translation type="unfinished"></translation>
+        <translation>Convert to upper case</translation>
     </message>
     <message>
         <location filename="../../scribus/undomanager.cpp" line="852"/>
         <source>Convert to sentence case</source>
-        <translation type="unfinished"></translation>
+        <translation>Convert to sentence case</translation>
     </message>
     <message>
         <location filename="../../scribus/undomanager.cpp" line="853"/>
         <source>Capitalize</source>
-        <translation type="unfinished"></translation>
+        <translation>Capitalise</translation>
     </message>
     <message>
         <location filename="../../scribus/undomanager.cpp" line="854"/>
         <source>Toggle case</source>
-        <translation type="unfinished"></translation>
+        <translation>Toggle case</translation>
     </message>
     <message>
         <location filename="../../scribus/undomanager.cpp" line="586"/>

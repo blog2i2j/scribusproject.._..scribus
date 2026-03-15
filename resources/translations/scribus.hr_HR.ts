@@ -10259,18 +10259,15 @@ konvertirajući vektorske podatke u Scribus objekte.</translation>
 <context>
     <name>ImportPagesPlugin</name>
     <message>
-        <location filename="../../scribus/plugins/import/pages/importpagesplugin.cpp" line="61"/>
         <source>Import iWorks Pages...</source>
-        <translation>Uvezi iWorks Pages …</translation>
+        <translation type="vanished">Uvezi iWorks Pages …</translation>
     </message>
     <message>
-        <location filename="../../scribus/plugins/import/pages/importpagesplugin.cpp" line="63"/>
         <location filename="../../scribus/plugins/import/pages/importpagesplugin.cpp" line="97"/>
         <source>iWorks Pages</source>
         <translation>iWorks Pages</translation>
     </message>
     <message>
-        <location filename="../../scribus/plugins/import/pages/importpagesplugin.cpp" line="64"/>
         <location filename="../../scribus/plugins/import/pages/importpagesplugin.cpp" line="98"/>
         <source>iWorks Pages (*.pages *.PAGES)</source>
         <translation>iWorks Pages (*.pages *.PAGES)</translation>
@@ -10279,6 +10276,21 @@ konvertirajući vektorske podatke u Scribus objekte.</translation>
         <location filename="../../scribus/plugins/import/pages/importpagesplugin.cpp" line="81"/>
         <source>Imports iWorks Pages Files</source>
         <translation>Uvozi iWorks Pages datoteke</translation>
+    </message>
+    <message>
+        <location filename="../../scribus/plugins/import/pages/importpagesplugin.cpp" line="61"/>
+        <source>Import iWork Pages...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../scribus/plugins/import/pages/importpagesplugin.cpp" line="63"/>
+        <source>iWork Pages</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../scribus/plugins/import/pages/importpagesplugin.cpp" line="64"/>
+        <source>iWork Pages (*.pages *.PAGES)</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/import/pages/importpagesplugin.cpp" line="82"/>
@@ -27187,9 +27199,8 @@ Vanjske poveznice
         <translation>Palpa</translation>
     </message>
     <message>
-        <location filename="../../scribus/langmgr.cpp" line="495"/>
         <source>Panjabi</source>
-        <translation>Pandžapski</translation>
+        <translation type="vanished">Pandžapski</translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="496"/>
@@ -27751,6 +27762,11 @@ Vanjske poveznice
         <location filename="../../scribus/langmgr.cpp" line="227"/>
         <source>Dutch</source>
         <translation>Nizozemski</translation>
+    </message>
+    <message>
+        <location filename="../../scribus/langmgr.cpp" line="495"/>
+        <source>Panjabi (India)</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="506"/>

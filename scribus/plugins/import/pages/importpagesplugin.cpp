@@ -58,10 +58,10 @@ ImportPagesPlugin::ImportPagesPlugin() :
 
 void ImportPagesPlugin::languageChange()
 {
-	importAction->setText( tr("Import iWorks Pages..."));
+	importAction->setText( tr("Import iWork Pages..."));
 	FileFormat* fmt = getFormatByExt("pages");
-	fmt->trName = tr("iWorks Pages");
-	fmt->filter = tr("iWorks Pages (*.pages *.PAGES)");
+	fmt->trName = tr("iWork Pages");
+	fmt->filter = tr("iWork Pages (*.pages *.PAGES)");
 }
 
 ImportPagesPlugin::~ImportPagesPlugin()

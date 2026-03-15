@@ -492,7 +492,7 @@ void LanguageManager::generateLangList()
 	m_langTable.append(LangDef("pll",      "",         "Palaung (Shwe)",          QObject::tr("Palaung (Shwe)")));
 	m_langTable.append(LangDef("pi",       "",         "Pali",                    QObject::tr("Pali")));
 	m_langTable.append(LangDef("plp",      "",         "Palpa",                   QObject::tr("Palpa")));
-	m_langTable.append(LangDef("pa",       "pa_IN",    "Panjabi",                 QObject::tr("Panjabi")));
+	m_langTable.append(LangDef("pa",       "pa_IN",    "Panjabi",                 QObject::tr("Panjabi (India)")));
 	m_langTable.append(LangDef("pnb",      "",         "Panjabi Western",         QObject::tr("Panjabi Western")));
 	m_langTable.append(LangDef("pag",      "",         "Pangasinan",              QObject::tr("Pangasinan")));
 	m_langTable.append(LangDef("ps",       "",         "Pashto",                  QObject::tr("Pashto")));
@@ -572,7 +572,10 @@ void LanguageManager::generateLangList()
 	m_langTable.append(LangDef("es",       "es_ES",    "Spanish",                 QObject::tr("Spanish")));
 	m_langTable.append(LangDef("es",       "es_ANY",   "Spanish (Generic)",       QObject::tr("Spanish (Generic)")));
 	m_langTable.append(LangDef("es_AR",    "",         "Spanish (Argentina)",     QObject::tr("Spanish (Argentina)")));
+	m_langTable.append(LangDef("es_CO",    "",         "Spanish (Colombia)",      QObject::tr("Spanish (Colombia)")));
 	m_langTable.append(LangDef("es_LA",    "",         "Spanish (Latin)",         QObject::tr("Spanish (Latin)")));
+	m_langTable.append(LangDef("es_MX",    "",         "Spanish (Mexico)",        QObject::tr("Spanish (Mexico)")));
+	m_langTable.append(LangDef("es_VE",    "",         "Spanish (Venezuela)",     QObject::tr("Spanish (Venezuela)")));
 	m_langTable.append(LangDef("aii",      "",         "Swadaya Aramaic",         QObject::tr("Swadaya Aramaic")));
 	m_langTable.append(LangDef("suk",      "",         "Sukama",                  QObject::tr("Sukama")));
 	m_langTable.append(LangDef("su",       "",         "Sundanese",               QObject::tr("Sundanese")));

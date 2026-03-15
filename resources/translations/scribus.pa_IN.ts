@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="ml">
+<TS version="2.1" language="pa_IN">
 <context>
-    <name></name>
+    <name/>
     <message>
         <location filename="../../scribus/fonts/ftface.cpp" line="55"/>
         <source>Freetype2 library not available</source>
-        <translation type="unfinished">Freetype2 ലൈബ്രറി ലഭ്യമല്ല</translation>
+        <translation>Freetype2 ਲਾਇਬ੍ਰੇਰੀ ਉਪਲਬਧ ਨਹੀਂ</translation>
     </message>
     <message>
         <location filename="../../scribus/fonts/ftface.cpp" line="73"/>
         <location filename="../../scribus/fonts/ftface.cpp" line="91"/>
         <source>Font %1(%2) is broken</source>
-        <translation type="unfinished"></translation>
+        <translation>ਫ਼ੌਂਟ %1(%2) ਖ਼ਰਾਬ ਹੈ</translation>
     </message>
     <message>
         <location filename="../../scribus/fonts/ftface.cpp" line="151"/>
         <source>Font %1 has broken glyph %2 (charcode %3)</source>
-        <translation type="unfinished"></translation>
+        <translation>ਫ਼ੌਂਟ %1 ਨੇ ਗਲਿਫ਼ %2 ਖ਼ਰਾਬ ਕਰ ਦਿੱਤੀ ਹੈ (ਕਰੈਕਟਰ ਕੋਡ %3)</translation>
     </message>
     <message>
         <location filename="../../scribus/fonts/ftface.cpp" line="209"/>
         <source>Font %1 has broken glyph %2</source>
-        <translation type="unfinished"></translation>
+        <translation>ਫ਼ੌਂਟ %1 ਨੇ ਗਲਿਫ਼ %2 ਖ਼ਰਾਬ ਕਰ ਦਿੱਤੀ ਹੈ</translation>
     </message>
     <message>
         <location filename="../../scribus/fonts/ftface.cpp" line="436"/>
         <source>Font %1 is broken (read stream), no embedding</source>
-        <translation type="unfinished"></translation>
+        <translation>ਫ਼ੌਂਟ %1 ਖ਼ਰਾਬ ਹੈ (ਰੀਡ ਸਟ੍ਰੀਮ), ਜੜਤ ਨਹੀਂ ਹੋਣੀ</translation>
     </message>
     <message>
         <location filename="../../scribus/fonts/scface_ttf.cpp" line="132"/>
@@ -40,22 +40,22 @@
     <message>
         <location filename="../../scribus/plugins/import/ai/importai.cpp" line="331"/>
         <source>Importing: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>ਦਰਾਮਦਗੀ: %1</translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/import/ai/importai.cpp" line="334"/>
         <source>Analyzing File:</source>
-        <translation>ഫയല്‍ പരിശോധിക്കുന്നു:</translation>
+        <translation>ਘੋਖੀ ਜਾ ਰਹੀ ਮਿਸਲ:</translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/import/ai/importai.cpp" line="2327"/>
         <source>Group%1</source>
-        <translation type="unfinished"></translation>
+        <translation>ਗਰੁੱਪ%1</translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/import/ai/importai.cpp" line="3429"/>
         <source>Generating Items</source>
-        <translation type="unfinished"></translation>
+        <translation>ਨਗ ਬਣਾਏ ਜਾ ਰਹੇ ਹਨ</translation>
     </message>
 </context>
 <context>
@@ -63,142 +63,142 @@
     <message>
         <location filename="../../scribus/ui/about.cpp" line="265"/>
         <source>Contributions from:</source>
-        <translation>സംഭാവനകള്‍ നല്‍കിയത്:</translation>
+        <translation>ਯੋਗਦਾਨ ਵੱਲੋਂ:</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/about.cpp" line="146"/>
         <source>&amp;About</source>
-        <translation>&amp;സംബന്ധിച്ച്</translation>
+        <translation>&amp;ਬਾਰੇ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/about.cpp" line="156"/>
         <source>A&amp;uthors</source>
-        <translation>&amp;രചയിതാക്കള്‍</translation>
+        <translation>ਕਰਤੇ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/about.cpp" line="166"/>
         <source>&amp;Translations</source>
-        <translation>&amp;പരിഭാഷകള്‍</translation>
+        <translation>&amp;ਤਰਜਮੇ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/about.cpp" line="177"/>
         <source>&amp;Online</source>
-        <translation>&amp;ഓണ്‍ലൈന്‍</translation>
+        <translation>&amp;ਆਨਲਾਇਨ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/about.cpp" line="193"/>
         <source>&amp;License</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;ਲਾਇਸੰਸ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/about.cpp" line="202"/>
         <source>Unable to open license file. Please check your install directory or the Scribus website for licencing information.</source>
-        <translation type="unfinished"></translation>
+        <translation>ਲਾਇਸੰਸ ਫ਼ਾਇਲ ਖੋਲ੍ਹਣਾ ਨਾਕਾਮ ਰਿਹਾ। ਕਿਰਪਾ ਕਰਕੇ ਲਾਇਸੰਸ ਦੀ ਜਾਣਕਾਰੀ ਲਈ ਆਪਣੀ ਇੰਸਟਾਲ ਡਾਇਰੈਕਟਰੀ ਵੇਖੋ ਜਾਂ ਸਕ੍ਰਾਇਬਸ ਦੀ ਵੈਬਸਾਇਟ &apos;ਤੇ ਜਾਓ।</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/about.cpp" line="214"/>
         <source>&amp;Build Information</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;ਬਿਲਡ ਦੀ ਜਾਣਕਾਰੀ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/about.cpp" line="229"/>
         <source>&amp;Close</source>
-        <translation>&amp;അടയ്ക്കുക</translation>
+        <translation>&amp;ਬੰਦ ਕਰੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/about.cpp" line="255"/>
         <source>Development Team:</source>
-        <translation>വികസനസംഘം:</translation>
+        <translation>ਡਿਵੈਲਪਮੈਂਟ ਟੀਮ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/about.cpp" line="257"/>
         <source>Mac OS&amp;#174; X Port:</source>
-        <translation type="unfinished"></translation>
+        <translation>ਮੈਕ ਓਐੱਸ&amp;#174; X ਪੋਰਟ:</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/about.cpp" line="267"/>
         <source>Contributions from, and Previous Developers:</source>
-        <translation type="unfinished"></translation>
+        <translation>ਯੋਗਦਾਨੀ, ਅਤੇ ਸਾਬਕਾ ਡਿਵੈਲਪਰ:</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/about.cpp" line="269"/>
         <source>Official Documentation:</source>
-        <translation>ഔദ്യോഗിക പ്രമാണങ്ങള്‍:</translation>
+        <translation>ਦਫ਼ਤਰੀ ਦਸਤਾਵੇਜ਼ੀਕਰਨ:</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/about.cpp" line="273"/>
         <source>Other Documentation:</source>
-        <translation>മറ്റ് പ്രമാണങ്ങള്‍:</translation>
+        <translation>ਹੋਰ ਦਸਤਾਵੇਜ਼ੀਕਰਨ:</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/about.cpp" line="283"/>
         <source>Scribus 1.7.0+ Icon Set:</source>
-        <translation type="unfinished"></translation>
+        <translation>ਸਕ੍ਰਾਇਬਸ 1.7.0+ ਅਇਕਨ ਸੈੱਟ:</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/about.cpp" line="285"/>
         <source>AppImage for Linux:</source>
-        <translation type="unfinished"></translation>
+        <translation>ਲਿਨਿਕ੍ਸ ਵਾਸਤੇ ਐਪ-ਇਮਿਜ:</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/about.cpp" line="300"/>
         <source>Official Translations and Translators (in order of locale shortcode):</source>
-        <translation>ഔദ്യോഗിക പരിഭാഷകളും പരിഭാഷകരും (ലൊക്കെയ്‌ല്‍ ഷോര്‍ട് കോഡ് അനുസരിച്ച്):</translation>
+        <translation>ਦਫ਼ਤਰੀ ਤਰਜਮੇ ਅਤੇ ਤਰਜਮਾਕਾਰ (ਭਾਸ਼ਾ ਕੋਡ ਦੀ ਤਰਤੀਬ ਵਿੱਚ):</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/about.cpp" line="315"/>
         <source>Homepage</source>
-        <translation type="unfinished"></translation>
+        <translation>ਮੁੱਖ ਸਫ਼ਾ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/about.cpp" line="317"/>
         <source>Online Reference</source>
-        <translation type="unfinished"></translation>
+        <translation>ਆਨਲਾਇਨ ਹਵਾਲਾ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/about.cpp" line="321"/>
         <source>Bugs and Feature Requests</source>
-        <translation type="unfinished"></translation>
+        <translation>ਗ਼ਲਤੀਆਂ ਅਤੇ ਫ਼ੀਚਰ ਬੇਨਤੀਆਂ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/about.cpp" line="325"/>
         <source>Mailing List</source>
-        <translation type="unfinished"></translation>
+        <translation>ਮੇਲਿੰਗ ਲਿਸਟ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/about.cpp" line="663"/>
         <source>SVN Revision: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>SVN ਰਿਵਿਜਨ: %1</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/about.cpp" line="671"/>
         <source>Scribus Version %1</source>
-        <translation type="unfinished"></translation>
+        <translation>ਸਕ੍ਰਾਇਬਸ  ਵਰਜਨ %1</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/about.cpp" line="674"/>
         <source>Build ID: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>ਬਿਲਡ ਆਈਡੀ: %1</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/about.cpp" line="681"/>
         <source>Built: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>ਬਿਲਟ: %1</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/about.cpp" line="684"/>
         <source>Companion Programs:</source>
-        <translation type="unfinished"></translation>
+        <translation>ਸਾਥੀ ਪ੍ਰੋਗਰਾਮ:</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/about.cpp" line="687"/>
         <source>Ghostscript: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>ਗੋਸਟਸਕਿ੍ਪਟ: %1</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/about.cpp" line="690"/>
         <source>Libraries:</source>
-        <translation type="unfinished"></translation>
+        <translation>ਲਾਇਬ੍ਰੇਰੀਆਂ:</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/about.cpp" line="694"/>
@@ -243,22 +243,22 @@
     <message>
         <location filename="../../scribus/ui/about.cpp" line="302"/>
         <source>Previous Translation Contributors:</source>
-        <translation type="unfinished"></translation>
+        <translation>ਪਿਛਲੇ ਤਰਜਮੇ ਦੇ ਯੋਗਦਾਨੀ:</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/about.cpp" line="110"/>
         <source>About Scribus %1</source>
-        <translation>സ്ക്രൈബസിനെ സംബന്ധിച്ച് %1</translation>
+        <translation>ਸਕ੍ਰਾਇਬਸ ਬਾਰੇ  %1</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/about.cpp" line="319"/>
         <source>Wiki</source>
-        <translation>വിക്കി</translation>
+        <translation>ਵਿਕੀ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/about.cpp" line="327"/>
         <source>Forums</source>
-        <translation type="unfinished"></translation>
+        <translation>ਫ਼ੋਰਮ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/about.cpp" line="654"/>
@@ -273,12 +273,12 @@
     <message>
         <location filename="../../scribus/ui/about.cpp" line="667"/>
         <source>No Ghostscript version available</source>
-        <translation type="unfinished"></translation>
+        <translation>ਗੋਸਟਸਕਿ੍ਰਪਟ ਦਾ ਕੋਈ ਵਰਜਨ ਉਪਲਬਧ ਨਹੀਂ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/about.cpp" line="261"/>
         <source>Windows&amp;#174; Port:</source>
-        <translation>വിന്‍ഡോസ്&amp;#174; പോര്‍ട്:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/about.cpp" line="279"/>
@@ -288,52 +288,52 @@
     <message>
         <location filename="../../scribus/ui/about.cpp" line="182"/>
         <source>&amp;Updates</source>
-        <translation>&amp;പുത്തന്‍ പതിപ്പുകള്‍</translation>
+        <translation>&amp;ਅਪਡੇਟਾਂ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/about.cpp" line="237"/>
         <source>Check for updates to Scribus. No data from your machine will be transferred off it.</source>
-        <translation>സ്ക്രൈബസിന്റെ പുതിയ പതിപ്പുകളുണ്ടോയെന്ന് പരിശോധിക്കുക. നിങ്ങളൂടെ മെഷീനില്‍ നിന്നും ഒരു വിവരവും ഇതിനായി കൈമാറ്റം ചെയ്യപ്പെടുകയില്ല.</translation>
+        <translation>ਸਕ੍ਰਾਇਬਸ ਲਈ ਅਪਡੇਟਾਂ ਚੈੱਕ ਕਰੋ। ਤੁਹਾਡੇ ਕੰਪਿਊਟਰ ਤੋਂ ਕੋਈ ਵੀ ਡਾਟਾ ਬਾਹਰ ਨਹੀਂ ਭੇਜਿਆ ਜਾਵੇਗਾ।</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/about.cpp" line="259"/>
         <source>OS/2&amp;#174;/eComStation&amp;#8482; Port:</source>
-        <translation>ഓഎസ്/2&amp;#174;/ഇകോംസ്റ്റേഷന്‍&amp;#8482; പോര്‍ട്:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/about.cpp" line="277"/>
         <source>Splash Screen:</source>
-        <translation type="unfinished"></translation>
+        <translation>ਸਪਲੈਸ਼ ਸਕਰੀਨ:</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/about.cpp" line="144"/>
         <source>Scribus Version</source>
-        <translation>സ്ക്രൈബസ് പതിപ്പ്</translation>
+        <translation>ਸਕ੍ਰਾਇਬਸ ਵਰਜਨ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/about.cpp" line="186"/>
         <source>Check for Updates</source>
-        <translation>പുതിയ പതിപ്പുണ്ടോയെന്ന് പരിശോധിക്കുക</translation>
+        <translation>ਅਪਡੇਟਾਂ ਵੇਖੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/about.cpp" line="323"/>
         <source>Developer Blog</source>
-        <translation>വികസിതാക്കളുടെ ബ്ലോഗ്:</translation>
+        <translation>ਡਿਵੈਲਪਰ ਬਲਾਗ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/about.cpp" line="144"/>
         <source>&lt;p align=&quot;center&quot;&gt;&lt;b&gt;%1 %2&lt;/b&gt;&lt;/p&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;p align=&quot;center&quot;&gt;&lt;b&gt;%1 %2&lt;/b&gt;&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/about.cpp" line="271"/>
         <source>Doc Translators:</source>
-        <translation>പ്രമാണപരിഭാഷകര്‍:</translation>
+        <translation>ਦਸਤਾਵੇਜ਼ ਤਰਜਮਾਕਾਰ:</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/about.cpp" line="275"/>
         <source>Webmasters:</source>
-        <translation>വെബ്‌മാസ്റ്റര്‍മാര്‍:</translation>
+        <translation>ਵੈੱਬਮਾਸਟਰ:</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/about.cpp" line="287"/>
@@ -350,7 +350,7 @@
     <message>
         <location filename="../../scribus/ui/about.cpp" line="263"/>
         <source>Haiku Port:</source>
-        <translation>ഹൈകു പോര്‍ട്:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/about.cpp" line="281"/>
@@ -363,42 +363,42 @@
     <message>
         <location filename="../../scribus/ui/aboutplugins.cpp" line="68"/>
         <source>Filename:</source>
-        <translation>ഫയലിന്റെ പേര്:</translation>
+        <translation>ਮਿਸਲ ਦਾ ਨਾਂ:</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/aboutplugins.cpp" line="69"/>
         <source>Version:</source>
-        <translation>പതിപ്പ്:</translation>
+        <translation>ਵਰਜਨ:</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/aboutplugins.cpp" line="74"/>
         <source>Release Date:</source>
-        <translation>പുറത്തിറക്കിയ തീയ്യതി:</translation>
+        <translation>ਜਾਰੀ ਕਰਨ ਦੀ ਮਿਤੀ:</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/aboutplugins.cpp" line="81"/>
         <source>Description:</source>
-        <translation>വിവരണം:</translation>
+        <translation>ਵੇਰਵਾ:</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/aboutplugins.cpp" line="82"/>
         <source>Author(s):</source>
-        <translation>രചയിതാവ്( അല്ലെങ്കില്‍ രചയിതാക്കള്‍):</translation>
+        <translation>ਲੇਖਕ:</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/aboutplugins.cpp" line="83"/>
         <source>Copyright:</source>
-        <translation>പകര്‍പ്പവകാശം:</translation>
+        <translation>ਕਾਪੀਰਾਈਟ:</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/aboutplugins.cpp" line="84"/>
         <source>License:</source>
-        <translation>ലൈസന്‍സ്:</translation>
+        <translation>ਲਾਇਸੰਸ:</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/aboutplugins.ui" line="14"/>
         <source>Scribus: About Plug-ins</source>
-        <translation>സ്ക്രൈബസ്ള് പ്ലഗിനുകളെ സംബന്ധിച്ച്</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -411,22 +411,22 @@
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1530"/>
         <source>&amp;Open...</source>
-        <translation>&amp;തുറക്കുക...</translation>
+        <translation>&amp;ਖੋਲ੍ਹੋ...</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1531"/>
         <source>&amp;Close</source>
-        <translation>&amp;അടയ്ക്കുക</translation>
+        <translation>&amp;ਬੰਦ ਕਰੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1532"/>
         <source>&amp;Save</source>
-        <translation>&amp;സൂക്ഷിക്കുക</translation>
+        <translation>&amp;ਸਾਂਭੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1533"/>
         <source>Save &amp;As...</source>
-        <translation type="unfinished"></translation>
+        <translation>ਸਾਂਭੋ &amp;ਬਤੌਰ...</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1534"/>
@@ -441,52 +441,52 @@
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1536"/>
         <source>Get Text...</source>
-        <translation type="unfinished"></translation>
+        <translation>ਲਿਖਤ ਲਿਆਓ...</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1537"/>
         <source>Append &amp;Text...</source>
-        <translation type="unfinished"></translation>
+        <translation>ਲਿਖਤ &amp;ਵਧਾਓ...</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1538"/>
         <source>Get Image...</source>
-        <translation type="unfinished"></translation>
+        <translation>ਤਸਵੀਰ ਲਿਆਓ...</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1541"/>
         <source>Save &amp;Text...</source>
-        <translation type="unfinished"></translation>
+        <translation>ਲਿਖਤ &amp;ਸਾਂਭੋ...</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1543"/>
         <source>Save as P&amp;DF...</source>
-        <translation>P&amp;DF ആയി സൂക്ഷിക്കുക...</translation>
+        <translation>ਬਤੌਰ ਪੀ&amp;ਡੀਐੱਫ਼ ਸਾਂਭੋ...</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1545"/>
         <source>Document &amp;Setup...</source>
-        <translation type="unfinished"></translation>
+        <translation>ਦਸਤਾਵੇਜ਼ ਤਿਆਰੀ...</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1548"/>
         <source>&amp;Print...</source>
-        <translation>&amp;അച്ചടിക്കുക </translation>
+        <translation>&amp;ਪ੍ਰਿੰਟ ਕਰੋ...</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1552"/>
         <source>&amp;Quit</source>
-        <translation>&amp;പുറത്തുകടക്കുക</translation>
+        <translation>&amp;ਐਪ ਬੰਦ ਕਰੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1554"/>
         <source>&amp;Undo</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;ਆਖ਼ਰੀ ਰੱਦ ਕਰੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1555"/>
         <source>&amp;Redo</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;ਦੁਹਰਾਓ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1556"/>
@@ -496,49 +496,49 @@
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1557"/>
         <source>Cu&amp;t</source>
-        <translation>&amp;വെട്ടിയെടുക്കുക</translation>
+        <translation>&amp;ਕੱਟੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1558"/>
         <location filename="../../scribus/actionmanager.cpp" line="1561"/>
         <source>&amp;Copy</source>
-        <translation>&amp;പകര്‍ത്തുക</translation>
+        <translation>&amp;ਨਕਲ ਕਰੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1559"/>
         <location filename="../../scribus/actionmanager.cpp" line="1562"/>
         <source>&amp;Paste</source>
-        <translation>&amp;ഒട്ടിക്കുക</translation>
+        <translation>&amp;ਪੇਸਟ ਕਰੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1567"/>
         <source>Select &amp;All</source>
-        <translation>&amp;എല്ലാം തിരഞ്ഞെടുക്കുക</translation>
+        <translation>ਸਾਰਾ &amp;ਚੁਣੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1569"/>
         <source>&amp;Deselect All</source>
-        <translation type="unfinished"></translation>
+        <translation>ਸਾਰਾ &amp;ਅਨਚੁਣਿਆ ਕਰੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1570"/>
         <source>&amp;Search/Replace...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;ਖੋਜ/ਤਬਦੀਲ...</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1578"/>
         <source>&amp;Master Pages...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;ਮਾਸਟਰ ਸਫ਼ੇ...</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1547"/>
         <source>P&amp;references...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;ਤਰਜੀਹਾਂ...</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1550"/>
         <source>PDF...</source>
-        <translation type="unfinished"></translation>
+        <translation>ਪੀਡੀਐਫ਼...</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1551"/>
@@ -553,62 +553,62 @@
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1585"/>
         <source>%1 pt</source>
-        <translation>%1 പോയിന്റ്</translation>
+        <translation>%1 ਪੋਇੰਟ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1587"/>
         <source>&amp;Other...</source>
-        <translation>&amp;മറ്റുള്ളവ</translation>
+        <translation>&amp;ਹੋਰ...</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1589"/>
         <source>Style &amp;Search</source>
-        <translation type="unfinished"></translation>
+        <translation>ਅੰਦਾਜ਼ &amp;ਲੱਭੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1591"/>
         <source>&amp;Left</source>
-        <translation>&amp;ഇടത്ത്</translation>
+        <translation>&amp;ਖੱਬੇ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1592"/>
         <source>&amp;Center</source>
-        <translation>&amp;മധ്യം</translation>
+        <translation>&amp;ਵਿਚਕਾਰ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1593"/>
         <source>&amp;Right</source>
-        <translation>&amp;വലത്ത്</translation>
+        <translation>&amp;ਸੱਜੇ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1594"/>
         <source>&amp;Block</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;ਬਲਾਕ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1595"/>
         <source>&amp;Forced</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;ਜ਼ਬਰਦਸਤੀ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1597"/>
         <source>&amp;Normal</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;ਆਮ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1598"/>
         <source>&amp;Underline</source>
-        <translation>&amp;അടിവര</translation>
+        <translation>&amp;ਹੇਠਾਂ ਲਕੀਰ ਲਾਓ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1599"/>
         <source>Underline &amp;Words</source>
-        <translation>&amp;വാക്കുകള്‍ അടിവരയിടുക</translation>
+        <translation>&amp;ਸ਼ਬਦਾਂ ਹੇਠ ਲਕੀਰ ਲਾਓ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1600"/>
         <source>&amp;Strike Through</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;ਲਕੀਰ ਨਾਲ ਕੱਟੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1601"/>
@@ -638,7 +638,7 @@
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1615"/>
         <source>&amp;Delete</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;ਮਿਟਾਓ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1616"/>
@@ -653,7 +653,7 @@
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1619"/>
         <source>Is &amp;Locked</source>
-        <translation type="unfinished"></translation>
+        <translation>ਤਾਲਾਬੱਧ ਹੈ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1620"/>
@@ -668,7 +668,7 @@
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1625"/>
         <source>Lower to &amp;Bottom</source>
-        <translation type="unfinished"></translation>
+        <translation>ਥੱਲੇ ਤੇ ਲਿਜਾਓ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1626"/>
@@ -678,52 +678,52 @@
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1627"/>
         <source>&amp;Lower</source>
-        <translation>&amp;താഴ്ത്തുക</translation>
+        <translation>&amp;ਹੇਠਾਂ ਭੇਜੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1628"/>
         <source>&amp;Raise</source>
-        <translation>&amp;പൊക്കുക</translation>
+        <translation>&amp;ਉੱਤੇ ਉਠਾਓ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1631"/>
         <source>&amp;Attributes...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;ਲੱਛਣ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1633"/>
         <source>I&amp;mage Visible</source>
-        <translation type="unfinished"></translation>
+        <translation>ਤਸਵੀਰ ਜ਼ਾਹਰ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1650"/>
         <source>Embed Image</source>
-        <translation type="unfinished"></translation>
+        <translation>ਤਸਵੀਰ ਜੜੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1655"/>
         <source>Is PDF &amp;Bookmark</source>
-        <translation type="unfinished"></translation>
+        <translation>ਪੀਡੀਐੱਫ਼ ਬੁੱਕਮਾਰਕ ਹੈ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1656"/>
         <source>Is PDF A&amp;nnotation</source>
-        <translation type="unfinished"></translation>
+        <translation>ਪੀਡੀਐੱਫ਼ ਐਨੋਟੇਸ਼ਨ ਹੈ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1659"/>
         <source>&amp;Edit Shape...</source>
-        <translation type="unfinished"></translation>
+        <translation>ਆਕਾਰ &amp;ਸੋਧੋ...</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1660"/>
         <source>&amp;Attach Text to Path</source>
-        <translation type="unfinished"></translation>
+        <translation>ਲਿਖਤ ਨੂੰ ਪਥ ਨਾਲ ਜੋੜੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1661"/>
         <source>&amp;Detach Text from Path</source>
-        <translation type="unfinished"></translation>
+        <translation>ਲਿਖਤ ਨੂੰ ਪਥ ਨਾਲੋਂ ਨਿਖੇੜੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1662"/>
@@ -733,19 +733,19 @@
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1663"/>
         <source>Split &amp;Polygons</source>
-        <translation>&amp;ബഹുഭുജങ്ങള്‍ പിരിക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1664"/>
         <location filename="../../scribus/actionmanager.cpp" line="1780"/>
         <source>&amp;Bezier Curve</source>
-        <translation>&amp;ബെസിയെര്‍ വക്രം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1665"/>
         <location filename="../../scribus/actionmanager.cpp" line="1771"/>
         <source>&amp;Image Frame</source>
-        <translation type="unfinished"></translation>
+        <translation>ਤਸਵੀਰ ਫ਼ਰੇਮ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1666"/>
@@ -757,13 +757,13 @@
         <location filename="../../scribus/actionmanager.cpp" line="1667"/>
         <location filename="../../scribus/actionmanager.cpp" line="1775"/>
         <source>&amp;Polygon</source>
-        <translation>&amp;ബഹുഭുജം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1668"/>
         <location filename="../../scribus/actionmanager.cpp" line="1770"/>
         <source>&amp;Text Frame</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;ਲਿਖਤ ਫ਼ਰੇਮ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1673"/>
@@ -803,7 +803,7 @@
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1694"/>
         <source>&amp;Insert...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp; ਦਾਖ਼ਲ ਕਰੋ...</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1695"/>
@@ -813,27 +813,27 @@
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1696"/>
         <source>&amp;Delete...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;ਮਿਟਾਓ...</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1697"/>
         <source>&amp;Copy...</source>
-        <translation>&amp;പകര്‍ത്തുക...</translation>
+        <translation>&amp;ਨਕਲ ਕਰੋ...</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1698"/>
         <source>&amp;Move...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;ਜਗ੍ਹਾ ਬਦਲੋ...</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1699"/>
         <source>&amp;Apply Master Page...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;ਮਾਸਟਰ ਸਫ਼ਾ ਲਾਗੂ ਕਰੋ...</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1701"/>
         <source>Manage &amp;Guides...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;ਸੇਧਾਂ ਦਾ ਰੱਖ ਰਖਾਉ...</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1707"/>
@@ -863,153 +863,153 @@
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1716"/>
         <source>Show &amp;Margins</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;ਹਾਸ਼ੀਏ ਵਿਖਾਓ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1718"/>
         <source>Show &amp;Frames</source>
-        <translation>&amp;ചട്ടങ്ങള്‍ കാണിക്കുക</translation>
+        <translation>&amp;ਫ਼ਰੇਮ ਵਿਖਾਓ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1720"/>
         <source>Show &amp;Images</source>
-        <translation>&amp;ചിത്രങ്ങള്‍ കാണിക്കുക</translation>
+        <translation>&amp;ਤਸਵੀਰਾਂ ਵਿਖਾਓ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1721"/>
         <source>Show &amp;Grid</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;ਜਾਲ਼ ਵਿਖਾਓ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1722"/>
         <source>Show G&amp;uides</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;ਸੇਧਾਂ ਵਿਖਾਓ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1724"/>
         <source>Show &amp;Baseline Grid</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;ਬੇਸਲਾਈਨ ਜਾਲ਼ ਵਿਖਾਓ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1725"/>
         <source>Show &amp;Text Chain</source>
-        <translation type="unfinished"></translation>
+        <translation>ਲਿਖਤ &amp;ਕੜੀ ਵਖਾਓ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1729"/>
         <source>Sn&amp;ap to Grid</source>
-        <translation type="unfinished"></translation>
+        <translation>ਗਰਿੱਡ ਲਾਈਨਾਂ ਨਾਲ ਚੰਬੜਨਾ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1730"/>
         <source>Sna&amp;p to Guides</source>
-        <translation type="unfinished"></translation>
+        <translation>ਗਾਈਡਾਂ ਨਾਲ ਚੰਬੜਨਾ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1736"/>
         <source>&amp;Properties</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;ਖ਼ਾਸੀਅਤਾਂ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1739"/>
         <source>&amp;Scrapbook</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;ਸਕ੍ਰੈਪਬੁਕ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1740"/>
         <source>&amp;Layers</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;ਪਰਤਾਂ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1742"/>
         <source>&amp;Bookmarks</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;ਬੁਕਮਾਰਕ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1745"/>
         <source>&amp;Measurements</source>
-        <translation>&amp;അളവുകള്‍</translation>
+        <translation>&amp;ਮਾਪ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1746"/>
         <source>Action &amp;History</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;ਕਾਰਵਾਈ ਇਤਿਹਾਸ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1747"/>
         <source>Preflight &amp;Verifier</source>
-        <translation type="unfinished"></translation>
+        <translation>ਕੱਚੀਉਡਾਨ ਦਾ ਤਸਦੀਕਕਾਰ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1748"/>
         <source>Document &amp;Log</source>
-        <translation type="unfinished"></translation>
+        <translation>ਦਸਤਾਵੇਜ਼ &amp;ਲਾਗ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1750"/>
         <source>Symbols</source>
-        <translation>ചിഹ്നങ്ങള്‍</translation>
+        <translation>ਨਿਸ਼ਾਨ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1752"/>
         <source>&amp;Tools</source>
-        <translation>&amp;ഉപകരണങ്ങള്‍</translation>
+        <translation>&amp;ਸੰਦ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1753"/>
         <source>P&amp;DF Tools</source>
-        <translation>P&amp;DF ഉപകരണങ്ങള്‍</translation>
+        <translation>&amp;ਪੀਡੀਐਫ਼ ਸੰਦ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1757"/>
         <source>Select Item</source>
-        <translation type="unfinished"></translation>
+        <translation>ਨਗ ਚੁਣੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1758"/>
         <source>Rotate Item</source>
-        <translation type="unfinished"></translation>
+        <translation>ਨਗ ਘੁਮਾਓ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1759"/>
         <location filename="../../scribus/actionmanager.cpp" line="1871"/>
         <source>Zoom in or out</source>
-        <translation type="unfinished"></translation>
+        <translation>ਜ਼ੂਮ ਵਧਾਓ ਜਾਂ ਘਟਾਓ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1760"/>
         <source>Zoom in</source>
-        <translation type="unfinished"></translation>
+        <translation>ਜ਼ੂਮ ਵਧਾਓ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1761"/>
         <source>Zoom out</source>
-        <translation type="unfinished"></translation>
+        <translation>ਜ਼ੂਮ ਘਟਾਓ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1762"/>
         <source>Edit Contents of Frame</source>
-        <translation type="unfinished"></translation>
+        <translation>ਫ਼ਰੇਮ ਦੀ ਸਮੱਗਰੀ ਸੰਪਾਦਨ ਕਰੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1763"/>
         <source>Edit Text with Story Editor...</source>
-        <translation type="unfinished"></translation>
+        <translation>ਲਿਖਤ ਨੂੰ ਸਟੋਰੀ ਸੰਪਾਦਕ ਵਿੱਚ ਸੰਪਾਦਨ ਕਰੋ...</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1764"/>
         <source>Link Text Frames</source>
-        <translation type="unfinished"></translation>
+        <translation>ਲਿਖਤ ਫ਼ਰੇਮਾਂ ਨੂੰ ਕੜੀਬੱਧ ਕਰੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1765"/>
         <source>Unlink Text Frames</source>
-        <translation type="unfinished"></translation>
+        <translation>ਲਿਖਤ ਫ਼ਰੇਮਾਂ ਦੀ ਕੜੀ ਤੋੜੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1766"/>
         <source>Unlink Text Frames and Cut Text</source>
-        <translation type="unfinished"></translation>
+        <translation>ਲਿਖਤ ਫ਼ਰੇਮਾਂ ਦੀ ਕੜੀ ਤੋੜੋ ਅਤੇ ਲਿਖਤ ਕੱਟੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1767"/>
@@ -1019,12 +1019,12 @@
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1768"/>
         <source>Copy Item Properties</source>
-        <translation type="unfinished"></translation>
+        <translation>ਨਗ ਦੀਆਂ ਖ਼ਾਸੀਅਤਾਂ ਨਕਲ ਕਰੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1796"/>
         <source>&amp;Manage Images...</source>
-        <translation type="unfinished"></translation>
+        <translation>ਤਸਵੀਰਾਂ ਦਾ ਪ੍ਰਬੰਧਨ ਕਰੋ...</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1797"/>
@@ -1034,17 +1034,17 @@
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1808"/>
         <source>&amp;About Scribus</source>
-        <translation>സ്ക്രൈബസിനെ &amp;സംബന്ധിച്ച്</translation>
+        <translation>ਸਕ੍ਰਾਇਬਸ &amp;ਬਾਰੇ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1810"/>
         <source>About &amp;Qt</source>
-        <translation>&amp;ക്യൂറ്റിയെ സംബന്ധിച്ച്</translation>
+        <translation>&amp;Qt ਬਾਰੇ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1811"/>
         <source>Action &amp;Search</source>
-        <translation type="unfinished"></translation>
+        <translation>ਕਾਰਵਾਈ &amp;ਖੋਜ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1812"/>
@@ -1069,12 +1069,12 @@
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1895"/>
         <source>Zero Width Non-Joiner</source>
-        <translation>സീറോ വിഡ്ത് നോണ്‍-ജോയ്‌നര്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1896"/>
         <source>Zero Width Joiner</source>
-        <translation>സീറോ വിഡ്ത് ജോയ്‌നര്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1898"/>
@@ -1089,22 +1089,22 @@
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1901"/>
         <source>Page &amp;Number</source>
-        <translation type="unfinished"></translation>
+        <translation>ਸਫ਼ਾ &amp;ਨੰਬਰ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1908"/>
         <source>Copyright</source>
-        <translation>പകര്‍പ്പവകാശം</translation>
+        <translation>ਕਾਪੀਰਾਈਟ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1909"/>
         <source>Registered Trademark</source>
-        <translation>പ്രാമാണിക വ്യാപാരചിഹ്നം</translation>
+        <translation>ਰਜਿਸਟਰਡ ਟ੍ਰੇਡਮਾਰਕ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1910"/>
         <source>Trademark</source>
-        <translation>വ്യാപാരചിഹ്നം</translation>
+        <translation>ਟ੍ਰੇਡਮਾਰਕ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1912"/>
@@ -1114,12 +1114,12 @@
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1914"/>
         <source>Em Dash</source>
-        <translation type="unfinished"></translation>
+        <translation>ਐੱਮ ਡੈਸ਼</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1915"/>
         <source>En Dash</source>
-        <translation type="unfinished"></translation>
+        <translation>ਐੱਨ ਡੈਸ਼</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1916"/>
@@ -1139,62 +1139,62 @@
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1606"/>
         <source>S&amp;hadow</source>
-        <translation>&amp;നിഴല്‍</translation>
+        <translation>ਛਾਂ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1654"/>
         <source>&amp;Low Resolution</source>
-        <translation type="unfinished"></translation>
+        <translation>ਘੱਟ ਕੁਆਲਿਟੀ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1653"/>
         <source>&amp;Normal Resolution</source>
-        <translation type="unfinished"></translation>
+        <translation>ਆਮ ਕੁਆਲਿਟੀ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1652"/>
         <source>&amp;Full Resolution</source>
-        <translation type="unfinished"></translation>
+        <translation>ਪੂਰੀ ਕੁਆਲਿਟੀ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1571"/>
         <source>Edit Image...</source>
-        <translation type="unfinished"></translation>
+        <translation>ਤਸਵੀਰ ਸੋਧੋ...</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1634"/>
         <source>&amp;Update Image</source>
-        <translation type="unfinished"></translation>
+        <translation>ਤਸਵੀਰ ਅਪਡੇਟ ਕਰੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1648"/>
         <source>Adjust Frame to Image</source>
-        <translation type="unfinished"></translation>
+        <translation>ਫ਼ਰੇਮ ਦਾ ਆਕਾਰ ਤਸਵੀਰ ਜਿੰਨਾ ਕਰੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1726"/>
         <source>Show Control Characters</source>
-        <translation type="unfinished"></translation>
+        <translation>ਕੰਟਰੋਲ ਕ੍ਰੈਕਟਰ ਵਖਾਓ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1749"/>
         <source>&amp;Align and Distribute</source>
-        <translation type="unfinished"></translation>
+        <translation>ਸੇਧ ਅਤੇ ਵੰਡ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1903"/>
         <source>New Line</source>
-        <translation type="unfinished"></translation>
+        <translation>ਨਵੀਂ ਸਤਰ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1904"/>
         <source>Frame Break</source>
-        <translation type="unfinished"></translation>
+        <translation>ਫ਼ਰੇਮ ਬਰੇਕ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1905"/>
         <source>Column Break</source>
-        <translation type="unfinished"></translation>
+        <translation>ਕਾਲਮ ਬਰੇਕ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1823"/>
@@ -1204,27 +1204,27 @@
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1741"/>
         <source>&amp;Arrange Pages</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;ਸਫ਼ਿਆਂ ਨੂੰ ਤਰਤੀਬ ਦਿਓ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1798"/>
         <source>Dehyphenate Text</source>
-        <translation type="unfinished"></translation>
+        <translation>ਲਿਖਤ ਵਿੱਚੋਂ ਹਾਈਫ਼ਨਾਂ ਹਟਾਓ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1702"/>
         <source>Manage Page Properties...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;ਮਾਸਟਰ ਸਫ਼ਾ ਖ਼ਾਸੀਅਤਾਂ...</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1579"/>
         <source>&amp;JavaScripts...</source>
-        <translation>&amp;ജാവാസ്ക്രിപ്റ്റുകള്‍...</translation>
+        <translation>ਜਾਵਾ-ਸਕ੍ਰਿਪਟਾਂ...</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1700"/>
         <source>Convert to Master Page...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;ਮਾਸਟਰ ਸਫ਼ੇ ਵਿੱਚ ਬਦਲੋ...</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1803"/>
@@ -1239,27 +1239,27 @@
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1632"/>
         <source>More Info...</source>
-        <translation>കൂടുതല്‍ വിവരങ്ങള്‍...</translation>
+        <translation>ਹੋਰ ਜਾਣਕਾਰੀ...</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1622"/>
         <source>&amp;Printing Enabled</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;ਛਾਪਾ ਚਾਲੂ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1623"/>
         <source>&amp;Flip Horizontally</source>
-        <translation type="unfinished"></translation>
+        <translation>ਲੇਟਵਾਂ &amp;ਪਲਟਾ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1624"/>
         <source>&amp;Flip Vertically</source>
-        <translation type="unfinished"></translation>
+        <translation>ਖੜ੍ਹਵਾਂ &amp;ਪਲਟਾ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1727"/>
         <source>Show Rulers</source>
-        <translation type="unfinished"></translation>
+        <translation>ਪੈਮਾਨੇ ਵਖਾਓ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1738"/>
@@ -1310,47 +1310,52 @@
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1945"/>
         <source>ff</source>
-        <translation>ff</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1946"/>
         <source>fi</source>
-        <translation>fi</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1947"/>
         <source>fl</source>
-        <translation>fl</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1948"/>
         <source>ffi</source>
-        <translation>ffi</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1949"/>
         <source>ffl</source>
-        <translation>ffl</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1950"/>
         <source>ft</source>
-        <translation>ft</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1951"/>
         <source>st</source>
-        <translation>st</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1575"/>
         <source>S&amp;tyles...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;ਅੰਦਾਜ਼...</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1605"/>
         <source>&amp;Outline</source>
         <comment>type effect</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Outlines</source>
+        <comment>Convert to oulines</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1361,7 +1366,7 @@
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1565"/>
         <source>C&amp;lear</source>
-        <translation>&amp;വൃത്തിയാക്കുക</translation>
+        <translation>&amp;ਸਾਫ਼ ਕਰੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1542"/>
@@ -1376,7 +1381,7 @@
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1712"/>
         <source>Preview Mode</source>
-        <translation type="unfinished"></translation>
+        <translation>ਝਲਕ ਮੋਡ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1719"/>
@@ -1391,12 +1396,12 @@
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1528"/>
         <source>&amp;New...</source>
-        <translation>&amp;പുതിയത്...</translation>
+        <translation>&amp;ਨਵਾਂ...</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1549"/>
         <source>Print Previe&amp;w...</source>
-        <translation type="unfinished"></translation>
+        <translation>ਛਾਪੇ ਦੀ &amp;ਝਲਕ...</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1608"/>
@@ -1411,7 +1416,7 @@
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1614"/>
         <source>&amp;Transform...</source>
-        <translation>&amp;പരിവര്‍ത്തനപ്പെടുത്തുക...</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1651"/>
@@ -1436,17 +1441,17 @@
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1705"/>
         <source>&amp;Fit to Height</source>
-        <translation>പൊക്കത്തിന് &amp;കൊള്ളിക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1706"/>
         <source>Fit to Width</source>
-        <translation>വീതിക്ക് കൊള്ളിക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1717"/>
         <source>Show Bleeds</source>
-        <translation>ബ്ലീഡുകള്‍ കാണിക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1897"/>
@@ -1472,49 +1477,49 @@
         <location filename="../../scribus/actionmanager.cpp" line="1919"/>
         <source>Apostrophe</source>
         <comment>Unicode 0x0027</comment>
-        <translation type="unfinished"></translation>
+        <translation>ਛੁੱਟ-ਮਰੋੜੀ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1920"/>
         <source>Straight Double</source>
         <comment>Unicode 0x0022</comment>
-        <translation type="unfinished"></translation>
+        <translation>ਸਿੱਧੇ ਦੂਹਰੇ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1921"/>
         <source>Single Left</source>
         <comment>Unicode 0x2018</comment>
-        <translation type="unfinished"></translation>
+        <translation>ਇਕਹਿਰਾ ਖੱਬਾ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1922"/>
         <source>Single Right</source>
         <comment>Unicode 0x2019</comment>
-        <translation type="unfinished"></translation>
+        <translation>ਇਕਹਿਰਾ ਸੱਜਾ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1923"/>
         <source>Double Left</source>
         <comment>Unicode 0x201C</comment>
-        <translation type="unfinished"></translation>
+        <translation>ਦੂਹਰਾ ਖੱਬਾ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1924"/>
         <source>Double Right</source>
         <comment>Unicode 0x201D</comment>
-        <translation type="unfinished"></translation>
+        <translation>ਦੂਹਰਾ ਸੱਜਾ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1925"/>
         <source>Single Reversed</source>
         <comment>Unicode 0x201B</comment>
-        <translation type="unfinished"></translation>
+        <translation>ਇਕਹਿਰਾ ਉਲਟਾ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1926"/>
         <source>Double Reversed</source>
         <comment>Unicode 0x201F</comment>
-        <translation type="unfinished"></translation>
+        <translation>ਦੂਹਰੇ ਉਲਟੇ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1927"/>
@@ -1584,7 +1589,7 @@
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1815"/>
         <source>Scribus Homepage</source>
-        <translation type="unfinished"></translation>
+        <translation>ਸਕ੍ਰਾਇਬਸ ਦਾ ਮੁੱਖ ਸਫ਼ਾ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1816"/>
@@ -1594,12 +1599,12 @@
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1817"/>
         <source>Scribus Wiki</source>
-        <translation>സ്ക്രൈബസ് വിക്കി</translation>
+        <translation>ਸਕ੍ਰਾਇਬਸ ਵਿਕੀ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1818"/>
         <source>Getting Started with Scribus</source>
-        <translation>സ്ക്രൈബസ് ഉപയോഗിച്ചു തുടങ്ങാം</translation>
+        <translation>ਸਕ੍ਰਾਇਬਸ ਵਰਤਣਾ ਸਿੱਖੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1732"/>
@@ -1609,7 +1614,7 @@
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1809"/>
         <source>&amp;About Plugins</source>
-        <translation>പ്ലഗിനുകളെ &amp;സംബന്ധിച്ച്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1824"/>
@@ -1619,7 +1624,7 @@
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1539"/>
         <source>Get Vector File...</source>
-        <translation type="unfinished"></translation>
+        <translation>ਵੈਕਟਰ ਮਿਸਲ ਲਿਆਓ...</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1568"/>
@@ -1634,22 +1639,22 @@
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1574"/>
         <source>Replace Colors...</source>
-        <translation type="unfinished"></translation>
+        <translation>ਰੰਗ ਬਦਲੇ ਵਟਾਓ...</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1728"/>
         <source>Rulers Relative to Page</source>
-        <translation type="unfinished"></translation>
+        <translation>ਸਫ਼ੇ ਮੁਤਾਬਕ ਪੈਮਾਨੇ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1819"/>
         <source>Check for Updates</source>
-        <translation>പുതിയ പതിപ്പുണ്ടോയെന്ന് പരിശോധിക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1902"/>
         <source>Number of Pages</source>
-        <translation type="unfinished"></translation>
+        <translation>ਸਫ਼ਿਆਂ ਦੀ ਗਿਣਤੀ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1649"/>
@@ -1659,102 +1664,102 @@
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="2084"/>
         <source>File</source>
-        <translation>ഫയല്‍</translation>
+        <translation>ਮਿਸਲ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="2084"/>
         <source>&amp;File</source>
-        <translation>&amp;ഫയല്‍</translation>
+        <translation>&amp;ਮਿਸਲ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="2086"/>
         <source>Edit</source>
-        <translation>തിരുത്തുക</translation>
+        <translation>ਸੰਪਾਦਨ ਕਰੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="2086"/>
         <source>&amp;Edit</source>
-        <translation>&amp;തിരുത്തുക</translation>
+        <translation>&amp;ਸੰਪਾਦਨ ਕਰੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="2088"/>
         <source>Style</source>
-        <translation>ശൈലി</translation>
+        <translation>ਅੰਦਾਜ਼</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="2088"/>
         <source>&amp;Style</source>
-        <translation>&amp;ശൈലി</translation>
+        <translation>&amp;ਅੰਦਾਜ਼</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="2090"/>
         <source>Item</source>
-        <translation type="unfinished"></translation>
+        <translation>ਨਗ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="2090"/>
         <source>&amp;Item</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;ਨਗ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="2092"/>
         <source>Insert</source>
-        <translation type="unfinished"></translation>
+        <translation>ਦਾਖ਼ਲ ਕਰੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="2092"/>
         <source>I&amp;nsert</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;ਦਾਖ਼ਲ ਕਰੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="2094"/>
         <source>Page</source>
-        <translation>താള്‍</translation>
+        <translation>ਸਫ਼ਾ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="2094"/>
         <source>&amp;Page</source>
-        <translation>&amp;താള്‍</translation>
+        <translation>&amp;ਸਫ਼ਾ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="2096"/>
         <source>View</source>
-        <translation>കാണുക</translation>
+        <translation>ਦਿੱਖ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="2096"/>
         <source>&amp;View</source>
-        <translation>&amp;കാണുക</translation>
+        <translation>&amp;ਦਿੱਖ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="2100"/>
         <source>Extras</source>
-        <translation type="unfinished"></translation>
+        <translation>ਵਾਧੂ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="2100"/>
         <source>E&amp;xtras</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;ਵਾਧੂ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="2102"/>
         <source>Windows</source>
-        <translation>വിന്‍ഡോസ്</translation>
+        <translation>ਵਿੰਡੋਆਂ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="2102"/>
         <source>&amp;Windows</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;ਵਿੰਡੋਆਂ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="2104"/>
         <source>Help</source>
-        <translation>സഹായം</translation>
+        <translation>ਮਦਦ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="2104"/>
         <source>&amp;Help</source>
-        <translation>&amp;സഹായം</translation>
+        <translation>&amp;ਮਦਦ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="2480"/>
@@ -1764,12 +1769,12 @@
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="2482"/>
         <source>Others</source>
-        <translation>മറ്റുള്ളവ</translation>
+        <translation>ਹੋਰ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="2484"/>
         <source>Unicode Characters</source>
-        <translation>യൂണിക്കോഡ് അക്ഷരങ്ങള്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1813"/>
@@ -1779,7 +1784,7 @@
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1529"/>
         <source>New &amp;from Template...</source>
-        <translation type="unfinished"></translation>
+        <translation>ਨਵਾਂ ਨਮੂਨੇ ਤੋਂ...</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1564"/>
@@ -1789,7 +1794,7 @@
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1635"/>
         <source>Insert Rows...</source>
-        <translation>നിരകള്‍ ചേര്‍ക്കുക...</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1636"/>
@@ -1849,12 +1854,12 @@
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1680"/>
         <source>&amp;Frames...</source>
-        <translation>&amp;ചട്ടങ്ങള്‍...</translation>
+        <translation>ਫ਼ਰੇਮ...</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1647"/>
         <source>Adjust Frame Height to Text</source>
-        <translation type="unfinished"></translation>
+        <translation>ਫ਼ਰੇਮ ਦੀ ਉਚਾਈ ਲਿਖਤ ਜਿਨਿ ਕਰੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1576"/>
@@ -1864,7 +1869,7 @@
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1577"/>
         <source>Notes Styles...</source>
-        <translation type="unfinished"></translation>
+        <translation>ਨੋਟਸ ਦੇ ਅੰਦਾਜ਼...</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1618"/>
@@ -1909,17 +1914,17 @@
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1731"/>
         <source>Snap to Items</source>
-        <translation type="unfinished"></translation>
+        <translation>ਨਗਾਂ ਨਾਲ ਚੰਬੜਨਾ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1573"/>
         <source>Colors and Fills...</source>
-        <translation type="unfinished"></translation>
+        <translation>ਰੰਗ ਅਤੇ ਭਰਤੀਆਂ...</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1629"/>
         <source>Patterns</source>
-        <translation type="unfinished"></translation>
+        <translation>ਤਰਜ਼ਾਂ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1630"/>
@@ -1930,102 +1935,102 @@
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1669"/>
         <source>&amp;Symbol</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;ਨਿਸ਼ਾਨ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1800"/>
         <source>&amp;Update Document</source>
-        <translation type="unfinished"></translation>
+        <translation>ਦਸਤਾਵੇਜ਼ ਅਪਡੇਟ ਕਰੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="2098"/>
         <source>Table</source>
-        <translation type="unfinished"></translation>
+        <translation>ਸਾਰਨੀ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="2098"/>
         <source>&amp;Table</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;ਸਾਰਨੀ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1828"/>
         <source>Copy</source>
-        <translation>പകര്‍ത്തുക</translation>
+        <translation>ਨਕਲ ਕਰੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1737"/>
         <source>Content Properties</source>
-        <translation type="unfinished"></translation>
+        <translation>ਸਮੱਗਰੀ ਖ਼ਾਸੀਅਤਾਂ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1799"/>
         <source>&amp;Generate Table Of Contents and Indexes</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;ਤਤਕਰਾ ਅਤੇ ਇੰਡੈਕਸ ਬਣਾਓ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1814"/>
         <source>Scribus &amp;Help...</source>
-        <translation type="unfinished"></translation>
+        <translation>ਸਕ੍ਰਾਇਬਸ &amp;ਮਦਦ...</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1829"/>
         <source>Cut</source>
-        <translation>വെട്ടിയെടുക്കുക</translation>
+        <translation>ਕੱਟੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1830"/>
         <source>Paste</source>
-        <translation>ഒട്ടിക്കുക</translation>
+        <translation>ਚੇਪੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1832"/>
         <source>Redo</source>
-        <translation type="unfinished"></translation>
+        <translation>ਦੁਹਰਾਓ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1833"/>
         <source>Undo</source>
-        <translation type="unfinished"></translation>
+        <translation>ਆਖ਼ਰੀ ਰੱਦ ਕਰੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1834"/>
         <source>Close the current document</source>
-        <translation>ഈ പ്രമാണം അടച്ചു വെയ്ക്കുക</translation>
+        <translation>ਮੌਜੂਦਾ ਦਸਤਾਵੇਜ਼ ਬੰਦ ਕਰੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1835"/>
         <source>Export the document to PDF</source>
-        <translation>ഈ പ്രമാണം PDF ആക്കുക</translation>
+        <translation>ਦਸਤਾਵੇਜ਼ ਨੂੰ ਪੀਡੀਐਫ਼ ਵਿੱਚ ਬਰਾਮਦ ਕਰੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1836"/>
         <source>Create a new document</source>
-        <translation>പുതിയൊരു പ്രമാണം ഉണ്ടാക്കുക</translation>
+        <translation>ਨਵਾਂ ਦਸਤਾਵੇਜ਼ ਬਣਾਓ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1837"/>
         <source>Open an existing document</source>
-        <translation>നിലവിലുള്ളൊരു പ്രമാണം തുറക്കുക</translation>
+        <translation>ਮੌਜੂਦ ਦਸਤਾਵੇਜ਼ ਖੋਲ੍ਹੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1838"/>
         <source>Print the document</source>
-        <translation>ഈ പ്രമാണം അച്ചടിക്കുക</translation>
+        <translation>ਦਸਤਾਵੇਜ਼ ਛਾਪੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1839"/>
         <source>Save the current document</source>
-        <translation>ഈ പ്രമാണം സൂക്ഷിച്ചു വെയ്ക്കുക</translation>
+        <translation>ਮੌਜੂਦਾ ਦਸਤਾਵੇਜ਼ ਸਾਂਭੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1840"/>
         <source>Copy item properties</source>
-        <translation type="unfinished"></translation>
+        <translation>ਨਗ ਦੀਆਂ ਖ਼ਾਸੀਅਤਾਂ ਨਕਲ ਕਰੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1841"/>
         <source>Edit contents of a frame</source>
-        <translation type="unfinished"></translation>
+        <translation>ਫ਼ਰੇਮ ਦੀ ਸਮੱਗਰੀ ਸੰਪਾਦਨ ਕਰੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1843"/>
@@ -2055,17 +2060,17 @@
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1848"/>
         <source>Insert an image frame</source>
-        <translation type="unfinished"></translation>
+        <translation>ਤਸਵੀਰ ਫ਼ਰੇਮ ਦਾਖ਼ਲ ਕਰੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1849"/>
         <source>Insert a line</source>
-        <translation type="unfinished"></translation>
+        <translation>ਲਾਈਨ ਜੋੜੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1850"/>
         <source>Insert a polygon</source>
-        <translation>ഒരു ബഹുഭുജം ഉള്‍ച്ചേര്‍ക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1851"/>
@@ -2075,7 +2080,7 @@
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1852"/>
         <source>Insert a shape</source>
-        <translation type="unfinished"></translation>
+        <translation>ਅਕਾਰ ਜੋੜੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1853"/>
@@ -2085,22 +2090,22 @@
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1854"/>
         <source>Insert a table</source>
-        <translation type="unfinished"></translation>
+        <translation>ਸਾਰਨੀ ਜੋੜੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1855"/>
         <source>Insert a text frame</source>
-        <translation type="unfinished"></translation>
+        <translation>ਲਿਖਤ ਫ਼ਰੇਮ ਜੋੜੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1856"/>
         <source>Link text frames</source>
-        <translation type="unfinished"></translation>
+        <translation>ਲਿਖਤ ਫ਼ਰੇਮਾਂ ਦੀ ਕੜੀ ਜੋੜੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1857"/>
         <source>Measurements</source>
-        <translation type="unfinished"></translation>
+        <translation>ਮਾਪ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1858"/>
@@ -2150,17 +2155,17 @@
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1868"/>
         <source>Rotate an item</source>
-        <translation type="unfinished"></translation>
+        <translation>ਕੋਈ ਨਗ ਘੁਮਾਓ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1869"/>
         <source>Select an item</source>
-        <translation type="unfinished"></translation>
+        <translation>ਕੋਈ ਨਗ ਚੁਣੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1870"/>
         <source>Unlink text frames</source>
-        <translation type="unfinished"></translation>
+        <translation>ਲਿਖਤ ਫ਼ਰੇਮਾਂ ਦੀ ਕੜੀ ਤੋੜੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1877"/>
@@ -2185,7 +2190,7 @@
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1713"/>
         <source>Edit in Preview Mode</source>
-        <translation type="unfinished"></translation>
+        <translation>ਝਲਕ ਮੋਡ ਵਿੱਚੋਂ ਸੰਪਾਦਨ ਕਰੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1715"/>
@@ -2205,22 +2210,22 @@
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1773"/>
         <source>T&amp;able</source>
-        <translation>പിന്‍നിഴല്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1774"/>
         <source>&amp;Shape</source>
-        <translation>&amp;ആകാരം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1776"/>
         <source>Arc</source>
-        <translation>ചാപം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1777"/>
         <source>Spiral</source>
-        <translation>സര്‍പ്പിളം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1778"/>
@@ -2250,12 +2255,12 @@
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1785"/>
         <source>PDF Text Field</source>
-        <translation type="unfinished"></translation>
+        <translation>ਪੀਡੀਐੱਫ਼ ਲਿਖਤ ਖ਼ਾਨਾ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1786"/>
         <source>PDF Check Box</source>
-        <translation type="unfinished"></translation>
+        <translation>ਪੀਡੀਐੱਫ਼ ਨਿਸ਼ਾਨ ਡੱਬਾ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1787"/>
@@ -2285,17 +2290,17 @@
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1842"/>
         <source>Edit text in story editor</source>
-        <translation type="unfinished"></translation>
+        <translation>ਲਿਖਤ ਨੂੰ ਸਟੋਰੀ ਸੰਪਾਦਕ ਵਿੱਚ ਸੋਧੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1872"/>
         <source>Enable preview mode</source>
-        <translation type="unfinished"></translation>
+        <translation>ਝਲਕ ਮੋਡ ਚਾਲੂ ਕਰੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1873"/>
         <source>Enable editing in preview mode</source>
-        <translation type="unfinished"></translation>
+        <translation>ਝਲਕ ਮੋਡ ਵਿੱਚ ਸੰਪਾਦਨ ਚਾਲੂ ਕਰੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1875"/>
@@ -2341,38 +2346,50 @@
     <message>
         <location filename="../../scribus/ui/aligndistribute.ui" line="35"/>
         <source>Align</source>
-        <translation type="unfinished"></translation>
+        <translation>ਸੇਧ ਦਿਓ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/aligndistribute.ui" line="62"/>
         <source>Reference</source>
-        <translation type="unfinished"></translation>
+        <translation>ਹਵਾਲਾ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/aligndistribute.ui" line="146"/>
         <source>Mode</source>
-        <translation type="unfinished"></translation>
+        <translation>ਮੋਡ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/aligndistribute.ui" line="210"/>
         <location filename="../../scribus/ui/aligndistribute.ui" line="351"/>
         <source>Horizontal</source>
-        <translation type="unfinished"></translation>
+        <translation>ਲੇਟਵਾਂ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/aligndistribute.ui" line="266"/>
         <location filename="../../scribus/ui/aligndistribute.ui" line="404"/>
         <source>Vertical</source>
-        <translation type="unfinished"></translation>
+        <translation>ਖੜ੍ਹਵਾਂ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/aligndistribute.ui" line="460"/>
         <source>By gap</source>
-        <translation type="unfinished"></translation>
+        <translation>ਵਿੱਥ ਮੁਤਾਬਕ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/aligndistribute.ui" line="562"/>
         <source>By distance</source>
+        <translation>ਫ਼ਾਸਲੇ ਮੁਤਾਬਕ</translation>
+    </message>
+    <message>
+        <source>&amp;Selected Guide:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Relative To:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Align Sides By:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2381,95 +2398,115 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <source>&amp;Distance:</source>
+        <translation type="vanished">&amp;ਫ਼ਾਸਲਾ:</translation>
+    </message>
+    <message>
+        <source>Reverse Distribution</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../../scribus/ui/aligndistribute.ui" line="512"/>
         <source>Swap</source>
-        <translation type="unfinished"></translation>
+        <translation>ਵਟਾਓ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/aligndistribute.ui" line="14"/>
         <source>Align and Distribute</source>
-        <translation type="unfinished"></translation>
+        <translation>ਸੇਧ ਅਤੇ ਵੰਡ</translation>
     </message>
 </context>
 <context>
     <name>AlignDistributePalette</name>
     <message>
+        <source>First Selected</source>
+        <translation type="vanished">ਪਹਿਲਾ ਚੁਣਿਆ</translation>
+    </message>
+    <message>
+        <source>Last Selected</source>
+        <translation type="vanished">ਆਖ਼ਰੀ ਚੁਣਿਆ</translation>
+    </message>
+    <message>
         <source>Page</source>
-        <translation type="vanished">താള്‍</translation>
+        <translation type="vanished">ਸਫ਼ਾ</translation>
     </message>
     <message>
         <source>Margins</source>
-        <translation type="vanished">വിളുമ്പുകള്‍</translation>
+        <translation type="vanished">ਹਾਸ਼ੀਆ</translation>
+    </message>
+    <message>
+        <source>Selection</source>
+        <translation type="vanished">ਚੋਣ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/aligndistribute.cpp" line="131"/>
         <source>Align bottoms</source>
-        <translation type="unfinished"></translation>
+        <translation>ਥੱਲੇ ਸੇਧ ਵਿੱਚ ਕਰੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/aligndistribute.cpp" line="132"/>
         <source>Align right sides</source>
-        <translation type="unfinished"></translation>
+        <translation>ਸੱਜੇ ਪਾਸੇ ਸੇਧ ਵਿੱਚ ਕਰੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/aligndistribute.cpp" line="134"/>
         <source>Center on vertical axis</source>
-        <translation type="unfinished"></translation>
+        <translation>ਖੜ੍ਹਵੇਂ ਦਾਅ ਵਿਚਕਾਰ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/aligndistribute.cpp" line="135"/>
         <source>Align left sides</source>
-        <translation type="unfinished"></translation>
+        <translation>ਖੱਬੇ ਪਾਸੇ ਸੇਧ ਵਿੱਚ ਕਰੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/aligndistribute.cpp" line="136"/>
         <source>Center on horizontal axis</source>
-        <translation type="unfinished"></translation>
+        <translation>ਲੇਟਵੇਂ ਦਾਅ ਵਿਚਕਾਰ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/aligndistribute.cpp" line="138"/>
         <source>Align tops</source>
-        <translation type="unfinished"></translation>
+        <translation>ਸਿਖ਼ਰਾਂ ਸੇਧ ਵਿੱਚ ਕਰੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/aligndistribute.cpp" line="148"/>
         <source>Distribute left sides equidistantly</source>
-        <translation type="unfinished"></translation>
+        <translation>ਖੱਬੇ ਪਾਸੇ ਬਰਾਬਰ ਫ਼ਾਸਲੇ ਨਾਲ ਵੰਡੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/aligndistribute.cpp" line="144"/>
         <source>Distribute bottoms equidistantly</source>
-        <translation type="unfinished"></translation>
+        <translation>ਥੱਲੇ ਬਰਾਬਰ ਫ਼ਾਸਲੇ ਨਾਲ ਵੰਡੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/aligndistribute.cpp" line="117"/>
         <source>Align relative to a guide%1</source>
-        <translation type="unfinished"></translation>
+        <translation>ਗਾਈਡ%1 ਮੁਤਾਬਕ ਸੇਧ ਦਿਓ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/aligndistribute.cpp" line="119"/>
         <source>Align relative to the first selected item</source>
-        <translation type="unfinished"></translation>
+        <translation>ਆਖ਼ਰੀ ਚੁਣੇ ਨਗ ਮੁਤਾਬਕ ਸੇਧ ਦਿਓ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/aligndistribute.cpp" line="120"/>
         <source>Align relative to the last selected item</source>
-        <translation type="unfinished"></translation>
+        <translation>ਪਹਿਲੇ ਚੁਣੇ ਨਗ ਮੁਤਾਬਕ ਸੇਧ ਦਿਓ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/aligndistribute.cpp" line="121"/>
         <source>Align relative to the current page</source>
-        <translation type="unfinished"></translation>
+        <translation>ਮੌਜੂਦਾ ਸਫ਼ੇ ਮੁਤਾਬਕ ਸੇਧ ਦਿਓ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/aligndistribute.cpp" line="122"/>
         <source>Align relative to the margins of the current page</source>
-        <translation type="unfinished"></translation>
+        <translation>ਮੌਜੂਦਾ ਸਫ਼ੇ ਦੇ ਹਾਸ਼ੀਏ ਮੁਤਾਬਕ ਸੇਧ ਦਿਓ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/aligndistribute.cpp" line="124"/>
         <source>Align relative the selection</source>
-        <translation type="unfinished"></translation>
+        <translation>ਚੋਣ ਮੁਤਾਬਕ ਸੇਧ ਦਿਓ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/aligndistribute.cpp" line="126"/>
@@ -2512,6 +2549,10 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <source>Guide</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../../scribus/ui/aligndistribute.cpp" line="156"/>
         <source>Distribute the items with the distance specified</source>
         <translation type="unfinished"></translation>
@@ -2522,22 +2563,26 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <source>None Selected</source>
+        <translation type="vanished">ਕੋਈ ਚੋਣ ਨਹੀਂ</translation>
+    </message>
+    <message>
         <location filename="../../scribus/ui/aligndistribute.cpp" line="159"/>
         <source>Swap items to the left</source>
-        <translation type="unfinished"></translation>
+        <translation>ਖੱਬੇ ਨਗ ਨਾਲ ਵਟਾਓ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/aligndistribute.cpp" line="160"/>
         <source>Swap items to the right</source>
-        <translation type="unfinished"></translation>
+        <translation>ਸੱਜੇ ਨਗ ਨਾਲ ਵਟਾਓ</translation>
     </message>
     <message>
         <source>Y: %1%2</source>
-        <translation type="vanished">Y: %1%2</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>X: %1%2</source>
-        <translation type="vanished">X: %1%2</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/aligndistribute.cpp" line="129"/>
@@ -2582,26 +2627,42 @@
     <message>
         <location filename="../../scribus/ui/aligndistribute.cpp" line="151"/>
         <source>Make horizontal gaps between items and sides of page equal</source>
-        <translation type="unfinished"></translation>
+        <translation>ਚੀਜ਼ਾਂ ਅਤੇ ਸਫ਼ੇ ਦੇ ਪਾਸਿਆਂ ਵਿੱਚ ਲੇਟਵੀਂ ਵਿੱਥ ਬਰਾਬਰ ਕਰੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/aligndistribute.cpp" line="154"/>
         <source>Make vertical gaps between items and the top and bottom of page margins equal</source>
-        <translation type="unfinished"></translation>
+        <translation>ਚੀਜ਼ਾਂ ਅਤੇ ਸਫ਼ੇ ਦੇ ਸਿਖ਼ਰ ਅਤੇ ਹੇਠਲੇ ਹਾਸ਼ੀਏ ਵਿੱਚ ਖੜ੍ਹਵੀਂ ਵਿੱਥ ਬਰਾਬਰ ਕਰੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/aligndistribute.cpp" line="153"/>
         <source>Make horizontal gaps between items and sides of page margins equal</source>
-        <translation type="unfinished"></translation>
+        <translation>ਚੀਜ਼ਾਂ ਅਤੇ ਸਫ਼ੇ ਦੇ ਹਾਸ਼ੀਏ ਵਿੱਚ ਲੇਟਵੀਂ ਵਿੱਥ ਬਰਾਬਰ ਕਰੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/aligndistribute.cpp" line="152"/>
         <source>Make vertical gaps between items and the top and bottom of page equal</source>
+        <translation>ਚੀਜ਼ਾਂ ਅਤੇ ਸਫ਼ੇ ਦੇ ਸਿਖ਼ਰ ਅਤੇ ਥੱਲੇ ਵਿੱਚ ਖੜ੍ਹਵੀਂ ਵਿੱਥ ਬਰਾਬਰ ਕਰੋ</translation>
+    </message>
+    <message>
+        <source>&lt;qt&gt;Align relative to the:&lt;ul&gt;&lt;li&gt;First selected item&lt;/li&gt;&lt;li&gt;Second Selected Item&lt;/li&gt;&lt;li&gt;The current page&lt;/li&gt;&lt;li&gt;The margins of the current page&lt;/li&gt;&lt;li&gt;A Guide&lt;/li&gt;&lt;li&gt;The selection&lt;/ul&gt;&lt;/qt&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The location of the selected guide to align to</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Move</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Resize</source>
-        <translation type="vanished">വലിപ്പം മാറ്റുക</translation>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&lt;qt&gt;When aligning one side of an item do one of the following:&lt;ul&gt;&lt;li&gt;Always move the other side too (preserve existing width and height)&lt;/li&gt;&lt;li&gt;Keep the other side fixed (resize the item instead of moving it) whenever possible&lt;/li&gt;&lt;/ul&gt;&lt;/qt&gt;</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2670,7 +2731,7 @@
     <message>
         <location filename="../../scribus/ui/annota.cpp" line="81"/>
         <source>Text</source>
-        <translation>പദസഞ്ചയം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/annota.cpp" line="82"/>
@@ -2701,7 +2762,7 @@
         <location filename="../../scribus/ui/annota.cpp" line="201"/>
         <location filename="../../scribus/ui/annota.cpp" line="211"/>
         <source> pt</source>
-        <translation>പോയിന്റ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/annota.cpp" line="204"/>
@@ -2711,37 +2772,37 @@
     <message>
         <location filename="../../scribus/ui/annota.cpp" line="433"/>
         <source>Open</source>
-        <translation>തുറക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/annota.cpp" line="86"/>
         <source>&amp;Type:</source>
-        <translation>&amp;തരം:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/annota.cpp" line="158"/>
         <source>C&amp;hange...</source>
-        <translation>&amp;മാറ്റുക...</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/annota.cpp" line="178"/>
         <source>&amp;Page:</source>
-        <translation>&amp;താള്‍:</translation>
+        <translation>&amp;ਸਫ਼ਾ:</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/annota.cpp" line="213"/>
         <source>&amp;Y-Pos:</source>
-        <translation>&amp;Y-Pos:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/annota.cpp" line="433"/>
         <source>%1;;All Files (*)</source>
-        <translation>%1;;എല്ലാ ഫയലുകളും (*)</translation>
+        <translation>%1;;ਸਾਰੀਆਂ ਮਿਸਲਾਂ (*)</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/annota.cpp" line="160"/>
         <source>Export absolute Filename</source>
-        <translation type="unfinished"></translation>
+        <translation>ਮਿਸਲ ਦਾ ਮੁਕੰਮਲ ਨਾਂ ਬਰਾਮਦ ਕਰੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/annota.cpp" line="121"/>
@@ -2771,12 +2832,12 @@
     <message>
         <location filename="../../scribus/ui/annota.cpp" line="131"/>
         <source>Help</source>
-        <translation>സഹായം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/annota.cpp" line="133"/>
         <source>Paragraph</source>
-        <translation type="unfinished"></translation>
+        <translation>ਪੈਰਾ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/annota.cpp" line="134"/>
@@ -2791,7 +2852,7 @@
     <message>
         <location filename="../../scribus/ui/annota.cpp" line="136"/>
         <source>Circle</source>
-        <translation>വൃത്തം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/annota.cpp" line="141"/>
@@ -2805,37 +2866,37 @@
         <location filename="../../scribus/ui/applytemplatedialog.cpp" line="52"/>
         <location filename="../../scribus/ui/applytemplatedialog.cpp" line="255"/>
         <source>Apply Master Page</source>
-        <translation type="unfinished"></translation>
+        <translation>ਮਾਸਟਰ ਸਫ਼ਾ ਲਾਗੂ ਕਰੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/applytemplatedialog.cpp" line="256"/>
         <source>&amp;Master Page:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;ਮਾਸਟਰ ਸਫ਼ਾ:</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/applytemplatedialog.cpp" line="259"/>
         <source>Alt+P</source>
-        <translation>Alt+P</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/applytemplatedialog.cpp" line="261"/>
         <source>Alt+E</source>
-        <translation>Alt+E</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/applytemplatedialog.cpp" line="263"/>
         <source>Alt+D</source>
-        <translation>Alt+D</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/applytemplatedialog.cpp" line="265"/>
         <source>Alt+A</source>
-        <translation>Alt+A</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/applytemplatedialog.cpp" line="267"/>
         <source>Alt+W</source>
-        <translation>Alt+W</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/applytemplatedialog.cpp" line="269"/>
@@ -2855,22 +2916,22 @@
     <message>
         <location filename="../../scribus/ui/applytemplatedialog.cpp" line="258"/>
         <source>Current &amp;Page</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;ਮੌਜੂਦਾ ਸਫ਼ਾ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/applytemplatedialog.cpp" line="260"/>
         <source>&amp;Even Pages</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;ਜੋਟੇ ਵਾਲੇ ਸਫ਼ੇ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/applytemplatedialog.cpp" line="262"/>
         <source>O&amp;dd Pages</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;ਕਲੀ ਵਾਲੇ ਸਫ਼ੇ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/applytemplatedialog.cpp" line="264"/>
         <source>&amp;All Pages</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;ਸਾਰੇ ਸਫ਼ੇ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/applytemplatedialog.cpp" line="266"/>
@@ -2888,7 +2949,7 @@
     <message>
         <location filename="../../scribus/ui/arcvectorbase.ui" line="43"/>
         <source>Start Angle:</source>
-        <translation type="unfinished"></translation>
+        <translation>ਸ਼ੁਰੂਆਤੀ ਕੋਣ:</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/arcvectorbase.ui" line="63"/>
@@ -2898,12 +2959,12 @@
     <message>
         <location filename="../../scribus/ui/arcvectorbase.ui" line="83"/>
         <source>Height:</source>
-        <translation>പൊക്കം:</translation>
+        <translation>ਉਚਾਈ:</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/arcvectorbase.ui" line="103"/>
         <source>Width:</source>
-        <translation>വീതി:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/arcvectorbase.ui" line="140"/>
@@ -2967,7 +3028,7 @@
     <message>
         <location filename="../../scribus/plugins/barcodegenerator/barcode.cpp" line="27"/>
         <source>Barcode</source>
-        <translation>ബാര്‍കോഡ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/barcodegenerator/barcode.cpp" line="28"/>
@@ -3021,12 +3082,12 @@
     <message>
         <location filename="../../scribus/plugins/barcodegenerator/barcodegenerator.cpp" line="270"/>
         <source>Postal symbols</source>
-        <translation>പോസ്റ്റല്‍ ചിഹ്നങ്ങള്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/barcodegenerator/barcodegenerator.cpp" line="279"/>
         <source>Pharmaceutical symbols</source>
-        <translation>ഔഷധനിര്‍മാണ ചിഹ്നങ്ങള്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/barcodegenerator/barcodegenerator.cpp" line="289"/>
@@ -3054,7 +3115,7 @@
     <message>
         <location filename="../../scribus/plugins/barcodegenerator/barcodegenerator.ui" line="264"/>
         <source>Alt+I</source>
-        <translation>Alt+I</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/barcodegenerator/barcodegenerator.ui" line="258"/>
@@ -3064,7 +3125,7 @@
     <message>
         <location filename="../../scribus/plugins/barcodegenerator/barcodegenerator.ui" line="224"/>
         <source>Alt+G</source>
-        <translation>Alt+G</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/barcodegenerator/barcodegenerator.ui" line="218"/>
@@ -3074,12 +3135,12 @@
     <message>
         <location filename="../../scribus/plugins/barcodegenerator/barcodegenerator.ui" line="116"/>
         <source>&amp;Background</source>
-        <translation>&amp;പശ്ചാത്തലം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/barcodegenerator/barcodegenerator.ui" line="119"/>
         <source>Alt+B</source>
-        <translation>Alt+B</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/barcodegenerator/barcodegenerator.ui" line="113"/>
@@ -3094,12 +3155,12 @@
     <message>
         <location filename="../../scribus/plugins/barcodegenerator/barcodegenerator.ui" line="132"/>
         <source>Alt+L</source>
-        <translation>Alt+L</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/barcodegenerator/barcodegenerator.ui" line="126"/>
         <source>Color of the lines in barcode</source>
-        <translation>ബാര്‍കോഡ് രേഖകളുടെ നിറം</translation>
+        <translation>ਬਾਰਕੋਡ ਵਿੱਚ ਲਾਈਨਾਂ ਦਾ ਰੰਗ</translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/barcodegenerator/barcodegenerator.ui" line="84"/>
@@ -3109,17 +3170,17 @@
     <message>
         <location filename="../../scribus/plugins/barcodegenerator/barcodegenerator.ui" line="87"/>
         <source>Alt+T</source>
-        <translation>Alt+T</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/barcodegenerator/barcodegenerator.ui" line="81"/>
         <source>Color of the text and numbers</source>
-        <translation type="unfinished"></translation>
+        <translation>ਲਿਖਤ ਅਤੇ ਨੰਬਰਾਂ ਦਾ ਰੰਗ</translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/barcodegenerator/barcodegenerator.ui" line="185"/>
         <source>Alt+N</source>
-        <translation>Alt+N</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/barcodegenerator/barcodegenerator.ui" line="179"/>
@@ -3129,7 +3190,7 @@
     <message>
         <location filename="../../scribus/plugins/barcodegenerator/barcodegenerator.ui" line="211"/>
         <source>Alt+U</source>
-        <translation>Alt+U</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/barcodegenerator/barcodegenerator.ui" line="205"/>
@@ -3139,12 +3200,12 @@
     <message>
         <location filename="../../scribus/plugins/barcodegenerator/barcodegenerator.ui" line="16"/>
         <source>Insert Barcode</source>
-        <translation>ബാര്‍കോഡ് കൂട്ടിച്ചേര്‍ക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/barcodegenerator/barcodegenerator.ui" line="37"/>
         <source>Colors</source>
-        <translation>നിറങ്ങള്‍</translation>
+        <translation>ਰੰਗ</translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/barcodegenerator/barcodegenerator.ui" line="173"/>
@@ -3189,7 +3250,7 @@
     <message>
         <location filename="../../scribus/plugins/barcodegenerator/barcodegenerator.ui" line="231"/>
         <source>^NNN as ASCII</source>
-        <translation>^NNN as ASCII</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/barcodegenerator/barcodegenerator.ui" line="182"/>
@@ -3204,17 +3265,17 @@
     <message>
         <location filename="../../scribus/plugins/barcodegenerator/barcodegenerator.ui" line="325"/>
         <source>&amp;Barcode:</source>
-        <translation>&amp;ബാര്‍കോഡ്:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/barcodegenerator/barcodegenerator.ui" line="309"/>
         <source>Type</source>
-        <translation>തരം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/barcodegenerator/barcodegenerator.ui" line="345"/>
         <source>&amp;Contents:</source>
-        <translation>&amp;ഉള്ളടക്കങ്ങള്‍:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/barcodegenerator/barcodegenerator.ui" line="399"/>
@@ -3234,7 +3295,7 @@
     <message>
         <location filename="../../scribus/plugins/barcodegenerator/barcodegenerator.ui" line="192"/>
         <source>Version:</source>
-        <translation>പതിപ്പ്:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/barcodegenerator/barcodegenerator.ui" line="238"/>
@@ -3288,7 +3349,7 @@
     <message>
         <location filename="../../scribus/ui/scrapbookpalette.cpp" line="1213"/>
         <source>Rename</source>
-        <translation>പേര് മാറ്റൂക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/scrapbookpalette.cpp" line="1277"/>
@@ -3297,7 +3358,7 @@
         <location filename="../../scribus/ui/scrapbookpalette.cpp" line="1824"/>
         <location filename="../../scribus/ui/scrapbookpalette.cpp" line="1997"/>
         <source>&amp;Name:</source>
-        <translation>&amp;പേര്:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/scrapbookpalette.cpp" line="962"/>
@@ -3363,7 +3424,7 @@
     <message>
         <location filename="../../scribus/ui/scrapbookpalette.cpp" line="1255"/>
         <source>Close</source>
-        <translation>അടയ്ക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/scrapbookpalette.cpp" line="1258"/>
@@ -3390,7 +3451,7 @@
         <location filename="../../scribus/ui/scrapbookpalette.cpp" line="784"/>
         <location filename="../../scribus/ui/scrapbookpalette.cpp" line="2112"/>
         <source>Hide Vector files</source>
-        <translation type="unfinished"></translation>
+        <translation>ਵੈਕਟਰ ਮਿਸਲਾਂ ਲੁਕਾਓ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/scrapbookpalette.cpp" line="2106"/>
@@ -3478,7 +3539,7 @@
     <message>
         <location filename="../../scribus/ui/buttonicon.cpp" line="58"/>
         <source>Always</source>
-        <translation>എല്ലായ്പ്പോഴും</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/buttonicon.cpp" line="59"/>
@@ -3498,7 +3559,7 @@
     <message>
         <location filename="../../scribus/ui/buttonicon.cpp" line="70"/>
         <source>Proportional</source>
-        <translation>ആനുപാതികം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/buttonicon.cpp" line="71"/>
@@ -3513,12 +3574,12 @@
     <message>
         <location filename="../../scribus/ui/buttonicon.cpp" line="137"/>
         <source>OK</source>
-        <translation>ശരി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/buttonicon.cpp" line="142"/>
         <source>Cancel</source>
-        <translation>റദ്ദാക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/buttonicon.cpp" line="146"/>
@@ -3536,7 +3597,7 @@
     <message>
         <location filename="../../scribus/ui/cmykfw.cpp" line="68"/>
         <source>Edit Color</source>
-        <translation type="unfinished"></translation>
+        <translation>ਰੰਗ ਸੋਧੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/cmykfw.cpp" line="76"/>
@@ -3545,7 +3606,7 @@
         <location filename="../../scribus/ui/cmykfw.cpp" line="991"/>
         <location filename="../../scribus/ui/cmykfw.cpp" line="998"/>
         <source>CMYK</source>
-        <translation>CMYK</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/cmykfw.cpp" line="77"/>
@@ -3554,7 +3615,7 @@
         <location filename="../../scribus/ui/cmykfw.cpp" line="659"/>
         <location filename="../../scribus/ui/cmykfw.cpp" line="1003"/>
         <source>RGB</source>
-        <translation>RGB</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/cmykfw.cpp" line="78"/>
@@ -3567,48 +3628,48 @@
         <location filename="../../scribus/ui/cmykfw.cpp" line="93"/>
         <location filename="../../scribus/ui/cmykfw.cpp" line="1123"/>
         <source>Color Map</source>
-        <translation type="unfinished"></translation>
+        <translation>ਰੰਗ ਨਕਸ਼ਾ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/cmykfw.cpp" line="638"/>
         <location filename="../../scribus/ui/cmykfw.cpp" line="815"/>
         <source>C:</source>
-        <translation>C:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/cmykfw.cpp" line="639"/>
         <source>M:</source>
-        <translation>M:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/cmykfw.cpp" line="640"/>
         <source>Y:</source>
-        <translation>Y:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/cmykfw.cpp" line="277"/>
         <source>Dynamic Color Bars</source>
-        <translation type="unfinished"></translation>
+        <translation>ਬਦਲਵੀਆਂ ਰੰਗ ਪੱਟੀਆਂ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/cmykfw.cpp" line="275"/>
         <source>Static Color Bars</source>
-        <translation type="unfinished"></translation>
+        <translation>ਬੱਝਵੀਂਆਂ ਰੰਗ ਪੱਟੀਆਂ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/cmykfw.cpp" line="695"/>
         <source>R:</source>
-        <translation>R:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/cmykfw.cpp" line="696"/>
         <source>G:</source>
-        <translation>G:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/cmykfw.cpp" line="697"/>
         <source>B:</source>
-        <translation>B:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/cmykfw.cpp" line="116"/>
@@ -3619,13 +3680,14 @@
         <location filename="../../scribus/ui/cmykfw.cpp" line="628"/>
         <location filename="../../scribus/ui/cmykfw.cpp" line="634"/>
         <source> %</source>
-        <translation> %</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/cmykfw.cpp" line="1139"/>
         <source>You cannot create a color named &quot;%1&quot;.
 It is a reserved name for transparent color</source>
-        <translation type="unfinished"></translation>
+        <translation>ਤੁਸੀਂ &quot;%1&quot; ਦਾ ਰੰਗ ਨਹੀਂ ਬਣਾ ਸਕਦੇ।
+ਇਹ ਨਾਂ ਪਾਰਦਰਸ਼ੀ ਰੰਗ ਲਈ ਰਾਖਵਾਂ ਹੈ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/cmykfw.cpp" line="217"/>
@@ -3645,7 +3707,7 @@ It is a reserved name for transparent color</source>
     <message>
         <location filename="../../scribus/ui/cmykfw.cpp" line="746"/>
         <location filename="../../scribus/ui/cmykfw.cpp" line="799"/>
-        <source></source>
+        <source/>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3658,15 +3720,14 @@ It is a reserved name for transparent color</source>
         <location filename="../../scribus/ui/cmykfw.cpp" line="1132"/>
         <source>You cannot create a color without a name.
 Please give it a name</source>
-        <translation>പേരില്ലാതെ ഒരു നിറം സൃഷ്ടിക്കുവാന്‍ സാധിക്കില്ല.
-ദയവായി ഒരു പേര് നല്‍കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/cmykfw.cpp" line="1148"/>
         <source>The name of the color already exists.
 Please choose another one.</source>
-        <translation>നിറത്തിനിപ്പോള്‍ നല്‍കിയ പേര് നിലവിലുള്ളതാണ്.
-ദയവായി മറ്റൊന്ന് തിരഞ്ഞെടുക്കുക.</translation>
+        <translation>ਰੰਗ ਦਾ ਨਾਂ ਪਹਿਲਾਂ ਹੀ ਮੌਜੂਦ ਹੈ।
+ਕਿਰਪਾ ਕਰਕੇ ਕੋਈ ਹੋਰ ਨਾਂ ਚੁਣੋ।</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/cmykfw.cpp" line="79"/>
@@ -3680,28 +3741,28 @@ Please choose another one.</source>
         <location filename="../../scribus/ui/cmykfw.cpp" line="80"/>
         <location filename="../../scribus/ui/cmykfw.cpp" line="780"/>
         <source>HLC</source>
-        <translation>HLC</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/cmykfw.cpp" line="760"/>
         <location filename="../../scribus/ui/cmykfw.cpp" line="814"/>
         <source>L:</source>
-        <translation>L:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/cmykfw.cpp" line="761"/>
         <source>a:</source>
-        <translation>a:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/cmykfw.cpp" line="762"/>
         <source>b:</source>
-        <translation>b:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/cmykfw.cpp" line="813"/>
         <source>H:</source>
-        <translation>H:</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -3709,12 +3770,12 @@ Please choose another one.</source>
     <message>
         <location filename="../../scribus/ui/cmykfwbase.ui" line="14"/>
         <source>Edit Color</source>
-        <translation type="unfinished"></translation>
+        <translation>ਰੰਗ ਸੋਧੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/cmykfwbase.ui" line="40"/>
         <source>&amp;Name:</source>
-        <translation>&amp;പേര്:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/cmykfwbase.ui" line="66"/>
@@ -3729,22 +3790,22 @@ Please choose another one.</source>
     <message>
         <location filename="../../scribus/ui/cmykfwbase.ui" line="239"/>
         <source>OK</source>
-        <translation>ശരി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/cmykfwbase.ui" line="265"/>
         <source>Cancel</source>
-        <translation>റദ്ദാക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/cmykfwbase.ui" line="113"/>
         <source>New</source>
-        <translation>പുതിയത്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/cmykfwbase.ui" line="135"/>
         <source>Old</source>
-        <translation>പഴയത്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/cmykfwbase.ui" line="468"/>
@@ -3754,7 +3815,7 @@ Please choose another one.</source>
     <message>
         <location filename="../../scribus/ui/cmykfwbase.ui" line="596"/>
         <source>C:</source>
-        <translation>C:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/cmykfwbase.ui" line="558"/>
@@ -3762,22 +3823,22 @@ Please choose another one.</source>
         <location filename="../../scribus/ui/cmykfwbase.ui" line="628"/>
         <location filename="../../scribus/ui/cmykfwbase.ui" line="660"/>
         <source> %</source>
-        <translation> %</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/cmykfwbase.ui" line="647"/>
         <source>M:</source>
-        <translation>M:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/cmykfwbase.ui" line="679"/>
         <source>Y:</source>
-        <translation>Y:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/cmykfwbase.ui" line="526"/>
         <source>K:</source>
-        <translation>K:</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -3785,17 +3846,17 @@ Please choose another one.</source>
     <message>
         <location filename="../../scribus/plugins/colorwheel/cwdialog.cpp" line="319"/>
         <source>Merging colors</source>
-        <translation type="unfinished"></translation>
+        <translation>ਰੰਗ ਰਲਾ ਰਿਹਾ ਹੈ</translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/colorwheel/cwdialog.cpp" line="325"/>
         <source>Error: </source>
-        <translation>പിഴവ്:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/colorwheel/cwdialog.cpp" line="325"/>
         <source>Color %1 exists already!</source>
-        <translation>%1 എന്ന നിറം ഇപ്പോള്‍ത്തന്നെ നിലവിലുണ്ട്!</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/colorwheel/cwdialog.cpp" line="330"/>
@@ -3820,7 +3881,7 @@ Please choose another one.</source>
     <message>
         <location filename="../../scribus/plugins/colorwheel/cwdialog.ui" line="16"/>
         <source>Color Wheel</source>
-        <translation>വര്‍ണചക്രം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/colorwheel/cwdialog.ui" line="52"/>
@@ -3836,19 +3897,19 @@ Please choose another one.</source>
         <location filename="../../scribus/plugins/colorwheel/cwdialog.ui" line="120"/>
         <location filename="../../scribus/plugins/colorwheel/cwdialog.ui" line="377"/>
         <source>CMYK</source>
-        <translation>CMYK</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/colorwheel/cwdialog.ui" line="125"/>
         <location filename="../../scribus/plugins/colorwheel/cwdialog.ui" line="640"/>
         <source>RGB</source>
-        <translation>RGB</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/colorwheel/cwdialog.ui" line="130"/>
         <location filename="../../scribus/plugins/colorwheel/cwdialog.ui" line="868"/>
         <source>HSV</source>
-        <translation>HSV</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/colorwheel/cwdialog.ui" line="165"/>
@@ -3858,7 +3919,7 @@ Please choose another one.</source>
     <message>
         <location filename="../../scribus/plugins/colorwheel/cwdialog.ui" line="191"/>
         <source>Angle:</source>
-        <translation>കോണ്‍:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/colorwheel/cwdialog.ui" line="201"/>
@@ -3883,7 +3944,7 @@ Please choose another one.</source>
     <message>
         <location filename="../../scribus/plugins/colorwheel/cwdialog.ui" line="268"/>
         <source>Alt+M</source>
-        <translation>Alt+M</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/colorwheel/cwdialog.ui" line="275"/>
@@ -3898,7 +3959,7 @@ Please choose another one.</source>
     <message>
         <location filename="../../scribus/plugins/colorwheel/cwdialog.ui" line="281"/>
         <source>Alt+R</source>
-        <translation>Alt+R</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/colorwheel/cwdialog.ui" line="288"/>
@@ -3908,17 +3969,17 @@ Please choose another one.</source>
     <message>
         <location filename="../../scribus/plugins/colorwheel/cwdialog.ui" line="291"/>
         <source>&amp;Cancel</source>
-        <translation>&amp;റദ്ദാക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/colorwheel/cwdialog.ui" line="294"/>
         <source>Alt+C</source>
-        <translation>Alt+C</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/colorwheel/cwdialog.ui" line="303"/>
         <source>Preview:</source>
-        <translation type="unfinished"></translation>
+        <translation>ਝਲਕ:</translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/colorwheel/cwdialog.ui" line="340"/>
@@ -3928,12 +3989,12 @@ Please choose another one.</source>
     <message>
         <location filename="../../scribus/plugins/colorwheel/cwdialog.ui" line="347"/>
         <source>Vision Defect Type:</source>
-        <translation>കാഴ്ചാവൈകല്യത്തിന്റെ തരം:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/colorwheel/cwdialog.ui" line="409"/>
         <source>C:</source>
-        <translation>C:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/colorwheel/cwdialog.ui" line="419"/>
@@ -3941,75 +4002,75 @@ Please choose another one.</source>
         <location filename="../../scribus/plugins/colorwheel/cwdialog.ui" line="491"/>
         <location filename="../../scribus/plugins/colorwheel/cwdialog.ui" line="527"/>
         <source> %</source>
-        <translation> %</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/colorwheel/cwdialog.ui" line="445"/>
         <source>M:</source>
-        <translation>M:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/colorwheel/cwdialog.ui" line="481"/>
         <source>Y:</source>
-        <translation>Y:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/colorwheel/cwdialog.ui" line="517"/>
         <source>K:</source>
-        <translation>K:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/colorwheel/cwdialog.ui" line="553"/>
         <location filename="../../scribus/plugins/colorwheel/cwdialog.ui" line="1013"/>
         <source>RGB:</source>
-        <translation>RGB:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/colorwheel/cwdialog.ui" line="595"/>
         <location filename="../../scribus/plugins/colorwheel/cwdialog.ui" line="824"/>
         <source>HSV:</source>
-        <translation>HSV:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/colorwheel/cwdialog.ui" line="686"/>
         <source>R:</source>
-        <translation>R:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/colorwheel/cwdialog.ui" line="719"/>
         <source>G:</source>
-        <translation>G:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/colorwheel/cwdialog.ui" line="752"/>
         <source>B:</source>
-        <translation>B:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/colorwheel/cwdialog.ui" line="785"/>
         <location filename="../../scribus/plugins/colorwheel/cwdialog.ui" line="1055"/>
         <source>CMYK:</source>
-        <translation>CMYK:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/colorwheel/cwdialog.ui" line="914"/>
         <source>H:</source>
-        <translation>H:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/colorwheel/cwdialog.ui" line="947"/>
         <source>S:</source>
-        <translation>S:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/colorwheel/cwdialog.ui" line="980"/>
         <source>V:</source>
-        <translation>V:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/colorwheel/cwdialog.ui" line="1099"/>
         <source>Document</source>
-        <translation>പ്രമാണം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/colorwheel/cwdialog.ui" line="321"/>
@@ -4029,38 +4090,35 @@ Please choose another one.</source>
         <location filename="../../scribus/canvas.cpp" line="2370"/>
         <source>X: %1
 Y: %2</source>
-        <translation>X: %1
-Y: %2</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/canvas.cpp" line="2352"/>
         <source>X: %1</source>
-        <translation>X: %1</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/canvas.cpp" line="2360"/>
         <source>Y: %1</source>
-        <translation>Y: %1</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/canvas.cpp" line="2380"/>
         <source>Length: %1
 Angle: %2</source>
-        <translation>നീളം: %1
-കോണ്‍: %2</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/canvas.cpp" line="2382"/>
         <source>Width: %1
 Height: %2</source>
-        <translation>വീതി: %1
-പൊക്കം: %2</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/canvas.cpp" line="2395"/>
         <location filename="../../scribus/canvas.cpp" line="2403"/>
         <source>Angle: %1</source>
-        <translation>കോണ്‍: %1</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -4078,7 +4136,7 @@ Height: %2</source>
     <message>
         <location filename="../../scribus/canvasmode_eyedropper.cpp" line="196"/>
         <source>Color Not Found</source>
-        <translation>ഈ നിറം കണ്ടെത്താനായില്ല</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/canvasmode_eyedropper.cpp" line="196"/>
@@ -4109,12 +4167,12 @@ Height: %2</source>
     <message>
         <location filename="../../scribus/canvasmode_framelinks.cpp" line="213"/>
         <source>Before</source>
-        <translation>മുമ്പ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/canvasmode_framelinks.cpp" line="214"/>
         <source>After</source>
-        <translation>പിമ്പ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/canvasmode_framelinks.cpp" line="211"/>
@@ -4147,12 +4205,12 @@ Height: %2</source>
     <message>
         <location filename="../../scribus/canvasmode_normal.cpp" line="1832"/>
         <source>Open</source>
-        <translation>തുറക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/canvasmode_normal.cpp" line="392"/>
         <source>Go to Page %1</source>
-        <translation>%1 താളിലേക്ക് പോവുക</translation>
+        <translation>ਸਫ਼ਾ %1 ’ਤੇ ਜਾਓ</translation>
     </message>
     <message>
         <location filename="../../scribus/canvasmode_normal.cpp" line="394"/>
@@ -4162,12 +4220,12 @@ Height: %2</source>
     <message>
         <location filename="../../scribus/canvasmode_normal.cpp" line="396"/>
         <source>Go to Page %1 in File %2</source>
-        <translation type="unfinished"></translation>
+        <translation>ਮਿਸਲ %2 ਵਿੱਚ ਸਫ਼ਾ %1 &apos;ਤੇ ਜਾਓ</translation>
     </message>
     <message>
         <location filename="../../scribus/canvasmode_normal.cpp" line="1506"/>
         <source>Page %1 does not exist!</source>
-        <translation type="unfinished"></translation>
+        <translation>ਸਫ਼ਾ %1 ਮੌਜੂਦ ਨਹੀਂ ਹੈ!</translation>
     </message>
     <message>
         <location filename="../../scribus/canvasmode_normal.cpp" line="1512"/>
@@ -4179,7 +4237,7 @@ URL: %1</source>
         <location filename="../../scribus/canvasmode_normal.cpp" line="1513"/>
         <location filename="../../scribus/canvasmode_normal.cpp" line="1518"/>
         <source>Information</source>
-        <translation>വിവരം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/canvasmode_normal.cpp" line="1517"/>
@@ -4205,7 +4263,7 @@ Click to link to existing text frame or auto-create new linked text frame</sourc
     <message>
         <location filename="../../scribus/plugins/import/cdr/importcdr.cpp" line="118"/>
         <source>Analyzing File:</source>
-        <translation>ഫയല്‍ പരിശോധിക്കുന്നു:</translation>
+        <translation>ਘੋਖੀ ਜਾ ਰਹੀ ਮਿਸਲ:</translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/import/cdr/importcdr.cpp" line="351"/>
@@ -4226,7 +4284,7 @@ Document Liberation Project https://www.documentliberation.org</source>
     <message>
         <location filename="../../scribus/plugins/import/cgm/importcgm.cpp" line="166"/>
         <source>Analyzing File:</source>
-        <translation>ഫയല്‍ പരിശോധിക്കുന്നു:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/import/cgm/importcgm.cpp" line="401"/>
@@ -4250,7 +4308,7 @@ Document Liberation Project https://www.documentliberation.org</source>
         <location filename="../../scribus/ui/charselect.cpp" line="299"/>
         <location filename="../../scribus/ui/charselect.cpp" line="328"/>
         <source>Error</source>
-        <translation>പിഴവ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/charselect.cpp" line="300"/>
@@ -4323,7 +4381,7 @@ Document Liberation Project https://www.documentliberation.org</source>
     <message>
         <location filename="../../scribus/ui/charselectenhanced.cpp" line="212"/>
         <source>Basic Latin</source>
-        <translation>അടിസ്ഥാന ലാറ്റിന്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/charselectenhanced.cpp" line="218"/>
@@ -4353,7 +4411,7 @@ Document Liberation Project https://www.documentliberation.org</source>
     <message>
         <location filename="../../scribus/ui/charselectenhanced.cpp" line="248"/>
         <source>Currency Symbols</source>
-        <translation>കറന്‍സി ചിഹ്നങ്ങള്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/charselectenhanced.cpp" line="254"/>
@@ -4418,7 +4476,7 @@ Document Liberation Project https://www.documentliberation.org</source>
     <message>
         <location filename="../../scribus/ui/charselectenhanced.cpp" line="326"/>
         <source>Greek</source>
-        <translation>ഗ്രീക്‍</translation>
+        <translation>ਯੂਨਾਨੀ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/charselectenhanced.cpp" line="332"/>
@@ -4428,7 +4486,7 @@ Document Liberation Project https://www.documentliberation.org</source>
     <message>
         <location filename="../../scribus/ui/charselectenhanced.cpp" line="338"/>
         <source>Cyrillic</source>
-        <translation>സിറിലിക്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/charselectenhanced.cpp" line="344"/>
@@ -4438,7 +4496,7 @@ Document Liberation Project https://www.documentliberation.org</source>
     <message>
         <location filename="../../scribus/ui/charselectenhanced.cpp" line="350"/>
         <source>Arabic</source>
-        <translation>അറബിക്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/charselectenhanced.cpp" line="356"/>
@@ -4453,7 +4511,7 @@ Document Liberation Project https://www.documentliberation.org</source>
     <message>
         <location filename="../../scribus/ui/charselectenhanced.cpp" line="368"/>
         <source>Hebrew</source>
-        <translation>ഹീബ്രു</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/charselectenhanced.ui" line="14"/>
@@ -4504,7 +4562,7 @@ The Insert key inserts a Glyph into the Selection below and the Delete key remov
     <message>
         <location filename="../../scribus/ui/charselectenhanced.ui" line="200"/>
         <source>C&amp;lear</source>
-        <translation>&amp;വൃത്തിയാക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/charselectenhanced.ui" line="119"/>
@@ -4535,7 +4593,7 @@ The Insert key inserts a Glyph into the Selection below and the Delete key remov
     <message>
         <location filename="../../scribus/ui/checkDocument.cpp" line="141"/>
         <source>Object is not on a Page</source>
-        <translation type="unfinished"></translation>
+        <translation>ਚੀਜ਼ ਸਫ਼ੇ ’ਤੇ ਨਹੀਂ ਹੈ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/checkDocument.cpp" line="140"/>
@@ -4560,17 +4618,17 @@ The Insert key inserts a Glyph into the Selection below and the Delete key remov
     <message>
         <location filename="../../scribus/ui/checkDocument.cpp" line="435"/>
         <source>Document</source>
-        <translation>പ്രമാണം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/checkDocument.cpp" line="437"/>
         <source>No Problems found</source>
-        <translation>ഒരു പ്രശ്നങ്ങളും കണ്ടില്ല</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/checkDocument.cpp" line="678"/>
         <source>Page </source>
-        <translation>താള്‍</translation>
+        <translation>ਸਫ਼ਾ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/checkDocument.cpp" line="738"/>
@@ -4590,7 +4648,7 @@ The Insert key inserts a Glyph into the Selection below and the Delete key remov
     <message>
         <location filename="../../scribus/ui/checkDocument.cpp" line="115"/>
         <source>Problems</source>
-        <translation>പ്രശ്നങ്ങള്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/checkDocument.cpp" line="120"/>
@@ -4606,7 +4664,7 @@ The Insert key inserts a Glyph into the Selection below and the Delete key remov
     <message>
         <location filename="../../scribus/ui/checkDocument.cpp" line="122"/>
         <source>Check again</source>
-        <translation>വീണ്ടും പരിശോധിക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/checkDocument.cpp" line="137"/>
@@ -4626,7 +4684,7 @@ The Insert key inserts a Glyph into the Selection below and the Delete key remov
     <message>
         <location filename="../../scribus/ui/checkDocument.cpp" line="438"/>
         <source>OK</source>
-        <translation>ശരി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/checkDocument.cpp" line="147"/>
@@ -4666,7 +4724,7 @@ The Insert key inserts a Glyph into the Selection below and the Delete key remov
     <message>
         <location filename="../../scribus/ui/checkDocument.cpp" line="507"/>
         <source>Master Pages</source>
-        <translation type="unfinished"></translation>
+        <translation>ਮਾਸਟਰ ਸਫ਼ੇ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/checkDocument.cpp" line="116"/>
@@ -4839,7 +4897,7 @@ currently %2 x %3 DPI</source>
     <message>
         <location filename="../../scribus/ui/clockwidget.cpp" line="76"/>
         <source>A</source>
-        <translation>A</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -4858,7 +4916,7 @@ currently %2 x %3 DPI</source>
     <message>
         <location filename="../../scribus/collect4output.cpp" line="111"/>
         <source>Collecting...</source>
-        <translation>ശേഖരിച്ചുകൊണ്ടിരിക്കുന്നു...</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/collect4output.cpp" line="115"/>
@@ -4898,7 +4956,7 @@ currently %2 x %3 DPI</source>
     <message>
         <location filename="../../scribus/ui/collectforoutput_ui.cpp" line="87"/>
         <source>Collecting...</source>
-        <translation>ശേഖരിച്ചുകൊണ്ടിരിക്കുന്നു...</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/collectforoutput_ui.cpp" line="91"/>
@@ -4918,17 +4976,17 @@ currently %2 x %3 DPI</source>
     <message>
         <location filename="../../scribus/ui/colorlistbox.cpp" line="462"/>
         <source>Sort by Name</source>
-        <translation>പേരിനനുസരിച്ചടുക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/colorlistbox.cpp" line="463"/>
         <source>Sort by Color</source>
-        <translation>നിറത്തിനനുസരിച്ചടുക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/colorlistbox.cpp" line="464"/>
         <source>Sort by Type</source>
-        <translation>തരമനുസരിച്ചടുക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -4936,17 +4994,17 @@ currently %2 x %3 DPI</source>
     <message>
         <location filename="../../scribus/ui/colorlistmodel.cpp" line="79"/>
         <source>R: %1 G: %2 B: %3</source>
-        <translation>R: %1 G: %2 B: %3</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/colorlistmodel.cpp" line="85"/>
         <source>C: %1% M: %2% Y: %3% K: %4%</source>
-        <translation>C: %1% M: %2% Y: %3% K: %4%</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/colorlistmodel.cpp" line="91"/>
         <source>L: %1 a: %2 b: %3</source>
-        <translation>L: %1 a: %2 b: %3</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -5020,12 +5078,12 @@ currently %2 x %3 DPI</source>
         <location filename="../../scribus/ui/colorpicker/colorpicker_color.ui" line="52"/>
         <location filename="../../scribus/ui/colorpicker/colorpicker_color.ui" line="65"/>
         <source> %</source>
-        <translation type="unfinished"> %</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/colorpicker/colorpicker_color.ui" line="98"/>
         <source>Opacity:</source>
-        <translation type="unfinished">അതാര്യത:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/colorpicker/colorpicker_color.ui" line="78"/>
@@ -5056,17 +5114,17 @@ currently %2 x %3 DPI</source>
     <message>
         <location filename="../../scribus/ui/colorpicker/colorpicker_color.cpp" line="168"/>
         <source>R: %1 G: %2 B: %3</source>
-        <translation type="unfinished">R: %1 G: %2 B: %3</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/colorpicker/colorpicker_color.cpp" line="175"/>
         <source>C: %1% M: %2% Y: %3% K: %4%</source>
-        <translation type="unfinished">C: %1% M: %2% Y: %3% K: %4%</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/colorpicker/colorpicker_color.cpp" line="182"/>
         <source>L: %1 a: %2 b: %3</source>
-        <translation type="unfinished">L: %1 a: %2 b: %3</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/colorpicker/colorpicker_color.cpp" line="190"/>
@@ -5108,7 +5166,7 @@ currently %2 x %3 DPI</source>
         <location filename="../../scribus/ui/colorpicker/colorpicker_gradient.ui" line="601"/>
         <location filename="../../scribus/ui/colorpicker/colorpicker_gradient.ui" line="759"/>
         <source>Color</source>
-        <translation type="unfinished">നിറം</translation>
+        <translation>ਰੰਗ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/colorpicker/colorpicker_gradient.ui" line="180"/>
@@ -5126,7 +5184,7 @@ currently %2 x %3 DPI</source>
         <location filename="../../scribus/ui/colorpicker/colorpicker_gradient.ui" line="691"/>
         <location filename="../../scribus/ui/colorpicker/colorpicker_gradient.ui" line="849"/>
         <source>Opacity</source>
-        <translation type="unfinished"></translation>
+        <translation>ਅਪਾਰਦਰਸ਼ਤਾ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/colorpicker/colorpicker_gradient.ui" line="379"/>
@@ -5138,7 +5196,7 @@ currently %2 x %3 DPI</source>
         <location filename="../../scribus/ui/colorpicker/colorpicker_gradient.ui" line="827"/>
         <location filename="../../scribus/ui/colorpicker/colorpicker_gradient.ui" line="875"/>
         <source> %</source>
-        <translation type="unfinished"> %</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/colorpicker/colorpicker_gradient.ui" line="898"/>
@@ -5208,13 +5266,13 @@ currently %2 x %3 DPI</source>
         <location filename="../../scribus/ui/colorpicker/colorpicker_gradient_properties.ui" line="123"/>
         <location filename="../../scribus/ui/colorpicker/colorpicker_gradient_properties.ui" line="357"/>
         <source>Y:</source>
-        <translation type="unfinished">Y:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/colorpicker/colorpicker_gradient_properties.ui" line="143"/>
         <location filename="../../scribus/ui/colorpicker/colorpicker_gradient_properties.ui" line="276"/>
         <source>X:</source>
-        <translation type="unfinished">X:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/colorpicker/colorpicker_gradient_properties.ui" line="156"/>
@@ -5353,7 +5411,7 @@ currently %2 x %3 DPI</source>
     <message>
         <location filename="../../scribus/ui/colorpicker/colorpicker_hatch.ui" line="46"/>
         <source>Distance</source>
-        <translation type="unfinished"></translation>
+        <translation>ਫ਼ਾਸਲਾ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/colorpicker/colorpicker_hatch.ui" line="81"/>
@@ -5363,12 +5421,12 @@ currently %2 x %3 DPI</source>
     <message>
         <location filename="../../scribus/ui/colorpicker/colorpicker_hatch.ui" line="123"/>
         <source>Type</source>
-        <translation type="unfinished">തരം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/colorpicker/colorpicker_hatch.ui" line="147"/>
         <source>Single</source>
-        <translation type="unfinished">ഒറ്റ</translation>
+        <translation>ਇਕਹਿਰਾ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/colorpicker/colorpicker_hatch.ui" line="152"/>
@@ -5383,12 +5441,12 @@ currently %2 x %3 DPI</source>
     <message>
         <location filename="../../scribus/ui/colorpicker/colorpicker_hatch.ui" line="191"/>
         <source>Line</source>
-        <translation type="unfinished">വര</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/colorpicker/colorpicker_hatch.ui" line="230"/>
         <source>Background</source>
-        <translation type="unfinished">പശ്ചാത്തലം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/colorpicker/colorpicker_hatch.cpp" line="80"/>
@@ -5436,13 +5494,13 @@ currently %2 x %3 DPI</source>
         <location filename="../../scribus/ui/colorpicker/colorpicker_pattern.ui" line="237"/>
         <location filename="../../scribus/ui/colorpicker/colorpicker_pattern.cpp" line="299"/>
         <source>X:</source>
-        <translation type="unfinished">X:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/colorpicker/colorpicker_pattern.ui" line="292"/>
         <location filename="../../scribus/ui/colorpicker/colorpicker_pattern.cpp" line="300"/>
         <source>Y:</source>
-        <translation type="unfinished">Y:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/colorpicker/colorpicker_pattern.ui" line="308"/>
@@ -5592,12 +5650,12 @@ currently %2 x %3 DPI</source>
     <message>
         <location filename="../../scribus/plugins/colorwheel/colorwheel.cpp" line="48"/>
         <source>&amp;Color Wheel...</source>
-        <translation>&amp;വര്‍ണചക്രം...</translation>
+        <translation>ਰੰਗ ਪਹੀਆ...</translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/colorwheel/colorwheel.cpp" line="66"/>
         <source>Color setting helper</source>
-        <translation type="unfinished"></translation>
+        <translation>ਰੰਗ ਸੈਟਿੰਗ ਮਦਦਗਾਰ</translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/colorwheel/colorwheel.cpp" line="67"/>
@@ -5610,7 +5668,7 @@ currently %2 x %3 DPI</source>
     <message>
         <location filename="../../scribus/ui/colorsandfillsbase.ui" line="14"/>
         <source>Colors and Fills</source>
-        <translation type="unfinished"></translation>
+        <translation>ਰੰਗ ਅਤੇ ਭਰਤੀਆਂ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/colorsandfillsbase.ui" line="38"/>
@@ -5620,7 +5678,7 @@ currently %2 x %3 DPI</source>
     <message>
         <location filename="../../scribus/ui/colorsandfillsbase.ui" line="45"/>
         <source>1</source>
-        <translation>1</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/colorsandfillsbase.ui" line="55"/>
@@ -5640,7 +5698,7 @@ currently %2 x %3 DPI</source>
     <message>
         <location filename="../../scribus/ui/colorsandfillsbase.ui" line="68"/>
         <source>Add</source>
-        <translation>ചേര്‍ക്കുക</translation>
+        <translation>ਜੋੜੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/colorsandfillsbase.ui" line="75"/>
@@ -5650,7 +5708,7 @@ currently %2 x %3 DPI</source>
     <message>
         <location filename="../../scribus/ui/colorsandfillsbase.ui" line="78"/>
         <source>&amp;Edit</source>
-        <translation>&amp;തിരുത്തുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/colorsandfillsbase.ui" line="85"/>
@@ -5665,12 +5723,12 @@ currently %2 x %3 DPI</source>
     <message>
         <location filename="../../scribus/ui/colorsandfillsbase.ui" line="95"/>
         <source>Delete the currently selected color</source>
-        <translation type="unfinished"></translation>
+        <translation>ਮੌਜੂਦਾ ਚੁਣਿਆ ਹੋਇਆ ਰੰਗ ਮਿਟਾਓ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/colorsandfillsbase.ui" line="98"/>
         <source>&amp;Delete</source>
-        <translation type="unfinished"></translation>
+        <translation>ਮਿਟਾਓ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/colorsandfillsbase.ui" line="105"/>
@@ -5710,12 +5768,12 @@ currently %2 x %3 DPI</source>
     <message>
         <location filename="../../scribus/ui/colorsandfillsbase.ui" line="172"/>
         <source>OK</source>
-        <translation>ശരി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/colorsandfillsbase.ui" line="179"/>
         <source>Cancel</source>
-        <translation>റദ്ദാക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -5753,17 +5811,17 @@ currently %2 x %3 DPI</source>
     <message>
         <location filename="../../scribus/ui/colorsandfills.cpp" line="332"/>
         <source>Sort by Name</source>
-        <translation>പേരിനനുസരിച്ചടുക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/colorsandfills.cpp" line="333"/>
         <source>Sort by Color</source>
-        <translation>നിറത്തിനനുസരിച്ചടുക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/colorsandfills.cpp" line="334"/>
         <source>Sort by Type</source>
-        <translation>തരമനുസരിച്ചടുക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/colorsandfills.cpp" line="369"/>
@@ -5773,12 +5831,12 @@ currently %2 x %3 DPI</source>
     <message>
         <location filename="../../scribus/ui/colorsandfills.cpp" line="370"/>
         <source>Add</source>
-        <translation>ചേര്‍ക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/colorsandfills.cpp" line="371"/>
         <source>&amp;Edit</source>
-        <translation>&amp;തിരുത്തുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/colorsandfills.cpp" line="397"/>
@@ -5795,7 +5853,7 @@ currently %2 x %3 DPI</source>
     <message>
         <location filename="../../scribus/ui/colorsandfills.cpp" line="399"/>
         <source>Rename</source>
-        <translation>പേര് മാറ്റൂക</translation>
+        <translation>ਨਾਂ ਬਦਲੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/colorsandfills.cpp" line="458"/>
@@ -5811,7 +5869,7 @@ currently %2 x %3 DPI</source>
         <location filename="../../scribus/ui/colorsandfills.cpp" line="584"/>
         <location filename="../../scribus/ui/colorsandfills.cpp" line="1934"/>
         <source>&amp;Name:</source>
-        <translation>&amp;പേര്:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/colorsandfills.cpp" line="584"/>
@@ -5822,7 +5880,7 @@ currently %2 x %3 DPI</source>
         <location filename="../../scribus/ui/colorsandfills.cpp" line="637"/>
         <location filename="../../scribus/ui/colorsandfills.cpp" line="672"/>
         <source>Copy of %1</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 ਦੀ ਨਕਲ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/colorsandfills.cpp" line="752"/>
@@ -5863,13 +5921,13 @@ currently %2 x %3 DPI</source>
     <message>
         <location filename="../../scribus/ui/colorsandfills.cpp" line="1011"/>
         <source>All Files (*)</source>
-        <translation>എല്ലാ ഫയലുകളും (*)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/colorsandfills.cpp" line="1017"/>
         <location filename="../../scribus/ui/colorsandfills.cpp" line="1172"/>
         <source>Open</source>
-        <translation>തുറക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/colorsandfills.cpp" line="1054"/>
@@ -5884,7 +5942,7 @@ currently %2 x %3 DPI</source>
     <message>
         <location filename="../../scribus/ui/colorsandfills.cpp" line="1064"/>
         <source>Information</source>
-        <translation>വിവരം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/colorsandfills.cpp" line="1064"/>
@@ -5908,22 +5966,22 @@ See the Edit Colors section of the documentation for more details.</source>
     <message>
         <location filename="../../scribus/ui/colorsandfills.cpp" line="1428"/>
         <source>R: %1 G: %2 B: %3</source>
-        <translation>R: %1 G: %2 B: %3</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/colorsandfills.cpp" line="1434"/>
         <source>C: %1% M: %2% Y: %3% K: %4%</source>
-        <translation>C: %1% M: %2% Y: %3% K: %4%</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/colorsandfills.cpp" line="1440"/>
         <source>L: %1 a: %2 b: %3</source>
-        <translation>L: %1 a: %2 b: %3</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/colorsandfills.cpp" line="1934"/>
         <source>Choose a Name</source>
-        <translation>ഒരു പേര് തിരഞ്ഞെടുക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -5931,7 +5989,7 @@ See the Edit Colors section of the documentation for more details.</source>
     <message>
         <location filename="../../scribus/canvasgesture_columnresize.cpp" line="100"/>
         <source>Width</source>
-        <translation>വീതി</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -5940,7 +5998,7 @@ See the Edit Colors section of the documentation for more details.</source>
         <location filename="../../scribus/ui/widgets/combo_blendmode.cpp" line="22"/>
         <location filename="../../scribus/ui/widgets/combo_blendmode.cpp" line="39"/>
         <source>Normal</source>
-        <translation type="unfinished">സാധാരണ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/widgets/combo_blendmode.cpp" line="23"/>
@@ -6010,7 +6068,7 @@ See the Edit Colors section of the documentation for more details.</source>
     <message>
         <location filename="../../scribus/ui/widgets/combo_blendmode.cpp" line="36"/>
         <source>Color</source>
-        <translation type="unfinished">നിറം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/widgets/combo_blendmode.cpp" line="37"/>
@@ -6024,7 +6082,7 @@ See the Edit Colors section of the documentation for more details.</source>
         <location filename="../../scribus/ui/widgets/combo_linestyle.cpp" line="75"/>
         <location filename="../../scribus/ui/widgets/combo_linestyle.cpp" line="85"/>
         <source>No Style</source>
-        <translation type="unfinished">ശൈലിയില്ല</translation>
+        <translation>ਕੋਈ ਅੰਦਾਜ਼ ਨਹੀਂ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/widgets/combo_linestyle.cpp" line="87"/>
@@ -6042,22 +6100,22 @@ See the Edit Colors section of the documentation for more details.</source>
     <message>
         <location filename="../../scribus/commonstrings.cpp" line="298"/>
         <source>&amp;Cancel</source>
-        <translation>&amp;റദ്ദാക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/commonstrings.cpp" line="305"/>
         <source>&amp;OK</source>
-        <translation>&amp;ശരി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/commonstrings.cpp" line="308"/>
         <source>&amp;Save</source>
-        <translation>&amp;സൂക്ഷിക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/commonstrings.cpp" line="311"/>
         <source>Warning</source>
-        <translation>മുന്നറിയിപ്പ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/commonstrings.cpp" line="302"/>
@@ -6073,7 +6131,7 @@ See the Edit Colors section of the documentation for more details.</source>
     <message>
         <location filename="../../scribus/commonstrings.cpp" line="328"/>
         <source>Symbol</source>
-        <translation>ചിഹ്നം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/commonstrings.cpp" line="354"/>
@@ -6084,149 +6142,149 @@ See the Edit Colors section of the documentation for more details.</source>
     <message>
         <location filename="../../scribus/commonstrings.cpp" line="360"/>
         <source>Single Page</source>
-        <translation>ഒറ്റത്താള്‍</translation>
+        <translation>ਇਕਹਿਰਾ ਸਫ਼ਾ</translation>
     </message>
     <message>
         <location filename="../../scribus/commonstrings.cpp" line="362"/>
         <source>3-Fold</source>
-        <translation>3-മടക്ക്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/commonstrings.cpp" line="363"/>
         <source>4-Fold</source>
-        <translation>4-മടക്ക്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/commonstrings.cpp" line="403"/>
         <source>Monday</source>
-        <translation>തിങ്കളാഴ്ച</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/commonstrings.cpp" line="404"/>
         <source>Tuesday</source>
-        <translation>ചൊവ്വാഴ്ച</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/commonstrings.cpp" line="405"/>
         <source>Wednesday</source>
-        <translation>ബുധനാഴ്ച</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/commonstrings.cpp" line="406"/>
         <source>Thursday</source>
-        <translation>വ്യാഴാഴ്ച</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/commonstrings.cpp" line="407"/>
         <source>Friday</source>
-        <translation>വെള്ളിയാഴ്ച</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/commonstrings.cpp" line="408"/>
         <source>Saturday</source>
-        <translation>ശനിയാഴ്ച</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/commonstrings.cpp" line="409"/>
         <source>Sunday</source>
-        <translation>ഞായറാഴ്ച</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/commonstrings.cpp" line="410"/>
         <source>January</source>
-        <translation>ജനുവരി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/commonstrings.cpp" line="411"/>
         <source>February</source>
-        <translation>ഫെബ്രുവരി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/commonstrings.cpp" line="412"/>
         <source>March</source>
-        <translation>മാര്‍ച്ച്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/commonstrings.cpp" line="413"/>
         <source>April</source>
-        <translation>ഏപ്രില്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/commonstrings.cpp" line="414"/>
         <source>May</source>
-        <translation>മേയ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/commonstrings.cpp" line="415"/>
         <source>June</source>
-        <translation>ജൂണ്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/commonstrings.cpp" line="416"/>
         <source>July</source>
-        <translation>ജൂലൈ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/commonstrings.cpp" line="417"/>
         <source>August</source>
-        <translation>ഓഗസ്റ്റ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/commonstrings.cpp" line="418"/>
         <source>September</source>
-        <translation>സെപ്റ്റംബര്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/commonstrings.cpp" line="419"/>
         <source>October</source>
-        <translation>ഒക്റ്റോബര്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/commonstrings.cpp" line="420"/>
         <source>November</source>
-        <translation>നവംബര്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/commonstrings.cpp" line="421"/>
         <source>December</source>
-        <translation>ഡിസംബര്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/commonstrings.cpp" line="313"/>
         <source>Yes</source>
-        <translation>അതെ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/commonstrings.cpp" line="314"/>
         <source>No</source>
-        <translation>ഇല്ല</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/commonstrings.cpp" line="315"/>
         <source>&amp;Yes</source>
-        <translation>&amp;അതെ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/commonstrings.cpp" line="316"/>
         <source>&amp;No</source>
-        <translation>&amp;ഇല്ല</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/commonstrings.cpp" line="361"/>
         <source>Facing Pages</source>
-        <translation type="unfinished"></translation>
+        <translation>ਸਾਹਮਣੇ ਸਫ਼ੇ</translation>
     </message>
     <message>
         <location filename="../../scribus/commonstrings.cpp" line="370"/>
         <source>Left Page</source>
         <comment>Left page location</comment>
-        <translation type="unfinished"></translation>
+        <translation>ਖੱਬਾ ਸਫ਼ਾ</translation>
     </message>
     <message>
         <location filename="../../scribus/commonstrings.cpp" line="371"/>
         <source>Middle</source>
         <comment>Middle page location</comment>
-        <translation>മധ്യത്തില്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/commonstrings.cpp" line="372"/>
@@ -6244,13 +6302,13 @@ See the Edit Colors section of the documentation for more details.</source>
         <location filename="../../scribus/commonstrings.cpp" line="374"/>
         <source>Right Page</source>
         <comment>Right page location</comment>
-        <translation type="unfinished"></translation>
+        <translation>ਸੱਜਾ ਸਫ਼ਾ</translation>
     </message>
     <message>
         <location filename="../../scribus/commonstrings.cpp" line="377"/>
         <source>Normal</source>
         <comment>Default single master page</comment>
-        <translation>സാധാരണ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/commonstrings.cpp" line="379"/>
@@ -6274,31 +6332,31 @@ See the Edit Colors section of the documentation for more details.</source>
         <location filename="../../scribus/commonstrings.cpp" line="430"/>
         <source>Normal Vision</source>
         <comment>Color Blindness - Normal Vision</comment>
-        <translation>സാധാരണകാഴ്ചശക്തി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/commonstrings.cpp" line="431"/>
         <source>Protanopia (Red)</source>
         <comment>Color Blindness - Red Color Blind</comment>
-        <translation>പ്രോടാനോപ്പിയ (ചുവപ്പ്)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/commonstrings.cpp" line="432"/>
         <source>Deuteranopia (Green)</source>
         <comment>Color Blindness - Greed Color Blind</comment>
-        <translation>ഡ്യൂറ്റീരാനോപ്പിയ (പച്ച)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/commonstrings.cpp" line="433"/>
         <source>Tritanopia (Blue)</source>
         <comment>Color Blindness - Blue Color Blind</comment>
-        <translation>റ്റ്രൈറ്റാനോപ്പിയ (നീല)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/commonstrings.cpp" line="434"/>
         <source>Full Color Blindness</source>
         <comment>Color Blindness - Full Color Blindness</comment>
-        <translation>പൂര്‍ണവര്‍ണാന്ധത</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/commonstrings.cpp" line="436"/>
@@ -6396,13 +6454,13 @@ See the Edit Colors section of the documentation for more details.</source>
         <location filename="../../scribus/commonstrings.cpp" line="423"/>
         <source>RGB</source>
         <comment>Colorspace</comment>
-        <translation>RGB</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/commonstrings.cpp" line="424"/>
         <source>CMYK</source>
         <comment>Colorspace</comment>
-        <translation>CMYK</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/commonstrings.cpp" line="425"/>
@@ -6420,12 +6478,12 @@ See the Edit Colors section of the documentation for more details.</source>
         <location filename="../../scribus/commonstrings.cpp" line="428"/>
         <source>Unknown</source>
         <comment>Colorspace (Unknown)</comment>
-        <translation>അജ്ഞാതം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/commonstrings.cpp" line="457"/>
         <source>PostScript</source>
-        <translation>പോസ്റ്റ് സ്ക്രിപ്റ്റ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/commonstrings.cpp" line="320"/>
@@ -6440,17 +6498,17 @@ See the Edit Colors section of the documentation for more details.</source>
     <message>
         <location filename="../../scribus/commonstrings.cpp" line="322"/>
         <source>Line</source>
-        <translation>വര</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/commonstrings.cpp" line="323"/>
         <source>Polygon</source>
-        <translation>ബഹുഭുജം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/commonstrings.cpp" line="324"/>
         <source>Polyline</source>
-        <translation>ബഹുവര</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/commonstrings.cpp" line="325"/>
@@ -6501,12 +6559,12 @@ See the Edit Colors section of the documentation for more details.</source>
     <message>
         <location filename="../../scribus/commonstrings.cpp" line="455"/>
         <source>File</source>
-        <translation>ഫയല്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/commonstrings.cpp" line="459"/>
         <source>PDF</source>
-        <translation>PDF</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/commonstrings.cpp" line="469"/>
@@ -6561,12 +6619,12 @@ See the Edit Colors section of the documentation for more details.</source>
     <message>
         <location filename="../../scribus/commonstrings.cpp" line="331"/>
         <source>Arc</source>
-        <translation>ചാപം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/commonstrings.cpp" line="332"/>
         <source>Spiral</source>
-        <translation>സര്‍പ്പിളം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/commonstrings.cpp" line="333"/>
@@ -6642,12 +6700,12 @@ See the Edit Colors section of the documentation for more details.</source>
     <message>
         <location filename="../../scribus/commonstrings.cpp" line="497"/>
         <source>Alt</source>
-        <translation>Alt</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/commonstrings.cpp" line="498"/>
         <source>Shift</source>
-        <translation>Shift</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/commonstrings.cpp" line="501"/>
@@ -6659,23 +6717,23 @@ See the Edit Colors section of the documentation for more details.</source>
         <location filename="../../scribus/commonstrings.cpp" line="505"/>
         <location filename="../../scribus/commonstrings.cpp" line="509"/>
         <source>Ctrl</source>
-        <translation>Ctrl</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/commonstrings.cpp" line="506"/>
         <source>Windows</source>
         <comment>Windows key on keyboard</comment>
-        <translation>വിന്‍ഡോസ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/commonstrings.cpp" line="510"/>
         <source>Meta</source>
-        <translation>Meta</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/commonstrings.cpp" line="487"/>
         <source>px</source>
-        <translation>px</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -6698,7 +6756,7 @@ See the Edit Colors section of the documentation for more details.</source>
     <message>
         <location filename="../../scribus/ui/contentpalette.cpp" line="339"/>
         <source>Page Properties</source>
-        <translation type="unfinished"></translation>
+        <translation>ਸਫ਼ਾ ਖ਼ਾਸੀਅਤਾਂ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/contentpalette.cpp" line="342"/>
@@ -6760,7 +6818,7 @@ See the Edit Colors section of the documentation for more details.</source>
     <message>
         <location filename="../../scribus/ui/contextmenu.cpp" line="677"/>
         <source>Delete Page</source>
-        <translation type="unfinished"></translation>
+        <translation>ਸਫ਼ਾ ਮਿਟਾਓ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/contextmenu.cpp" line="109"/>
@@ -6771,7 +6829,7 @@ See the Edit Colors section of the documentation for more details.</source>
     <message>
         <location filename="../../scribus/ui/contextmenu.cpp" line="133"/>
         <source>Print: </source>
-        <translation>അച്ചടി:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/contextmenu.cpp" line="136"/>
@@ -6811,7 +6869,7 @@ See the Edit Colors section of the documentation for more details.</source>
     <message>
         <location filename="../../scribus/ui/contextmenu.cpp" line="400"/>
         <source>Image</source>
-        <translation>ചിത്രം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/contextmenu.cpp" line="426"/>
@@ -6851,7 +6909,7 @@ See the Edit Colors section of the documentation for more details.</source>
     <message>
         <location filename="../../scribus/ui/contextmenu.cpp" line="583"/>
         <source>Edit</source>
-        <translation>തിരുത്തുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/contextmenu.cpp" line="569"/>
@@ -6867,7 +6925,7 @@ See the Edit Colors section of the documentation for more details.</source>
     <message>
         <location filename="../../scribus/ui/contextmenu.cpp" line="196"/>
         <source>Content</source>
-        <translation>ഉള്ളടക്കം</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -6875,12 +6933,12 @@ See the Edit Colors section of the documentation for more details.</source>
     <message>
         <location filename="../../scribus/ui/copypagetomasterpage.ui" line="17"/>
         <source>Convert Page to Master Page</source>
-        <translation type="unfinished"></translation>
+        <translation>ਸਫ਼ੇ ਨੂੰ ਮਾਸਟਰ ਸਫ਼ੇ ਵਿੱਚ ਬਦਲੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/copypagetomasterpage.ui" line="37"/>
         <source>Name:</source>
-        <translation>പേര്:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/copypagetomasterpage.ui" line="52"/>
@@ -6893,7 +6951,7 @@ See the Edit Colors section of the documentation for more details.</source>
     <message>
         <location filename="../../scribus/ui/copypagetomasterpagedialog.cpp" line="32"/>
         <source>New Master Page %1</source>
-        <translation type="unfinished"></translation>
+        <translation>ਨਵਾਂ ਮਾਸਟਰ ਸਫ਼ਾ %1</translation>
     </message>
 </context>
 <context>
@@ -6901,7 +6959,7 @@ See the Edit Colors section of the documentation for more details.</source>
     <message>
         <location filename="../../scribus/canvasmode_create.cpp" line="818"/>
         <source>3DAnnot</source>
-        <translation>3DAnnot</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -6914,7 +6972,7 @@ See the Edit Colors section of the documentation for more details.</source>
     <message>
         <location filename="../../scribus/ui/createrange.ui" line="351"/>
         <source>Number of Pages in Document:</source>
-        <translation type="unfinished"></translation>
+        <translation>ਦਸਤਾਵੇਜ਼ ਵਿੱਚ ਸਫ਼ਿਆਂ ਦੀ ਗਿਣਤੀ:</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/createrange.ui" line="36"/>
@@ -6934,7 +6992,7 @@ See the Edit Colors section of the documentation for more details.</source>
     <message>
         <location filename="../../scribus/ui/createrange.ui" line="201"/>
         <source>Alt+L</source>
-        <translation>Alt+L</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/createrange.ui" line="224"/>
@@ -6944,7 +7002,7 @@ See the Edit Colors section of the documentation for more details.</source>
     <message>
         <location filename="../../scribus/ui/createrange.ui" line="227"/>
         <source>Alt+D</source>
-        <translation>Alt+D</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/createrange.ui" line="234"/>
@@ -6954,7 +7012,7 @@ See the Edit Colors section of the documentation for more details.</source>
     <message>
         <location filename="../../scribus/ui/createrange.ui" line="237"/>
         <source>Alt+U</source>
-        <translation>Alt+U</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/createrange.ui" line="48"/>
@@ -6969,7 +7027,7 @@ See the Edit Colors section of the documentation for more details.</source>
     <message>
         <location filename="../../scribus/ui/createrange.ui" line="136"/>
         <source>Even Pages</source>
-        <translation type="unfinished"></translation>
+        <translation>ਜੋਟੇ ਵਾਲੇ ਸਫ਼ੇ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/createrange.ui" line="80"/>
@@ -6989,12 +7047,12 @@ See the Edit Colors section of the documentation for more details.</source>
     <message>
         <location filename="../../scribus/ui/createrange.ui" line="111"/>
         <source>Alt+A</source>
-        <translation>Alt+A</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/createrange.ui" line="70"/>
         <source>Odd Pages</source>
-        <translation type="unfinished"></translation>
+        <translation>ਕਲੀ ਵਾਲੇ ਸਫ਼ੇ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/createrange.ui" line="169"/>
@@ -7033,7 +7091,7 @@ See the Edit Colors section of the documentation for more details.</source>
         <location filename="../../scribus/plugins/gettext/csvim/csvdia.cpp" line="44"/>
         <location filename="../../scribus/plugins/gettext/csvim/csvdia.cpp" line="89"/>
         <source>(TAB)</source>
-        <translation>(TAB)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/gettext/csvim/csvdia.cpp" line="53"/>
@@ -7048,12 +7106,12 @@ See the Edit Colors section of the documentation for more details.</source>
     <message>
         <location filename="../../scribus/plugins/gettext/csvim/csvdia.cpp" line="76"/>
         <source>OK</source>
-        <translation>ശരി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/gettext/csvim/csvdia.cpp" line="79"/>
         <source>Cancel</source>
-        <translation>റദ്ദാക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/gettext/csvim/csvdia.cpp" line="59"/>
@@ -7089,17 +7147,17 @@ See the Edit Colors section of the documentation for more details.</source>
         <location filename="../../scribus/ui/cupsoptions.cpp" line="187"/>
         <location filename="../../scribus/ui/cupsoptions.cpp" line="194"/>
         <source>All Pages</source>
-        <translation>എല്ലാ താളുകളും</translation>
+        <translation>ਸਾਰੇ ਸਫ਼ੇ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/cupsoptions.cpp" line="188"/>
         <source>Even Pages only</source>
-        <translation type="unfinished"></translation>
+        <translation>ਸਿਰਫ਼ ਜੋਟੇ ਵਾਲੇ ਸਫ਼ੇ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/cupsoptions.cpp" line="189"/>
         <source>Odd Pages only</source>
-        <translation type="unfinished"></translation>
+        <translation>ਸਿਰਫ਼ ਕਲੀ ਵਾਲੇ ਸਫ਼ੇ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/cupsoptions.cpp" line="198"/>
@@ -7191,7 +7249,7 @@ See the Edit Colors section of the documentation for more details.</source>
     <message>
         <location filename="../../scribus/ui/curvewidget.cpp" line="424"/>
         <source>Open</source>
-        <translation>തുറക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/curvewidget.cpp" line="460"/>
@@ -7233,7 +7291,7 @@ See the Edit Colors section of the documentation for more details.</source>
         <location filename="../../scribus/ui/curvewidget.cpp" line="424"/>
         <location filename="../../scribus/ui/curvewidget.cpp" line="460"/>
         <source>Curve Files (*.scu *.SCU);;All Files (*)</source>
-        <translation>വക്ര ഫയലുകള്‍ (*.scu *.SCU);;എല്ലാ ഫയലുകളും (*)</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -7315,7 +7373,7 @@ See the Edit Colors section of the documentation for more details.</source>
     <message>
         <location filename="../../scribus/plugins/import/cvg/importcvg.cpp" line="126"/>
         <source>Analyzing File:</source>
-        <translation>ഫയല്‍ പരിശോധിക്കുന്നു:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/import/cvg/importcvg.cpp" line="316"/>
@@ -7333,12 +7391,12 @@ See the Edit Colors section of the documentation for more details.</source>
     <message>
         <location filename="../../scribus/ui/cxfimportdialog.cpp" line="38"/>
         <source>RGB</source>
-        <translation>RGB</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/cxfimportdialog.cpp" line="44"/>
         <source>CMYK</source>
-        <translation>CMYK</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -7359,7 +7417,7 @@ See the Edit Colors section of the documentation for more details.</source>
     <message>
         <location filename="../../scribus/ui/dasheditor.cpp" line="574"/>
         <source>Value:</source>
-        <translation>വില:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/dasheditor.cpp" line="575"/>
@@ -7398,7 +7456,7 @@ See the Edit Colors section of the documentation for more details.</source>
     <message>
         <location filename="../../scribus/ui/delpages.cpp" line="17"/>
         <source>Delete Pages</source>
-        <translation type="unfinished"></translation>
+        <translation>ਸਫ਼ੇ ਮਿਟਾਓ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/delpages.cpp" line="37"/>
@@ -7482,15 +7540,23 @@ See the Edit Colors section of the documentation for more details.</source>
 <context>
     <name>DocumentLogViewer</name>
     <message>
+        <source>Warning</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../../scribus/ui/documentlogviewer.cpp" line="51"/>
         <source>All</source>
-        <translation type="unfinished">എല്ലാം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/documentlogviewer.cpp" line="63"/>
         <source>All</source>
         <comment>Document log level all</comment>
-        <translation type="unfinished">എല്ലാം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/documentlogviewer.cpp" line="64"/>
@@ -7508,7 +7574,7 @@ See the Edit Colors section of the documentation for more details.</source>
         <location filename="../../scribus/ui/documentlogviewer.cpp" line="66"/>
         <source>Error</source>
         <comment>Document log level error</comment>
-        <translation type="unfinished">പിഴവ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/documentlogviewer.cpp" line="67"/>
@@ -7520,7 +7586,7 @@ See the Edit Colors section of the documentation for more details.</source>
         <location filename="../../scribus/ui/documentlogviewer.cpp" line="68"/>
         <source>Warning</source>
         <comment>Document log level warning</comment>
-        <translation type="unfinished">മുന്നറിയിപ്പ്</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -7538,7 +7604,7 @@ See the Edit Colors section of the documentation for more details.</source>
     <message>
         <location filename="../../scribus/ui/documentlogviewerbase.ui" line="32"/>
         <source>Level:</source>
-        <translation type="unfinished">തലം:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/documentlogviewerbase.ui" line="55"/>
@@ -7548,17 +7614,17 @@ See the Edit Colors section of the documentation for more details.</source>
     <message>
         <location filename="../../scribus/ui/documentlogviewerbase.ui" line="74"/>
         <source>Time</source>
-        <translation type="unfinished">സമയം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/documentlogviewerbase.ui" line="84"/>
         <source>Level</source>
-        <translation type="unfinished">തലം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/documentlogviewerbase.ui" line="79"/>
         <source>Source</source>
-        <translation type="unfinished">സ്രോതസ്സ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/documentlogviewerbase.ui" line="89"/>
@@ -7586,12 +7652,12 @@ See the Edit Colors section of the documentation for more details.</source>
     <message>
         <location filename="../../scribus/ui/downloadspalette.cpp" line="17"/>
         <source>Remove</source>
-        <translation>നീക്കം ചെയ്യുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/downloadspalette.cpp" line="18"/>
         <source>Remove All</source>
-        <translation>എല്ലാം നീക്കം ചെയ്യുക</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -7609,12 +7675,12 @@ See the Edit Colors section of the documentation for more details.</source>
     <message>
         <location filename="../../scribus/ui/downloadspalettebase.ui" line="41"/>
         <source>Remove</source>
-        <translation>നീക്കം ചെയ്യുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/downloadspalettebase.ui" line="51"/>
         <source>Remove All</source>
-        <translation>എല്ലാം നീക്കം ചെയ്യുക</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -7632,7 +7698,7 @@ See the Edit Colors section of the documentation for more details.</source>
     <message>
         <location filename="../../scribus/plugins/import/drw/importdrw.cpp" line="140"/>
         <source>Analyzing File:</source>
-        <translation>ഫയല്‍ പരിശോധിക്കുന്നു:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/import/drw/importdrw.cpp" line="333"/>
@@ -7652,12 +7718,12 @@ failed!</source>
     <message>
         <location filename="../../scribus/plugins/import/ps/importps.cpp" line="427"/>
         <source>Fatal Error</source>
-        <translation>ഗുരുതരമായ പിഴവ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/import/ps/importps.cpp" line="766"/>
         <source>Error</source>
-        <translation>പിഴവ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/import/ps/importps.cpp" line="432"/>
@@ -7690,7 +7756,7 @@ failed!</source>
     <message>
         <location filename="../../scribus/ui/edittoolbar.cpp" line="29"/>
         <source>Edit</source>
-        <translation>തിരുത്തുക</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -7703,12 +7769,12 @@ failed!</source>
     <message>
         <location filename="../../scribus/ui/editor.cpp" line="44"/>
         <source>&amp;New</source>
-        <translation>&amp;പുതിയത്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/editor.cpp" line="47"/>
         <source>&amp;Open...</source>
-        <translation>&amp;തുറക്കുക...</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/editor.cpp" line="49"/>
@@ -7738,22 +7804,22 @@ failed!</source>
     <message>
         <location filename="../../scribus/ui/editor.cpp" line="60"/>
         <source>Cu&amp;t</source>
-        <translation>&amp;വെട്ടിയെടുക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/editor.cpp" line="63"/>
         <source>&amp;Copy</source>
-        <translation>&amp;പകര്‍ത്തുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/editor.cpp" line="66"/>
         <source>&amp;Paste</source>
-        <translation>&amp;ഒട്ടിക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/editor.cpp" line="69"/>
         <source>C&amp;lear</source>
-        <translation>&amp;വൃത്തിയാക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/editor.cpp" line="71"/>
@@ -7763,53 +7829,53 @@ failed!</source>
     <message>
         <location filename="../../scribus/ui/editor.cpp" line="73"/>
         <source>&amp;File</source>
-        <translation>&amp;ഫയല്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/editor.cpp" line="80"/>
         <source>&amp;Edit</source>
-        <translation>&amp;തിരുത്തുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/editor.cpp" line="154"/>
         <location filename="../../scribus/ui/editor.cpp" line="170"/>
         <source>JavaScripts (*.js);;All Files (*)</source>
-        <translation>ജാവാസ്ക്രിപ്റ്റുകള്‍ (*.js);; എല്ലാ ഫയലുകളും (*)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/editor.cpp" line="45"/>
         <source>Ctrl+N</source>
-        <translation>Ctrl+N</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/editor.cpp" line="56"/>
         <source>Ctrl+Z</source>
-        <translation>Ctrl+Z</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/editor.cpp" line="61"/>
         <source>Ctrl+X</source>
-        <translation>Ctrl+X</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/editor.cpp" line="64"/>
         <source>Ctrl+C</source>
-        <translation>Ctrl+C</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/editor.cpp" line="67"/>
         <source>Ctrl-V</source>
-        <translation>Ctrl-V</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/editor.cpp" line="104"/>
         <source>OK</source>
-        <translation>ശരി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/editor.cpp" line="108"/>
         <source>Cancel</source>
-        <translation>റദ്ദാക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -7827,7 +7893,7 @@ failed!</source>
     <message>
         <location filename="../../scribus/ui/effectsdialog.cpp" line="108"/>
         <source>Color:</source>
-        <translation>നിറം:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/effectsdialog.cpp" line="84"/>
@@ -7842,7 +7908,7 @@ failed!</source>
     <message>
         <location filename="../../scribus/ui/effectsdialog.cpp" line="136"/>
         <source>Brightness:</source>
-        <translation>ശോഭ:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/effectsdialog.cpp" line="158"/>
@@ -7853,12 +7919,12 @@ failed!</source>
         <location filename="../../scribus/ui/effectsdialog.cpp" line="180"/>
         <location filename="../../scribus/ui/effectsdialog.cpp" line="209"/>
         <source>Radius:</source>
-        <translation>ആരം:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/effectsdialog.cpp" line="191"/>
         <source>Value:</source>
-        <translation>വില:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/effectsdialog.cpp" line="227"/>
@@ -7889,7 +7955,7 @@ failed!</source>
         <location filename="../../scribus/ui/effectsdialog.cpp" line="1228"/>
         <location filename="../../scribus/ui/effectsdialog.cpp" line="1358"/>
         <source>Brightness</source>
-        <translation>ശോഭ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/effectsdialog.cpp" line="470"/>
@@ -7900,7 +7966,7 @@ failed!</source>
         <location filename="../../scribus/ui/effectsdialog.cpp" line="997"/>
         <location filename="../../scribus/ui/effectsdialog.cpp" line="1350"/>
         <source>Colorize</source>
-        <translation>വര്‍ണാഭമാക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/effectsdialog.cpp" line="474"/>
@@ -7953,12 +8019,12 @@ failed!</source>
     <message>
         <location filename="../../scribus/ui/effectsdialog.cpp" line="486"/>
         <source>Add</source>
-        <translation>ചേര്‍ക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/effectsdialog.cpp" line="583"/>
         <source>Remove</source>
-        <translation>നീക്കം ചെയ്യുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/effectsdialog.cpp" line="490"/>
@@ -7968,37 +8034,37 @@ failed!</source>
     <message>
         <location filename="../../scribus/ui/effectsdialog.cpp" line="622"/>
         <source>OK</source>
-        <translation>ശരി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/effectsdialog.cpp" line="625"/>
         <source>Cancel</source>
-        <translation>റദ്ദാക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/effectsdialog.cpp" line="246"/>
         <location filename="../../scribus/ui/effectsdialog.cpp" line="298"/>
         <location filename="../../scribus/ui/effectsdialog.cpp" line="367"/>
         <source>Color 1:</source>
-        <translation>നിറം 1:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/effectsdialog.cpp" line="268"/>
         <location filename="../../scribus/ui/effectsdialog.cpp" line="319"/>
         <location filename="../../scribus/ui/effectsdialog.cpp" line="388"/>
         <source>Color 2:</source>
-        <translation>നിറം 2:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/effectsdialog.cpp" line="340"/>
         <location filename="../../scribus/ui/effectsdialog.cpp" line="409"/>
         <source>Color 3:</source>
-        <translation>നിറം 3:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/effectsdialog.cpp" line="430"/>
         <source>Color 4:</source>
-        <translation>നിറം 4:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/effectsdialog.cpp" line="471"/>
@@ -8041,7 +8107,7 @@ failed!</source>
         <location filename="../../scribus/ui/effectsdialog.cpp" line="1294"/>
         <location filename="../../scribus/ui/effectsdialog.cpp" line="1550"/>
         <source>Curves</source>
-        <translation>വക്രങ്ങള്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -8054,7 +8120,7 @@ failed!</source>
     <message>
         <location filename="../../scribus/plugins/import/emf/importemf.cpp" line="532"/>
         <source>Analyzing File:</source>
-        <translation>ഫയല്‍ പരിശോധിക്കുന്നു:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/import/emf/importemf.cpp" line="1001"/>
@@ -8077,7 +8143,7 @@ failed!</source>
     <message>
         <location filename="../../scribus/plugins/scripter/python/excepthook.ui" line="32"/>
         <source>&amp;Close</source>
-        <translation>&amp;അടയ്ക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/scripter/python/excepthook.ui" line="45"/>
@@ -8087,7 +8153,7 @@ failed!</source>
     <message>
         <location filename="../../scribus/plugins/scripter/python/excepthook.ui" line="52"/>
         <source>&amp;Details &gt;&gt;</source>
-        <translation>&amp;വിശദാംശങ്ങള്‍ &gt;&gt;</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -8126,7 +8192,7 @@ failed!</source>
     <message>
         <location filename="../../scribus/plugins/export/pixmapexport/exportform.ui" line="90"/>
         <source>&amp;All pages</source>
-        <translation>&amp;എല്ലാ പേജുകളും</translation>
+        <translation>&amp;ਸਾਰੇ ਸਫ਼ੇ</translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/export/pixmapexport/dialog.cpp" line="129"/>
@@ -8157,7 +8223,7 @@ Name of the export file will be &apos;documentname-pagenumber.filetype&apos;</so
     <message>
         <location filename="../../scribus/plugins/export/pixmapexport/exportform.ui" line="47"/>
         <source>C&amp;hange...</source>
-        <translation>&amp;മാറ്റുക...</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/export/pixmapexport/exportform.ui" line="34"/>
@@ -8172,7 +8238,7 @@ Name of the export file will be &apos;documentname-pagenumber.filetype&apos;</so
     <message>
         <location filename="../../scribus/plugins/export/pixmapexport/exportform.ui" line="208"/>
         <source>&amp;Quality:</source>
-        <translation>&amp;നിലവാരം:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/export/pixmapexport/exportform.ui" line="14"/>
@@ -8193,12 +8259,12 @@ Name of the export file will be &apos;documentname-pagenumber.filetype&apos;</so
         <location filename="../../scribus/plugins/export/pixmapexport/exportform.ui" line="162"/>
         <location filename="../../scribus/plugins/export/pixmapexport/exportform.ui" line="245"/>
         <source> %</source>
-        <translation> %</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/export/pixmapexport/exportform.ui" line="136"/>
         <source> dpi</source>
-        <translation> dpi</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/export/pixmapexport/exportform.ui" line="77"/>
@@ -8208,7 +8274,7 @@ Name of the export file will be &apos;documentname-pagenumber.filetype&apos;</so
     <message>
         <location filename="../../scribus/plugins/export/pixmapexport/exportform.ui" line="104"/>
         <source>&amp;Current page</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;ਮੌਜੂਦਾ ਸਫ਼ਾ</translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/export/pixmapexport/exportform.ui" line="83"/>
@@ -8223,7 +8289,7 @@ Name of the export file will be &apos;documentname-pagenumber.filetype&apos;</so
     <message>
         <location filename="../../scribus/plugins/export/pixmapexport/dialog.cpp" line="121"/>
         <source>Export all pages</source>
-        <translation type="unfinished"></translation>
+        <translation>ਸਾਰੇ ਸਫ਼ੇ ਬਰਾਮਦ ਕਰੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/export/pixmapexport/dialog.cpp" line="123"/>
@@ -8234,7 +8300,7 @@ Use 72 dpi for Images intended for the Screen</source>
     <message>
         <location filename="../../scribus/plugins/export/pixmapexport/exportform.ui" line="178"/>
         <source>&amp;Size:</source>
-        <translation>&amp;വലിപ്പം:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/export/pixmapexport/dialog.cpp" line="124"/>
@@ -8274,7 +8340,7 @@ Use 72 dpi for Images intended for the Screen</source>
     <message>
         <location filename="../../scribus/plugins/export/pixmapexport/dialog.cpp" line="130"/>
         <source>Don&apos;t export Page Background</source>
-        <translation type="unfinished"></translation>
+        <translation>ਸਫ਼ਿਆਂ ਦੀ ਬੈਗ੍ਰਾਊਂਡ ਬਰਾਮਦ ਨਾ ਕਰੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/export/pixmapexport/dialog.cpp" line="120"/>
@@ -8319,34 +8385,34 @@ a range of pages or a single page number</source>
         <location filename="../../scribus/ui/customfdialog.cpp" line="208"/>
         <location filename="../../scribus/ui/customfdialog.cpp" line="244"/>
         <source>Size:</source>
-        <translation>വലിപ്പം:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/customfdialog.cpp" line="255"/>
         <source>Title:</source>
-        <translation>തലക്കെട്ട്:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/customfdialog.cpp" line="258"/>
         <source>No Title</source>
-        <translation>തലക്കെട്ടില്ല</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/customfdialog.cpp" line="260"/>
         <source>Author:</source>
-        <translation>രചയിതാവ്:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/customfdialog.cpp" line="187"/>
         <location filename="../../scribus/ui/customfdialog.cpp" line="263"/>
         <location filename="../../scribus/ui/customfdialog.cpp" line="268"/>
         <source>Unknown</source>
-        <translation>അജ്ഞാതം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/customfdialog.cpp" line="270"/>
         <source>Scribus Document</source>
-        <translation>സ്ക്രൈബസ് പ്രമാണം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/customfdialog.cpp" line="184"/>
@@ -8356,7 +8422,7 @@ a range of pages or a single page number</source>
     <message>
         <location filename="../../scribus/ui/customfdialog.cpp" line="184"/>
         <source>DPI</source>
-        <translation>DPI</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/customfdialog.cpp" line="190"/>
@@ -8379,7 +8445,7 @@ a range of pages or a single page number</source>
     <message>
         <location filename="../../scribus/plugins/import/fh/importfh.cpp" line="124"/>
         <source>Analyzing File:</source>
-        <translation>ഫയല്‍ പരിശോധിക്കുന്നു:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/import/fh/importfh.cpp" line="316"/>
@@ -8408,7 +8474,7 @@ Document Liberation Project https://www.documentliberation.org</source>
     <message>
         <location filename="../../scribus/ui/filetoolbar.cpp" line="32"/>
         <source>File</source>
-        <translation>ഫയല്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -8431,7 +8497,7 @@ Document Liberation Project https://www.documentliberation.org</source>
     <message>
         <location filename="../../scribus/plugins/tools/flattenpath/flattenpath.cpp" line="102"/>
         <source>Converts a Bezier Path to a Path made of line segments.</source>
-        <translation>ബെസിയര്‍ പാതയെ രേഖാംശങ്ങള്‍ കൊണ്ട് നിര്‍മിതമായ ഒരു പാതയാക്കി പരിവര്‍ത്തനപ്പെടുത്തുന്നു.</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -8472,7 +8538,7 @@ Document Liberation Project https://www.documentliberation.org</source>
     <message>
         <location filename="../../scribus/ui/fontcombo.cpp" line="164"/>
         <source>Style</source>
-        <translation>ശൈലി</translation>
+        <translation>ਅੰਦਾਜ਼</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/fontcombo.cpp" line="165"/>
@@ -8523,7 +8589,7 @@ Document Liberation Project https://www.documentliberation.org</source>
     <message>
         <location filename="../../scribus/fontlistmodel.cpp" line="149"/>
         <source>Style</source>
-        <translation>ശൈലി</translation>
+        <translation>ਅੰਦਾਜ਼</translation>
     </message>
     <message>
         <location filename="../../scribus/fontlistmodel.cpp" line="150"/>
@@ -8533,7 +8599,7 @@ Document Liberation Project https://www.documentliberation.org</source>
     <message>
         <location filename="../../scribus/fontlistmodel.cpp" line="97"/>
         <source>Type</source>
-        <translation>തരം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/fontlistmodel.cpp" line="99"/>
@@ -8564,30 +8630,30 @@ Document Liberation Project https://www.documentliberation.org</source>
         <location filename="../../scribus/fontlistmodel.cpp" line="169"/>
         <source>Unknown</source>
         <comment>font type</comment>
-        <translation>അജ്ഞാതം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/fontlistmodel.cpp" line="182"/>
         <source>Unknown</source>
         <comment>font format</comment>
-        <translation>അജ്ഞാതം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/fontlistmodel.cpp" line="189"/>
         <source>User</source>
         <comment>font preview</comment>
-        <translation>ഉപയോക്താവ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/fontlistmodel.cpp" line="190"/>
         <source>System</source>
         <comment>font preview</comment>
-        <translation>സിസ്റ്റം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/fontlistmodel.cpp" line="214"/>
         <source>Click to change the value</source>
-        <translation>വില മാറ്റുവാന്‍ ഇവിടെയമര്‍ത്തുക</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -8630,7 +8696,7 @@ Document Liberation Project https://www.documentliberation.org</source>
         <location filename="../../scribus/plugins/fontpreview/fontpreview.cpp" line="46"/>
         <source>Woven silk pyjamas exchanged for blue quartz</source>
         <comment>font preview</comment>
-        <translation>Woven silk pyjamas exchanged for blue quartz</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/fontpreview/fontpreview.ui" line="14"/>
@@ -8650,7 +8716,7 @@ Document Liberation Project https://www.documentliberation.org</source>
     <message>
         <location filename="../../scribus/plugins/fontpreview/fontpreview.ui" line="116"/>
         <source>Text</source>
-        <translation>പദസഞ്ചയം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/fontpreview/fontpreview.ui" line="126"/>
@@ -8660,12 +8726,12 @@ Document Liberation Project https://www.documentliberation.org</source>
     <message>
         <location filename="../../scribus/plugins/fontpreview/fontpreview.ui" line="136"/>
         <source>Se&amp;t</source>
-        <translation>&amp;ചിട്ടപ്പെടുത്തുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/fontpreview/fontpreview.ui" line="139"/>
         <source>Alt+T</source>
-        <translation>Alt+T</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/fontpreview/fontpreview.ui" line="146"/>
@@ -8675,12 +8741,12 @@ Document Liberation Project https://www.documentliberation.org</source>
     <message>
         <location filename="../../scribus/plugins/fontpreview/fontpreview.ui" line="174"/>
         <source>&amp;Close</source>
-        <translation>&amp;അടയ്ക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/fontpreview/fontpreview.ui" line="177"/>
         <source>Alt+C</source>
-        <translation>Alt+C</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/fontpreview/fontpreview.cpp" line="116"/>
@@ -8807,7 +8873,7 @@ Document Liberation Project https://www.documentliberation.org</source>
         <location filename="../../scribus/ui/gradienteditor.ui" line="132"/>
         <location filename="../../scribus/ui/gradienteditor.ui" line="229"/>
         <source> %</source>
-        <translation> %</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/gradienteditor.ui" line="109"/>
@@ -8817,7 +8883,7 @@ Document Liberation Project https://www.documentliberation.org</source>
     <message>
         <location filename="../../scribus/ui/gradienteditor.ui" line="167"/>
         <source>Color</source>
-        <translation>നിറം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/gradienteditor.ui" line="206"/>
@@ -8835,12 +8901,12 @@ Document Liberation Project https://www.documentliberation.org</source>
     <message>
         <location filename="../../scribus/ui/widgets/gradientlistbox.cpp" line="355"/>
         <source>Sort by Name</source>
-        <translation type="unfinished">പേരിനനുസരിച്ചടുക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/widgets/gradientlistbox.cpp" line="356"/>
         <source>Sort by Type</source>
-        <translation type="unfinished">തരമനുസരിച്ചടുക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -8881,18 +8947,18 @@ Document Liberation Project https://www.documentliberation.org</source>
     <message>
         <location filename="../../scribus/ui/guidemanager.ui" line="38"/>
         <source>&amp;Single</source>
-        <translation>&amp;ഒറ്റ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/guidemanager.ui" line="58"/>
         <location filename="../../scribus/ui/guidemanager.ui" line="208"/>
         <source>Horizontals</source>
-        <translation>തിരശ്ചീനങ്ങള്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/guidemanager.ui" line="77"/>
         <source>&amp;Add</source>
-        <translation>&amp;ചേര്‍ക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/guidemanager.ui" line="80"/>
@@ -8900,7 +8966,7 @@ Document Liberation Project https://www.documentliberation.org</source>
         <location filename="../../scribus/ui/guidemanager.ui" line="392"/>
         <location filename="../../scribus/ui/guidemanager.ui" line="469"/>
         <source>Alt+A</source>
-        <translation>Alt+A</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/guidemanager.ui" line="90"/>
@@ -8912,23 +8978,23 @@ Document Liberation Project https://www.documentliberation.org</source>
         <location filename="../../scribus/ui/guidemanager.ui" line="300"/>
         <location filename="../../scribus/ui/guidemanager.ui" line="405"/>
         <source>Alt+E</source>
-        <translation>Alt+E</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/guidemanager.ui" line="103"/>
         <location filename="../../scribus/ui/guidemanager.ui" line="313"/>
         <source>Verticals</source>
-        <translation>ലംബങ്ങള്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/guidemanager.ui" line="122"/>
         <source>A&amp;dd</source>
-        <translation>&amp;ചേര്‍ക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/guidemanager.ui" line="125"/>
         <source>Alt+D</source>
-        <translation>Alt+D</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/guidemanager.ui" line="135"/>
@@ -8939,7 +9005,7 @@ Document Liberation Project https://www.documentliberation.org</source>
         <location filename="../../scribus/ui/guidemanager.ui" line="138"/>
         <location filename="../../scribus/ui/guidemanager.ui" line="156"/>
         <source>Alt+L</source>
-        <translation>Alt+L</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/guidemanager.ui" line="153"/>
@@ -8950,13 +9016,13 @@ Document Liberation Project https://www.documentliberation.org</source>
         <location filename="../../scribus/ui/guidemanager.ui" line="166"/>
         <location filename="../../scribus/ui/guidemanager.ui" line="198"/>
         <source>Appl&amp;y to All Pages</source>
-        <translation type="unfinished"></translation>
+        <translation>ਸਾਰੇ ਸਫ਼ਿਆਂ ’ਤੇ &amp;ਲਾਗੂ ਕਰੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/guidemanager.ui" line="169"/>
         <location filename="../../scribus/ui/guidemanager.ui" line="201"/>
         <source>Alt+Y</source>
-        <translation>Alt+Y</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/guidemanager.ui" line="177"/>
@@ -8976,20 +9042,20 @@ Document Liberation Project https://www.documentliberation.org</source>
     <message>
         <location filename="../../scribus/ui/guidemanager.ui" line="249"/>
         <source>Alt+S</source>
-        <translation>Alt+S</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/guidemanager.ui" line="268"/>
         <location filename="../../scribus/ui/guidemanager.ui" line="373"/>
         <source>&amp;Page</source>
-        <translation>&amp;താള്‍</translation>
+        <translation> &amp;ਸਫ਼ਾ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/guidemanager.ui" line="271"/>
         <location filename="../../scribus/ui/guidemanager.ui" line="376"/>
         <location filename="../../scribus/ui/guidemanager.ui" line="456"/>
         <source>Alt+P</source>
-        <translation>Alt+P</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/guidemanager.ui" line="284"/>
@@ -9016,7 +9082,7 @@ Document Liberation Project https://www.documentliberation.org</source>
     <message>
         <location filename="../../scribus/ui/guidemanager.ui" line="354"/>
         <source>Alt+G</source>
-        <translation>Alt+G</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/guidemanager.ui" line="432"/>
@@ -9076,7 +9142,7 @@ Document Liberation Project https://www.documentliberation.org</source>
     <message>
         <location filename="../../scribus/ui/guidemanager.ui" line="163"/>
         <source>Apply to all pages</source>
-        <translation type="unfinished"></translation>
+        <translation>ਸਾਰੇ ਸਫ਼ਿਆਂ ’ਤੇ ਲਾਗੂ ਕਰੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/guidemanager.ui" line="227"/>
@@ -9145,12 +9211,12 @@ Document Liberation Project https://www.documentliberation.org</source>
     <message>
         <location filename="../../scribus/ui/helpbrowser.cpp" line="342"/>
         <source>Scribus Online Help</source>
-        <translation>സ്ക്രൈബസ് ഓണ്‍ലൈന്‍ സഹായം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/helpbrowser.cpp" line="437"/>
         <source>Find</source>
-        <translation>കണ്ടെത്തുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/helpbrowser.cpp" line="437"/>
@@ -9173,18 +9239,18 @@ Document Liberation Project https://www.documentliberation.org</source>
         <location filename="../../scribus/ui/helpbrowser.ui" line="47"/>
         <location filename="../../scribus/ui/helpbrowser.cpp" line="348"/>
         <source>&amp;Print...</source>
-        <translation>&amp;അച്ചടിക്കുക </translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/helpbrowser.cpp" line="344"/>
         <source>&amp;File</source>
-        <translation>&amp;ഫയല്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/helpbrowser.ui" line="57"/>
         <location filename="../../scribus/ui/helpbrowser.cpp" line="350"/>
         <source>&amp;Find...</source>
-        <translation>&amp;കണ്ടെത്തുക...</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/helpbrowser.cpp" line="351"/>
@@ -9194,12 +9260,12 @@ Document Liberation Project https://www.documentliberation.org</source>
     <message>
         <location filename="../../scribus/ui/helpbrowser.cpp" line="352"/>
         <source>Find &amp;Previous</source>
-        <translation type="unfinished"></translation>
+        <translation>ਪਿਛਲਾ ਲੱਭੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/helpbrowser.cpp" line="345"/>
         <source>&amp;Edit</source>
-        <translation>&amp;തിരുത്തുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/helpbrowser.cpp" line="169"/>
@@ -9226,12 +9292,12 @@ Document Liberation Project https://www.documentliberation.org</source>
         <location filename="../../scribus/ui/helpbrowser.ui" line="14"/>
         <location filename="../../scribus/ui/helpbrowser.ui" line="36"/>
         <source>Scribus Help</source>
-        <translation>സ്ക്രൈബസ് സഹായം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/helpbrowser.ui" line="52"/>
         <source>&amp;Exit</source>
-        <translation>&amp;പുറത്തുകടക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/helpbrowser.ui" line="62"/>
@@ -9241,17 +9307,17 @@ Document Liberation Project https://www.documentliberation.org</source>
     <message>
         <location filename="../../scribus/ui/helpbrowser.ui" line="67"/>
         <source>Find &amp;Previous...</source>
-        <translation type="unfinished"></translation>
+        <translation>ਪਿਛਲਾ ਲੱਭੋ...</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/helpbrowser.ui" line="72"/>
         <source>&amp;Add</source>
-        <translation>&amp;ചേര്‍ക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/helpbrowser.cpp" line="349"/>
         <source>&amp;Quit</source>
-        <translation>&amp;പുറത്തുകടക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -9259,12 +9325,12 @@ Document Liberation Project https://www.documentliberation.org</source>
     <message>
         <location filename="../../scribus/ui/helpbrowsernavigation.ui" line="28"/>
         <source>&amp;Contents</source>
-        <translation>&amp;ഉള്ളടക്കങ്ങള്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/helpbrowsernavigation.ui" line="42"/>
         <source>Se&amp;arch</source>
-        <translation>&amp;തിരയുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/helpbrowsernavigation.ui" line="50"/>
@@ -9274,13 +9340,13 @@ Document Liberation Project https://www.documentliberation.org</source>
     <message>
         <location filename="../../scribus/ui/helpbrowsernavigation.ui" line="57"/>
         <source>&amp;Search</source>
-        <translation>&amp;തിരയുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/helpbrowsernavigation.ui" line="67"/>
         <location filename="../../scribus/ui/helpbrowsernavigation.ui" line="83"/>
         <source>1</source>
-        <translation>1</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/helpbrowsernavigation.ui" line="76"/>
@@ -9290,7 +9356,7 @@ Document Liberation Project https://www.documentliberation.org</source>
     <message>
         <location filename="../../scribus/ui/helpbrowsernavigation.ui" line="93"/>
         <source>&amp;New</source>
-        <translation>&amp;പുതിയത്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/helpbrowsernavigation.ui" line="100"/>
@@ -9308,17 +9374,17 @@ Document Liberation Project https://www.documentliberation.org</source>
     <message>
         <location filename="../../scribus/ui/hruler.cpp" line="1084"/>
         <source>Left</source>
-        <translation>ഇടത്ത്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/hruler.cpp" line="1085"/>
         <source>Center</source>
-        <translation>മധ്യം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/hruler.cpp" line="1086"/>
         <source>Comma</source>
-        <translation>അല്പവിരാമം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/hruler.cpp" line="1087"/>
@@ -9326,9 +9392,13 @@ Document Liberation Project https://www.documentliberation.org</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <source>Dot</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../../scribus/ui/hruler.cpp" line="1088"/>
         <source>Right</source>
-        <translation>വലത്ത്</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -9336,7 +9406,7 @@ Document Liberation Project https://www.documentliberation.org</source>
     <message>
         <location filename="../../scribus/plugins/tools/hunspellcheck/hunspelldialog.cpp" line="107"/>
         <source>Spelling check complete</source>
-        <translation>അക്ഷരത്തെറ്റ് പരിശോധന പൂര്‍ണമായി</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -9344,7 +9414,7 @@ Document Liberation Project https://www.documentliberation.org</source>
     <message>
         <location filename="../../scribus/plugins/tools/hunspellcheck/hunspelldialogbase.ui" line="14"/>
         <source>Check Spelling</source>
-        <translation>അക്ഷരത്തെറ്റുണ്ടോയെന്ന് പരിശോധിക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/tools/hunspellcheck/hunspelldialogbase.ui" line="22"/>
@@ -9354,32 +9424,32 @@ Document Liberation Project https://www.documentliberation.org</source>
     <message>
         <location filename="../../scribus/plugins/tools/hunspellcheck/hunspelldialogbase.ui" line="49"/>
         <source>Not in dictionary</source>
-        <translation>നിഘണ്ടുവിലില്ല</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/tools/hunspellcheck/hunspelldialogbase.ui" line="102"/>
         <source>Ignore Once</source>
-        <translation>ഒരുതവണ അവഗണിക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/tools/hunspellcheck/hunspelldialogbase.ui" line="109"/>
         <source>Ignore All</source>
-        <translation>എല്ലാത്തവണയും അവഗണിച്ചേക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/tools/hunspellcheck/hunspelldialogbase.ui" line="59"/>
         <source>Suggestions</source>
-        <translation>നിര്‍ദേശങ്ങള്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/tools/hunspellcheck/hunspelldialogbase.ui" line="71"/>
         <source>Change</source>
-        <translation>മാറ്റുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/tools/hunspellcheck/hunspelldialogbase.ui" line="78"/>
         <source>Change All</source>
-        <translation>എല്ലാം മാറ്റുക</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -9387,7 +9457,7 @@ Document Liberation Project https://www.documentliberation.org</source>
     <message>
         <location filename="../../scribus/plugins/tools/hunspellcheck/hunspellplugin.cpp" line="33"/>
         <source>Check Spelling...</source>
-        <translation>അക്ഷരത്തെറ്റുണ്ടോയെന്ന് പരിശോധിക്കുക...</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -9400,7 +9470,7 @@ Document Liberation Project https://www.documentliberation.org</source>
     <message>
         <location filename="../../scribus/ui/hyask.cpp" line="71"/>
         <source>Accept</source>
-        <translation>അംഗീകരിക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/hyask.cpp" line="94"/>
@@ -9410,7 +9480,7 @@ Document Liberation Project https://www.documentliberation.org</source>
     <message>
         <location filename="../../scribus/ui/hyask.cpp" line="113"/>
         <source>Cancel</source>
-        <translation>റദ്ദാക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/hyask.cpp" line="82"/>
@@ -9455,7 +9525,7 @@ Ignore List</source>
     <message>
         <location filename="../../scribus/plugins/import/idml/importidml.cpp" line="303"/>
         <source>Analyzing File:</source>
-        <translation>ഫയല്‍ പരിശോധിക്കുന്നു:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/import/idml/importidml.cpp" line="504"/>
@@ -9481,17 +9551,17 @@ Ignore List</source>
     <message>
         <location filename="../../scribus/ui/imageinfodialog.cpp" line="23"/>
         <source>Image Info</source>
-        <translation>ചിത്രവിവരണം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/imageinfodialog.cpp" line="30"/>
         <source>General Info</source>
-        <translation>പൊതുവിവരണം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/imageinfodialog.cpp" line="34"/>
         <source>Date / Time:</source>
-        <translation>തീയതി / സമയം:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/imageinfodialog.cpp" line="38"/>
@@ -9516,12 +9586,12 @@ Ignore List</source>
     <message>
         <location filename="../../scribus/ui/imageinfodialog.cpp" line="69"/>
         <source>EXIF Info</source>
-        <translation>EXIF വിവരണം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/imageinfodialog.cpp" line="85"/>
         <source>Artist:</source>
-        <translation>കലാസ്രഷ്ടാവ്:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/imageinfodialog.cpp" line="131"/>
@@ -9536,32 +9606,32 @@ Ignore List</source>
     <message>
         <location filename="../../scribus/ui/imageinfodialog.cpp" line="133"/>
         <source>Camera Model:</source>
-        <translation>ക്യാമറ മാതൃക:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/imageinfodialog.cpp" line="134"/>
         <source>Camera Manufacturer:</source>
-        <translation>ക്യാമറ നിര്‍മാതാവ്:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/imageinfodialog.cpp" line="140"/>
         <source>Description:</source>
-        <translation>വിവരണം:</translation>
+        <translation>ਵੇਰਵਾ:</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/imageinfodialog.cpp" line="141"/>
         <source>Copyright:</source>
-        <translation>പകര്‍പ്പവകാശം:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/imageinfodialog.cpp" line="142"/>
         <source>Scanner Model:</source>
-        <translation>സ്കാനെര്‍ മാതൃക:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/imageinfodialog.cpp" line="143"/>
         <source>Scanner Manufacturer:</source>
-        <translation>സ്കാനെര്‍ നിര്‍മാതാവ്:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/imageinfodialog.cpp" line="135"/>
@@ -9609,7 +9679,7 @@ Ignore List</source>
     <message>
         <location filename="../../scribus/ui/imagelayers.cpp" line="41"/>
         <source>Normal</source>
-        <translation type="unfinished">സാധാരണ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/imagelayers.cpp" line="42"/>
@@ -9634,7 +9704,7 @@ Ignore List</source>
     <message>
         <location filename="../../scribus/ui/imagelayers.cpp" line="46"/>
         <source>Color</source>
-        <translation type="unfinished">നിറം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/imagelayers.cpp" line="47"/>
@@ -9709,12 +9779,12 @@ Ignore List</source>
     <message>
         <location filename="../../scribus/ui/imagelayers.cpp" line="66"/>
         <source> %</source>
-        <translation type="unfinished"> %</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/imagelayers.cpp" line="73"/>
         <source>Name</source>
-        <translation type="unfinished">പേര്</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -9783,7 +9853,7 @@ Ignore List</source>
         <location filename="../../scribus/plugins/import/cdr/importcdrplugin.cpp" line="59"/>
         <location filename="../../scribus/plugins/import/cdr/importcdrplugin.cpp" line="94"/>
         <source>Corel Draw</source>
-        <translation>കോറെല്‍ ഡ്രോ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/import/cdr/importcdrplugin.cpp" line="78"/>
@@ -9817,7 +9887,7 @@ Document Liberation Project https://www.documentliberation.org</source>
         <location filename="../../scribus/plugins/import/cdr/importcdrplugin.cpp" line="60"/>
         <location filename="../../scribus/plugins/import/cdr/importcdrplugin.cpp" line="95"/>
         <source>Corel Draw (*.ccx *.CCX *.cdr *.CDR *.cdt *.CDT *.cmx *.CMX)</source>
-        <translation>കോറെല്‍ ഡ്രോ (*.ccx *.CCX *.cdr *.CDR *.cdt *.CDT *.cmx *.CMX)</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -9825,12 +9895,12 @@ Document Liberation Project https://www.documentliberation.org</source>
     <message>
         <location filename="../../scribus/plugins/import/cgm/importcgmplugin.cpp" line="99"/>
         <source>CGM File</source>
-        <translation>CGM ഫയല്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/import/cgm/importcgmplugin.cpp" line="101"/>
         <source>CGM File (*.cgm *.CGM)</source>
-        <translation>CGM ഫയല്‍ (*.cgm *.CGM)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/import/cgm/importcgmplugin.cpp" line="83"/>
@@ -9891,12 +9961,12 @@ Document Liberation Project https://www.documentliberation.org</source>
     <message>
         <location filename="../../scribus/plugins/import/drw/importdrwplugin.cpp" line="100"/>
         <source>Micrografx DRW File</source>
-        <translation>Micrografx DRW ഫയല്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/import/drw/importdrwplugin.cpp" line="102"/>
         <source>Micrografx DRW File (*.drw *.DRW)</source>
-        <translation>Micrografx DRW ഫയല്‍ (*.drw *.DRW)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/import/drw/importdrwplugin.cpp" line="84"/>
@@ -9916,12 +9986,12 @@ Document Liberation Project https://www.documentliberation.org</source>
     <message>
         <location filename="../../scribus/plugins/import/drw/importdrwplugin.cpp" line="64"/>
         <source>Micrografx Draw</source>
-        <translation>Micrografx ഡ്രോ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/import/drw/importdrwplugin.cpp" line="65"/>
         <source>Micrografx Draw (*.drw *.DRW)</source>
-        <translation>Micrografx ഡ്രോ (*.drw *.DRW)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/import/drw/importdrwplugin.cpp" line="85"/>
@@ -9934,12 +10004,12 @@ Document Liberation Project https://www.documentliberation.org</source>
     <message>
         <location filename="../../scribus/plugins/import/emf/importemfplugin.cpp" line="96"/>
         <source>EMF</source>
-        <translation>EMF</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/import/emf/importemfplugin.cpp" line="97"/>
         <source>EMF (*.emf *.EMF)</source>
-        <translation>EMF (*.emf *.EMF)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/import/emf/importemfplugin.cpp" line="80"/>
@@ -9983,13 +10053,13 @@ Document Liberation Project https://www.documentliberation.org</source>
         <location filename="../../scribus/plugins/import/fh/importfhplugin.cpp" line="57"/>
         <location filename="../../scribus/plugins/import/fh/importfhplugin.cpp" line="92"/>
         <source>Freehand</source>
-        <translation>ഫ്രീഹാന്‍ഡ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/import/fh/importfhplugin.cpp" line="58"/>
         <location filename="../../scribus/plugins/import/fh/importfhplugin.cpp" line="93"/>
         <source>Freehand (*.fh* *.FH*)</source>
-        <translation>ഫ്രീഹാന്‍ഡ് (*.fh* *.FH*)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/import/fh/importfhplugin.cpp" line="76"/>
@@ -10027,14 +10097,14 @@ Document Liberation Project https://www.documentliberation.org</source>
     </message>
     <message>
         <location filename="../../scribus/plugins/import/idml_old/importidml.cpp" line="65"/>
-        <source>Imports Adobe InDesign&apos;s IDML packages into Scribus
+        <source>Imports Adobe InDesign's IDML packages into Scribus
  converting InDesign objects into Scribus pageitems; not all are supported in Scribus, but all those supported are being imported here</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/import/idml_old/importidml.cpp" line="66"/>
         <source>GPL</source>
-        <translation>GPL</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/import/idml_old/importidml.cpp" line="100"/>
@@ -10101,26 +10171,26 @@ Document Liberation Project https://www.documentliberation.org</source>
         <location filename="../../scribus/plugins/import/odg/importodgplugin.cpp" line="100"/>
         <source>ODF Drawing</source>
         <comment>Import/export format name</comment>
-        <translation>ODF ഡ്രോയിങ്ങ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/import/odg/importodgplugin.cpp" line="64"/>
         <location filename="../../scribus/plugins/import/odg/importodgplugin.cpp" line="101"/>
         <source>ODF Drawing (*.odg *.ODG *.fodg *.FODG)</source>
-        <translation>ODF ഡ്രോയിങ്ങ് (*.odg *.ODG *.fodg *.FODG)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/import/odg/importodgplugin.cpp" line="66"/>
         <location filename="../../scribus/plugins/import/odg/importodgplugin.cpp" line="113"/>
         <source>ODF Presentation</source>
         <comment>Import/export format name</comment>
-        <translation>ODF പ്രെസെന്റേഷന്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/import/odg/importodgplugin.cpp" line="67"/>
         <location filename="../../scribus/plugins/import/odg/importodgplugin.cpp" line="114"/>
         <source>ODF Presentation (*.odp *.ODP *.fodp *.FODP)</source>
-        <translation>ODF പ്രെസെന്റേഷന്‍ (*.odp *.ODP *.fodp *.FODP)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/import/odg/importodgplugin.cpp" line="84"/>
@@ -10160,33 +10230,25 @@ converting their vector data into Scribus objects.</source>
 <context>
     <name>ImportPagesPlugin</name>
     <message>
-        <location filename="../../scribus/plugins/import/pages/importpagesplugin.cpp" line="97"/>
-        <source>iWorks Pages</source>
-        <translation>iWorks താളുകള്‍</translation>
-    </message>
-    <message>
-        <location filename="../../scribus/plugins/import/pages/importpagesplugin.cpp" line="98"/>
-        <source>iWorks Pages (*.pages *.PAGES)</source>
-        <translation>iWorks താളുകള്‍ (*.pages *.PAGES)</translation>
-    </message>
-    <message>
-        <location filename="../../scribus/plugins/import/pages/importpagesplugin.cpp" line="81"/>
-        <source>Imports iWorks Pages Files</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../../scribus/plugins/import/pages/importpagesplugin.cpp" line="61"/>
-        <source>Import iWork Pages...</source>
+        <source>Import iWorks Pages...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/import/pages/importpagesplugin.cpp" line="63"/>
-        <source>iWork Pages</source>
+        <location filename="../../scribus/plugins/import/pages/importpagesplugin.cpp" line="97"/>
+        <source>iWorks Pages</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/import/pages/importpagesplugin.cpp" line="64"/>
-        <source>iWork Pages (*.pages *.PAGES)</source>
+        <location filename="../../scribus/plugins/import/pages/importpagesplugin.cpp" line="98"/>
+        <source>iWorks Pages (*.pages *.PAGES)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../scribus/plugins/import/pages/importpagesplugin.cpp" line="81"/>
+        <source>Imports iWorks Pages Files</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -10262,13 +10324,13 @@ converting their vector data into Scribus objects.</source>
         <location filename="../../scribus/plugins/import/pm/importpmplugin.cpp" line="57"/>
         <location filename="../../scribus/plugins/import/pm/importpmplugin.cpp" line="91"/>
         <source>Pagemaker</source>
-        <translation>പേജ്‌മേക്കര്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/import/pm/importpmplugin.cpp" line="58"/>
         <location filename="../../scribus/plugins/import/pm/importpmplugin.cpp" line="92"/>
         <source>Pagemaker (*.pmd *.PMD *.pm *.PM *.pm3 *.PM3 *.pm4 *.PM4 *.pm5 *.PM5 *.pm6 *.PM6 *.p65 *.P65)</source>
-        <translation>പേജ്‌മേക്കര്‍ (*.pmd *.PMD *.pm *.PM *.pm3 *.PM3 *.pm4 *.PM4 *.pm5 *.PM5 *.pm6 *.PM6 *.p65 *.P65)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/import/pm/importpmplugin.cpp" line="75"/>
@@ -10297,13 +10359,13 @@ converting their vector data into Scribus objects.</source>
         <location filename="../../scribus/plugins/import/pub/importpubplugin.cpp" line="57"/>
         <location filename="../../scribus/plugins/import/pub/importpubplugin.cpp" line="91"/>
         <source>MS Publisher</source>
-        <translation>MS പബ്ലിഷര്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/import/pub/importpubplugin.cpp" line="58"/>
         <location filename="../../scribus/plugins/import/pub/importpubplugin.cpp" line="92"/>
         <source>MS Publisher (*.pub *.PUB)</source>
-        <translation>MS പബ്ലിഷര്‍ (*.pub *.PUB)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/import/pub/importpubplugin.cpp" line="75"/>
@@ -10332,13 +10394,13 @@ converting their vector data into Scribus objects.</source>
         <location filename="../../scribus/plugins/import/qxp/importqxpplugin.cpp" line="57"/>
         <location filename="../../scribus/plugins/import/qxp/importqxpplugin.cpp" line="91"/>
         <source>QuarkXPress</source>
-        <translation>QuarkXPress</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/import/qxp/importqxpplugin.cpp" line="58"/>
         <location filename="../../scribus/plugins/import/qxp/importqxpplugin.cpp" line="92"/>
         <source>QuarkXPress (*.qxd *.QXD *.qxt *.QXT)</source>
-        <translation>QuarkXPress (*.qxd *.QXD *.qxt *.QXT)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/import/qxp/importqxpplugin.cpp" line="75"/>
@@ -10377,12 +10439,12 @@ converting their vector data into Scribus objects.</source>
         <location filename="../../scribus/plugins/import/shape/importshapeplugin.cpp" line="57"/>
         <location filename="../../scribus/plugins/import/shape/importshapeplugin.cpp" line="92"/>
         <source>Dia Shapes</source>
-        <translation>ഡയ ഷെയ്പ്സ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/import/shape/importshapeplugin.cpp" line="58"/>
         <source>Dia Shapes (*.shape *.SHAPE)</source>
-        <translation>ഡയ ഷെയ്പ്സ് (*.shape *.SHAPE)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/import/shape/importshapeplugin.cpp" line="77"/>
@@ -10392,7 +10454,7 @@ converting their vector data into Scribus objects.</source>
     <message>
         <location filename="../../scribus/plugins/import/shape/importshapeplugin.cpp" line="94"/>
         <source>Dia shapes (*.shape *.SHAPE)</source>
-        <translation>ഡയ ഷെയ്പ്സ് (*.shape *.SHAPE)</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -10410,12 +10472,12 @@ converting their vector data into Scribus objects.</source>
     <message>
         <location filename="../../scribus/plugins/import/sml/importsmlplugin.cpp" line="91"/>
         <source>Kivio Stencils &quot;*.sml&quot; File</source>
-        <translation>കിവിയോ സ്റ്റെന്‍സില്‍സ് &quot;*.sml&quot; ഫയല്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/import/sml/importsmlplugin.cpp" line="93"/>
         <source>Kivio Stencils &quot;*.sml&quot; File (*.sml *.SML)</source>
-        <translation>കിവിയോ സ്റ്റെന്‍സില്‍സ് &quot;*.sml&quot; ഫയല്‍ (*.sml *.SML)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/import/sml/importsmlplugin.cpp" line="75"/>
@@ -10430,12 +10492,12 @@ converting their vector data into Scribus objects.</source>
     <message>
         <location filename="../../scribus/plugins/import/sml/importsmlplugin.cpp" line="57"/>
         <source>Kivio Stencils</source>
-        <translation>കിവിയോ സ്റ്റെന്‍സില്‍സ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/import/sml/importsmlplugin.cpp" line="58"/>
         <source>Kivio Stencils (*.sml *.SML)</source>
-        <translation>കിവിയോ സ്റ്റെന്‍സില്‍സ് (*.sml *.SML)</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -10449,13 +10511,13 @@ converting their vector data into Scribus objects.</source>
         <location filename="../../scribus/plugins/import/svm/importsvmplugin.cpp" line="63"/>
         <location filename="../../scribus/plugins/import/svm/importsvmplugin.cpp" line="97"/>
         <source>SVM</source>
-        <translation>SVM</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/import/svm/importsvmplugin.cpp" line="64"/>
         <location filename="../../scribus/plugins/import/svm/importsvmplugin.cpp" line="98"/>
         <source>SVM (*.svm *.svm)</source>
-        <translation>SVM (*.svm *.svm)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/import/svm/importsvmplugin.cpp" line="81"/>
@@ -10484,13 +10546,13 @@ converting their vector data into Scribus objects.</source>
         <location filename="../../scribus/plugins/import/viva/importvivaplugin.cpp" line="63"/>
         <location filename="../../scribus/plugins/import/viva/importvivaplugin.cpp" line="97"/>
         <source>Viva Designer XML</source>
-        <translation>വിവ ഡിസൈനര്‍ XML</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/import/viva/importvivaplugin.cpp" line="64"/>
         <location filename="../../scribus/plugins/import/viva/importvivaplugin.cpp" line="98"/>
         <source>Viva Designer XML (*.xml *.XML)</source>
-        <translation>വിവ ഡിസൈനര്‍ XML (*.xml *.XML)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/import/viva/importvivaplugin.cpp" line="81"/>
@@ -10519,13 +10581,13 @@ converting their vector data into Scribus objects.</source>
         <location filename="../../scribus/plugins/import/vsd/importvsdplugin.cpp" line="57"/>
         <location filename="../../scribus/plugins/import/vsd/importvsdplugin.cpp" line="92"/>
         <source>MS Visio</source>
-        <translation>MS വിസിയോ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/import/vsd/importvsdplugin.cpp" line="58"/>
         <location filename="../../scribus/plugins/import/vsd/importvsdplugin.cpp" line="93"/>
         <source>MS Visio (*.vsd *.VSD *.vdx *.VDX *.vsdx *.VSDX)</source>
-        <translation>MS വിസിയോ (*.vsd *.VSD *.vdx *.VDX *.vsdx *.VSDX)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/import/vsd/importvsdplugin.cpp" line="76"/>
@@ -10581,12 +10643,12 @@ converting their vector data into Scribus objects.</source>
     <message>
         <location filename="../../scribus/plugins/import/xar/importxarplugin.cpp" line="91"/>
         <source>XARA &quot;*.xar&quot; File</source>
-        <translation>XARA &quot;*.xar&quot; ഫയല്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/import/xar/importxarplugin.cpp" line="93"/>
         <source>XARA &quot;*.xar&quot; File (*.xar *.XAR)</source>
-        <translation>XARA &quot;*.xar&quot; ഫയല്‍ (*.xar *.XAR)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/import/xar/importxarplugin.cpp" line="75"/>
@@ -10601,12 +10663,12 @@ converting their vector data into Scribus objects.</source>
     <message>
         <location filename="../../scribus/plugins/import/xar/importxarplugin.cpp" line="57"/>
         <source>XARA</source>
-        <translation>XARA</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/import/xar/importxarplugin.cpp" line="58"/>
         <source>XARA (*.xar *.XAR)</source>
-        <translation>XARA (*.xar *.XAR)</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -10643,13 +10705,13 @@ converting their vector data into Scribus objects.</source>
         <location filename="../../scribus/plugins/import/xps/importxpsplugin.cpp" line="64"/>
         <location filename="../../scribus/plugins/import/xps/importxpsplugin.cpp" line="101"/>
         <source>Microsoft XPS</source>
-        <translation>മൈക്രോസോഫ്റ്റ് XPS</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/import/xps/importxpsplugin.cpp" line="65"/>
         <location filename="../../scribus/plugins/import/xps/importxpsplugin.cpp" line="102"/>
         <source>Microsoft XPS (*.xps *.XPS)</source>
-        <translation>മൈക്രോസോഫ്റ്റ് XPS (*.xps *.XPS)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/import/xps/importxpsplugin.cpp" line="67"/>
@@ -10742,17 +10804,17 @@ converting their vector data into Scribus objects.</source>
     <message>
         <location filename="../../scribus/ui/inspage.cpp" line="33"/>
         <source>Insert Page</source>
-        <translation type="unfinished"></translation>
+        <translation>ਸਫ਼ਾ ਦਾਖ਼ਲ ਕਰੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/inspage.cpp" line="57"/>
         <source>before Page</source>
-        <translation type="unfinished"></translation>
+        <translation>ਇਸ ਸਫ਼ੇ ਤੋਂ ਪਹਿਲਾਂ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/inspage.cpp" line="58"/>
         <source>after Page</source>
-        <translation type="unfinished"></translation>
+        <translation>ਇਸ ਸਫ਼ੇ ਤੋਂ ਬਾਅਦ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/inspage.cpp" line="59"/>
@@ -10762,7 +10824,7 @@ converting their vector data into Scribus objects.</source>
     <message>
         <location filename="../../scribus/ui/inspage.cpp" line="53"/>
         <source>Page(s)</source>
-        <translation type="unfinished"></translation>
+        <translation>ਸਫ਼ਾ (ਸਫ਼ੇ)</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/inspage.cpp" line="48"/>
@@ -10773,17 +10835,17 @@ converting their vector data into Scribus objects.</source>
     <message>
         <location filename="../../scribus/ui/inspage.cpp" line="89"/>
         <source>&amp;Master Page:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;ਮਾਸਟਰ ਸਫ਼ਾ:</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/inspage.cpp" line="244"/>
         <source>Page Size</source>
-        <translation>താള്‍ വലിപ്പം</translation>
+        <translation>ਸਫ਼ੇ ਦਾ ਅਕਾਰ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/inspage.cpp" line="248"/>
         <source>&amp;Size:</source>
-        <translation>&amp;വലിപ്പം:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/inspage.cpp" line="254"/>
@@ -10793,22 +10855,22 @@ converting their vector data into Scribus objects.</source>
     <message>
         <location filename="../../scribus/ui/inspage.cpp" line="258"/>
         <source>Portrait</source>
-        <translation type="unfinished"></translation>
+        <translation>ਖੜ੍ਹਵਾਂ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/inspage.cpp" line="259"/>
         <source>Landscape</source>
-        <translation type="unfinished"></translation>
+        <translation>ਲੇਟਵਾਂ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/inspage.cpp" line="265"/>
         <source>&amp;Width:</source>
-        <translation>&amp;വീതി:</translation>
+        <translation>ਚੌੜਾਈ:</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/inspage.cpp" line="273"/>
         <source>&amp;Height:</source>
-        <translation>&amp;പൊക്കം:</translation>
+        <translation>ਉਚਾਈ:</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/inspage.cpp" line="279"/>
@@ -10818,7 +10880,7 @@ converting their vector data into Scribus objects.</source>
     <message>
         <location filename="../../scribus/ui/inspage.cpp" line="75"/>
         <source>Master Pages</source>
-        <translation type="unfinished"></translation>
+        <translation>ਮਾਸਟਰ ਸਫ਼ੇ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/inspage.cpp" line="241"/>
@@ -10831,7 +10893,7 @@ converting their vector data into Scribus objects.</source>
     <message>
         <location filename="../../scribus/ui/insertaframe.cpp" line="231"/>
         <source>Open</source>
-        <translation>തുറക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/insertaframe.ui" line="36"/>
@@ -10856,17 +10918,17 @@ converting their vector data into Scribus objects.</source>
     <message>
         <location filename="../../scribus/ui/insertaframe.ui" line="96"/>
         <source>Page Placement</source>
-        <translation type="unfinished"></translation>
+        <translation>ਸਫ਼ਿਆਂ ਦੀ ਥਾਂ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/insertaframe.ui" line="105"/>
         <source>Current Page</source>
-        <translation type="unfinished"></translation>
+        <translation>ਮੌਜੂਦਾ ਸਫ਼ਾ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/insertaframe.ui" line="115"/>
         <source>All Pages</source>
-        <translation>എല്ലാ താളുകളും</translation>
+        <translation>ਸਾਰੇ ਸਫ਼ੇ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/insertaframe.ui" line="169"/>
@@ -10881,7 +10943,7 @@ converting their vector data into Scribus objects.</source>
     <message>
         <location filename="../../scribus/ui/insertaframe.ui" line="188"/>
         <source>Top Left of Page</source>
-        <translation type="unfinished"></translation>
+        <translation>ਸਫ਼ੇ ਦਾ ਖੱਬਾ ਸਿਖ਼ਰ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/insertaframe.ui" line="198"/>
@@ -10891,27 +10953,27 @@ converting their vector data into Scribus objects.</source>
     <message>
         <location filename="../../scribus/ui/insertaframe.ui" line="242"/>
         <source>X:</source>
-        <translation>X:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/insertaframe.ui" line="235"/>
         <source>Y:</source>
-        <translation>Y:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/insertaframe.ui" line="297"/>
         <source>&amp;Size</source>
-        <translation>&amp;വലിപ്പം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/insertaframe.ui" line="320"/>
         <source>Same as the Page Margins</source>
-        <translation type="unfinished"></translation>
+        <translation>ਸਫ਼ੇ ਦੇ ਹਾਸ਼ੀਏ ਵਾਂਗ ਹੀ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/insertaframe.ui" line="330"/>
         <source>Same as the Page</source>
-        <translation type="unfinished"></translation>
+        <translation>ਸਫ਼ੇ ਵਾਂਗ ਹੀ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/insertaframe.ui" line="340"/>
@@ -10926,12 +10988,12 @@ converting their vector data into Scribus objects.</source>
     <message>
         <location filename="../../scribus/ui/insertaframe.ui" line="387"/>
         <source>Height:</source>
-        <translation>പൊക്കം:</translation>
+        <translation>ਉਚਾਈ:</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/insertaframe.ui" line="394"/>
         <source>Width:</source>
-        <translation>വീതി:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/insertaframe.ui" line="448"/>
@@ -10956,7 +11018,7 @@ converting their vector data into Scribus objects.</source>
     <message>
         <location filename="../../scribus/ui/insertaframe.ui" line="475"/>
         <source>Gap:</source>
-        <translation>വിടവ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/insertaframe.ui" line="555"/>
@@ -10966,7 +11028,7 @@ converting their vector data into Scribus objects.</source>
     <message>
         <location filename="../../scribus/ui/insertaframe.ui" line="125"/>
         <source>Range of Pages</source>
-        <translation type="unfinished"></translation>
+        <translation>ਸਫ਼ਿਆਂ ਦੀ ਹੱਦ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/insertaframe.ui" line="208"/>
@@ -11091,7 +11153,7 @@ converting their vector data into Scribus objects.</source>
     <message>
         <location filename="../../scribus/ui/insertaframe.ui" line="408"/>
         <source>Height of the inserted frame</source>
-        <translation type="unfinished"></translation>
+        <translation>ਦਾਖ਼ਲ ਕੀਤੇ ਫ਼ਰੇਮ ਦੀ ਉਚਾਈ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/insertaframe.ui" line="465"/>
@@ -11177,13 +11239,13 @@ converting their vector data into Scribus objects.</source>
     <message>
         <location filename="../../scribus/ui/inserttablecolumnsdialog.ui" line="69"/>
         <source>Position:</source>
-        <translation>സ്ഥാനം:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/inserttablecolumnsdialog.ui" line="78"/>
         <location filename="../../scribus/ui/inserttablecolumnsdialog.cpp" line="23"/>
         <source>Before</source>
-        <translation>മുമ്പ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/inserttablecolumnsdialog.ui" line="84"/>
@@ -11195,7 +11257,7 @@ converting their vector data into Scribus objects.</source>
         <location filename="../../scribus/ui/inserttablecolumnsdialog.ui" line="91"/>
         <location filename="../../scribus/ui/inserttablecolumnsdialog.cpp" line="24"/>
         <source>After</source>
-        <translation>പിമ്പ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/inserttablecolumnsdialog.cpp" line="29"/>
@@ -11223,13 +11285,13 @@ converting their vector data into Scribus objects.</source>
     <message>
         <location filename="../../scribus/ui/inserttablerowsdialog.ui" line="69"/>
         <source>Position:</source>
-        <translation>സ്ഥാനം:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/inserttablerowsdialog.ui" line="78"/>
         <location filename="../../scribus/ui/inserttablerowsdialog.cpp" line="23"/>
         <source>Before</source>
-        <translation>മുമ്പ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/inserttablerowsdialog.ui" line="84"/>
@@ -11241,7 +11303,7 @@ converting their vector data into Scribus objects.</source>
         <location filename="../../scribus/ui/inserttablerowsdialog.ui" line="91"/>
         <location filename="../../scribus/ui/inserttablerowsdialog.cpp" line="24"/>
         <source>After</source>
-        <translation>പിമ്പ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/inserttablerowsdialog.cpp" line="29"/>
@@ -11285,7 +11347,7 @@ converting their vector data into Scribus objects.</source>
     <message>
         <location filename="../../scribus/ui/javadocs.cpp" line="64"/>
         <source>&amp;Close</source>
-        <translation>&amp;അടയ്ക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/javadocs.cpp" line="84"/>
@@ -11376,12 +11438,12 @@ converting their vector data into Scribus objects.</source>
         <location filename="../../scribus/ui/latexeditor.cpp" line="240"/>
         <location filename="../../scribus/ui/latexeditor.cpp" line="364"/>
         <source>Error</source>
-        <translation>പിഴവ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/latexeditor.cpp" line="366"/>
         <source>Finished</source>
-        <translation>പൂര്‍ണം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/latexeditor.cpp" line="369"/>
@@ -11402,7 +11464,7 @@ converting their vector data into Scribus objects.</source>
         <location filename="../../scribus/ui/latexeditor.cpp" line="129"/>
         <location filename="../../scribus/ui/latexeditor.cpp" line="138"/>
         <source>Information</source>
-        <translation>വിവരം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/latexeditor.cpp" line="130"/>
@@ -11464,7 +11526,7 @@ converting their vector data into Scribus objects.</source>
         <location filename="../../scribus/ui/layers.cpp" line="84"/>
         <location filename="../../scribus/ui/layers.cpp" line="720"/>
         <source>Name</source>
-        <translation>പേര്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/layers.cpp" line="367"/>
@@ -11475,13 +11537,13 @@ converting their vector data into Scribus objects.</source>
         <location filename="../../scribus/ui/layers.cpp" line="63"/>
         <location filename="../../scribus/ui/layers.cpp" line="718"/>
         <source>Opacity:</source>
-        <translation>അതാര്യത:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/layers.cpp" line="70"/>
         <location filename="../../scribus/ui/layers.cpp" line="719"/>
         <source> %</source>
-        <translation> %</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/layers.cpp" line="716"/>
@@ -11710,12 +11772,12 @@ converting their vector data into Scribus objects.</source>
     <message>
         <location filename="../../scribus/ui/linemarkerselector.ui" line="51"/>
         <source>%</source>
-        <translation type="unfinished">%</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/linemarkerselector.cpp" line="105"/>
         <source> %</source>
-        <translation type="unfinished"> %</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/linemarkerselector.cpp" line="108"/>
@@ -11734,7 +11796,7 @@ converting their vector data into Scribus objects.</source>
         <location filename="../../scribus/ui/linestyleselector.cpp" line="86"/>
         <location filename="../../scribus/ui/linestyleselector.cpp" line="139"/>
         <source>No Style</source>
-        <translation type="unfinished">ശൈലിയില്ല</translation>
+        <translation>ਕੋਈ ਅੰਦਾਜ਼ ਨਹੀਂ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/linestyleselector.cpp" line="141"/>
@@ -11747,7 +11809,7 @@ converting their vector data into Scribus objects.</source>
     <message>
         <location filename="../../scribus/loadsaveplugin.cpp" line="211"/>
         <source>All Files (*)</source>
-        <translation>എല്ലാ ഫയലുകളും (*)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/loadsaveplugin.cpp" line="245"/>
@@ -11779,7 +11841,7 @@ converting their vector data into Scribus objects.</source>
     <message>
         <location filename="../../scribus/ui/loremipsum.cpp" line="218"/>
         <source>Author:</source>
-        <translation>രചയിതാവ്:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/loremipsum.cpp" line="220"/>
@@ -11805,12 +11867,12 @@ converting their vector data into Scribus objects.</source>
     <message>
         <location filename="../../scribus/ui/loremipsum.cpp" line="261"/>
         <source>Alt+O</source>
-        <translation>Alt+O</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/loremipsum.cpp" line="263"/>
         <source>Alt+C</source>
-        <translation>Alt+C</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/loremipsum.cpp" line="264"/>
@@ -11975,7 +12037,7 @@ converting their vector data into Scribus objects.</source>
     <message>
         <location filename="../../scribus/ui/marknote.ui" line="65"/>
         <source>Notes Style:</source>
-        <translation type="unfinished"></translation>
+        <translation>ਨੋਟਸ ਦਾ ਅੰਦਾਜ਼:</translation>
     </message>
 </context>
 <context>
@@ -12038,7 +12100,7 @@ converting their vector data into Scribus objects.</source>
     <message>
         <location filename="../../scribus/ui/marksmanager.ui" line="64"/>
         <source>Edit</source>
-        <translation>തിരുത്തുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/marksmanager.ui" line="69"/>
@@ -12121,7 +12183,7 @@ converting their vector data into Scribus objects.</source>
     <message>
         <location filename="../../scribus/ui/measurementsbase.ui" line="100"/>
         <source>Length:</source>
-        <translation>നീളം:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/measurementsbase.ui" line="117"/>
@@ -12136,7 +12198,7 @@ converting their vector data into Scribus objects.</source>
     <message>
         <location filename="../../scribus/ui/measurementsbase.ui" line="151"/>
         <source>Angle:</source>
-        <translation>കോണ്‍:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/measurementsbase.ui" line="168"/>
@@ -12154,7 +12216,7 @@ converting their vector data into Scribus objects.</source>
     <message>
         <location filename="../../scribus/ui/mergedoc.cpp" line="132"/>
         <source>Open</source>
-        <translation>തുറക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/mergedoc.cpp" line="132"/>
@@ -12330,13 +12392,13 @@ If no handle is selected all handles will be reset.</source>
         <location filename="../../scribus/ui/modetoolbar.cpp" line="81"/>
         <location filename="../../scribus/ui/modetoolbar.cpp" line="172"/>
         <source>Angle:</source>
-        <translation>കോണ്‍:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/modetoolbar.cpp" line="86"/>
         <location filename="../../scribus/ui/modetoolbar.cpp" line="173"/>
         <source>Width:</source>
-        <translation>വീതി:</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -12408,7 +12470,7 @@ If no handle is selected all handles will be reset.</source>
     <message>
         <location filename="../../scribus/ui/multiprogressdialog.ui" line="74"/>
         <source>&amp;Cancel</source>
-        <translation>&amp;റദ്ദാക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/multiprogressdialog.cpp" line="67"/>
@@ -12463,7 +12525,7 @@ If no handle is selected all handles will be reset.</source>
     <message>
         <location filename="../../scribus/ui/multipleduplicate.ui" line="100"/>
         <source>Alt+S</source>
-        <translation>Alt+S</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/multipleduplicate.ui" line="166"/>
@@ -12473,7 +12535,7 @@ If no handle is selected all handles will be reset.</source>
     <message>
         <location filename="../../scribus/ui/multipleduplicate.ui" line="169"/>
         <source>Alt+G</source>
-        <translation>Alt+G</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/multipleduplicate.ui" line="156"/>
@@ -12674,7 +12736,7 @@ If no handle is selected all handles will be reset.</source>
     <message>
         <location filename="../../scribus/ui/newdocdialog.cpp" line="292"/>
         <source>Open</source>
-        <translation>തുറക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/newdocdialog.cpp" line="620"/>
@@ -12704,29 +12766,29 @@ If no handle is selected all handles will be reset.</source>
         <location filename="../../scribus/ui/newmarginwidget.cpp" line="99"/>
         <location filename="../../scribus/ui/newmarginwidget.cpp" line="394"/>
         <source>Left</source>
-        <translation>ഇടത്ത്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/newmarginwidgetbase.ui" line="174"/>
         <source>Top</source>
-        <translation>മുകളില്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/newmarginwidgetbase.ui" line="212"/>
         <source>Printer Margins...</source>
-        <translation type="unfinished"></translation>
+        <translation>ਪ੍ਰਿੰਟਰ ਦਾ ਹਾਸ਼ੀਆ...</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/newmarginwidgetbase.ui" line="240"/>
         <source>Bottom</source>
-        <translation>കീഴെ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/newmarginwidgetbase.ui" line="282"/>
         <location filename="../../scribus/ui/newmarginwidget.cpp" line="100"/>
         <location filename="../../scribus/ui/newmarginwidget.cpp" line="395"/>
         <source>Right</source>
-        <translation>വലത്ത്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/newmarginwidget.cpp" line="75"/>
@@ -12741,6 +12803,14 @@ If no handle is selected all handles will be reset.</source>
     <message>
         <location filename="../../scribus/ui/newmarginwidget.cpp" line="79"/>
         <source>Ensure all margins have the same value</source>
+        <translation>ਯਕੀਨੀ ਬਣਾਓ ਕਿ ਸਾਰੇ ਹਾਸ਼ੀਏ ਬਰਾਬਰ ਹੋਣ</translation>
+    </message>
+    <message>
+        <source>Distance between the left margin guide and the edge of the page. If a double-sided, 3 or 4-fold layout is selected, this margin space can be used to achieve the correct margins for binding.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Distance between the right margin guide and the edge of the page. If a double-sided, 3 or 4-fold layout is selected, this margin space can be used to achieve the correct margins for binding.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -12834,6 +12904,10 @@ If no handle is selected all handles will be reset.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <source>Move Control Points</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../../scribus/ui/nodeeditpalette.cpp" line="923"/>
         <source>Add Nodes</source>
         <translation type="unfinished"></translation>
@@ -12844,12 +12918,36 @@ If no handle is selected all handles will be reset.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <source>Reset Control Points</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Reset this Control Point</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Absolute Coordinates</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;X-Pos:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>&amp;Y-Pos:</source>
-        <translation type="vanished">&amp;Y-Pos:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/nodeeditpalette.cpp" line="946"/>
         <source>Hide Nodes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Edit &amp;Contour Line</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Reset Contour Line</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -12870,7 +12968,7 @@ If no handle is selected all handles will be reset.</source>
     <message>
         <location filename="../../scribus/ui/nodeeditpalette.cpp" line="213"/>
         <source>Page</source>
-        <translation type="unfinished">താള്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/nodeeditpalette.cpp" line="214"/>
@@ -12980,7 +13078,7 @@ If no handle is selected all handles will be reset.</source>
     <message>
         <location filename="../../scribus/ui/nodeeditpalette.cpp" line="912"/>
         <source> %</source>
-        <translation> %</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/nodeeditpalette.cpp" line="939"/>
@@ -13008,8 +13106,24 @@ If no handle is selected all handles will be reset.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <source>Set Contour to Image Clip</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../../scribus/ui/nodeeditpalette.cpp" line="949"/>
         <source>Reset the Contour Line to the Clipping Path of the Image</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>to Canvas</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>to Page</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Set Shape to Image Clip</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -13020,16 +13134,20 @@ If no handle is selected all handles will be reset.</source>
     <message>
         <location filename="../../scribus/ui/nodeeditpalette.cpp" line="919"/>
         <source>OK</source>
-        <translation>ശരി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/nodeeditpalette.cpp" line="920"/>
         <source>Cancel</source>
-        <translation>റദ്ദാക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/nodeeditpalette.cpp" line="921"/>
         <source>Reset all edits</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>When checked use coordinates relative to the page, otherwise coordinates are relative to the Object</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -13038,17 +13156,17 @@ If no handle is selected all handles will be reset.</source>
     <message>
         <location filename="../../scribus/ui/notesstyleseditor.ui" line="20"/>
         <source>Notes Styles Editor</source>
-        <translation type="unfinished"></translation>
+        <translation>ਨੋਟਸ ਅੰਦਾਜ਼ ਸੰਪਾਦਕ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/notesstyleseditor.ui" line="52"/>
         <source>Add New Style</source>
-        <translation type="unfinished"></translation>
+        <translation>ਨਵਾਂ ਅੰਦਾਜ਼ ਜੋੜੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/notesstyleseditor.ui" line="63"/>
         <source>New Style Name</source>
-        <translation type="unfinished"></translation>
+        <translation>ਨਵੇਂ ਅੰਦਾਜ਼ ਦਾ ਨਾਂ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/notesstyleseditor.ui" line="79"/>
@@ -13108,7 +13226,7 @@ If no handle is selected all handles will be reset.</source>
     <message>
         <location filename="../../scribus/ui/notesstyleseditor.ui" line="238"/>
         <source>Auto Height</source>
-        <translation type="unfinished"></translation>
+        <translation>ਖ਼ੁਦਮੁਖ਼ਤਾਰ ਉਚਾਈ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/notesstyleseditor.ui" line="252"/>
@@ -13143,13 +13261,13 @@ If no handle is selected all handles will be reset.</source>
         <location filename="../../scribus/ui/notesstyleseditor.cpp" line="239"/>
         <location filename="../../scribus/ui/notesstyleseditor.cpp" line="391"/>
         <source>OK</source>
-        <translation>ശരി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/notesstyleseditor.cpp" line="27"/>
         <location filename="../../scribus/ui/notesstyleseditor.cpp" line="93"/>
         <source>Document</source>
-        <translation>പ്രമാണം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/notesstyleseditor.cpp" line="28"/>
@@ -13160,7 +13278,7 @@ If no handle is selected all handles will be reset.</source>
     <message>
         <location filename="../../scribus/ui/notesstyleseditor.cpp" line="65"/>
         <source>Cancel</source>
-        <translation>റദ്ദാക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/notesstyleseditor.cpp" line="66"/>
@@ -13171,7 +13289,7 @@ If no handle is selected all handles will be reset.</source>
         <location filename="../../scribus/ui/notesstyleseditor.cpp" line="67"/>
         <location filename="../../scribus/ui/notesstyleseditor.cpp" line="377"/>
         <source>Add Style</source>
-        <translation type="unfinished"></translation>
+        <translation>ਅੰਦਾਜ਼ ਜੋੜੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/notesstyleseditor.cpp" line="158"/>
@@ -13185,12 +13303,12 @@ If no handle is selected all handles will be reset.</source>
         <location filename="../../scribus/ui/notesstyleseditor.cpp" line="201"/>
         <location filename="../../scribus/ui/notesstyleseditor.cpp" line="203"/>
         <source>No Style</source>
-        <translation>ശൈലിയില്ല</translation>
+        <translation>ਕੋਈ ਅੰਦਾਜ਼ ਨਹੀਂ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/notesstyleseditor.cpp" line="350"/>
         <source>Warning! Deleting Notes Style</source>
-        <translation type="unfinished"></translation>
+        <translation>ਚਿਤਾਵਨੀ! ਨੋਟਸ ਅੰਦਾਜ਼ ਮਿਟਾ ਰਹੇ ਹੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/notesstyleseditor.cpp" line="351"/>
@@ -13286,7 +13404,7 @@ If no handle is selected all handles will be reset.</source>
     <message>
         <location filename="../../scribus/ui/osgeditor.ui" line="157"/>
         <source>Name:</source>
-        <translation>പേര്:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/osgeditor.ui" line="176"/>
@@ -13356,7 +13474,7 @@ If no handle is selected all handles will be reset.</source>
     <message>
         <location filename="../../scribus/ui/osgeditor.ui" line="279"/>
         <source>Line Color:</source>
-        <translation>വരനിറം:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/osgeditor.ui" line="314"/>
@@ -13366,12 +13484,12 @@ If no handle is selected all handles will be reset.</source>
     <message>
         <location filename="../../scribus/ui/osgeditor.ui" line="349"/>
         <source>Opacity:</source>
-        <translation>അതാര്യത:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/osgeditor.ui" line="359"/>
         <source> %</source>
-        <translation> %</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/osgeditor.ui" line="188"/>
@@ -13466,7 +13584,7 @@ If no handle is selected all handles will be reset.</source>
     <message>
         <location filename="../../scribus/ui/osgeditor.ui" line="469"/>
         <source>Angle:</source>
-        <translation>കോണ്‍:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/osgeditor.ui" line="497"/>
@@ -13495,7 +13613,7 @@ If no handle is selected all handles will be reset.</source>
     <message>
         <location filename="../../scribus/ui/osgeditor.cpp" line="237"/>
         <source>Name:</source>
-        <translation>പേര്:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/osgeditor.cpp" line="237"/>
@@ -13518,7 +13636,7 @@ If no handle is selected all handles will be reset.</source>
     <message>
         <location filename="../../scribus/plugins/import/odg/importodg.cpp" line="142"/>
         <source>Analyzing File:</source>
-        <translation>ഫയല്‍ പരിശോധിക്കുന്നു:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/import/odg/importodg.cpp" line="314"/>
@@ -13668,12 +13786,12 @@ If no handle is selected all handles will be reset.</source>
     <message>
         <location filename="../../scribus/ui/opticalmargineditor.cpp" line="448"/>
         <source>Left</source>
-        <translation type="unfinished">ഇടത്ത്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/opticalmargineditor.cpp" line="448"/>
         <source>Right</source>
-        <translation type="unfinished">വലത്ത്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/opticalmargineditor.cpp" line="448"/>
@@ -13683,7 +13801,7 @@ If no handle is selected all handles will be reset.</source>
     <message>
         <location filename="../../scribus/ui/opticalmargineditor.cpp" line="448"/>
         <source>Characters</source>
-        <translation type="unfinished">അക്ഷരങ്ങള്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -13728,7 +13846,7 @@ If no handle is selected all handles will be reset.</source>
     <message>
         <location filename="../../scribus/ui/outlinepalette.cpp" line="1277"/>
         <source>Page </source>
-        <translation>താള്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/outlinepalette.cpp" line="1371"/>
@@ -13754,7 +13872,7 @@ If no handle is selected all handles will be reset.</source>
     <message>
         <location filename="../../scribus/ui/outlinepalette.cpp" line="570"/>
         <source>Visible</source>
-        <translation>ദൃശ്യം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/outlinepalette.cpp" line="578"/>
@@ -13788,12 +13906,12 @@ If no handle is selected all handles will be reset.</source>
     <message>
         <location filename="../../scribus/ui/styleselect.cpp" line="96"/>
         <source> %</source>
-        <translation> %</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/styleselect.cpp" line="97"/>
         <source>Linewidth:</source>
-        <translation>വരിവീതി:</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -13836,12 +13954,12 @@ If no handle is selected all handles will be reset.</source>
     <message>
         <location filename="../../scribus/ui/outlinepalette.cpp" line="418"/>
         <source>X-Pos:</source>
-        <translation>X-Pos:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/outlinepalette.cpp" line="423"/>
         <source>Y-Pos:</source>
-        <translation>Y-Pos:</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -13884,7 +14002,7 @@ If no handle is selected all handles will be reset.</source>
     <message>
         <location filename="../../scribus/ui/outputpreviewbase.ui" line="116"/>
         <source>Fit to Width</source>
-        <translation>വീതിക്ക് കൊള്ളിക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/outputpreviewbase.ui" line="121"/>
@@ -13899,7 +14017,7 @@ If no handle is selected all handles will be reset.</source>
     <message>
         <location filename="../../scribus/ui/outputpreviewbase.ui" line="173"/>
         <source>Close</source>
-        <translation>അടയ്ക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/outputpreviewbase.ui" line="183"/>
@@ -14012,27 +14130,27 @@ If no handle is selected all handles will be reset.</source>
     <message>
         <location filename="../../scribus/ui/outputpreview_pdf.cpp" line="79"/>
         <source>Cyan</source>
-        <translation>സയാന്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/outputpreview_pdf.cpp" line="87"/>
         <source>Magenta</source>
-        <translation>മജെന്റ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/outputpreview_pdf.cpp" line="95"/>
         <source>Yellow</source>
-        <translation>പീതം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/outputpreview_pdf.cpp" line="103"/>
         <source>Black</source>
-        <translation>കറുപ്പ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/outputpreview_pdf.cpp" line="128"/>
         <source> %</source>
-        <translation> %</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -14045,7 +14163,7 @@ If no handle is selected all handles will be reset.</source>
     <message>
         <location filename="../../scribus/ui/outputpreview_ps.ui" line="48"/>
         <source>Color</source>
-        <translation>നിറം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/outputpreview_ps.ui" line="53"/>
@@ -14145,27 +14263,27 @@ If no handle is selected all handles will be reset.</source>
     <message>
         <location filename="../../scribus/ui/outputpreview_ps.cpp" line="87"/>
         <source>Cyan</source>
-        <translation>സയാന്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/outputpreview_ps.cpp" line="95"/>
         <source>Magenta</source>
-        <translation>മജെന്റ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/outputpreview_ps.cpp" line="103"/>
         <source>Yellow</source>
-        <translation>പീതം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/outputpreview_ps.cpp" line="111"/>
         <source>Black</source>
-        <translation>കറുപ്പ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/outputpreview_ps.cpp" line="136"/>
         <source> %</source>
-        <translation> %</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -14199,12 +14317,12 @@ If no handle is selected all handles will be reset.</source>
     <message>
         <location filename="../../scribus/ui/pdfexportdialog.cpp" line="119"/>
         <source>&amp;Save</source>
-        <translation>&amp;സൂക്ഷിക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/pdfexportdialog.cpp" line="244"/>
         <source>PDF Files (*.pdf);;All Files (*)</source>
-        <translation>PDFഫയലുകള്‍ (*.pdf);;എല്ലാ ഫയലുകളും (*)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/pdfexportdialog.cpp" line="131"/>
@@ -14274,7 +14392,7 @@ Please check it and try again.</source>
     <message>
         <location filename="../../scribus/pdflib_core.cpp" line="3476"/>
         <source>Page:</source>
-        <translation>താള്‍:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/pdflib_core.cpp" line="3486"/>
@@ -14382,27 +14500,27 @@ Please disable experimental PDF and PS embedding and try again.</source>
     <message>
         <location filename="../../scribus/pageitem.cpp" line="440"/>
         <source>Image</source>
-        <translation>ചിത്രം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/pageitem.cpp" line="444"/>
         <source>Text</source>
-        <translation>പദസഞ്ചയം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/pageitem.cpp" line="448"/>
         <source>Line</source>
-        <translation>വര</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/pageitem.cpp" line="452"/>
         <source>Polygon</source>
-        <translation>ബഹുഭുജം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/pageitem.cpp" line="456"/>
         <source>Polyline</source>
-        <translation>ബഹുവര</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/pageitem.cpp" line="460"/>
@@ -14412,7 +14530,7 @@ Please disable experimental PDF and PS embedding and try again.</source>
     <message>
         <location filename="../../scribus/pageitem.cpp" line="464"/>
         <source>Symbol</source>
-        <translation>ചിഹ്നം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/pageitem.cpp" line="8083"/>
@@ -14433,12 +14551,12 @@ Please disable experimental PDF and PS embedding and try again.</source>
     <message>
         <location filename="../../scribus/pageitem.cpp" line="476"/>
         <source>Arc</source>
-        <translation>ചാപം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/pageitem.cpp" line="480"/>
         <source>Spiral</source>
-        <translation>സര്‍പ്പിളം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/pageitem.cpp" line="484"/>
@@ -14498,22 +14616,22 @@ Please disable experimental PDF and PS embedding and try again.</source>
     <message>
         <location filename="../../scribus/ui/pageitemattributes.ui" line="71"/>
         <source>&amp;Add</source>
-        <translation>&amp;ചേര്‍ക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/pageitemattributes.ui" line="74"/>
         <source>Alt+A</source>
-        <translation>Alt+A</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/pageitemattributes.ui" line="81"/>
         <source>&amp;Copy</source>
-        <translation>&amp;പകര്‍ത്തുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/pageitemattributes.ui" line="84"/>
         <source>Alt+C</source>
-        <translation>Alt+C</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/pageitemattributes.ui" line="91"/>
@@ -14523,37 +14641,37 @@ Please disable experimental PDF and PS embedding and try again.</source>
     <message>
         <location filename="../../scribus/ui/pageitemattributes.ui" line="94"/>
         <source>Alt+D</source>
-        <translation>Alt+D</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/pageitemattributes.ui" line="101"/>
         <source>C&amp;lear</source>
-        <translation>&amp;വൃത്തിയാക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/pageitemattributes.ui" line="104"/>
         <source>Alt+L</source>
-        <translation>Alt+L</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/pageitemattributes.ui" line="127"/>
         <source>&amp;OK</source>
-        <translation>&amp;ശരി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/pageitemattributes.ui" line="143"/>
         <source>&amp;Cancel</source>
-        <translation>&amp;റദ്ദാക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/pageitemattributes.ui" line="36"/>
         <source>Name</source>
-        <translation>പേര്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/pageitemattributes.ui" line="41"/>
         <source>Type</source>
-        <translation>തരം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/pageitemattributes.ui" line="46"/>
@@ -14587,7 +14705,7 @@ Please disable experimental PDF and PS embedding and try again.</source>
         <location filename="../../scribus/pageitem_imageframe.cpp" line="381"/>
         <location filename="../../scribus/pageitem_imageframe.cpp" line="487"/>
         <source>Image</source>
-        <translation>ചിത്രം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/pageitem_imageframe.cpp" line="108"/>
@@ -14623,7 +14741,7 @@ Please disable experimental PDF and PS embedding and try again.</source>
     <message>
         <location filename="../../scribus/pageitem_imageframe.cpp" line="113"/>
         <source>Size:</source>
-        <translation>വലിപ്പം:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/pageitem_imageframe.cpp" line="114"/>
@@ -14637,13 +14755,13 @@ Please disable experimental PDF and PS embedding and try again.</source>
         <location filename="../../scribus/pageitem_imageframe.cpp" line="417"/>
         <location filename="../../scribus/pageitem_imageframe.cpp" line="501"/>
         <source>Unknown</source>
-        <translation>അജ്ഞാതം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/pageitem_imageframe.cpp" line="124"/>
         <location filename="../../scribus/pageitem_imageframe.cpp" line="508"/>
         <source>Page:</source>
-        <translation>താള്‍:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/pageitem_imageframe.cpp" line="126"/>
@@ -14685,7 +14803,7 @@ Please disable experimental PDF and PS embedding and try again.</source>
         <location filename="../../scribus/pageitem_latexframe.cpp" line="443"/>
         <location filename="../../scribus/pageitem_latexframe.cpp" line="606"/>
         <source>Error</source>
-        <translation>പിഴവ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/pageitem_latexframe.cpp" line="204"/>
@@ -14722,7 +14840,7 @@ Please disable experimental PDF and PS embedding and try again.</source>
     <message>
         <location filename="../../scribus/pageitem_latexframe.cpp" line="601"/>
         <source>DPI</source>
-        <translation>DPI</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/pageitem_latexframe.cpp" line="603"/>
@@ -14732,7 +14850,7 @@ Please disable experimental PDF and PS embedding and try again.</source>
     <message>
         <location filename="../../scribus/pageitem_latexframe.cpp" line="608"/>
         <source>Finished</source>
-        <translation>പൂര്‍ണം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/pageitem_latexframe.cpp" line="47"/>
@@ -14805,7 +14923,7 @@ Please disable experimental PDF and PS embedding and try again.</source>
         <location filename="../../scribus/pageitem_noteframe.cpp" line="63"/>
         <location filename="../../scribus/pageitem_noteframe.cpp" line="149"/>
         <source>No Style</source>
-        <translation>ശൈലിയില്ല</translation>
+        <translation>ਕੋਈ ਅੰਦਾਜ਼ ਨਹੀਂ</translation>
     </message>
 </context>
 <context>
@@ -14839,7 +14957,7 @@ Please disable experimental PDF and PS embedding and try again.</source>
     <message>
         <location filename="../../scribus/pageitem_pathtext.cpp" line="371"/>
         <source>Paragraphs: </source>
-        <translation>ഖണ്ഡികകള്‍:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/pageitem_pathtext.cpp" line="379"/>
@@ -14849,7 +14967,7 @@ Please disable experimental PDF and PS embedding and try again.</source>
     <message>
         <location filename="../../scribus/pageitem_pathtext.cpp" line="385"/>
         <source>Words: </source>
-        <translation>വാക്കുകള്‍:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/pageitem_pathtext.cpp" line="393"/>
@@ -14872,7 +14990,7 @@ Please disable experimental PDF and PS embedding and try again.</source>
     <message>
         <location filename="../../scribus/pageitem_textframe.cpp" line="5033"/>
         <source>Paragraphs: </source>
-        <translation>ഖണ്ഡികകള്‍:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/pageitem_textframe.cpp" line="5041"/>
@@ -14882,7 +15000,7 @@ Please disable experimental PDF and PS embedding and try again.</source>
     <message>
         <location filename="../../scribus/pageitem_textframe.cpp" line="5047"/>
         <source>Words: </source>
-        <translation>വാക്കുകള്‍:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/pageitem_textframe.cpp" line="5055"/>
@@ -14968,7 +15086,7 @@ Please disable experimental PDF and PS embedding and try again.</source>
     <message>
         <location filename="../../scribus/ui/pagepalette_masterpages.cpp" line="210"/>
         <source>&amp;Name:</source>
-        <translation>&amp;പേര്:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/pagepalette_masterpages.cpp" line="210"/>
@@ -14979,7 +15097,7 @@ Please disable experimental PDF and PS embedding and try again.</source>
     <message>
         <location filename="../../scribus/ui/pagepalette_masterpages.cpp" line="319"/>
         <source>Name:</source>
-        <translation>പേര്:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/pagepalette_masterpages.cpp" line="319"/>
@@ -15076,12 +15194,12 @@ Please disable experimental PDF and PS embedding and try again.</source>
     <message>
         <location filename="../../scribus/ui/pagepropertiesdialog.cpp" line="54"/>
         <source>Page Size</source>
-        <translation>താള്‍ വലിപ്പം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/pagepropertiesdialog.cpp" line="59"/>
         <source>&amp;Size:</source>
-        <translation>&amp;വലിപ്പം:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/pagepropertiesdialog.cpp" line="65"/>
@@ -15101,12 +15219,12 @@ Please disable experimental PDF and PS embedding and try again.</source>
     <message>
         <location filename="../../scribus/ui/pagepropertiesdialog.cpp" line="76"/>
         <source>&amp;Width:</source>
-        <translation>&amp;വീതി:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/pagepropertiesdialog.cpp" line="83"/>
         <source>&amp;Height:</source>
-        <translation>&amp;പൊക്കം:</translation>
+        <translation>ਉਚਾਈ:</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/pagepropertiesdialog.cpp" line="88"/>
@@ -15116,7 +15234,7 @@ Please disable experimental PDF and PS embedding and try again.</source>
     <message>
         <location filename="../../scribus/ui/pagepropertiesdialog.cpp" line="94"/>
         <source>Type:</source>
-        <translation>തരം:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/pagepropertiesdialog.cpp" line="124"/>
@@ -15164,7 +15282,7 @@ Please disable experimental PDF and PS embedding and try again.</source>
     <message>
         <location filename="../../scribus/ui/pageselector.cpp" line="221"/>
         <source>Go to the previous page</source>
-        <translation type="unfinished"></translation>
+        <translation>ਪਿਛਲੇ ਸਫ਼ੇ ’ਤੇ ਜਾਓ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/pageselector.cpp" line="222"/>
@@ -15198,7 +15316,7 @@ Please disable experimental PDF and PS embedding and try again.</source>
     <message>
         <location filename="../../scribus/plugins/import/pages/importpages.cpp" line="206"/>
         <source>Analyzing File:</source>
-        <translation>ഫയല്‍ പരിശോധിക്കുന്നു:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/import/pages/importpages.cpp" line="376"/>
@@ -15329,7 +15447,7 @@ Please disable experimental PDF and PS embedding and try again.</source>
     <message>
         <location filename="../../scribus/plugins/tools/pathcut/pathcut.cpp" line="152"/>
         <source>Error</source>
-        <translation>പിഴവ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/tools/pathcut/pathcut.cpp" line="152"/>
@@ -15358,7 +15476,7 @@ both end points must lie outside of the polygon</source>
     <message>
         <location filename="../../scribus/plugins/tools/2geomtools/pathalongpath/pathdialogbase.ui" line="42"/>
         <source>Single</source>
-        <translation>ഒറ്റ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/tools/2geomtools/pathalongpath/pathdialogbase.ui" line="47"/>
@@ -15539,7 +15657,7 @@ The result is a combination of &quot;Intersection&quot; and &quot;Exclusion&quot
     <message>
         <location filename="../../scribus/plugins/tools/pathfinder/pathfinderbase.ui" line="489"/>
         <source>Fill Color</source>
-        <translation>നിറം നിറയ്ക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/tools/pathfinder/pathfinderbase.ui" line="409"/>
@@ -15627,12 +15745,12 @@ The result is a combination of &quot;Intersection&quot; and &quot;Exclusion&quot
     <message>
         <location filename="../../scribus/ui/patternpropsdialog.cpp" line="174"/>
         <source> pt</source>
-        <translation>പോയിന്റ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/patternpropsdialog.cpp" line="175"/>
         <source> %</source>
-        <translation> %</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/patternpropsdialog.cpp" line="176"/>
@@ -15642,12 +15760,12 @@ The result is a combination of &quot;Intersection&quot; and &quot;Exclusion&quot
     <message>
         <location filename="../../scribus/ui/patternpropsdialog.cpp" line="177"/>
         <source>X:</source>
-        <translation>X:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/patternpropsdialog.cpp" line="179"/>
         <source>Y:</source>
-        <translation>Y:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/patternpropsdialog.cpp" line="181"/>
@@ -15682,7 +15800,7 @@ The result is a combination of &quot;Intersection&quot; and &quot;Exclusion&quot
     <message>
         <location filename="../../scribus/ui/patternpropsdialog.cpp" line="192"/>
         <source>Value:</source>
-        <translation>വില:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/patternpropsdialog.cpp" line="194"/>
@@ -15697,7 +15815,7 @@ The result is a combination of &quot;Intersection&quot; and &quot;Exclusion&quot
     <message>
         <location filename="../../scribus/ui/patternpropsdialog.cpp" line="196"/>
         <source>Angle:</source>
-        <translation>കോണ്‍:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/patternpropsdialog.cpp" line="197"/>
@@ -15707,7 +15825,7 @@ The result is a combination of &quot;Intersection&quot; and &quot;Exclusion&quot
     <message>
         <location filename="../../scribus/ui/patternpropsdialog.cpp" line="198"/>
         <source>Close</source>
-        <translation>അടയ്ക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -15720,7 +15838,7 @@ The result is a combination of &quot;Intersection&quot; and &quot;Exclusion&quot
     <message>
         <location filename="../../scribus/plugins/import/pct/importpct.cpp" line="130"/>
         <source>Analyzing File:</source>
-        <translation>ഫയല്‍ പരിശോധിക്കുന്നു:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/import/pct/importpct.cpp" line="420"/>
@@ -15748,17 +15866,17 @@ The result is a combination of &quot;Intersection&quot; and &quot;Exclusion&quot
     <message>
         <location filename="../../scribus/plugins/import/pdf/pdfimportoptions.ui" line="81"/>
         <source>All Pages</source>
-        <translation>എല്ലാ താളുകളും</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/import/pdf/pdfimportoptions.ui" line="93"/>
         <source>Single Page</source>
-        <translation>ഒറ്റത്താള്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/import/pdf/pdfimportoptions.ui" line="109"/>
         <source>Choose Pages</source>
-        <translation>താളുകള്‍ തിരഞ്ഞെടുക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/import/pdf/pdfimportoptions.ui" line="149"/>
@@ -15793,7 +15911,7 @@ The result is a combination of &quot;Intersection&quot; and &quot;Exclusion&quot
     <message>
         <location filename="../../scribus/plugins/import/pdf/pdfimportoptions.ui" line="196"/>
         <source>Text</source>
-        <translation>പദസഞ്ചയം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/import/pdf/pdfimportoptions.ui" line="205"/>
@@ -15832,7 +15950,7 @@ Please check it and try again.</source>
     <message>
         <location filename="../../scribus/plugins/import/pdf/importpdf.cpp" line="140"/>
         <source>Analyzing File:</source>
-        <translation>ഫയല്‍ പരിശോധിക്കുന്നു:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/import/pdf/importpdf.cpp" line="302"/>
@@ -15847,7 +15965,7 @@ Please check it and try again.</source>
     <message>
         <location filename="../../scribus/plugins/import/pdf/importpdf.cpp" line="324"/>
         <source>Password</source>
-        <translation>അടയാളവാക്ക്</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -15905,7 +16023,7 @@ Please check it and try again.</source>
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Sans Serif&apos;; font-size:8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Sans Serif'; font-size:8pt; font-weight:400; font-style:normal;&quot;&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Attention:&lt;/span&gt; This script file contains code which &lt;span style=&quot; font-style:italic;&quot;&gt;might harm &lt;/span&gt;your system.&lt;/p&gt;
 &lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;You should only permit execution of this script if you are sure that it comes from a trustworthy source. &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
@@ -15921,7 +16039,7 @@ p, li { white-space: pre-wrap; }
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;DejaVu Sans&apos;; font-size:8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'DejaVu Sans'; font-size:8pt; font-weight:400; font-style:normal;&quot;&gt;
 &lt;p style=&quot;-qt-paragraph-type:empty; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;Sans Serif&apos;;&quot;&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
@@ -15946,7 +16064,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../../scribus/ui/picsearch.cpp" line="119"/>
         <source>Size:</source>
-        <translation>വലിപ്പം:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/picsearch.cpp" line="120"/>
@@ -15956,12 +16074,12 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../../scribus/ui/picsearch.cpp" line="120"/>
         <source>DPI</source>
-        <translation>DPI</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/picsearch.cpp" line="123"/>
         <source>Unknown</source>
-        <translation>അജ്ഞാതം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/picsearch.cpp" line="126"/>
@@ -15986,7 +16104,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../../scribus/ui/picsearch.ui" line="76"/>
         <source>Alt+P</source>
-        <translation>Alt+P</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/picsearch.ui" line="148"/>
@@ -15996,7 +16114,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../../scribus/ui/picsearch.ui" line="151"/>
         <source>Alt+M</source>
-        <translation>Alt+M</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/picsearch.ui" line="167"/>
@@ -16011,12 +16129,12 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../../scribus/ui/picsearch.ui" line="198"/>
         <source>Alt+S</source>
-        <translation>Alt+S</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/picsearch.ui" line="208"/>
         <source>Cancel</source>
-        <translation>റദ്ദാക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -16110,7 +16228,7 @@ Please choose another one.</source>
     <message>
         <location filename="../../scribus/ui/picstatus.ui" line="679"/>
         <source>Close</source>
-        <translation>അടയ്ക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/picstatus.cpp" line="300"/>
@@ -16125,7 +16243,7 @@ Please choose another one.</source>
     <message>
         <location filename="../../scribus/ui/picstatus.cpp" line="330"/>
         <source>TIFF</source>
-        <translation>TIFF</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/picstatus.cpp" line="333"/>
@@ -16140,7 +16258,7 @@ Please choose another one.</source>
     <message>
         <location filename="../../scribus/ui/picstatus.cpp" line="339"/>
         <source>PDF</source>
-        <translation>PDF</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/picstatus.cpp" line="342"/>
@@ -16155,7 +16273,7 @@ Please choose another one.</source>
     <message>
         <location filename="../../scribus/ui/picstatus.cpp" line="354"/>
         <source>Unknown</source>
-        <translation>അജ്ഞാതം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/picstatus.cpp" line="371"/>
@@ -16165,7 +16283,7 @@ Please choose another one.</source>
     <message>
         <location filename="../../scribus/ui/picstatus.ui" line="82"/>
         <source>Information</source>
-        <translation>വിവരം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/picstatus.ui" line="154"/>
@@ -16180,12 +16298,12 @@ Please choose another one.</source>
     <message>
         <location filename="../../scribus/ui/picstatus.ui" line="104"/>
         <source>Name:</source>
-        <translation>പേര്:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/picstatus.ui" line="230"/>
         <source>Image</source>
-        <translation>ചിത്രം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/picstatus.ui" line="303"/>
@@ -16205,7 +16323,7 @@ Please choose another one.</source>
     <message>
         <location filename="../../scribus/ui/picstatus.ui" line="338"/>
         <source>Size</source>
-        <translation>വലിപ്പം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/picstatus.ui" line="344"/>
@@ -16270,7 +16388,7 @@ Please choose another one.</source>
     <message>
         <location filename="../../scribus/ui/picstatus.cpp" line="262"/>
         <source>Sort by Name</source>
-        <translation>പേരിനനുസരിച്ചടുക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/picstatus.cpp" line="264"/>
@@ -16501,7 +16619,7 @@ Please choose another one.</source>
     <message>
         <location filename="../../scribus/plugins/picbrowser/picturebrowser.ui" line="628"/>
         <source>Sort by Name</source>
-        <translation>പേരിനനുസരിച്ചടുക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/picbrowser/picturebrowser.ui" line="633"/>
@@ -16516,7 +16634,7 @@ Please choose another one.</source>
     <message>
         <location filename="../../scribus/plugins/picbrowser/picturebrowser.ui" line="643"/>
         <source>Sort by Type</source>
-        <translation>തരമനുസരിച്ചടുക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/picbrowser/picturebrowser.ui" line="704"/>
@@ -16572,22 +16690,22 @@ Please choose another one.</source>
     <message>
         <location filename="../../scribus/plugins/picbrowser/picturebrowser.ui" line="904"/>
         <source>Close</source>
-        <translation>അടയ്ക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/picbrowser/picturebrowser.ui" line="934"/>
         <source>Information</source>
-        <translation>വിവരം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/picbrowser/picturebrowser.ui" line="946"/>
         <source>File</source>
-        <translation>ഫയല്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/picbrowser/picturebrowser.ui" line="952"/>
         <source>Name:</source>
-        <translation>പേര്:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/picbrowser/picturebrowser.ui" line="972"/>
@@ -16597,7 +16715,7 @@ Please choose another one.</source>
     <message>
         <location filename="../../scribus/plugins/picbrowser/picturebrowser.ui" line="1009"/>
         <source>Size:</source>
-        <translation>വലിപ്പം:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/picbrowser/picturebrowser.ui" line="1029"/>
@@ -16607,7 +16725,7 @@ Please choose another one.</source>
     <message>
         <location filename="../../scribus/plugins/picbrowser/picturebrowser.ui" line="1065"/>
         <source>Image</source>
-        <translation>ചിത്രം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/picbrowser/picturebrowser.ui" line="1151"/>
@@ -16618,7 +16736,7 @@ Please choose another one.</source>
         <location filename="../../scribus/plugins/picbrowser/picturebrowser.ui" line="1123"/>
         <location filename="../../scribus/plugins/picbrowser/picturebrowser.ui" line="1775"/>
         <source>Width:</source>
-        <translation>വീതി:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/picbrowser/picturebrowser.ui" line="1158"/>
@@ -16629,7 +16747,7 @@ Please choose another one.</source>
         <location filename="../../scribus/plugins/picbrowser/picturebrowser.ui" line="1179"/>
         <location filename="../../scribus/plugins/picbrowser/picturebrowser.ui" line="1785"/>
         <source>Height:</source>
-        <translation>പൊക്കം:</translation>
+        <translation>ਉਚਾਈ:</translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/picbrowser/picturebrowser.ui" line="1172"/>
@@ -16639,17 +16757,17 @@ Please choose another one.</source>
     <message>
         <location filename="../../scribus/plugins/picbrowser/picturebrowser.ui" line="1165"/>
         <source>Layers:</source>
-        <translation type="unfinished"></translation>
+        <translation>ਪਰਤਾਂ:</translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/picbrowser/picturebrowser.ui" line="1095"/>
         <source>Embedded Profile:</source>
-        <translation type="unfinished"></translation>
+        <translation>ਜੜੀ ਹੋਈ ਪ੍ਰੋਫ਼ਾਈਲ:</translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/picbrowser/picturebrowser.ui" line="1109"/>
         <source>Profile Name:</source>
-        <translation type="unfinished"></translation>
+        <translation>ਪ੍ਰੋਫ਼ਾਈਲ ਦਾ ਨਾਂ:</translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/picbrowser/picturebrowser.ui" line="1203"/>
@@ -16694,18 +16812,18 @@ Please choose another one.</source>
     <message>
         <location filename="../../scribus/plugins/picbrowser/picturebrowser.ui" line="1367"/>
         <source>Date</source>
-        <translation>തീയതി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/picbrowser/picturebrowser.ui" line="1372"/>
         <location filename="../../scribus/plugins/picbrowser/picturebrowser.ui" line="1766"/>
         <source>Size</source>
-        <translation>വലിപ്പം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/picbrowser/picturebrowser.ui" line="1377"/>
         <source>Type</source>
-        <translation>തരം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/picbrowser/picturebrowser.ui" line="1382"/>
@@ -16800,12 +16918,12 @@ Please choose another one.</source>
     <message>
         <location filename="../../scribus/plugins/picbrowser/picturebrowser.ui" line="1724"/>
         <source>X:</source>
-        <translation>X:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/picbrowser/picturebrowser.ui" line="1714"/>
         <source>Y:</source>
-        <translation>Y:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/picbrowser/picturebrowser.ui" line="1822"/>
@@ -16965,7 +17083,7 @@ Please choose another one.</source>
     <message>
         <location filename="../../scribus/plugins/picbrowser/picturebrowser.cpp" line="1641"/>
         <source>TIFF</source>
-        <translation>TIFF</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/picbrowser/picturebrowser.cpp" line="1645"/>
@@ -16980,7 +17098,7 @@ Please choose another one.</source>
     <message>
         <location filename="../../scribus/plugins/picbrowser/picturebrowser.cpp" line="1653"/>
         <source>PDF</source>
-        <translation>PDF</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/picbrowser/picturebrowser.cpp" line="1657"/>
@@ -17020,7 +17138,7 @@ Please choose another one.</source>
     <message>
         <location filename="../../scribus/plugins/picbrowser/picturebrowser.ui" line="1629"/>
         <source>Page(s):</source>
-        <translation type="unfinished"></translation>
+        <translation>ਸਫ਼ਾ (ਸਫ਼ੇ):</translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/picbrowser/picturebrowser.ui" line="1652"/>
@@ -17142,12 +17260,12 @@ Please choose another one.</source>
     <message>
         <location filename="../../scribus/plugins/picbrowser/picturebrowser.ui" line="1808"/>
         <source>Width</source>
-        <translation>വീതി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/picbrowser/picturebrowser.ui" line="1795"/>
         <source>Height</source>
-        <translation>പൊക്കം</translation>
+        <translation>ਉਚਾਈ</translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/picbrowser/picturebrowser.ui" line="1957"/>
@@ -17284,7 +17402,7 @@ Please choose another one.</source>
     <message>
         <location filename="../../scribus/plugins/import/pm/importpm.cpp" line="117"/>
         <source>Analyzing File:</source>
-        <translation>ഫയല്‍ പരിശോധിക്കുന്നു:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/import/pm/importpm.cpp" line="309"/>
@@ -17365,7 +17483,7 @@ Document Liberation Project https://www.documentliberation.org</source>
         <location filename="../../scribus/ui/polygonwidgetbase.ui" line="273"/>
         <location filename="../../scribus/ui/polygonwidgetbase.ui" line="303"/>
         <source> %</source>
-        <translation> %</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/polygonwidgetbase.ui" line="230"/>
@@ -17389,12 +17507,12 @@ Document Liberation Project https://www.documentliberation.org</source>
         <location filename="../../scribus/ui/preferences/preferencesdialogbase.ui" line="14"/>
         <location filename="../../scribus/ui/preferences/preferencesdialog.cpp" line="394"/>
         <source>Preferences</source>
-        <translation type="unfinished"></translation>
+        <translation>ਖ਼ਾਸੀਅਤਾਂ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/preferencesdialogbase.ui" line="74"/>
         <source>Search</source>
-        <translation type="unfinished"></translation>
+        <translation>ਖੋਜੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/preferencesdialogbase.ui" line="104"/>
@@ -17409,7 +17527,7 @@ Document Liberation Project https://www.documentliberation.org</source>
     <message>
         <location filename="../../scribus/ui/preferences/preferencesdialog.cpp" line="35"/>
         <source>Document Setup</source>
-        <translation type="unfinished"></translation>
+        <translation>ਦਸਤਾਵੇਜ਼ ਸੈੱਟਅਪ</translation>
     </message>
 </context>
 <context>
@@ -17435,7 +17553,7 @@ Do you want to migrate them to the new Scribus version?</source>
         <location filename="../../scribus/prefsmanager.cpp" line="2480"/>
         <location filename="../../scribus/prefsmanager.cpp" line="2490"/>
         <source>PostScript</source>
-        <translation>പോസ്റ്റ് സ്ക്രിപ്റ്റ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/prefsmanager.cpp" line="1973"/>
@@ -17561,7 +17679,7 @@ Do you want to migrate them to the new Scribus version?</source>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_colormanagementbase.ui" line="304"/>
         <source>Images:</source>
-        <translation>ചിത്രങ്ങള്‍:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_colormanagementbase.ui" line="314"/>
@@ -17675,57 +17793,57 @@ Do you want to migrate them to the new Scribus version?</source>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_displaybase.ui" line="151"/>
         <source>Scratch Space</source>
-        <translation type="unfinished"></translation>
+        <translation>ਕੱਚੇ ਕੰਮ ਲਈ ਥਾਂ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_displaybase.ui" line="159"/>
         <source>Left:</source>
-        <translation>ഇടത്ത്:</translation>
+        <translation>ਖੱਬਾ:</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_displaybase.ui" line="169"/>
         <source>Right:</source>
-        <translation>വലത്ത്:</translation>
+        <translation>ਸੱਜਾ:</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_displaybase.ui" line="179"/>
         <source>Top:</source>
-        <translation>മുകളില്‍:</translation>
+        <translation>ਸਿਖ਼ਰ:</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_displaybase.ui" line="189"/>
         <source>Bottom:</source>
-        <translation>കീഴെ:</translation>
+        <translation>ਥੱਲਾ:</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_displaybase.ui" line="275"/>
         <source>Display Scaling</source>
-        <translation type="unfinished"></translation>
+        <translation>ਡਿਸਪਲੇਅ ਪੈਮਾਨਾ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_displaybase.ui" line="423"/>
         <source>Scratch Space:</source>
-        <translation type="unfinished"></translation>
+        <translation>ਕੱਚੇ ਕੰਮ ਲਈ ਥਾਂ:</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_displaybase.ui" line="223"/>
         <source>Gaps Between Pages</source>
-        <translation type="unfinished"></translation>
+        <translation>ਸਫ਼ਿਆਂ ਵਿਚਲੇ ਵਿੱਥ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_displaybase.ui" line="54"/>
         <source>Pages</source>
-        <translation>താളുകള്‍</translation>
+        <translation>ਸਫ਼ੇ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_displaybase.ui" line="239"/>
         <source>Horizontal:</source>
-        <translation type="unfinished"></translation>
+        <translation>ਲੇਟਵੀਂ:</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_displaybase.ui" line="249"/>
         <source>Vertical:</source>
-        <translation type="unfinished"></translation>
+        <translation>ਖੜ੍ਹਵੀਂ:</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_displaybase.ui" line="299"/>
@@ -17740,7 +17858,7 @@ Do you want to migrate them to the new Scribus version?</source>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_displaybase.ui" line="367"/>
         <source>Colors</source>
-        <translation>നിറങ്ങള്‍</translation>
+        <translation>ਰੰਗ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_displaybase.ui" line="409"/>
@@ -17857,7 +17975,7 @@ Do you want to migrate them to the new Scribus version?</source>
         <location filename="../../scribus/ui/preferences/prefs_display.cpp" line="271"/>
         <location filename="../../scribus/ui/preferences/prefs_display.cpp" line="279"/>
         <source> dpi</source>
-        <translation> dpi</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_display.cpp" line="75"/>
@@ -17876,17 +17994,17 @@ Do you want to migrate them to the new Scribus version?</source>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_documentinformationbase.ui" line="54"/>
         <source>Document</source>
-        <translation>പ്രമാണം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_documentinformationbase.ui" line="60"/>
         <source>Title:</source>
-        <translation>തലക്കെട്ട്:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_documentinformationbase.ui" line="77"/>
         <source>Author:</source>
-        <translation>രചയിതാവ്:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_documentinformationbase.ui" line="87"/>
@@ -17901,7 +18019,7 @@ Do you want to migrate them to the new Scribus version?</source>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_documentinformationbase.ui" line="111"/>
         <source>Description:</source>
-        <translation>വിവരണം:</translation>
+        <translation>ਵੇਰਵਾ:</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_documentinformationbase.ui" line="126"/>
@@ -17926,7 +18044,7 @@ Do you want to migrate them to the new Scribus version?</source>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_documentinformationbase.ui" line="205"/>
         <source>Type:</source>
-        <translation>തരം:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_documentinformationbase.ui" line="219"/>
@@ -17946,7 +18064,7 @@ Do you want to migrate them to the new Scribus version?</source>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_documentinformationbase.ui" line="249"/>
         <source>Language:</source>
-        <translation>ഭാഷ:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_documentinformationbase.ui" line="263"/>
@@ -17976,12 +18094,12 @@ Do you want to migrate them to the new Scribus version?</source>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_documentitemattributesbase.ui" line="54"/>
         <source>Name</source>
-        <translation>പേര്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_documentitemattributesbase.ui" line="59"/>
         <source>Type</source>
-        <translation>തരം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_documentitemattributesbase.ui" line="64"/>
@@ -18011,22 +18129,22 @@ Do you want to migrate them to the new Scribus version?</source>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_documentitemattributesbase.ui" line="110"/>
         <source>&amp;Add</source>
-        <translation>&amp;ചേര്‍ക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_documentitemattributesbase.ui" line="113"/>
         <source>Alt+A</source>
-        <translation>Alt+A</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_documentitemattributesbase.ui" line="120"/>
         <source>&amp;Copy</source>
-        <translation>&amp;പകര്‍ത്തുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_documentitemattributesbase.ui" line="123"/>
         <source>Alt+C</source>
-        <translation>Alt+C</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_documentitemattributesbase.ui" line="130"/>
@@ -18036,17 +18154,17 @@ Do you want to migrate them to the new Scribus version?</source>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_documentitemattributesbase.ui" line="133"/>
         <source>Alt+D</source>
-        <translation>Alt+D</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_documentitemattributesbase.ui" line="140"/>
         <source>C&amp;lear</source>
-        <translation>&amp;വൃത്തിയാക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_documentitemattributesbase.ui" line="143"/>
         <source>Alt+L</source>
-        <translation>Alt+L</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_documentitemattributes.cpp" line="22"/>
@@ -18138,7 +18256,7 @@ Do you want to migrate them to the new Scribus version?</source>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_documentsectionsbase.ui" line="60"/>
         <source>Name</source>
-        <translation>പേര്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_documentsectionsbase.ui" line="65"/>
@@ -18158,7 +18276,7 @@ Do you want to migrate them to the new Scribus version?</source>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_documentsectionsbase.ui" line="85"/>
         <source>Style</source>
-        <translation>ശൈലി</translation>
+        <translation>ਅੰਦਾਜ਼</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_documentsectionsbase.ui" line="90"/>
@@ -18168,12 +18286,12 @@ Do you want to migrate them to the new Scribus version?</source>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_documentsectionsbase.ui" line="126"/>
         <source>&amp;Add</source>
-        <translation>&amp;ചേര്‍ക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_documentsectionsbase.ui" line="129"/>
         <source>Alt+A</source>
-        <translation>Alt+A</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_documentsectionsbase.ui" line="136"/>
@@ -18183,7 +18301,7 @@ Do you want to migrate them to the new Scribus version?</source>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_documentsectionsbase.ui" line="139"/>
         <source>Alt+D</source>
-        <translation>Alt+D</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_documentsectionsbase.ui" line="95"/>
@@ -18217,12 +18335,12 @@ Do you want to migrate them to the new Scribus version?</source>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_documentsetupbase.ui" line="107"/>
         <source>Page Size</source>
-        <translation>താള്‍ വലിപ്പം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_documentsetupbase.ui" line="123"/>
         <source>Size:</source>
-        <translation>വലിപ്പം:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_documentsetupbase.ui" line="144"/>
@@ -18237,12 +18355,12 @@ Do you want to migrate them to the new Scribus version?</source>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_documentsetupbase.ui" line="170"/>
         <source>Width:</source>
-        <translation>വീതി:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_documentsetupbase.ui" line="183"/>
         <source>Height:</source>
-        <translation>പൊക്കം:</translation>
+        <translation>ਉਚਾਈ:</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_documentsetupbase.ui" line="198"/>
@@ -18354,22 +18472,22 @@ Do you want to migrate them to the new Scribus version?</source>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_documentsetupbase.ui" line="300"/>
         <source>Single Page</source>
-        <translation>ഒറ്റത്താള്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_documentsetupbase.ui" line="280"/>
         <source>3-Fold</source>
-        <translation>3-മടക്ക്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_documentsetupbase.ui" line="270"/>
         <source>4-Fold</source>
-        <translation>4-മടക്ക്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_documentsetupbase.ui" line="61"/>
         <source>Language:</source>
-        <translation>ഭാഷ:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_documentsetupbase.ui" line="253"/>
@@ -18384,12 +18502,12 @@ Do you want to migrate them to the new Scribus version?</source>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_documentsetupbase.ui" line="376"/>
         <source>Margins</source>
-        <translation>വിളുമ്പുകള്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_documentsetupbase.ui" line="457"/>
         <source>Bleeds</source>
-        <translation>ബ്ലീഡുകള്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_documentsetup.cpp" line="111"/>
@@ -18530,7 +18648,7 @@ Do you want to migrate them to the new Scribus version?</source>
         <location filename="../../scribus/ui/preferences/prefs_externaltoolsbase.ui" line="488"/>
         <location filename="../../scribus/ui/preferences/prefs_externaltoolsbase.ui" line="611"/>
         <source>Alt+C</source>
-        <translation>Alt+C</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_externaltoolsbase.ui" line="124"/>
@@ -18545,7 +18663,7 @@ Do you want to migrate them to the new Scribus version?</source>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_externaltoolsbase.ui" line="130"/>
         <source>Alt+T</source>
-        <translation>Alt+T</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_externaltoolsbase.ui" line="153"/>
@@ -18560,7 +18678,7 @@ Do you want to migrate them to the new Scribus version?</source>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_externaltoolsbase.ui" line="159"/>
         <source>Alt+G</source>
-        <translation>Alt+G</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_externaltoolsbase.ui" line="182"/>
@@ -18572,7 +18690,7 @@ Do you want to migrate them to the new Scribus version?</source>
         <location filename="../../scribus/ui/preferences/prefs_externaltoolsbase.ui" line="195"/>
         <location filename="../../scribus/ui/preferences/prefs_externaltoolsbase.ui" line="711"/>
         <source> dpi</source>
-        <translation> dpi</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_externaltoolsbase.ui" line="245"/>
@@ -18630,7 +18748,7 @@ Do you want to migrate them to the new Scribus version?</source>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_externaltoolsbase.ui" line="561"/>
         <source>Add</source>
-        <translation>ചേര്‍ക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_externaltoolsbase.ui" line="568"/>
@@ -18675,7 +18793,7 @@ Do you want to migrate them to the new Scribus version?</source>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_externaltoolsbase.ui" line="783"/>
         <source>Alt+R</source>
-        <translation>Alt+R</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_externaltools.cpp" line="100"/>
@@ -18791,7 +18909,7 @@ Do you want to use this?</source>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_fontsbase.ui" line="111"/>
         <source>C&amp;hange...</source>
-        <translation>&amp;മാറ്റുക...</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_fontsbase.ui" line="118"/>
@@ -18890,7 +19008,7 @@ Do you want to use this?</source>
         <location filename="../../scribus/ui/preferences/prefs_guidesbase.ui" line="178"/>
         <location filename="../../scribus/ui/preferences/prefs_guidesbase.ui" line="198"/>
         <source> px</source>
-        <translation> px</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_guidesbase.ui" line="191"/>
@@ -18907,7 +19025,7 @@ Do you want to use this?</source>
         <location filename="../../scribus/ui/preferences/prefs_guides.cpp" line="69"/>
         <location filename="../../scribus/ui/preferences/prefs_guides.cpp" line="137"/>
         <source>Margins</source>
-        <translation>വിളുമ്പുകള്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_guidesbase.ui" line="397"/>
@@ -18949,7 +19067,7 @@ Do you want to use this?</source>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_guidesbase.ui" line="459"/>
         <source>Colors</source>
-        <translation>നിറങ്ങള്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_guidesbase.ui" line="470"/>
@@ -19054,7 +19172,7 @@ Do you want to use this?</source>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_guidesbase.ui" line="404"/>
         <source>Type:</source>
-        <translation>തരം:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_guides.cpp" line="61"/>
@@ -19105,12 +19223,12 @@ Do you want to use this?</source>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_hyphenatorbase.ui" line="53"/>
         <source>Behaviour</source>
-        <translation>സ്വഭാവരീതി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_hyphenatorbase.ui" line="96"/>
         <source>Word Lists</source>
-        <translation>വാക്ക് പട്ടികകള്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_hyphenatorbase.ui" line="104"/>
@@ -19119,13 +19237,21 @@ Do you want to use this?</source>
     </message>
     <message>
         <source>Edit</source>
-        <translation type="vanished">തിരുത്തുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_hyphenatorbase.ui" line="147"/>
         <location filename="../../scribus/ui/preferences/prefs_hyphenator.cpp" line="83"/>
         <location filename="../../scribus/ui/preferences/prefs_hyphenator.cpp" line="101"/>
         <source>Ignore List</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Hyphenator</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Add a new Entry</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -19222,12 +19348,12 @@ Do you want to use this?</source>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_indexesbase.ui" line="57"/>
         <source>&amp;Add</source>
-        <translation type="unfinished">&amp;ചേര്‍ക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_indexesbase.ui" line="60"/>
         <source>Alt+A</source>
-        <translation type="unfinished">Alt+A</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_indexesbase.ui" line="67"/>
@@ -19237,7 +19363,7 @@ Do you want to use this?</source>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_indexesbase.ui" line="70"/>
         <source>Alt+D</source>
-        <translation type="unfinished">Alt+D</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_indexesbase.ui" line="129"/>
@@ -19317,7 +19443,7 @@ Do you want to use this?</source>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_indexesbase.ui" line="239"/>
         <source>Styles:</source>
-        <translation type="unfinished"></translation>
+        <translation>ਅੰਦਾਜ਼:</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_indexesbase.ui" line="248"/>
@@ -19367,7 +19493,7 @@ Do you want to use this?</source>
         <location filename="../../scribus/ui/preferences/prefs_itemtoolsbase.ui" line="65"/>
         <location filename="../../scribus/ui/preferences/prefs_itemtoolsbase.ui" line="144"/>
         <source>Text</source>
-        <translation>പദസഞ്ചയം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_itemtoolsbase.ui" line="207"/>
@@ -19404,7 +19530,7 @@ Do you want to use this?</source>
         <location filename="../../scribus/ui/preferences/prefs_itemtoolsbase.ui" line="1334"/>
         <location filename="../../scribus/ui/preferences/prefs_itemtoolsbase.ui" line="1418"/>
         <source>Line Color:</source>
-        <translation>വരനിറം:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_itemtoolsbase.ui" line="285"/>
@@ -19436,7 +19562,7 @@ Do you want to use this?</source>
         <location filename="../../scribus/ui/preferences/prefs_itemtoolsbase.ui" line="1381"/>
         <location filename="../../scribus/ui/preferences/prefs_itemtoolsbase.ui" line="1428"/>
         <source> %</source>
-        <translation> %</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_itemtoolsbase.ui" line="276"/>
@@ -19446,22 +19572,22 @@ Do you want to use this?</source>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_itemtoolsbase.ui" line="183"/>
         <source>Top:</source>
-        <translation>മുകളില്‍:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_itemtoolsbase.ui" line="193"/>
         <source>Bottom:</source>
-        <translation>കീഴെ:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_itemtoolsbase.ui" line="200"/>
         <source>Left:</source>
-        <translation>ഇടത്ത്:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_itemtoolsbase.ui" line="224"/>
         <source>Right:</source>
-        <translation>വലത്ത്:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_itemtoolsbase.ui" line="329"/>
@@ -19471,12 +19597,12 @@ Do you want to use this?</source>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_itemtoolsbase.ui" line="349"/>
         <source>Size:</source>
-        <translation>വലിപ്പം:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_itemtoolsbase.ui" line="339"/>
         <source>Color:</source>
-        <translation>നിറം:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_itemtoolsbase.ui" line="312"/>
@@ -19491,7 +19617,7 @@ Do you want to use this?</source>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_itemtoolsbase.ui" line="693"/>
         <source>Images</source>
-        <translation>ചിത്രങ്ങള്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_itemtoolsbase.ui" line="836"/>
@@ -19536,7 +19662,7 @@ Do you want to use this?</source>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_itemtoolsbase.ui" line="660"/>
         <source>Line Spacing</source>
-        <translation>വരിയകലം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_itemtoolsbase.ui" line="665"/>
@@ -19571,21 +19697,21 @@ Do you want to use this?</source>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_itemtoolsbase.ui" line="1032"/>
         <source>Shapes</source>
-        <translation>ആകാരങ്ങള്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_itemtoolsbase.ui" line="1077"/>
         <location filename="../../scribus/ui/preferences/prefs_itemtoolsbase.ui" line="1301"/>
         <location filename="../../scribus/ui/preferences/prefs_itemtoolsbase.ui" line="1394"/>
         <source>Line Style:</source>
-        <translation type="unfinished"></translation>
+        <translation>ਲਾਈਨ ਦਾ ਅੰਦਾਜ਼:</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_itemtoolsbase.ui" line="1084"/>
         <location filename="../../scribus/ui/preferences/prefs_itemtoolsbase.ui" line="1294"/>
         <location filename="../../scribus/ui/preferences/prefs_itemtoolsbase.ui" line="1445"/>
         <source>Line Width:</source>
-        <translation type="unfinished"></translation>
+        <translation>ਲਾਈਨ ਦੀ ਚੌੜਾਈ:</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_itemtoolsbase.ui" line="1186"/>
@@ -19595,30 +19721,30 @@ Do you want to use this?</source>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_itemtoolsbase.ui" line="1233"/>
         <source>Lines</source>
-        <translation type="unfinished"></translation>
+        <translation>ਲਾਈਨਾਂ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_itemtoolsbase.ui" line="1308"/>
         <source>Start Arrow:</source>
-        <translation type="unfinished"></translation>
+        <translation>ਸਿਰ ਦਾ ਤੀਰ:</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_itemtoolsbase.ui" line="1287"/>
         <source>End Arrow:</source>
-        <translation type="unfinished"></translation>
+        <translation>ਪੂਛ ਦਾ ਤੀਰ:</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_itemtools.cpp" line="52"/>
         <location filename="../../scribus/ui/preferences/prefs_itemtools.cpp" line="53"/>
         <location filename="../../scribus/ui/preferences/prefs_itemtools.cpp" line="54"/>
         <source>Hairline</source>
-        <translation type="unfinished"></translation>
+        <translation>ਬਰੀਕ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_itemtools.cpp" line="65"/>
         <location filename="../../scribus/ui/preferences/prefs_itemtools.cpp" line="385"/>
         <source>Woven silk pyjamas exchanged for blue quartz</source>
-        <translation>Woven silk pyjamas exchanged for blue quartz</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_itemtools.cpp" line="108"/>
@@ -19634,7 +19760,7 @@ Do you want to use this?</source>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_itemtools.cpp" line="110"/>
         <source>Hyphen</source>
-        <translation type="unfinished"></translation>
+        <translation>ਹਾਈਫ਼ਨ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_itemtools.cpp" line="111"/>
@@ -19669,12 +19795,12 @@ Do you want to use this?</source>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_itemtoolsbase.ui" line="1528"/>
         <source>Arc</source>
-        <translation>ചാപം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_itemtoolsbase.ui" line="1575"/>
         <source>Spiral</source>
-        <translation>സര്‍പ്പിളം</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -19684,12 +19810,12 @@ Do you want to use this?</source>
         <location filename="../../scribus/ui/preferences/prefs_keyboardshortcutsbase.ui" line="39"/>
         <location filename="../../scribus/ui/preferences/prefs_keyboardshortcuts.cpp" line="37"/>
         <source>Keyboard Shortcuts</source>
-        <translation>കീബോര്‍ഡ് കുറുക്കുവഴികള്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_keyboardshortcutsbase.ui" line="95"/>
         <source>Search:</source>
-        <translation>തിരയുക:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_keyboardshortcutsbase.ui" line="111"/>
@@ -19714,7 +19840,7 @@ Do you want to use this?</source>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_keyboardshortcutsbase.ui" line="165"/>
         <source>Alt+N</source>
-        <translation>Alt+N</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_keyboardshortcutsbase.ui" line="172"/>
@@ -19724,7 +19850,7 @@ Do you want to use this?</source>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_keyboardshortcutsbase.ui" line="175"/>
         <source>Alt+U</source>
-        <translation>Alt+U</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_keyboardshortcutsbase.ui" line="198"/>
@@ -19734,12 +19860,12 @@ Do you want to use this?</source>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_keyboardshortcutsbase.ui" line="201"/>
         <source>Alt+K</source>
-        <translation>Alt+K</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_keyboardshortcutsbase.ui" line="217"/>
         <source>CTRL+ALT+SHIFT+W</source>
-        <translation>CTRL+ALT+SHIFT+W</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_keyboardshortcutsbase.ui" line="257"/>
@@ -19764,7 +19890,7 @@ Do you want to use this?</source>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_keyboardshortcutsbase.ui" line="286"/>
         <source>Alt+L</source>
-        <translation>Alt+L</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_keyboardshortcutsbase.ui" line="309"/>
@@ -19779,7 +19905,7 @@ Do you want to use this?</source>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_keyboardshortcutsbase.ui" line="315"/>
         <source>Alt+I</source>
-        <translation>Alt+I</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_keyboardshortcutsbase.ui" line="322"/>
@@ -19794,7 +19920,7 @@ Do you want to use this?</source>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_keyboardshortcutsbase.ui" line="328"/>
         <source>Alt+E</source>
-        <translation>Alt+E</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_keyboardshortcutsbase.ui" line="351"/>
@@ -19809,7 +19935,7 @@ Do you want to use this?</source>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_keyboardshortcutsbase.ui" line="357"/>
         <source>Alt+R</source>
-        <translation>Alt+R</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_keyboardshortcuts.cpp" line="132"/>
@@ -19849,17 +19975,17 @@ Do you want to use this?</source>
         <location filename="../../scribus/ui/preferences/prefs_miscellaneousbase.ui" line="36"/>
         <location filename="../../scribus/ui/preferences/prefs_miscellaneous.cpp" line="18"/>
         <source>Miscellaneous</source>
-        <translation type="unfinished"></translation>
+        <translation>ਫੁਟਕਲ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_miscellaneousbase.ui" line="80"/>
         <source>Always ask before fonts are replaced when loading a document</source>
-        <translation type="unfinished"></translation>
+        <translation>ਦਸਤਾਵੇਜ਼ ਖੋਲ੍ਹਣ ਸਮੇਂ ਫੌਂਟ ਵਟਾਉਣ ਤੋਂ ਪਹਿਲਾਂ ਹਮੇਸ਼ਾ ਪੁੱਛੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_miscellaneousbase.ui" line="87"/>
         <source>Preview of current Paragraph Style is visible when editing Styles</source>
-        <translation type="unfinished"></translation>
+        <translation>ਮੌਜੂਦਾ ਪੈਰਾ ਅੰਦਾਜ਼ ਦੀ ਝਲਕ ਅੰਦਾਜ਼ ਸੋਧਦੇ ਸਮੇਂ ਦਿਸਦੀ ਹੈ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_miscellaneousbase.ui" line="116"/>
@@ -19874,7 +20000,7 @@ Do you want to use this?</source>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_miscellaneousbase.ui" line="139"/>
         <source>Paragraph Count:</source>
-        <translation type="unfinished"></translation>
+        <translation>ਪੈਰਿਆਂ ਦੀ ਗਿਣਤੀ:</translation>
     </message>
 </context>
 <context>
@@ -19888,17 +20014,17 @@ Do you want to use this?</source>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_operatortoolsbase.ui" line="66"/>
         <source>Zoom</source>
-        <translation type="unfinished"></translation>
+        <translation>ਜ਼ੂਮ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_operatortoolsbase.ui" line="77"/>
         <source>Minimum:</source>
-        <translation type="unfinished"></translation>
+        <translation>ਘੱਟੋ-ਘੱਟ:</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_operatortoolsbase.ui" line="84"/>
         <source>Maximum:</source>
-        <translation type="unfinished"></translation>
+        <translation>ਵੱਧੋ-ਵੱਧ:</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_operatortoolsbase.ui" line="91"/>
@@ -19910,7 +20036,7 @@ Do you want to use this?</source>
         <location filename="../../scribus/ui/preferences/prefs_operatortoolsbase.ui" line="111"/>
         <location filename="../../scribus/ui/preferences/prefs_operatortoolsbase.ui" line="124"/>
         <source> %</source>
-        <translation> %</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_operatortoolsbase.ui" line="153"/>
@@ -19989,12 +20115,12 @@ Do you want to use this?</source>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_pdfexportbase.ui" line="80"/>
         <source>All Pages</source>
-        <translation>എല്ലാ താളുകളും</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_pdfexportbase.ui" line="90"/>
         <source>Choose Pages</source>
-        <translation>താളുകള്‍ തിരഞ്ഞെടുക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_pdfexportbase.ui" line="145"/>
@@ -20014,7 +20140,7 @@ Do you want to use this?</source>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_pdfexportbase.ui" line="298"/>
         <source>Page Binding:</source>
-        <translation type="unfinished"></translation>
+        <translation>ਜਿਲਦ-ਬੰਦੀ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_pdfexportbase.ui" line="465"/>
@@ -20025,12 +20151,12 @@ Do you want to use this?</source>
         <location filename="../../scribus/ui/preferences/prefs_pdfexportbase.ui" line="435"/>
         <location filename="../../scribus/ui/preferences/prefs_pdfexportbase.ui" line="472"/>
         <source> dpi</source>
-        <translation> dpi</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_pdfexportbase.ui" line="312"/>
         <source>Clip to Printer Margins</source>
-        <translation type="unfinished"></translation>
+        <translation>ਪ੍ਰਿੰਟਰ ਹਾਸ਼ੀਏ ਤੱਕ ਕੱਟੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_pdfexportbase.ui" line="428"/>
@@ -20050,7 +20176,7 @@ Do you want to use this?</source>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_pdfexportbase.ui" line="54"/>
         <source>Pages</source>
-        <translation>താളുകള്‍</translation>
+        <translation>ਸਫ਼ੇ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_pdfexportbase.ui" line="288"/>
@@ -20070,7 +20196,7 @@ Do you want to use this?</source>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_pdfexportbase.ui" line="333"/>
         <source>Include Layers</source>
-        <translation type="unfinished"></translation>
+        <translation>ਪਰਤਾਂ ਸ਼ਾਮਲ ਕਰੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_pdfexportbase.ui" line="340"/>
@@ -20105,12 +20231,12 @@ Do you want to use this?</source>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_pdfexportbase.ui" line="518"/>
         <source>Security</source>
-        <translation>സുരക്ഷ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_pdfexportbase.ui" line="524"/>
         <source>Use Encryption</source>
-        <translation>എന്‍ക്രിപ്ഷന്‍ ഉപയോഗിക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_pdfexportbase.ui" line="553"/>
@@ -20120,17 +20246,17 @@ Do you want to use this?</source>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_pdfexportbase.ui" line="572"/>
         <source>Owner:</source>
-        <translation>ഉടമ:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_pdfexportbase.ui" line="586"/>
         <source>User:</source>
-        <translation>ഉപയോക്താവ്:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_pdfexportbase.ui" line="624"/>
         <source>Settings</source>
-        <translation>സജ്ജീകരണങ്ങള്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_pdfexportbase.ui" line="638"/>
@@ -20150,7 +20276,7 @@ Do you want to use this?</source>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_pdfexportbase.ui" line="680"/>
         <source>Color</source>
-        <translation>നിറം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_pdfexportbase.ui" line="727"/>
@@ -20188,7 +20314,7 @@ Do you want to use this?</source>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_pdfexportbase.ui" line="842"/>
         <source>Images</source>
-        <translation>ചിത്രങ്ങള്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_pdfexportbase.ui" line="863"/>
@@ -20208,7 +20334,7 @@ Do you want to use this?</source>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_pdfexportbase.ui" line="942"/>
         <source>Color:</source>
-        <translation>നിറം:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_pdfexportbase.ui" line="952"/>
@@ -20218,12 +20344,12 @@ Do you want to use this?</source>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_pdfexportbase.ui" line="969"/>
         <source>Angle:</source>
-        <translation>കോണ്‍:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_pdfexportbase.ui" line="976"/>
         <source> °</source>
-        <translation> °</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_pdfexportbase.ui" line="989"/>
@@ -20243,12 +20369,12 @@ Do you want to use this?</source>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_pdfexportbase.ui" line="1128"/>
         <source>Page Information</source>
-        <translation>താളിനെ പറ്റിയുള്ള വിവരങ്ങള്‍</translation>
+        <translation>ਸਫ਼ਾ ਜਾਣਕਾਰੀ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_pdfexportbase.ui" line="1324"/>
         <source>Embedding</source>
-        <translation type="unfinished"></translation>
+        <translation>ਜੜਤ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_pdfexportbase.ui" line="1630"/>
@@ -20283,7 +20409,7 @@ Do you want to use this?</source>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_pdfexportbase.ui" line="1190"/>
         <source>Bleed Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>ਬਲੀਡ ਸੈਟਿੰਗਾਂ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_pdfexportbase.ui" line="1204"/>
@@ -20353,13 +20479,13 @@ Do you want to use this?</source>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_pdfexportbase.ui" line="1523"/>
         <source>Direction:</source>
-        <translation>ദിശ:</translation>
+        <translation>ਦਿਸ਼ਾ:</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_pdfexportbase.ui" line="1533"/>
         <location filename="../../scribus/ui/preferences/prefs_pdfexportbase.ui" line="1543"/>
         <source> s</source>
-        <translation> s</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_pdfexportbase.ui" line="1558"/>
@@ -20379,12 +20505,12 @@ Do you want to use this?</source>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_pdfexportbase.ui" line="1602"/>
         <source>Document Layout</source>
-        <translation type="unfinished"></translation>
+        <translation>ਦਸਤਾਵੇਜ਼ ਖ਼ਾਕਾ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_pdfexportbase.ui" line="1616"/>
         <source>Single Page</source>
-        <translation>ഒറ്റത്താള്‍</translation>
+        <translation>ਇਕਹਿਰਾ ਸਫ਼ਾ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_pdfexportbase.ui" line="1623"/>
@@ -20394,7 +20520,7 @@ Do you want to use this?</source>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_pdfexportbase.ui" line="1666"/>
         <source>Visual Appearance</source>
-        <translation type="unfinished"></translation>
+        <translation>ਦਿੱਖ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_pdfexportbase.ui" line="1684"/>
@@ -20404,7 +20530,7 @@ Do you want to use this?</source>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_pdfexportbase.ui" line="1691"/>
         <source>Use Full Screen Mode</source>
-        <translation type="unfinished"></translation>
+        <translation>ਫ਼ੁੱਲ ਸਕਰੀਨ ਮੋਡ ਵਰਤੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_pdfexportbase.ui" line="1698"/>
@@ -20414,12 +20540,12 @@ Do you want to use this?</source>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_pdfexportbase.ui" line="1705"/>
         <source>Display Thumbnails</source>
-        <translation type="unfinished"></translation>
+        <translation>ਥਮਨੇਲ ਵਖਾਓ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_pdfexportbase.ui" line="1712"/>
         <source>Display Layers Tab</source>
-        <translation type="unfinished"></translation>
+        <translation>ਪਰਤਾਂ ਵਾਲੀ ਟੈਬ ਵਖਾਓ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_pdfexportbase.ui" line="1723"/>
@@ -20439,7 +20565,7 @@ Do you want to use this?</source>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_pdfexportbase.ui" line="1783"/>
         <source>Special Actions</source>
-        <translation type="unfinished"></translation>
+        <translation>ਖ਼ਾਸ ਕਾਰਵਾਈਆਂ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_pdfexportbase.ui" line="1799"/>
@@ -20449,12 +20575,12 @@ Do you want to use this?</source>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_pdfexport.cpp" line="61"/>
         <source>Automatically rotate the exported pages</source>
-        <translation type="unfinished"></translation>
+        <translation>ਬਰਾਮਦ ਕੀਤੇ ਸਫ਼ਿਆਂ ਨੂੰ ਆਪਣੇ-ਆਪ ਘੁਮਾਓ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_pdfexport.cpp" line="62"/>
         <source>Export all pages to PDF</source>
-        <translation>എല്ലാ പേജുകളും PDF ആക്കുക</translation>
+        <translation>ਸਾਰੇ ਸਫ਼ਿਆਂ ਨੂੰ ਪੀਡੀਐੱਫ਼ ਵਜੋਂ ਬਰਾਮਦ ਕਰੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_pdfexport.cpp" line="63"/>
@@ -20654,27 +20780,27 @@ Do you want to use this?</source>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_pdfexport.cpp" line="217"/>
         <source>Maximum</source>
-        <translation>പരമാവധി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_pdfexport.cpp" line="218"/>
         <source>High</source>
-        <translation>ഉയര്‍ന്ന</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_pdfexport.cpp" line="219"/>
         <source>Medium</source>
-        <translation>മധ്യമം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_pdfexport.cpp" line="220"/>
         <source>Low</source>
-        <translation>താഴ്ന്ന</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_pdfexport.cpp" line="221"/>
         <source>Minimum</source>
-        <translation>ഏറ്റവും കുറഞ്ഞത്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_pdfexport.cpp" line="228"/>
@@ -20709,7 +20835,7 @@ Do you want to use this?</source>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_pdfexport.cpp" line="242"/>
         <source>Line</source>
-        <translation>വര</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_pdfexport.cpp" line="243"/>
@@ -20719,7 +20845,7 @@ Do you want to use this?</source>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_pdfexport.cpp" line="244"/>
         <source>Ellipse</source>
-        <translation>ദീര്‍ഘവൃത്തം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_pdfexport.cpp" line="253"/>
@@ -20746,7 +20872,7 @@ Do you want to use this?</source>
         <location filename="../../scribus/ui/preferences/prefs_pdfexport.cpp" line="1305"/>
         <location filename="../../scribus/ui/preferences/prefs_pdfexport.cpp" line="1313"/>
         <source>Page</source>
-        <translation>താള്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_pdfexport.cpp" line="378"/>
@@ -21031,12 +21157,12 @@ Do you want to use this?</source>
         <location filename="../../scribus/ui/preferences/prefs_pagesizesbase.ui" line="35"/>
         <location filename="../../scribus/ui/preferences/prefs_pagesizes.cpp" line="23"/>
         <source>Page Sizes</source>
-        <translation>താള്‍ വലിപ്പങ്ങള്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_pagesizesbase.ui" line="53"/>
         <source>Available Sizes</source>
-        <translation>ലഭ്യമായ വലിപ്പങ്ങള്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_pagesizesbase.ui" line="120"/>
@@ -21075,7 +21201,7 @@ Do you want to use this?</source>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_pathsbase.ui" line="117"/>
         <source>Alt+C</source>
-        <translation>Alt+C</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_pathsbase.ui" line="124"/>
@@ -21085,12 +21211,12 @@ Do you want to use this?</source>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_pathsbase.ui" line="147"/>
         <source>C&amp;hange...</source>
-        <translation>&amp;മാറ്റുക...</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_pathsbase.ui" line="150"/>
         <source>Alt+H</source>
-        <translation>Alt+H</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_pathsbase.ui" line="157"/>
@@ -21105,7 +21231,7 @@ Do you want to use this?</source>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_pathsbase.ui" line="183"/>
         <source>Alt+A</source>
-        <translation>Alt+A</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_pathsbase.ui" line="190"/>
@@ -21120,7 +21246,7 @@ Do you want to use this?</source>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_pathsbase.ui" line="216"/>
         <source>Alt+N</source>
-        <translation>Alt+N</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_paths.cpp" line="34"/>
@@ -21157,22 +21283,22 @@ Do you want to use this?</source>
         <location filename="../../scribus/ui/preferences/prefs_pluginsbase.ui" line="36"/>
         <location filename="../../scribus/ui/preferences/prefs_plugins.cpp" line="27"/>
         <source>Plugins</source>
-        <translation>പ്ലഗിനുകള്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_pluginsbase.ui" line="60"/>
         <source>Plugin</source>
-        <translation>പ്ലഗിന്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_pluginsbase.ui" line="65"/>
         <source>How to run</source>
-        <translation>എങ്ങനെയാണിത് ഓടിക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_pluginsbase.ui" line="70"/>
         <source>Type</source>
-        <translation>തരം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_pluginsbase.ui" line="75"/>
@@ -21187,7 +21313,7 @@ Do you want to use this?</source>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_pluginsbase.ui" line="85"/>
         <source>File</source>
-        <translation>ഫയല്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_pluginsbase.ui" line="93"/>
@@ -21297,7 +21423,7 @@ Do you want to use this?</source>
         <location filename="../../scribus/ui/preferences/prefs_preflightverifierbase.ui" line="287"/>
         <location filename="../../scribus/ui/preferences/prefs_preflightverifierbase.ui" line="300"/>
         <source> dpi</source>
-        <translation> dpi</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_preflightverifierbase.ui" line="313"/>
@@ -21375,7 +21501,7 @@ Do you want to use this?</source>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_printerbase.ui" line="157"/>
         <source>Normal</source>
-        <translation>സാധാരണ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_printerbase.ui" line="162"/>
@@ -21390,7 +21516,7 @@ Do you want to use this?</source>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_printerbase.ui" line="214"/>
         <source>Page</source>
-        <translation>താള്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_printerbase.ui" line="228"/>
@@ -21415,7 +21541,7 @@ Do you want to use this?</source>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_printerbase.ui" line="278"/>
         <source>Color</source>
-        <translation>നിറം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_printerbase.ui" line="330"/>
@@ -21435,7 +21561,7 @@ Do you want to use this?</source>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_printerbase.ui" line="302"/>
         <source>Color (If Available)</source>
-        <translation>വര്‍ണശബളം (ലഭ്യമെങ്കില്‍)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_printerbase.ui" line="307"/>
@@ -21516,7 +21642,7 @@ Do you want to use this?</source>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_printerbase.ui" line="489"/>
         <source>Length:</source>
-        <translation>നീളം:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_printer.cpp" line="38"/>
@@ -21579,7 +21705,7 @@ Do you want to use this?</source>
         <location filename="../../scribus/plugins/scriptplugin/prefs_scripterbase.ui" line="36"/>
         <location filename="../../scribus/plugins/scriptplugin/prefs_scripter.cpp" line="30"/>
         <source>Scripter</source>
-        <translation>സ്ക്രിപ്റ്റര്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/scriptplugin/prefs_scripterbase.ui" line="85"/>
@@ -21594,7 +21720,7 @@ Do you want to use this?</source>
     <message>
         <location filename="../../scribus/plugins/scriptplugin/prefs_scripterbase.ui" line="113"/>
         <source>A&amp;dd</source>
-        <translation>&amp;ചേര്‍ക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/scriptplugin/prefs_scripterbase.ui" line="120"/>
@@ -21649,7 +21775,7 @@ Do you want to use this?</source>
     <message>
         <location filename="../../scribus/plugins/scriptplugin/prefs_scripterbase.ui" line="290"/>
         <source>Errors:</source>
-        <translation>പിഴവുകള്‍:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/scriptplugin/prefs_scripterbase.ui" line="304"/>
@@ -21659,7 +21785,7 @@ Do you want to use this?</source>
     <message>
         <location filename="../../scribus/plugins/scriptplugin/prefs_scripterbase.ui" line="318"/>
         <source>Numbers:</source>
-        <translation>സംഖ്യകള്‍:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/scriptplugin/prefs_scripter.cpp" line="181"/>
@@ -21678,7 +21804,7 @@ Do you want to use this?</source>
     <message>
         <location filename="../../scribus/plugins/short-words/prefs_shortwordsbase.ui" line="75"/>
         <source>Save</source>
-        <translation>സൂക്ഷിക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/short-words/prefs_shortwordsbase.ui" line="82"/>
@@ -21701,7 +21827,7 @@ Do you want to use this?</source>
         <location filename="../../scribus/plugins/short-words/prefs_shortwords.cpp" line="72"/>
         <location filename="../../scribus/plugins/short-words/prefs_shortwords.cpp" line="85"/>
         <source>Short Words</source>
-        <translation>ഹ്രസ്വവാക്കുകള്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/short-words/prefs_shortwords.cpp" line="73"/>
@@ -21760,11 +21886,47 @@ Do you want to use this?</source>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_spellingbase.ui" line="114"/>
         <source> ms</source>
-        <translation type="unfinished"> ms</translation>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Installed Spelling Dictionaries</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Downloadable Spelling Dictionaries</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Refresh Downloadable List</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Download Selected Dictionaries</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Language</source>
-        <translation type="vanished">ഭാഷ</translation>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Code</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Installed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Download</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Downloading</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -21778,12 +21940,12 @@ Do you want to use this?</source>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_tableofcontentsbase.ui" line="80"/>
         <source>&amp;Add</source>
-        <translation>&amp;ചേര്‍ക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_tableofcontentsbase.ui" line="83"/>
         <source>Alt+A</source>
-        <translation>Alt+A</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_tableofcontentsbase.ui" line="90"/>
@@ -21793,7 +21955,7 @@ Do you want to use this?</source>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_tableofcontentsbase.ui" line="93"/>
         <source>Alt+D</source>
-        <translation>Alt+D</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_tableofcontentsbase.ui" line="112"/>
@@ -21823,12 +21985,12 @@ Do you want to use this?</source>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_tableofcontentsbase.ui" line="263"/>
         <source>Document Styles:</source>
-        <translation type="unfinished"></translation>
+        <translation>ਦਸਤਾਵੇਜ਼ ਦੇ ਅੰਦਾਜ਼</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_tableofcontentsbase.ui" line="297"/>
         <source>Add</source>
-        <translation>ചേര്‍ക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_tableofcontentsbase.ui" line="304"/>
@@ -21843,7 +22005,7 @@ Do you want to use this?</source>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_tableofcontentsbase.ui" line="352"/>
         <source>Style for TOC Entry:</source>
-        <translation type="unfinished"></translation>
+        <translation>ਤਤਕਰੇ ਦੇ ਇੰਦਰਾਜ ਲਈ ਅੰਦਾਜ਼:</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_tableofcontentsbase.ui" line="388"/>
@@ -21890,7 +22052,7 @@ Do you want to use this?</source>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_tableofcontentsbase.ui" line="451"/>
         <source>Paragraph Style:</source>
-        <translation type="unfinished"></translation>
+        <translation>ਪੈਰੇ ਦਾ ਅੰਦਾਜ਼:</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_tableofcontentsbase.ui" line="461"/>
@@ -21925,7 +22087,7 @@ Do you want to use this?</source>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_tableofcontents.cpp" line="118"/>
         <source>Style</source>
-        <translation>ശൈലി</translation>
+        <translation>ਅੰਦਾਜ਼</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_tableofcontents.cpp" line="120"/>
@@ -21972,7 +22134,7 @@ Do you want to use this?</source>
         <location filename="../../scribus/ui/preferences/prefs_typographybase.ui" line="456"/>
         <location filename="../../scribus/ui/preferences/prefs_typographybase.ui" line="521"/>
         <source> %</source>
-        <translation> %</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_typographybase.ui" line="120"/>
@@ -21989,7 +22151,7 @@ Do you want to use this?</source>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_typographybase.ui" line="298"/>
         <source>Underline</source>
-        <translation>അടിവരയിട്ട</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_typographybase.ui" line="327"/>
@@ -22099,7 +22261,7 @@ Do you want to use this?</source>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_userinterfacebase.ui" line="196"/>
         <source>&amp;Language:</source>
-        <translation>&amp;ഭാഷ:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_userinterfacebase.ui" line="83"/>
@@ -22114,17 +22276,17 @@ Do you want to use this?</source>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_userinterfacebase.ui" line="113"/>
         <source>Use Tabs for Documents</source>
-        <translation type="unfinished"></translation>
+        <translation>ਦਸਤਾਵੇਜ਼ਾਂ ਲਈ ਟੈਬਾਂ ਵਰਤੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_userinterfacebase.ui" line="120"/>
         <source>&amp;Recent Documents:</source>
-        <translation type="unfinished"></translation>
+        <translation>ਹਾਲੀਆ ਦਸਤਾਵੇਜ਼:</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_userinterfacebase.ui" line="133"/>
         <source>Show Informational Labels</source>
-        <translation type="unfinished"></translation>
+        <translation>ਜਾਣਕਾਰੀ ਲੇਬਲ ਵਖਾਓ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_userinterfacebase.ui" line="140"/>
@@ -22134,33 +22296,33 @@ Do you want to use this?</source>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_userinterfacebase.ui" line="147"/>
         <source>Appearance:</source>
-        <translation type="unfinished"></translation>
+        <translation>ਦਿੱਖ:</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_userinterfacebase.ui" line="180"/>
         <source>Language and Regionalization</source>
-        <translation type="unfinished"></translation>
+        <translation>ਭਾਸ਼ਾ ਅਤੇ ਖੇਤਰੀਕਰਨ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_userinterfacebase.ui" line="209"/>
         <source>Number Format:</source>
-        <translation type="unfinished"></translation>
+        <translation>ਨੰਬਰ ਫ਼ਾਰਮੈਟ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_userinterfacebase.ui" line="245"/>
         <source>Font Sizes</source>
-        <translation type="unfinished"></translation>
+        <translation>ਫ਼ੌਂਟ ਆਕਾਰ:</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_userinterfacebase.ui" line="261"/>
         <source>&amp;Menus:</source>
-        <translation type="unfinished"></translation>
+        <translation>ਮੈਨਿਊ:</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_userinterfacebase.ui" line="271"/>
         <location filename="../../scribus/ui/preferences/prefs_userinterfacebase.ui" line="288"/>
         <source> pt</source>
-        <translation>പോയിന്റ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_userinterfacebase.ui" line="278"/>
@@ -22170,17 +22332,17 @@ Do you want to use this?</source>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_userinterfacebase.ui" line="311"/>
         <source>Story Editor</source>
-        <translation type="unfinished"></translation>
+        <translation>ਸਟੋਰੀ ਸੰਪਾਦਕ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_userinterfacebase.ui" line="322"/>
         <source>Font:</source>
-        <translation type="unfinished"></translation>
+        <translation>ਫ਼ੌਂਟ:</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_userinterfacebase.ui" line="336"/>
         <source>Use Smart Text Selection</source>
-        <translation type="unfinished"></translation>
+        <translation>ਸਮਝਦਾਰ ਲਿਖਤ ਚੋਣ ਵਰਤੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_userinterfacebase.ui" line="359"/>
@@ -22190,22 +22352,22 @@ Do you want to use this?</source>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_userinterfacebase.ui" line="370"/>
         <source>Time before resize or move starts:</source>
-        <translation type="unfinished"></translation>
+        <translation>ਅਕਾਰ ਬਾਦਲ ਜਾਂ ਸਥਾਨੰਤਰ ਤੋਂ ਪਹਿਲਾਂ ਸਮਾਂ:</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_userinterfacebase.ui" line="380"/>
         <source> ms</source>
-        <translation> ms</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_userinterfacebase.ui" line="390"/>
         <source>&amp;Wheel Jump:</source>
-        <translation type="unfinished"></translation>
+        <translation>ਮਾਊਸ ਪਹੀਏ ਦੀ ਛਾਲ:</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_userinterfacebase.ui" line="400"/>
         <source> lines</source>
-        <translation type="unfinished"></translation>
+        <translation>ਲਾਈਨਾਂ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_userinterfacebase.ui" line="423"/>
@@ -22215,12 +22377,12 @@ Do you want to use this?</source>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_userinterfacebase.ui" line="438"/>
         <source>Show Splashscreen</source>
-        <translation type="unfinished"></translation>
+        <translation>ਸਪਲੈਸ਼-ਸਕਰੀਨ ਵਖਾਓ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_userinterfacebase.ui" line="431"/>
         <source>Show Startup Dialog</source>
-        <translation type="unfinished"></translation>
+        <translation>ਸ਼ੁਰੂਆਤੀ ਡਾਇਲਾਗ ਵਖਾਓ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/preferences/prefs_userinterface.cpp" line="63"/>
@@ -22328,17 +22490,17 @@ Do you want to use this?</source>
     <message>
         <location filename="../../scribus/ui/marginpresetlayout.cpp" line="13"/>
         <source>Magazine</source>
-        <translation>മാഗസീന്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/marginpresetlayout.cpp" line="14"/>
         <source>Fibonacci</source>
-        <translation>ഫിബോനച്ചി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/marginpresetlayout.cpp" line="15"/>
         <source>Golden Mean</source>
-        <translation>സുവര്‍നാനുപാതം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/marginpresetlayout.cpp" line="16"/>
@@ -22348,7 +22510,7 @@ Do you want to use this?</source>
     <message>
         <location filename="../../scribus/ui/marginpresetlayout.cpp" line="12"/>
         <source>Gutenberg</source>
-        <translation>ഗുട്ടെന്‍ബെര്‍ഗ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/marginpresetlayout.cpp" line="11"/>
@@ -22369,27 +22531,27 @@ Do you want to use this?</source>
         <location filename="../../scribus/ui/printdialog.cpp" line="359"/>
         <location filename="../../scribus/ui/printdialog.cpp" line="404"/>
         <source>All</source>
-        <translation>എല്ലാം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/printdialog.cpp" line="110"/>
         <source>Cyan</source>
-        <translation>സ്‌യാന്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/printdialog.cpp" line="111"/>
         <source>Magenta</source>
-        <translation>മജെന്റ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/printdialog.cpp" line="112"/>
         <source>Yellow</source>
-        <translation>പീതം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/printdialog.cpp" line="113"/>
         <source>Black</source>
-        <translation>കറുപ്പ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/printdialog.cpp" line="467"/>
@@ -22405,7 +22567,7 @@ Do you want to use this?</source>
     <message>
         <location filename="../../scribus/ui/printdialog.cpp" line="452"/>
         <source>PostScript Files (*.ps);;All Files (*)</source>
-        <translation>പോസ്റ്റ് സ്ക്രിപ്റ്റ് ഫയലുകള്‍ (*.ps);;എല്ലാ ഫയലുകളും (*)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/printdialog.cpp" line="320"/>
@@ -22415,17 +22577,17 @@ Do you want to use this?</source>
     <message>
         <location filename="../../scribus/ui/printdialog.cpp" line="122"/>
         <source>Inside:</source>
-        <translation>അകം:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/printdialog.cpp" line="123"/>
         <source>Outside:</source>
-        <translation>പുറം:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/printdialog.cpp" line="452"/>
         <source>PDF Files (*.pdf);;All Files (*)</source>
-        <translation>PDFഫയലുകള്‍ (*.pdf);;എല്ലാ ഫയലുകളും (*)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/printdialog.cpp" line="453"/>
@@ -22453,12 +22615,12 @@ Do you want to use this?</source>
     <message>
         <location filename="../../scribus/ui/printdialogbase.ui" line="86"/>
         <source>&amp;File:</source>
-        <translation>&amp;ഫയല്‍:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/printdialogbase.ui" line="102"/>
         <source>C&amp;hange...</source>
-        <translation>&amp;മാറ്റുക...</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/printdialogbase.ui" line="117"/>
@@ -22533,7 +22695,7 @@ Do you want to use this?</source>
     <message>
         <location filename="../../scribus/ui/printdialogbase.ui" line="336"/>
         <source>Page</source>
-        <translation>താള്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/printdialogbase.ui" line="342"/>
@@ -22553,7 +22715,7 @@ Do you want to use this?</source>
     <message>
         <location filename="../../scribus/ui/printdialogbase.ui" line="376"/>
         <source>Color</source>
-        <translation>നിറം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/printdialogbase.ui" line="385"/>
@@ -22623,12 +22785,12 @@ Do you want to use this?</source>
     <message>
         <location filename="../../scribus/ui/printdialogbase.ui" line="524"/>
         <source>Bleeds</source>
-        <translation>ബ്ലീഡുകള്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/printdialogbase.ui" line="530"/>
         <source>Top:</source>
-        <translation>മുകളില്‍:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/printdialogbase.ui" line="537"/>
@@ -22638,7 +22800,7 @@ Do you want to use this?</source>
     <message>
         <location filename="../../scribus/ui/printdialogbase.ui" line="544"/>
         <source>Left:</source>
-        <translation>ഇടത്ത്:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/printdialogbase.ui" line="551"/>
@@ -22648,7 +22810,7 @@ Do you want to use this?</source>
     <message>
         <location filename="../../scribus/ui/printdialogbase.ui" line="558"/>
         <source>Bottom:</source>
-        <translation>കീഴെ:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/printdialogbase.ui" line="565"/>
@@ -22658,7 +22820,7 @@ Do you want to use this?</source>
     <message>
         <location filename="../../scribus/ui/printdialogbase.ui" line="572"/>
         <source>Right:</source>
-        <translation>വലത്ത്:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/printdialogbase.ui" line="579"/>
@@ -22683,12 +22845,12 @@ Do you want to use this?</source>
     <message>
         <location filename="../../scribus/ui/printdialogbase.ui" line="625"/>
         <source>&amp;Print</source>
-        <translation>&amp;അച്ചടിക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/printdialogbase.ui" line="635"/>
         <source>Cancel</source>
-        <translation>റദ്ദാക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/printdialogbase.ui" line="322"/>
@@ -22718,7 +22880,7 @@ Do you want to use this?</source>
     <message>
         <location filename="../../scribus/ui/printdialogbase.ui" line="470"/>
         <source>Length:</source>
-        <translation>നീളം:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/printdialogbase.ui" line="241"/>
@@ -22763,22 +22925,22 @@ a range of pages or a single page number</source>
     <message>
         <location filename="../../scribus/ui/printpreview.cpp" line="133"/>
         <source>Cyan</source>
-        <translation>സയാന്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/printpreview.cpp" line="141"/>
         <source>Magenta</source>
-        <translation>മജെന്റ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/printpreview.cpp" line="149"/>
         <source>Yellow</source>
-        <translation>പീതം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/printpreview.cpp" line="157"/>
         <source>Black</source>
-        <translation>കറുപ്പ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/printpreview.cpp" line="249"/>
@@ -22788,7 +22950,7 @@ a range of pages or a single page number</source>
     <message>
         <location filename="../../scribus/ui/printpreview.cpp" line="568"/>
         <source>File</source>
-        <translation>ഫയല്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/printpreview.cpp" line="246"/>
@@ -22803,7 +22965,7 @@ a range of pages or a single page number</source>
     <message>
         <location filename="../../scribus/ui/printpreview.cpp" line="182"/>
         <source> %</source>
-        <translation> %</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/printpreview.cpp" line="183"/>
@@ -22836,7 +22998,7 @@ a range of pages or a single page number</source>
     <message>
         <location filename="../../scribus/ui/printpreviewbase.ui" line="90"/>
         <source>Color</source>
-        <translation>നിറം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/printpreviewbase.ui" line="95"/>
@@ -22931,7 +23093,7 @@ a range of pages or a single page number</source>
     <message>
         <location filename="../../scribus/ui/printpreviewbase.ui" line="280"/>
         <source>Fit to Width</source>
-        <translation>വീതിക്ക് കൊള്ളിക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/printpreviewbase.ui" line="285"/>
@@ -22946,7 +23108,7 @@ a range of pages or a single page number</source>
     <message>
         <location filename="../../scribus/ui/printpreviewbase.ui" line="337"/>
         <source>Close</source>
-        <translation>അടയ്ക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/printpreviewbase.ui" line="347"/>
@@ -22964,7 +23126,7 @@ a range of pages or a single page number</source>
     <message>
         <location filename="../../scribus/ui/propertiespalette.cpp" line="501"/>
         <source>X, Y, &amp;Z</source>
-        <translation>X, Y, &amp;Z</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/propertiespalette.cpp" line="502"/>
@@ -22974,7 +23136,7 @@ a range of pages or a single page number</source>
     <message>
         <location filename="../../scribus/ui/propertiespalette.cpp" line="503"/>
         <source>&amp;Shape</source>
-        <translation>&amp;ആകാരം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/propertiespalette.cpp" line="504"/>
@@ -23007,7 +23169,7 @@ a range of pages or a single page number</source>
     <message>
         <location filename="../../scribus/ui/propertiespalette_attributes.ui" line="40"/>
         <source>Name</source>
-        <translation type="unfinished">പേര്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/propertiespalette_attributes.ui" line="69"/>
@@ -23060,7 +23222,7 @@ a range of pages or a single page number</source>
     <message>
         <location filename="../../scribus/ui/propertiespalette_fill.ui" line="40"/>
         <source>Color</source>
-        <translation type="unfinished">നിറം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/propertiespalette_fill.ui" line="78"/>
@@ -23173,42 +23335,42 @@ a range of pages or a single page number</source>
     <message>
         <location filename="../../scribus/ui/propertiespalette_image.cpp" line="759"/>
         <source>Maximum</source>
-        <translation>പരമാവധി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/propertiespalette_image.cpp" line="760"/>
         <source>High</source>
-        <translation>ഉയര്‍ന്ന</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/propertiespalette_image.cpp" line="761"/>
         <source>Medium</source>
-        <translation>മധ്യമം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/propertiespalette_image.cpp" line="762"/>
         <source>Low</source>
-        <translation>താഴ്ന്ന</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/propertiespalette_image.cpp" line="763"/>
         <source>Minimum</source>
-        <translation>ഏറ്റവും കുറഞ്ഞത്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/propertiespalette_image.cpp" line="766"/>
         <source> %</source>
-        <translation> %</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/propertiespalette_image.cpp" line="770"/>
         <source> pt</source>
-        <translation>പോയിന്റ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/propertiespalette_image.cpp" line="775"/>
         <source> dpi</source>
-        <translation> dpi</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -23286,7 +23448,7 @@ a range of pages or a single page number</source>
     <message>
         <location filename="../../scribus/ui/propertiespalette_imagebase.ui" line="587"/>
         <source>Quality:</source>
-        <translation>നിലവാരം:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/propertiespalette_imagebase.ui" line="580"/>
@@ -23301,7 +23463,7 @@ a range of pages or a single page number</source>
     <message>
         <location filename="../../scribus/ui/propertiespalette_imagebase.ui" line="72"/>
         <source>Y:</source>
-        <translation>Y:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/propertiespalette_imagebase.ui" line="139"/>
@@ -23326,7 +23488,7 @@ a range of pages or a single page number</source>
     <message>
         <location filename="../../scribus/ui/propertiespalette_imagebase.ui" line="95"/>
         <source>X:</source>
-        <translation>X:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/propertiespalette_imagebase.ui" line="256"/>
@@ -23385,7 +23547,7 @@ a range of pages or a single page number</source>
     <message>
         <location filename="../../scribus/ui/propertiespalette_line.cpp" line="910"/>
         <source> pt</source>
-        <translation>പോയിന്റ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/propertiespalette_line.cpp" line="914"/>
@@ -23493,7 +23655,7 @@ a range of pages or a single page number</source>
     <message>
         <location filename="../../scribus/ui/propertiespalette_linebase.ui" line="127"/>
         <source>Color</source>
-        <translation>നിറം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/propertiespalette_linebase.ui" line="168"/>
@@ -23503,7 +23665,7 @@ a range of pages or a single page number</source>
     <message>
         <location filename="../../scribus/ui/propertiespalette_linebase.ui" line="320"/>
         <source>Width</source>
-        <translation>വീതി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/propertiespalette_linebase.ui" line="352"/>
@@ -23513,7 +23675,7 @@ a range of pages or a single page number</source>
     <message>
         <location filename="../../scribus/ui/propertiespalette_linebase.ui" line="365"/>
         <source>Type</source>
-        <translation>തരം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/propertiespalette_linebase.ui" line="427"/>
@@ -23538,7 +23700,7 @@ a range of pages or a single page number</source>
     <message>
         <location filename="../../scribus/ui/propertiespalette_linebase.ui" line="97"/>
         <source>Add new line style</source>
-        <translation type="unfinished"></translation>
+        <translation>ਨਵਾਂ ਲਾਈਨ ਅੰਦਾਜ਼ ਜੋੜੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/propertiespalette_linebase.ui" line="201"/>
@@ -23551,27 +23713,27 @@ a range of pages or a single page number</source>
     <message>
         <location filename="../../scribus/ui/propertiespalette_shadow.cpp" line="326"/>
         <source>Opacity:</source>
-        <translation>അതാര്യത:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/propertiespalette_shadow.cpp" line="59"/>
         <source>Normal</source>
-        <translation>സാധാരണ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/propertiespalette_shadow.cpp" line="322"/>
         <source>X:</source>
-        <translation>X:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/propertiespalette_shadow.cpp" line="323"/>
         <source>Y:</source>
-        <translation>Y:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/propertiespalette_shadow.cpp" line="324"/>
         <source>Radius:</source>
-        <translation>ആരം:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/propertiespalette_shadow.cpp" line="328"/>
@@ -23631,7 +23793,7 @@ a range of pages or a single page number</source>
     <message>
         <location filename="../../scribus/ui/propertiespalette_shadow.cpp" line="325"/>
         <source>Color</source>
-        <translation>നിറം</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -23639,17 +23801,17 @@ a range of pages or a single page number</source>
     <message>
         <location filename="../../scribus/ui/propertiespalette_shadowbase.ui" line="381"/>
         <source>Opacity:</source>
-        <translation>അതാര്യത:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/propertiespalette_shadowbase.ui" line="66"/>
         <source> %</source>
-        <translation> %</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/propertiespalette_shadowbase.ui" line="201"/>
         <source>Normal</source>
-        <translation>സാധാരണ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/propertiespalette_shadowbase.ui" line="206"/>
@@ -23724,30 +23886,30 @@ a range of pages or a single page number</source>
     <message>
         <location filename="../../scribus/ui/propertiespalette_shadowbase.ui" line="361"/>
         <source>Radius:</source>
-        <translation>ആരം:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/propertiespalette_shadowbase.ui" line="138"/>
         <location filename="../../scribus/ui/propertiespalette_shadowbase.ui" line="271"/>
         <source>Color</source>
-        <translation>നിറം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/propertiespalette_shadowbase.ui" line="51"/>
         <source>X:</source>
-        <translation>X:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/propertiespalette_shadowbase.ui" line="107"/>
         <location filename="../../scribus/ui/propertiespalette_shadowbase.ui" line="351"/>
         <location filename="../../scribus/ui/propertiespalette_shadowbase.ui" line="371"/>
         <source>mm</source>
-        <translation>മില്ലിമീറ്റര്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/propertiespalette_shadowbase.ui" line="123"/>
         <source>Y:</source>
-        <translation>Y:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/propertiespalette_shadowbase.ui" line="174"/>
@@ -23823,7 +23985,7 @@ a range of pages or a single page number</source>
     <message>
         <location filename="../../scribus/ui/propertiespalette_tablebase.ui" line="99"/>
         <source>Cell style of currently selected cell</source>
-        <translation type="unfinished"></translation>
+        <translation>ਮੌਜੂਦਾ ਚੁਣੇ ਖ਼ਾਨੇ ਦਾ ਖ਼ਾਨਾ ਅੰਦਾਜ਼</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/propertiespalette_tablebase.ui" line="106"/>
@@ -23833,23 +23995,23 @@ a range of pages or a single page number</source>
     <message>
         <location filename="../../scribus/ui/propertiespalette_tablebase.ui" line="243"/>
         <source>Borders</source>
-        <translation>അതിരുകള്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/propertiespalette_tablebase.ui" line="380"/>
         <source>Width:</source>
-        <translation>വീതി:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/propertiespalette_tablebase.ui" line="159"/>
         <location filename="../../scribus/ui/propertiespalette_tablebase.ui" line="393"/>
         <source>Color:</source>
-        <translation>നിറം:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/propertiespalette_tablebase.ui" line="454"/>
         <source>Type:</source>
-        <translation>തരം:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/propertiespalette_tablebase.ui" line="198"/>
@@ -23861,17 +24023,17 @@ a range of pages or a single page number</source>
         <location filename="../../scribus/ui/propertiespalette_tablebase.ui" line="220"/>
         <location filename="../../scribus/ui/propertiespalette_tablebase.ui" line="511"/>
         <source> %</source>
-        <translation> %</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/propertiespalette_tablebase.ui" line="122"/>
         <source>Fill</source>
-        <translation>നിറയ്ക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/propertiespalette_tablebase.ui" line="32"/>
         <source>Styles</source>
-        <translation>ശൈലികള്‍</translation>
+        <translation>ਅੰਦਾਜ਼</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/propertiespalette_tablebase.ui" line="66"/>
@@ -23889,7 +24051,7 @@ a range of pages or a single page number</source>
     <message>
         <location filename="../../scribus/ui/propertiespalette_text.cpp" line="47"/>
         <source>Styles</source>
-        <translation>ശൈലികള്‍</translation>
+        <translation>ਅੰਦਾਜ਼</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/propertiespalette_text.cpp" line="53"/>
@@ -23952,19 +24114,19 @@ a range of pages or a single page number</source>
         <location filename="../../scribus/ui/propertiespalette_xyz.cpp" line="211"/>
         <location filename="../../scribus/ui/propertiespalette_xyz.cpp" line="321"/>
         <source>&amp;X1:</source>
-        <translation>&amp;X1:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/propertiespalette_xyz.cpp" line="213"/>
         <location filename="../../scribus/ui/propertiespalette_xyz.cpp" line="323"/>
         <source>X&amp;2:</source>
-        <translation>X&amp;2:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/propertiespalette_xyz.cpp" line="212"/>
         <location filename="../../scribus/ui/propertiespalette_xyz.cpp" line="322"/>
         <source>Y&amp;1:</source>
-        <translation>Y&amp;1:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/propertiespalette_xyz.cpp" line="174"/>
@@ -24006,7 +24168,7 @@ a range of pages or a single page number</source>
         <location filename="../../scribus/ui/propertiespalette_xyz.cpp" line="214"/>
         <location filename="../../scribus/ui/propertiespalette_xyz.cpp" line="324"/>
         <source>&amp;Y2:</source>
-        <translation>&amp;Y2:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/propertiespalette_xyz.cpp" line="1464"/>
@@ -24016,7 +24178,7 @@ a range of pages or a single page number</source>
     <message>
         <location filename="../../scribus/ui/propertiespalette_xyz.cpp" line="1457"/>
         <source> pt</source>
-        <translation>പോയിന്റ്</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -24059,7 +24221,7 @@ a range of pages or a single page number</source>
     <message>
         <location filename="../../scribus/ui/propertiespalette_xyzbase.ui" line="311"/>
         <source>Keep the aspect ratio</source>
-        <translation>ആകാരാനുപാതം കാത്തുസൂക്ഷിക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/propertiespalette_xyzbase.ui" line="280"/>
@@ -24104,17 +24266,17 @@ a range of pages or a single page number</source>
     <message>
         <location filename="../../scribus/ui/propertiespalette_xyzbase.ui" line="490"/>
         <source>Level</source>
-        <translation>തലം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/propertiespalette_xyzbase.ui" line="526"/>
         <source>Move one level up</source>
-        <translation>ഒരു തലം പൊക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/propertiespalette_xyzbase.ui" line="533"/>
         <source>Move one level down</source>
-        <translation>ഒരു തലം താഴ്ത്തുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/propertiespalette_xyzbase.ui" line="547"/>
@@ -24124,12 +24286,12 @@ a range of pages or a single page number</source>
     <message>
         <location filename="../../scribus/ui/propertiespalette_xyzbase.ui" line="519"/>
         <source>Move to front</source>
-        <translation>മുന്നിലേക്ക് നീക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/propertiespalette_xyzbase.ui" line="540"/>
         <source>Move to back</source>
-        <translation>പിന്നിലേക്ക് നീക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/propertiespalette_xyzbase.ui" line="563"/>
@@ -24139,7 +24301,7 @@ a range of pages or a single page number</source>
     <message>
         <location filename="../../scribus/ui/propertiespalette_xyzbase.ui" line="566"/>
         <source>0</source>
-        <translation>0</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/propertiespalette_xyzbase.ui" line="235"/>
@@ -24189,18 +24351,18 @@ a range of pages or a single page number</source>
         <location filename="../../scribus/ui/propertywidget_advancedbase.ui" line="429"/>
         <location filename="../../scribus/ui/propertywidget_advancedbase.ui" line="475"/>
         <source> %</source>
-        <translation> %</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/propertywidget_advancedbase.ui" line="61"/>
         <source>Normal</source>
-        <translation>സാധാരണ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/propertywidget_advancedbase.ui" line="107"/>
         <location filename="../../scribus/ui/propertywidget_advancedbase.ui" line="279"/>
         <source>Minimum</source>
-        <translation>ഏറ്റവും കുറഞ്ഞത്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/propertywidget_advancedbase.ui" line="174"/>
@@ -24210,7 +24372,7 @@ a range of pages or a single page number</source>
     <message>
         <location filename="../../scribus/ui/propertywidget_advancedbase.ui" line="193"/>
         <source>Maximum</source>
-        <translation>പരമാവധി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/propertywidget_advancedbase.ui" line="260"/>
@@ -24266,17 +24428,17 @@ a range of pages or a single page number</source>
     <message>
         <location filename="../../scribus/ui/propertywidget_distance.cpp" line="474"/>
         <source>Gap:</source>
-        <translation>വിടവ്:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/propertywidget_distance.cpp" line="475"/>
         <source>Width:</source>
-        <translation>വീതി:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/propertywidget_distance.cpp" line="478"/>
         <source> pt</source>
-        <translation>പോയിന്റ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/propertywidget_distance.cpp" line="486"/>
@@ -24339,17 +24501,17 @@ a range of pages or a single page number</source>
     <message>
         <location filename="../../scribus/ui/propertywidget_distancebase.ui" line="138"/>
         <source>Gap:</source>
-        <translation>വിടവ്:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/propertywidget_distancebase.ui" line="143"/>
         <source>Width:</source>
-        <translation>വീതി:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/propertywidget_distancebase.ui" line="154"/>
         <source>Size</source>
-        <translation>വലിപ്പം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/propertywidget_distancebase.ui" line="172"/>
@@ -24395,7 +24557,7 @@ a range of pages or a single page number</source>
     <message>
         <location filename="../../scribus/ui/propertywidget_dropcapbase.ui" line="20"/>
         <source>Height</source>
-        <translation>പൊക്കം</translation>
+        <translation>ਉਚਾਈ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/propertywidget_dropcapbase.ui" line="27"/>
@@ -24415,7 +24577,7 @@ a range of pages or a single page number</source>
     <message>
         <location filename="../../scribus/ui/propertywidget_dropcapbase.ui" line="44"/>
         <source>Use Character Style</source>
-        <translation type="unfinished"></translation>
+        <translation>ਅੱਖਰ ਦਾ ਅੰਦਾਜ਼ ਵਰਤੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/propertywidget_dropcapbase.ui" line="17"/>
@@ -24573,7 +24735,7 @@ a range of pages or a single page number</source>
     <message>
         <location filename="../../scribus/ui/propertywidget_fontfeaturesbase.ui" line="277"/>
         <source>Width:</source>
-        <translation>വീതി:</translation>
+        <translation>ਚੌੜਾਈ:</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/propertywidget_fontfeaturesbase.ui" line="331"/>
@@ -24588,7 +24750,7 @@ a range of pages or a single page number</source>
     <message>
         <location filename="../../scribus/ui/propertywidget_fontfeaturesbase.ui" line="387"/>
         <source>Position:</source>
-        <translation>സ്ഥാനം:</translation>
+        <translation>ਸਥਿਤੀ:</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/propertywidget_fontfeaturesbase.ui" line="402"/>
@@ -24608,7 +24770,7 @@ a range of pages or a single page number</source>
     <message>
         <location filename="../../scribus/ui/propertywidget_fontfeaturesbase.ui" line="615"/>
         <source>Style:</source>
-        <translation>ശൈലി:</translation>
+        <translation>ਅੰਦਾਜ਼:</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/propertywidget_fontfeaturesbase.ui" line="738"/>
@@ -24633,102 +24795,102 @@ a range of pages or a single page number</source>
     <message>
         <location filename="../../scribus/ui/propertywidget_fontfeaturesbase.ui" line="887"/>
         <source>1</source>
-        <translation>1</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/propertywidget_fontfeaturesbase.ui" line="899"/>
         <source>5</source>
-        <translation>5</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/propertywidget_fontfeaturesbase.ui" line="911"/>
         <source>9</source>
-        <translation>9</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/propertywidget_fontfeaturesbase.ui" line="923"/>
         <source>13</source>
-        <translation>13</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/propertywidget_fontfeaturesbase.ui" line="935"/>
         <source>17</source>
-        <translation>17</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/propertywidget_fontfeaturesbase.ui" line="947"/>
         <source>2</source>
-        <translation>2</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/propertywidget_fontfeaturesbase.ui" line="959"/>
         <source>6</source>
-        <translation>6</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/propertywidget_fontfeaturesbase.ui" line="971"/>
         <source>10</source>
-        <translation>10</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/propertywidget_fontfeaturesbase.ui" line="983"/>
         <source>14</source>
-        <translation>14</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/propertywidget_fontfeaturesbase.ui" line="995"/>
         <source>18</source>
-        <translation>18</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/propertywidget_fontfeaturesbase.ui" line="1007"/>
         <source>3</source>
-        <translation>3</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/propertywidget_fontfeaturesbase.ui" line="1019"/>
         <source>7</source>
-        <translation>7</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/propertywidget_fontfeaturesbase.ui" line="1031"/>
         <source>11</source>
-        <translation>11</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/propertywidget_fontfeaturesbase.ui" line="1043"/>
         <source>15</source>
-        <translation>15</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/propertywidget_fontfeaturesbase.ui" line="1055"/>
         <source>19</source>
-        <translation>19</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/propertywidget_fontfeaturesbase.ui" line="1067"/>
         <source>4</source>
-        <translation>4</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/propertywidget_fontfeaturesbase.ui" line="1079"/>
         <source>8</source>
-        <translation>8</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/propertywidget_fontfeaturesbase.ui" line="1091"/>
         <source>12</source>
-        <translation>12</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/propertywidget_fontfeaturesbase.ui" line="1103"/>
         <source>16</source>
-        <translation>16</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/propertywidget_fontfeaturesbase.ui" line="1115"/>
         <source>20</source>
-        <translation>20</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -24744,7 +24906,7 @@ a range of pages or a single page number</source>
     <message>
         <location filename="../../scribus/ui/propertywidget_hyphenationbase.ui" line="43"/>
         <source>Language</source>
-        <translation>ഭാഷ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/propertywidget_hyphenationbase.ui" line="64"/>
@@ -24862,7 +25024,7 @@ A value of 0 means unlimited hyphenations.</source>
     <message>
         <location filename="../../scribus/ui/propertywidget_pareffect.cpp" line="209"/>
         <source>Numbered List</source>
-        <translation>അക്കമിട്ട പട്ടിക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/propertywidget_pareffect.cpp" line="206"/>
@@ -24905,17 +25067,17 @@ A value of 0 means unlimited hyphenations.</source>
     <message>
         <location filename="../../scribus/ui/propertywidget_pareffectbase.ui" line="318"/>
         <source>Style:</source>
-        <translation>ശൈലി:</translation>
+        <translation>ਅੰਦਾਜ਼:</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/propertywidget_pareffectbase.ui" line="331"/>
         <source>Level:</source>
-        <translation>തലം:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/propertywidget_pareffectbase.ui" line="266"/>
         <source>Start:</source>
-        <translation>തുടക്കം:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/propertywidget_pareffectbase.ui" line="256"/>
@@ -24973,7 +25135,7 @@ A value of 0 means unlimited hyphenations.</source>
     <message>
         <location filename="../../scribus/ui/propertywidget_paragraphstyle.ui" line="122"/>
         <source>Add new paragraph style</source>
-        <translation type="unfinished"></translation>
+        <translation>ਨਵਾਂ ਪੈਰਾ ਅੰਦਾਜ਼ ਜੋੜੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/propertywidget_paragraphstyle.ui" line="171"/>
@@ -24993,7 +25155,7 @@ A value of 0 means unlimited hyphenations.</source>
     <message>
         <location filename="../../scribus/ui/propertywidget_paragraphstyle.ui" line="214"/>
         <source>Add new character style</source>
-        <translation type="unfinished"></translation>
+        <translation>ਨਵਾਂ ਅੱਖਰ ਅੰਦਾਜ਼ ਜੋੜੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/propertywidget_paragraphstyle.cpp" line="344"/>
@@ -25021,7 +25183,7 @@ A value of 0 means unlimited hyphenations.</source>
     <message>
         <location filename="../../scribus/ui/propertywidget_pathtext.cpp" line="245"/>
         <source>Type</source>
-        <translation>തരം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/propertywidget_pathtext.cpp" line="246"/>
@@ -25036,12 +25198,12 @@ A value of 0 means unlimited hyphenations.</source>
     <message>
         <location filename="../../scribus/ui/propertywidget_pathtext.cpp" line="244"/>
         <source>Show Curve</source>
-        <translation>വക്രം കാണിക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/propertywidget_pathtext.cpp" line="249"/>
         <source> pt</source>
-        <translation>പോയിന്റ്</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -25049,7 +25211,7 @@ A value of 0 means unlimited hyphenations.</source>
     <message>
         <location filename="../../scribus/ui/propertywidget_pathtextbase.ui" line="43"/>
         <source>Type</source>
-        <translation>തരം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/propertywidget_pathtextbase.ui" line="61"/>
@@ -25147,13 +25309,13 @@ A value of 0 means unlimited hyphenations.</source>
         <location filename="../../scribus/ui/propertywidget_textbase.ui" line="76"/>
         <location filename="../../scribus/ui/propertywidget_textbase.ui" line="176"/>
         <source> pt</source>
-        <translation type="unfinished">പോയിന്റ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/propertywidget_textbase.ui" line="112"/>
         <location filename="../../scribus/ui/propertywidget_textbase.ui" line="173"/>
         <source>Line Spacing</source>
-        <translation type="unfinished">വരിയകലം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/propertywidget_textbase.ui" line="139"/>
@@ -25163,17 +25325,17 @@ A value of 0 means unlimited hyphenations.</source>
     <message>
         <location filename="../../scribus/ui/propertywidget_textbase.ui" line="155"/>
         <source>Line Height</source>
-        <translation type="unfinished"></translation>
+        <translation>ਲਾਈਨ ਦੀ ਉਚਾਈ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/propertywidget_textbase.ui" line="212"/>
         <source>Color</source>
-        <translation type="unfinished">നിറം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/propertywidget_textbase.ui" line="246"/>
         <source>Background</source>
-        <translation type="unfinished">പശ്ചാത്തലം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/propertywidget_textbase.ui" line="280"/>
@@ -25191,7 +25353,7 @@ A value of 0 means unlimited hyphenations.</source>
     <message>
         <location filename="../../scribus/plugins/import/pub/importpub.cpp" line="121"/>
         <source>Analyzing File:</source>
-        <translation>ഫയല്‍ പരിശോധിക്കുന്നു:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/import/pub/importpub.cpp" line="319"/>
@@ -25207,17 +25369,17 @@ Document Liberation Project https://www.documentliberation.org</source>
     <message>
         <location filename="../../scribus/plugins/scriptplugin/pconsole.ui" line="94"/>
         <source>&amp;Open...</source>
-        <translation>&amp;തുറക്കുക...</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/scriptplugin/pconsole.ui" line="99"/>
         <source>&amp;Save</source>
-        <translation>&amp;സൂക്ഷിക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/scriptplugin/pconsole.ui" line="72"/>
         <source>&amp;File</source>
-        <translation>&amp;ഫയല്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/scriptplugin/pconsole.ui" line="114"/>
@@ -25232,7 +25394,7 @@ Document Liberation Project https://www.documentliberation.org</source>
     <message>
         <location filename="../../scribus/plugins/scriptplugin/pconsole.ui" line="82"/>
         <source>&amp;Script</source>
-        <translation>&amp;സ്ക്രിപ്റ്റ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/scriptplugin/pconsole.ui" line="14"/>
@@ -25272,7 +25434,7 @@ Document Liberation Project https://www.documentliberation.org</source>
     <message>
         <location filename="../../scribus/plugins/scriptplugin/pconsole.cpp" line="59"/>
         <source>Scribus Python Console</source>
-        <translation>സ്ക്രൈബസിന്റെ പൈത്തണ്‍ കണ്‍സോള്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/scriptplugin/pconsole.cpp" line="61"/>
@@ -25290,7 +25452,7 @@ Scripter documentation for further information. </source>
         <location filename="../../scribus/plugins/scriptplugin/pconsole.cpp" line="195"/>
         <location filename="../../scribus/plugins/scriptplugin/pconsole.cpp" line="237"/>
         <source>Python Scripts (*.py *.PY)</source>
-        <translation>പൈത്തണ്‍ സ്ക്രിപ്റ്റുകള്‍ (*.py, *.PY)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/scriptplugin/pconsole.cpp" line="33"/>
@@ -25301,22 +25463,22 @@ Scripter documentation for further information. </source>
     <message>
         <location filename="../../scribus/plugins/scriptplugin/pconsole.cpp" line="44"/>
         <source>Ctrl+O</source>
-        <translation>Ctrl+O</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/scriptplugin/pconsole.cpp" line="45"/>
         <source>Ctrl+S</source>
-        <translation>Ctrl+S</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/scriptplugin/pconsole.ui" line="109"/>
         <source>&amp;Quit</source>
-        <translation>&amp;പുറത്തുകടക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/scriptplugin/pconsole.cpp" line="143"/>
         <source>Another script is already running...</source>
-        <translation>മറ്റൊരു സ്ക്രിപ്റ്റ് നിലവില്‍ ഓടിക്കൊണ്ടിരിക്കുകയാണ്...</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/scriptplugin/pconsole.cpp" line="144"/>
@@ -25328,8 +25490,7 @@ Scripter documentation for further information. </source>
         <location filename="../../scribus/plugins/scriptplugin/pconsole.cpp" line="158"/>
         <source>
 &gt;&gt;&gt; Another script is already running...</source>
-        <translation>
-&gt;&gt;&gt; മറ്റൊരു സ്ക്രിപ്റ്റ് നിലവില്‍ ഓടിക്കൊണ്ടിരിക്കുകയാണ്...</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/scriptplugin/pconsole.cpp" line="132"/>
@@ -25357,17 +25518,17 @@ Scripter documentation for further information. </source>
     <message>
         <location filename="../../scribus/translationdummy.cpp" line="138"/>
         <source>&amp;Red:</source>
-        <translation>&amp;ചുവപ്പ്:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/translationdummy.cpp" line="139"/>
         <source>&amp;Green:</source>
-        <translation>&amp;പച്ച:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/translationdummy.cpp" line="140"/>
         <source>Bl&amp;ue:</source>
-        <translation>&amp;നീല:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/translationdummy.cpp" line="141"/>
@@ -25377,7 +25538,7 @@ Scripter documentation for further information. </source>
     <message>
         <location filename="../../scribus/translationdummy.cpp" line="142"/>
         <source>&amp;Basic colors</source>
-        <translation>&amp;അടിസ്ഥാനനിറങ്ങള്‍:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/translationdummy.cpp" line="144"/>
@@ -25392,12 +25553,12 @@ Scripter documentation for further information. </source>
     <message>
         <location filename="../../scribus/translationdummy.cpp" line="146"/>
         <source>OK</source>
-        <translation>ശരി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/translationdummy.cpp" line="147"/>
         <source>Cancel</source>
-        <translation>റദ്ദാക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/translationdummy.cpp" line="148"/>
@@ -25412,7 +25573,7 @@ Scripter documentation for further information. </source>
     <message>
         <location filename="../../scribus/translationdummy.cpp" line="149"/>
         <source>Select Color</source>
-        <translation>നിറം തിരഞ്ഞെടുക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -25425,22 +25586,22 @@ Scripter documentation for further information. </source>
     <message>
         <location filename="../../scribus/translationdummy.cpp" line="11"/>
         <source>Read: %1</source>
-        <translation>വായിക്കുക: %1</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/translationdummy.cpp" line="12"/>
         <source>Write: %1</source>
-        <translation>എഴുതുക: %1</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/translationdummy.cpp" line="13"/>
         <source>File &amp;name:</source>
-        <translation>ഫയലിന്റെ &amp;പേര്:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/translationdummy.cpp" line="14"/>
         <source>File &amp;type:</source>
-        <translation>ഫയലിന്റെ &amp;തരം:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/translationdummy.cpp" line="16"/>
@@ -25450,32 +25611,32 @@ Scripter documentation for further information. </source>
     <message>
         <location filename="../../scribus/translationdummy.cpp" line="17"/>
         <source>Cancel</source>
-        <translation>റദ്ദാക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/translationdummy.cpp" line="18"/>
         <source>All Files (*)</source>
-        <translation>എല്ലാ ഫയലുകളും (*)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/translationdummy.cpp" line="19"/>
         <source>Name</source>
-        <translation>പേര്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/translationdummy.cpp" line="20"/>
         <source>Size</source>
-        <translation>വലിപ്പം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/translationdummy.cpp" line="21"/>
         <source>Type</source>
-        <translation>തരം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/translationdummy.cpp" line="22"/>
         <source>Date</source>
-        <translation>തീയതി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/translationdummy.cpp" line="23"/>
@@ -25485,7 +25646,7 @@ Scripter documentation for further information. </source>
     <message>
         <location filename="../../scribus/translationdummy.cpp" line="24"/>
         <source>OK</source>
-        <translation>ശരി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/translationdummy.cpp" line="25"/>
@@ -25495,7 +25656,7 @@ Scripter documentation for further information. </source>
     <message>
         <location filename="../../scribus/translationdummy.cpp" line="28"/>
         <source>Back</source>
-        <translation>പിന്നാക്കം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/translationdummy.cpp" line="31"/>
@@ -25560,7 +25721,7 @@ Scripter documentation for further information. </source>
     <message>
         <location filename="../../scribus/translationdummy.cpp" line="43"/>
         <source>File</source>
-        <translation>ഫയല്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/translationdummy.cpp" line="44"/>
@@ -25575,7 +25736,7 @@ Scripter documentation for further information. </source>
     <message>
         <location filename="../../scribus/translationdummy.cpp" line="46"/>
         <source>Open</source>
-        <translation>തുറക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/translationdummy.cpp" line="47"/>
@@ -25585,12 +25746,12 @@ Scripter documentation for further information. </source>
     <message>
         <location filename="../../scribus/translationdummy.cpp" line="48"/>
         <source>&amp;Open</source>
-        <translation>&amp;തുറക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/translationdummy.cpp" line="49"/>
         <source>&amp;Save</source>
-        <translation>&amp;സൂക്ഷിക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/translationdummy.cpp" line="50"/>
@@ -25610,32 +25771,32 @@ Scripter documentation for further information. </source>
     <message>
         <location filename="../../scribus/translationdummy.cpp" line="53"/>
         <source>Sort by &amp;Name</source>
-        <translation>&amp;പേരിനനുസരിച്ചടുക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/translationdummy.cpp" line="54"/>
         <source>Sort by &amp;Size</source>
-        <translation>&amp;വലിപ്പമനുസരിച്ചടുക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/translationdummy.cpp" line="55"/>
         <source>Sort by &amp;Date</source>
-        <translation>&amp;തീയതിക്കനുസരിച്ചടുക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/translationdummy.cpp" line="56"/>
         <source>&amp;Unsorted</source>
-        <translation>&amp;അടുക്കാത്ത</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/translationdummy.cpp" line="57"/>
         <source>Sort</source>
-        <translation>അടുക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/translationdummy.cpp" line="58"/>
         <source>Show &amp;hidden files</source>
-        <translation>&amp;ഗുപ്തഫയലുകള്‍ കാണിക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/translationdummy.cpp" line="59"/>
@@ -25690,26 +25851,24 @@ Scripter documentation for further information. </source>
     <message>
         <location filename="../../scribus/translationdummy.cpp" line="74"/>
         <source>Save</source>
-        <translation>സൂക്ഷിക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/translationdummy.cpp" line="75"/>
         <source>Error</source>
-        <translation>പിഴവ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/translationdummy.cpp" line="76"/>
         <source>%1
 File not found.
 Check path and filename.</source>
-        <translation>%1
-ഫയല്‍ കണ്ടെതുവാന്‍ കഴിഞ്ഞില്ല.
-പാതയും ഫയലിന്റെ പേരും പരിശോധിക്കുക.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/translationdummy.cpp" line="77"/>
         <source>All Files (*.*)</source>
-        <translation>എല്ലാ ഫയലുകളും (*.*)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/translationdummy.cpp" line="78"/>
@@ -25777,7 +25936,7 @@ Check path and filename.</source>
     <message>
         <location filename="../../scribus/translationdummy.cpp" line="155"/>
         <source>&amp;Size</source>
-        <translation>&amp;വലിപ്പം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/translationdummy.cpp" line="156"/>
@@ -25792,12 +25951,12 @@ Check path and filename.</source>
     <message>
         <location filename="../../scribus/translationdummy.cpp" line="158"/>
         <source>&amp;Underline</source>
-        <translation>&amp;അടിവര</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/translationdummy.cpp" line="159"/>
         <source>&amp;Color</source>
-        <translation>&amp;നിറം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/translationdummy.cpp" line="160"/>
@@ -25812,7 +25971,7 @@ Check path and filename.</source>
     <message>
         <location filename="../../scribus/translationdummy.cpp" line="162"/>
         <source>OK</source>
-        <translation>ശരി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/translationdummy.cpp" line="163"/>
@@ -25822,12 +25981,12 @@ Check path and filename.</source>
     <message>
         <location filename="../../scribus/translationdummy.cpp" line="164"/>
         <source>Cancel</source>
-        <translation>റദ്ദാക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/translationdummy.cpp" line="165"/>
         <source>Close</source>
-        <translation>അടയ്ക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/translationdummy.cpp" line="166"/>
@@ -25840,12 +25999,12 @@ Check path and filename.</source>
     <message>
         <location filename="../../scribus/translationdummy.cpp" line="83"/>
         <source>Clear</source>
-        <translation>വൃത്തിയാക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/translationdummy.cpp" line="90"/>
         <source>Select All</source>
-        <translation>എല്ലാം തിരഞ്ഞെടുക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/translationdummy.cpp" line="84"/>
@@ -25860,17 +26019,17 @@ Check path and filename.</source>
     <message>
         <location filename="../../scribus/translationdummy.cpp" line="86"/>
         <source>Cu&amp;t</source>
-        <translation>&amp;വെട്ടിയെടുക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/translationdummy.cpp" line="87"/>
         <source>&amp;Copy</source>
-        <translation>&amp;പകര്‍ത്തുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/translationdummy.cpp" line="88"/>
         <source>&amp;Paste</source>
-        <translation>&amp;ഒട്ടിക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/translationdummy.cpp" line="89"/>
@@ -25896,32 +26055,32 @@ Check path and filename.</source>
     <message>
         <location filename="../../scribus/translationdummy.cpp" line="119"/>
         <source>&amp;Restore</source>
-        <translation>&amp;പുനഃസ്ഥാപിക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/translationdummy.cpp" line="120"/>
         <source>&amp;Move</source>
-        <translation>&amp;നീക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/translationdummy.cpp" line="121"/>
         <source>&amp;Size</source>
-        <translation>&amp;വലിപ്പം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/translationdummy.cpp" line="122"/>
         <source>Mi&amp;nimize</source>
-        <translation>&amp;ചെറുതാക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/translationdummy.cpp" line="123"/>
         <source>Ma&amp;ximize</source>
-        <translation>&amp;വലുതാക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/translationdummy.cpp" line="124"/>
         <source>&amp;Close</source>
-        <translation>&amp;അടയ്ക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/translationdummy.cpp" line="125"/>
@@ -25931,7 +26090,7 @@ Check path and filename.</source>
     <message>
         <location filename="../../scribus/translationdummy.cpp" line="126"/>
         <source>Minimize</source>
-        <translation>ചെറുതാക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/translationdummy.cpp" line="127"/>
@@ -25941,7 +26100,7 @@ Check path and filename.</source>
     <message>
         <location filename="../../scribus/translationdummy.cpp" line="128"/>
         <source>Close</source>
-        <translation>അടയ്ക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/translationdummy.cpp" line="129"/>
@@ -25951,7 +26110,7 @@ Check path and filename.</source>
     <message>
         <location filename="../../scribus/translationdummy.cpp" line="130"/>
         <source>%1 - [%2]</source>
-        <translation>%1 - [%2]</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/translationdummy.cpp" line="131"/>
@@ -25977,7 +26136,7 @@ Check path and filename.</source>
         <location filename="../../scribus/plugins/fileloader/scribus171format/scribus171format.cpp" line="1599"/>
         <location filename="../../scribus/plugins/fileloader/scribus171format/scribus171format.cpp" line="2278"/>
         <source>Background</source>
-        <translation>പശ്ചാത്തലം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/import/ai/importaiplugin.cpp" line="131"/>
@@ -26011,7 +26170,7 @@ Check path and filename.</source>
         <location filename="../../scribus/plugins/import/xps/importxpsplugin.cpp" line="149"/>
         <location filename="../../scribus/plugins/import/zmf/importzmfplugin.cpp" line="125"/>
         <source>Open</source>
-        <translation>തുറക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/export/svgexplugin/svgexplugin.cpp" line="134"/>
@@ -26024,31 +26183,31 @@ Check path and filename.</source>
         <location filename="../../scribus/scgtplugin.cpp" line="76"/>
         <location filename="../../scribus/util_formats.cpp" line="320"/>
         <source>All Files (*)</source>
-        <translation>എല്ലാ ഫയലുകളും (*)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/nftrcreader.cpp" line="182"/>
         <location filename="../../scribus/plugins/saveastemplateplugin/satdialog.cpp" line="195"/>
         <source>Newsletters</source>
-        <translation>ന്യൂസ്‌ലെറ്ററുകള്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/nftrcreader.cpp" line="168"/>
         <location filename="../../scribus/plugins/saveastemplateplugin/satdialog.cpp" line="181"/>
         <source>Brochures</source>
-        <translation>ബ്രോഷറുകള്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/nftrcreader.cpp" line="172"/>
         <location filename="../../scribus/plugins/saveastemplateplugin/satdialog.cpp" line="185"/>
         <source>Catalogs</source>
-        <translation>കാറ്റലോഗുകള്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/nftrcreader.cpp" line="174"/>
         <location filename="../../scribus/plugins/saveastemplateplugin/satdialog.cpp" line="187"/>
         <source>Flyers</source>
-        <translation>ഫ്ലയറുകള്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/nftrcreader.cpp" line="188"/>
@@ -26060,38 +26219,38 @@ Check path and filename.</source>
         <location filename="../../scribus/nftrcreader.cpp" line="171"/>
         <location filename="../../scribus/plugins/saveastemplateplugin/satdialog.cpp" line="184"/>
         <source>Cards</source>
-        <translation>കാര്‍ഡുകള്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/nftrcreader.cpp" line="178"/>
         <location filename="../../scribus/plugins/saveastemplateplugin/satdialog.cpp" line="191"/>
         <source>Letterheads</source>
-        <translation>ലെറ്റെര്‍ഹെഡുകള്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/nftrcreader.cpp" line="173"/>
         <location filename="../../scribus/plugins/saveastemplateplugin/satdialog.cpp" line="186"/>
         <source>Envelopes</source>
-        <translation>ഒന്‍വലപ്പുകള്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/nftrcreader.cpp" line="169"/>
         <location filename="../../scribus/pagesize.cpp" line="216"/>
         <location filename="../../scribus/plugins/saveastemplateplugin/satdialog.cpp" line="182"/>
         <source>Business Cards</source>
-        <translation>ബിസിനെസ്സ് കാര്‍ഡുകള്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/nftrcreader.cpp" line="170"/>
         <location filename="../../scribus/plugins/saveastemplateplugin/satdialog.cpp" line="183"/>
         <source>Calendars</source>
-        <translation>കലെന്‍ഡറുകള്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/nftrcreader.cpp" line="166"/>
         <location filename="../../scribus/plugins/saveastemplateplugin/satdialog.cpp" line="179"/>
         <source>Advertisements</source>
-        <translation>പരസ്യങ്ങള്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/nftrcreader.cpp" line="177"/>
@@ -26127,19 +26286,19 @@ Check path and filename.</source>
         <location filename="../../scribus/nftrcreader.cpp" line="179"/>
         <location filename="../../scribus/plugins/saveastemplateplugin/satdialog.cpp" line="192"/>
         <source>Magazines</source>
-        <translation>മാഗസീനുകള്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/nftrcreader.cpp" line="186"/>
         <location filename="../../scribus/plugins/saveastemplateplugin/satdialog.cpp" line="199"/>
         <source>Posters</source>
-        <translation>പോസ്റ്ററുകള്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/nftrcreader.cpp" line="167"/>
         <location filename="../../scribus/plugins/saveastemplateplugin/satdialog.cpp" line="180"/>
         <source>Announcements</source>
-        <translation>അറിയിപ്പുകള്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/nftrcreader.cpp" line="189"/>
@@ -26151,7 +26310,7 @@ Check path and filename.</source>
         <location filename="../../scribus/nftrcreader.cpp" line="175"/>
         <location filename="../../scribus/plugins/saveastemplateplugin/satdialog.cpp" line="189"/>
         <source>Folds</source>
-        <translation>മടക്കുകള്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/nftrcreader.cpp" line="183"/>
@@ -26176,12 +26335,12 @@ Check path and filename.</source>
     <message>
         <location filename="../../scribus/plugins/gettext/htmlim/htmlim.cpp" line="45"/>
         <source>HTML Files</source>
-        <translation>HTML ഫയലുകള്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/gettext/htmlim/htmlim.cpp" line="50"/>
         <source>html</source>
-        <translation>html</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/gettext/txtim/txtim.cpp" line="21"/>
@@ -26224,1046 +26383,1047 @@ External Links
     <message>
         <location filename="../../scribus/langmgr.cpp" line="103"/>
         <source>Albanian</source>
-        <translation>അല്‍ബേനിയന്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="108"/>
         <source>Arabic (Algeria)</source>
-        <translation>അറബിക്‍ (അള്‍ജീരിയ)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="109"/>
         <source>Arabic (Bahrain)</source>
-        <translation>അറബിക്‍ (ബഹറിന്‍)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="110"/>
         <source>Arabic (Egypt)</source>
-        <translation>അറബിക്‍ (ഈജിപ്റ്റ്)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="111"/>
         <source>Arabic (Iraq)</source>
-        <translation>അറബിക്‍ (ഇറാഖ്)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="113"/>
         <source>Arabic (Kuwait)</source>
-        <translation>അറബിക്‍ (കുവൈറ്റ്)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="114"/>
         <source>Arabic (Lebanon)</source>
-        <translation>അറബിക്‍ (ലെബനന്‍)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="115"/>
         <source>Arabic (Libya)</source>
-        <translation>അറബിക്‍ (ലിബ്യ)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="116"/>
         <source>Arabic (Morocco)</source>
-        <translation>അറബിക്‍ (മൊറോക്കോ)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="117"/>
         <source>Arabic (Oman)</source>
-        <translation>അറബിക്‍ (ഒമാന്‍)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="118"/>
         <source>Arabic (Qatar)</source>
-        <translation>അറബിക്‍ (ഖത്തര്‍)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="119"/>
         <source>Arabic (Saudi Arabia)</source>
-        <translation>അറബിക്‍ (സൗദി അറേബ്യ)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="120"/>
         <source>Arabic (Sudan)</source>
-        <translation>അറബിക്‍ (സുഡാന്‍)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="121"/>
         <source>Arabic (Syria)</source>
-        <translation>അറബിക്‍ (സിറിയ)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="122"/>
         <source>Arabic (Tunisia)</source>
-        <translation>അറബിക്‍ (റ്റുനീസിയ)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="123"/>
         <source>Arabic (UAE)</source>
-        <translation>അറബിക്‍ (യു.ഏ.ഇ.)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="124"/>
         <source>Arabic (Yemen)</source>
-        <translation>അറബിക്‍ (യെമെന്‍)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="151"/>
         <source>Basque</source>
-        <translation>ബാസ്ക്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="181"/>
         <source>Bulgarian</source>
-        <translation>ബള്‍ഗേറിയന്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="185"/>
         <source>Catalan</source>
-        <translation>കാറ്റലന്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="230"/>
         <source>Efik</source>
-        <translation>എഫിക്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="274"/>
         <source>Gondi Southern</source>
-        <translation>തെക്കന്‍ ഗോണ്‍ഡി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="281"/>
         <source>Hamer-Banna</source>
-        <translation>ഹാമെര്‍-ബന്ന</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="351"/>
         <source>Kölsch</source>
-        <translation>കോല്‍ഷ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="362"/>
         <source>Koryak</source>
-        <translation>കൊറ്യാക്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="363"/>
         <source>Konyanka Maninka</source>
-        <translation>കൊണ്യാന്‍കാ മനിന്‍ക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="364"/>
         <source>Kpelle</source>
-        <translation>ക്പെല്ലെ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="365"/>
         <source>Krio</source>
-        <translation>ക്രയോ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="366"/>
         <source>Kui (India)</source>
-        <translation>കുയി (ഇന്ത്യ)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="367"/>
         <source>Kui (Indonesia)</source>
-        <translation>കുയി (ഇന്തോനേഷ്യ)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="368"/>
         <source>Kumaoni</source>
-        <translation>കുമാവോനി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="369"/>
         <source>Kumyk</source>
-        <translation>കുമിക്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="370"/>
         <source>Kumzari</source>
-        <translation>കുംസാരി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="372"/>
         <source>Kurdish (Sorani)</source>
-        <translation>കുര്‍ദിഷ് (സൊറാനി)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="373"/>
         <source>Kurukh</source>
-        <translation>കുറുഖ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="374"/>
         <source>Kuy</source>
-        <translation>കുയ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="375"/>
         <source>Kwanyama</source>
-        <translation>ക്വാന്യാമ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="376"/>
         <source>Kyrgyz</source>
-        <translation>കിര്‍ഗിസ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="377"/>
         <source>Ladakhi</source>
-        <translation>ലഡാഖി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="378"/>
         <source>Ladin</source>
-        <translation>ലാഡിന്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="379"/>
         <source>Ladino</source>
-        <translation>ലാഡിനോ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="380"/>
         <source>Lak</source>
-        <translation>ലാക്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="381"/>
         <source>Laki</source>
-        <translation>ലാകി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="382"/>
         <source>Lambani</source>
-        <translation>ലംബാനി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="383"/>
         <source>Lampung Api</source>
-        <translation>ലാംപുങ്ങ് അപി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="384"/>
         <source>Lombard</source>
-        <translation>ലൊംബാര്‍ഡ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="387"/>
         <source>Latvian</source>
-        <translation>ലാറ്റ്‌വിയന്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="388"/>
         <source>Laz</source>
-        <translation>ലാസ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="389"/>
         <source>Lezgi</source>
-        <translation>ലെസ്ഗി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="390"/>
         <source>Ligurian</source>
-        <translation>ലിഗൂറിയന്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="391"/>
         <source>Limbu</source>
-        <translation>ലിമ്പു</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="392"/>
         <source>Limburgish</source>
-        <translation>ലിമ്പുര്‍ഗിഷ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="393"/>
         <source>Lingala</source>
-        <translation>ലിങ്കാല</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="394"/>
         <source>Lisu</source>
-        <translation>ലിസു</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="396"/>
         <source>Lojban</source>
-        <translation>ലോജ്ബാന്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="397"/>
         <source>Lomwe</source>
-        <translation>ലോംവെ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="398"/>
         <source>Low German</source>
-        <translation>ലോ ജെര്‍മെന്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="399"/>
         <source>Low Mari</source>
-        <translation>ലോ മാരി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="400"/>
         <source>Lower Sorbian</source>
-        <translation>ലോവര്‍ സോര്‍ബിയന്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="402"/>
         <source>Lü</source>
-        <translation>ലൂ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="403"/>
         <source>Luba-Kasai</source>
-        <translation>ലൂബ-കസായ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="404"/>
         <source>Luba-Katanga</source>
-        <translation>ലൂബ-കടാങ്ക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="405"/>
         <source>Luo (Kenya and Tanzania)</source>
-        <translation>ലുവോ (കെന്യ, റ്റാന്‍സാനിയ)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="406"/>
         <source>Luri (Northern)</source>
-        <translation>ലൂറി (വടക്കന്‍)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="407"/>
         <source>Luri (Southern)</source>
-        <translation>ലൂറി (തെക്കന്‍)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="408"/>
         <source>Macedonian</source>
-        <translation>മാസിഡോണിയന്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="409"/>
         <source>Madurese</source>
-        <translation>മദുറീസ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="410"/>
         <source>Magahi</source>
-        <translation>മഗാഹി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="411"/>
         <source>Maharashtrian Konkani</source>
-        <translation>മഹാരാഷ്ട്രിയന്‍ കൊങ്കണി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="412"/>
         <source>Maithili</source>
-        <translation>മൈഥിലി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="413"/>
         <source>Majang</source>
-        <translation>മജാങ്ങ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="414"/>
         <source>Makasar</source>
-        <translation>മകാസര്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="415"/>
         <source>Makhuwa</source>
-        <translation>മഖൂവ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="416"/>
         <source>Makonde</source>
-        <translation>മകോണ്‍ഡെ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="417"/>
         <source>Malay</source>
-        <translation>മലയ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="418"/>
         <source>Malagasy</source>
-        <translation>മലഗസായ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="419"/>
         <source>Malayalam</source>
-        <translation>മലയാളം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="420"/>
         <source>Maldivian</source>
-        <translation>മാല്‍ദീവിയന്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="421"/>
         <source>Male (Ethiopia)</source>
-        <translation>മാലെ (എത്യോപ്യ)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="422"/>
         <source>Male (Papua New Guinea)</source>
-        <translation>മാലെ (പാപുവ ന്യൂ ഗിനി)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="423"/>
         <source>Maltese</source>
-        <translation>മാല്‍റ്റീസ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="424"/>
         <source>Maori</source>
-        <translation>മവോറി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="425"/>
         <source>Manding</source>
-        <translation>മാന്‍ഡിങ്ങ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="426"/>
         <source>Manchu</source>
-        <translation>മാന്‍ചു</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="427"/>
         <source>Mandar</source>
-        <translation>മന്‍ദര്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="428"/>
         <source>Mandinka</source>
-        <translation>മന്‍ഡിന്‍ക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="429"/>
         <source>Manipuri</source>
-        <translation>മണിപ്പൂരി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="430"/>
         <source>Maninkakan (Eastern)</source>
-        <translation>മണിന്‍കാകന്‍ (കിഴക്കന്‍)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="431"/>
         <source>Maninkakan (Western)</source>
-        <translation>മണിന്‍കാകന്‍ (പടിഞ്ഞാറന്‍)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="432"/>
         <source>Mansi</source>
-        <translation>മാന്‍സി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="433"/>
         <source>Manx</source>
-        <translation>മാന്‍ക്സ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="434"/>
         <source>Marathi</source>
-        <translation>മറാത്തി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="435"/>
         <source>Marshallese</source>
-        <translation>മാര്‍ഷലീസ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="436"/>
         <source>Marwari</source>
-        <translation>മാര്‍വാരി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="437"/>
         <source>Marwari (Pakistan)</source>
-        <translation>മാര്‍വാരി (പാക്കിസ്ഥാന്‍)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="438"/>
         <source>Mazanderani</source>
-        <translation>മാസന്‍ഡെറാനി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="439"/>
         <source>Mende (Sierra Leone)</source>
-        <translation>മെന്‍ഡെ (സിയെറ ലിയോണെ)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="440"/>
         <source>Me&apos;en</source>
-        <translation>മെഎന്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="441"/>
         <source>Meru</source>
-        <translation>മെരു</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="442"/>
         <source>Merwari</source>
-        <translation>മെര്‍വാരി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="443"/>
         <source>Mewari</source>
-        <translation>മെവാരി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="444"/>
         <source>Mewari (India)</source>
-        <translation>മെവാരി (ഇന്ത്യ)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="445"/>
         <source>Mewati</source>
-        <translation>മെവാതി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="446"/>
         <source>Minangkabau</source>
-        <translation>മിനങ്ങ്കബൗ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="447"/>
         <source>Mirandese</source>
-        <translation>മിരാന്‍ഡീസ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="448"/>
         <source>Mizo</source>
-        <translation>മിസോ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="449"/>
         <source>Mon</source>
-        <translation>മോണ്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="450"/>
         <source>Mohawk</source>
-        <translation>മൊഹോക്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="451"/>
         <source>Moksha</source>
-        <translation>മോക്ഷ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="452"/>
         <source>Moldavian</source>
-        <translation>മോള്‍ഡാവ്യന്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="454"/>
         <source>Morisyen</source>
-        <translation>മൊറിസ്യെന്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="455"/>
         <source>Mossi</source>
-        <translation>മൊസ്സി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="456"/>
         <source>Mundari</source>
-        <translation>മുന്‍ഡാരി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="457"/>
         <source>N&apos;Ko</source>
-        <translation>ന്‍&apos;കോ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="458"/>
         <source>Nahuatl</source>
-        <translation>നഹുവാറ്റി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="459"/>
         <source>Nanai</source>
-        <translation>നാനായ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="460"/>
         <source>Naskapi</source>
-        <translation>നസ്കാപി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="461"/>
         <source>Nauru</source>
-        <translation>നൗരു</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="462"/>
         <source>Navajo</source>
-        <translation>നവാജോ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="463"/>
         <source>Ndau</source>
-        <translation>ന്‍ഡൗ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="464"/>
         <source>North Ndebele</source>
-        <translation>വടക്കന്‍ ന്‍ഡെബെലെ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="465"/>
         <source>South Ndebele</source>
-        <translation>തെക്കന്‍ ന്‍ഡെബെലെ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="466"/>
         <source>Ndonga</source>
-        <translation>ന്‍ഡോങ്ങ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="467"/>
         <source>Neapolitan</source>
-        <translation>നിയപൊളിറ്റന്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="469"/>
         <source>Newari</source>
-        <translation>നെവാരി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="470"/>
         <source>Ngabaka</source>
-        <translation>ന്‍ഗാബക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="471"/>
         <source>Nigerian Fulfulde</source>
-        <translation>നൈജീരിയന്‍ ഫുള്‍ഫിഡെ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="472"/>
         <source>Nimadi</source>
-        <translation>നിമാഡി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="473"/>
         <source>Nisi (India)</source>
-        <translation>നിസി (ഇന്ത്യ)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="474"/>
         <source>Nisi (China)</source>
-        <translation>നിസി (ചൈന)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="475"/>
         <source>Niuean</source>
-        <translation>നിയൂവിയന്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="476"/>
         <source>Nogai</source>
-        <translation>നോഗായ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="480"/>
         <source>Novial</source>
-        <translation>നോവിയല്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="481"/>
         <source>Nyamwezi</source>
-        <translation>ന്യാംവെസി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="482"/>
         <source>Nyankole</source>
-        <translation>ന്യാന്‍കോള്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="483"/>
         <source>Occidental</source>
-        <translation>ഓക്സിഡെന്റല്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="484"/>
         <source>Occitan (post 1500)</source>
-        <translation>ഓക്സിറ്റന്‍ (1500ന് ശേഷം)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="485"/>
         <source>Ojibwa</source>
-        <translation>ഒജിബ്വ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="486"/>
         <source>Oji-Cree</source>
-        <translation>ഓജി-ക്രീ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="487"/>
         <source>Oromo</source>
-        <translation>ഓറോമോ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="488"/>
         <source>Oriya</source>
-        <translation>ഒഡിയ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="489"/>
         <source>Ossetian</source>
-        <translation>ഓസ്സേറ്റിയന്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="490"/>
         <source>Pa&apos;O</source>
-        <translation>പാ&apos;ഓ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="491"/>
         <source>Palaung (Ruching)</source>
-        <translation>പാലൗങ്ങ് (രുചിങ്ങ്)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="492"/>
         <source>Palaung (Shwe)</source>
-        <translation>പാലൗങ്ങ് (ഷ്വെ)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="493"/>
         <source>Pali</source>
-        <translation>പാലി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="494"/>
         <source>Palpa</source>
-        <translation>പാല്പ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../../scribus/langmgr.cpp" line="495"/>
         <source>Panjabi</source>
-        <translation type="vanished">പഞ്ചാബി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="496"/>
         <source>Panjabi Western</source>
-        <translation>പടിഞ്ഞാറന്‍ പഞ്ചാബി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="497"/>
         <source>Pangasinan</source>
-        <translation>പങ്കാസിനാന്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="498"/>
         <source>Pashto</source>
-        <translation>പഷ്തോ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="499"/>
         <source>Pennsylvania German</source>
-        <translation>പെന്‍സില്‍വാനിയ ജെര്‍മെന്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="501"/>
         <source>Persian (Afghanistan)</source>
-        <translation>പേര്‍ഷ്യന്‍ (അഫ്ഘാനിസ്ഥാന്‍)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="503"/>
         <source>Phake</source>
-        <translation>ഫാകെ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="504"/>
         <source>Pitcairn-Norfolk</source>
-        <translation>പിറ്റ്കെയന്‍-നോര്‍ഫോക്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="505"/>
         <source>Picard</source>
-        <translation>പികാര്‍ഡ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="508"/>
         <source>Papiamento</source>
-        <translation>പാപിയമെന്റോ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="511"/>
         <source>Pwo Eastern Karen</source>
-        <translation>പ്വോ കിഴക്കന്‍ കാരെന്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="512"/>
         <source>Pwo Western Karen</source>
-        <translation>പ്വോ പടിഞ്ഞാറന്‍ കാരെന്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="513"/>
         <source>Rinconada Bikol</source>
-        <translation>റിന്‍കോനാഡ ബികോല്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="514"/>
         <source>Quechua</source>
-        <translation>ക്വ്യൂചുവ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="515"/>
         <source>Rakhine</source>
-        <translation>റാഖിന്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="516"/>
         <source>Rajasthani</source>
-        <translation>രാജസ്ഥാനി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="517"/>
         <source>Rejang</source>
-        <translation>റെജാങ്ങ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="518"/>
         <source>Riang (India)</source>
-        <translation>റിയാങ്ങ് (ഇന്ത്യ)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="519"/>
         <source>Riang (Myanmar)</source>
-        <translation>റിയാങ്ങ് (മ്യാന്മര്‍)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="521"/>
         <source>Romansh</source>
-        <translation>റൊമാന്‍ഷ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="522"/>
         <source>Romany</source>
-        <translation>റോമാനി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="523"/>
         <source>Rundi</source>
-        <translation>റുണ്ടി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="525"/>
         <source>Russian Buriat</source>
-        <translation>റഷ്യന്‍ ബുറിയറ്റ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="526"/>
         <source>Rusyn</source>
-        <translation>റുസിന്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="527"/>
         <source>S&apos;gaw Karen</source>
-        <translation>സ്&apos;ഗോ കാരെന്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="528"/>
         <source>Sadri</source>
-        <translation>സാദ്രി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="529"/>
         <source>Sasak</source>
-        <translation>സസാക്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="530"/>
         <source>Samoan</source>
-        <translation>സമോവന്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="531"/>
         <source>Samogitian</source>
-        <translation>സമോഗിറ്റിയന്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="532"/>
         <source>Sami (Northern)</source>
-        <translation>സമി (വടക്കന്‍)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="533"/>
         <source>Sami (Southern)</source>
-        <translation>സമി (തെക്കന്‍)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="534"/>
         <source>Sami (Lule)</source>
-        <translation>സമി (ലൂലെ)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="535"/>
         <source>Sami (Skolt)</source>
-        <translation>സമി (സ്കോള്‍ട്)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="536"/>
         <source>Sango</source>
-        <translation>സാങ്കോ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="537"/>
         <source>Sankaran Maninka</source>
-        <translation>സങ്കരന്‍ മനിന്‍ക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="539"/>
         <source>Santali</source>
-        <translation>സന്താലി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="540"/>
         <source>Sardinian</source>
-        <translation>സാര്‍ഡീനിയന്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="541"/>
         <source>Saterfriesisch</source>
-        <translation>സാറ്റെര്‍ഫ്രീസിഷ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="542"/>
         <source>Scots</source>
-        <translation>സ്കോട്സ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="544"/>
         <source>Sebat Bet Gurage</source>
-        <translation>സെബാറ്റ് ബെറ്റ് ഗുറാഷ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="545"/>
         <source>Selkup</source>
-        <translation>സെല്‍കുപ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="546"/>
         <source>Sena</source>
-        <translation>സേന</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="547"/>
         <source>Seraiki</source>
-        <translation>സെറായികി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="550"/>
         <source>Shan</source>
-        <translation>ഷാന്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="551"/>
         <source>Serer</source>
-        <translation>സെറെര്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="552"/>
         <source>Shekhawati</source>
-        <translation>ഷെഖാവതി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="553"/>
         <source>Shona</source>
-        <translation>ഷോണ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="554"/>
         <source>Sibe</source>
-        <translation>സൈബ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="555"/>
         <source>Sicilian</source>
-        <translation>സിസിലിയന്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="556"/>
         <source>Sidamo</source>
-        <translation>സിഡാമോ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="557"/>
         <source>Silesian</source>
-        <translation>സിലേസിയന്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="558"/>
         <source>Silt&apos;e</source>
-        <translation>സില്‍റ്റ്&apos;എ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="559"/>
         <source>Sindhi</source>
-        <translation>സിന്ധി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="560"/>
         <source>Sinhala</source>
-        <translation>സിംഹള</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="561"/>
         <source>Slavey (North)</source>
-        <translation>സ്ലാവെ (വടക്കന്‍)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="562"/>
         <source>Slavey (South)</source>
-        <translation>സ്ലാവെ (തെക്കന്‍)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="565"/>
         <source>Sodo Gurage</source>
-        <translation>സോഡോ ഗുറാഗ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="567"/>
         <source>Soga</source>
-        <translation>സോഗ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="568"/>
         <source>Songe</source>
-        <translation>സോന്‍ഗെ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="569"/>
         <source>Soninke</source>
-        <translation>സോണിന്‍കെ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="570"/>
         <source>Sotho Northern</source>
-        <translation>വടക്കന്‍ സോത്തോ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="571"/>
         <source>Sotho Southern</source>
-        <translation>തെക്കന്‍ സോക്കോ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="573"/>
@@ -27288,32 +27448,32 @@ External Links
     <message>
         <location filename="../../scribus/langmgr.cpp" line="579"/>
         <source>Swadaya Aramaic</source>
-        <translation>സ്വദായ അരാമിക്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="580"/>
         <source>Sukama</source>
-        <translation>സുകാമ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="581"/>
         <source>Sundanese</source>
-        <translation>സുന്‍ഡാനീസ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="582"/>
         <source>Suri</source>
-        <translation>സൂറി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="583"/>
         <source>Svan</source>
-        <translation>സ്വാന്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="584"/>
         <source>Swahili</source>
-        <translation>സ്വാഹിലി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="586"/>
@@ -27323,177 +27483,177 @@ External Links
     <message>
         <location filename="../../scribus/langmgr.cpp" line="587"/>
         <source>Swati</source>
-        <translation>സ്വാറ്റി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="588"/>
         <source>Sylheti</source>
-        <translation>സില്‍ഹെറ്റി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="589"/>
         <source>Syriac</source>
-        <translation>സിറിയക്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="590"/>
         <source>Tày</source>
-        <translation>റ്റേയ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="591"/>
         <source>Tabasaran</source>
-        <translation>റ്റബസരന്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="592"/>
         <source>Tagalog</source>
-        <translation>റ്റഗലോഗ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="593"/>
         <source>Tahitian</source>
-        <translation>റ്റഹീറ്റ്യന്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="594"/>
         <source>Tai Nüa</source>
-        <translation>റ്റൈ നുവ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="595"/>
         <source>Tajik</source>
-        <translation>റ്റാജിക്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="596"/>
         <source>Tamashek</source>
-        <translation>റ്റമാഷെക്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="597"/>
         <source>Tamil</source>
-        <translation>തമിഴ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="598"/>
         <source>Tatar</source>
-        <translation>റ്റാറ്റര്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="600"/>
         <source>Temne</source>
-        <translation>റ്റെമ്നെ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="601"/>
         <source>Tetum</source>
-        <translation>റ്റേറ്റം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="603"/>
         <source>Thai Northern</source>
-        <translation>വടക്കന്‍ തായ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="604"/>
         <source>Tibetan</source>
-        <translation>റ്റിബെറ്റന്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="605"/>
         <source>Tigre</source>
-        <translation>റ്റിഗ്രെ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="606"/>
         <source>Tigrinya</source>
-        <translation>റ്റിഗ്രിന്യ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="607"/>
         <source>Tiv</source>
-        <translation>റ്റിവ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="608"/>
         <source>Tok Pisin</source>
-        <translation>റ്റോക്‍ പിസിന്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="609"/>
         <source>Tonga (Tonga Islands)</source>
-        <translation>റ്റോംഗ (റ്റോംഗ ദ്വീപുകള്‍)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="610"/>
         <source>Tsonga</source>
-        <translation>റ്റ്സോങ്ക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="611"/>
         <source>Tswana</source>
-        <translation>റ്റ്സ്വാന</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="612"/>
         <source>Tulu</source>
-        <translation>തുളു</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="613"/>
         <source>Tumbuka</source>
-        <translation>റ്റുംബുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="615"/>
         <source>Turkmen</source>
-        <translation>റ്റര്‍ക്‍മെന്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="616"/>
         <source>Turoyo Aramaic</source>
-        <translation>തുറോയോ അരാമിക്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="617"/>
         <source>Tuvin</source>
-        <translation>റ്റുവിന്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="618"/>
         <source>Twi</source>
-        <translation>റ്റ്വി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="620"/>
         <source>Upper Saxon</source>
-        <translation>അപ്പര്‍ സാക്സണ്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="621"/>
         <source>Upper Sorbian</source>
-        <translation>അപ്പര്‍ സോര്‍വിയന്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="622"/>
         <source>Udmurt</source>
-        <translation>ഉഡ്മുര്‍ട്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="623"/>
         <source>Uighur</source>
-        <translation>ഉയ്ഘുര്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="624"/>
         <source>Umbundu</source>
-        <translation>ഉംബുണ്ടു</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="625"/>
         <source>Urdu</source>
-        <translation>ഉര്‍ദു</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="645"/>
@@ -27504,666 +27664,661 @@ External Links
         <location filename="../../scribus/langmgr.cpp" line="198"/>
         <location filename="../../scribus/pagesize.cpp" line="220"/>
         <source>Chinese</source>
-        <translation>ചൈനീസ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="218"/>
         <source>Czech</source>
-        <translation>ചെക്ക്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="220"/>
         <source>Danish</source>
-        <translation>ഡാനിഷ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="227"/>
         <source>Dutch</source>
-        <translation>ഡച്ച്</translation>
-    </message>
-    <message>
-        <location filename="../../scribus/langmgr.cpp" line="495"/>
-        <source>Panjabi (India)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="506"/>
         <source>Piedmontese</source>
-        <translation>പൈഡ്മോണ്‍ടീസ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="626"/>
         <source>Ukrainian</source>
-        <translation>ഉക്രേനിയന്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="627"/>
         <source>Uzbek</source>
-        <translation>ഉസ്ബെക്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="628"/>
         <source>Uzbek (Northern)</source>
-        <translation>ഉസ്ബെക്‍ (വടക്കന്‍)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="629"/>
         <source>Uzbek (Southern)</source>
-        <translation>ഉസ്ബെക്‍ (തെക്കന്‍)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="630"/>
         <source>Venda</source>
-        <translation>വേണ്ട</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="631"/>
         <source>Venetian</source>
-        <translation>വെനീഷ്യന്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="633"/>
         <source>Vlaams</source>
-        <translation>വ്ലാംസ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="634"/>
         <source>Vlax Romani</source>
-        <translation>വ്ലാക്സ് റൊമാനി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="635"/>
         <source>Volapük</source>
-        <translation>വോളാപൂക്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="636"/>
         <source>Võro</source>
-        <translation>വോറോ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="637"/>
         <source>Wa</source>
-        <translation>വാ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="638"/>
         <source>Wagdi</source>
-        <translation>വാഗ്ഡി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="639"/>
         <source>Walloon</source>
-        <translation>വാല്ലൂണ്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="640"/>
         <source>Waray (Philippines)</source>
-        <translation>വറായ് (ഫിലിപ്പീന്‍സ്)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="641"/>
         <source>Wayuu</source>
-        <translation>വായൂ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="643"/>
         <source>Wolane</source>
-        <translation>വോളാനെ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="644"/>
         <source>Wolof</source>
-        <translation>വോളോഫ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="646"/>
         <source>Xhosa</source>
-        <translation>ക്ഷോസാ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="647"/>
         <source>Yao</source>
-        <translation>യാവോ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="648"/>
         <source>Yakut</source>
-        <translation>യാകൂറ്റ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="649"/>
         <source>Yiddish</source>
-        <translation>യിഡ്ഡിഷ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="650"/>
         <source>Yoruba</source>
-        <translation>യോറുബ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="651"/>
         <source>Zande</source>
-        <translation>സാന്‍ഡെ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="652"/>
         <source>Zarma</source>
-        <translation>സാര്‍മ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="653"/>
         <source>Zeeuws</source>
-        <translation>സീഉവ്സ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="654"/>
         <source>Zhuang</source>
-        <translation>ഷുവാങ്ങ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="655"/>
         <source>Zulu</source>
-        <translation>സുലു</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="237"/>
         <source>English</source>
-        <translation>ഇംഗ്ലീഷ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="239"/>
         <source>Esperanto</source>
-        <translation>എസ്പെറാന്റോ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="265"/>
         <location filename="../../scribus/pagesize.cpp" line="226"/>
         <source>German</source>
-        <translation>ജെര്‍മന്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="249"/>
         <source>Finnish</source>
-        <translation>ഫിന്നിഷ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="253"/>
         <location filename="../../scribus/pagesize.cpp" line="224"/>
         <source>French</source>
-        <translation>ഫ്രെഞ്ച്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="259"/>
         <source>Galician</source>
-        <translation>ഗാലീഷ്യന്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="275"/>
         <source>Greek</source>
-        <translation>ഗ്രീക്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="500"/>
         <location filename="../../scribus/langmgr.cpp" line="502"/>
         <source>Persian</source>
-        <translation>പേര്‍ഷ്യന്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="293"/>
         <source>Hindi</source>
-        <translation>ഹിന്ദി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="94"/>
         <source>Aari</source>
-        <translation>ആറി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="95"/>
         <source>Abaza</source>
-        <translation>അബാസ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="96"/>
         <source>Abkhazian</source>
-        <translation>അബ്ഖാസിയന്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="97"/>
         <source>Acoli</source>
-        <translation>അകോളി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="98"/>
         <source>Adyghe</source>
-        <translation>അഡിഘെ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="100"/>
         <source>Afar</source>
-        <translation>അഫാര്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="101"/>
         <source>Aiton</source>
-        <translation>അയ്റ്റണ്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="102"/>
         <source>Akan</source>
-        <translation>അകാന്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="104"/>
         <source>Altai</source>
-        <translation>അള്‍റ്റായ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="105"/>
         <source>Amharic</source>
-        <translation>അംഹാറിക്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="112"/>
         <source>Arabic (Jordan)</source>
-        <translation>അറബിക്‍ (ജോര്‍ദന്‍)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="126"/>
         <source>Armenian</source>
-        <translation>അര്‍മീനിയന്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="127"/>
         <source>Aromanian</source>
-        <translation>അറൊമാനിയന്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="128"/>
         <source>Assamese</source>
-        <translation>അസ്സമീസ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="129"/>
         <source>Asturian</source>
-        <translation>അസ്റ്റൂറിയന്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="130"/>
         <source>Athapaskan</source>
-        <translation>അതപാസ്കന്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="131"/>
         <source>Avaric</source>
-        <translation>അവാറിക്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="132"/>
         <source>Awadhi</source>
-        <translation>അവാധി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="133"/>
         <source>Aymara</source>
-        <translation>അയ്മാര</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="134"/>
         <source>Azerbaijani</source>
-        <translation>അസെര്‍ബൈജാനി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="135"/>
         <source>Azerbaijani (North)</source>
-        <translation>അസെര്‍ബൈജാനി (വടക്കന്‍)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="136"/>
         <source>Azerbaijani (South)</source>
-        <translation>അസെര്‍ബൈജാനി (തെക്കന്‍)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="137"/>
         <source>Badaga</source>
-        <translation>ബാഡഗ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="138"/>
         <source>Baghelkhandi</source>
-        <translation>ബാഘേല്‍ഖണ്ടി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="139"/>
         <source>Bagri</source>
-        <translation>ബാഗ്രി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="140"/>
         <source>Bakhtiari</source>
-        <translation>ബാഖ്തിയാരി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="141"/>
         <source>Balkar</source>
-        <translation>ബാല്‍കര്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="142"/>
         <source>Balanta-Ganja</source>
-        <translation>ബലാന്റ-ഗാന്‍ജ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="143"/>
         <source>Balanta-Kentohe</source>
-        <translation>ബാലാന്റ-കെന്റോഹെ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="144"/>
         <source>Balinese</source>
-        <translation>ബലിനീസ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="145"/>
         <source>Baluchi</source>
-        <translation>ബലൂചി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="146"/>
         <source>Balti</source>
-        <translation>ബാല്‍റ്റി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="147"/>
         <source>Bambara</source>
-        <translation>ബംബാര</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="148"/>
         <source>Bamileke</source>
-        <translation>ബാമിലേകെ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="149"/>
         <source>Banda</source>
-        <translation>ബാന്‍ഡ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="150"/>
         <source>Bashkir</source>
-        <translation>ബഷ്കീര്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="152"/>
         <source>Batak Simalungun</source>
-        <translation>ബറ്റാക്‍ സിമാലുന്‍ഗുന്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="153"/>
         <source>Batak Toba</source>
-        <translation>ബറ്റാക്‍ റ്റോബ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="154"/>
         <source>Baulé</source>
-        <translation>ബൗളെ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="155"/>
         <source>Bavarian</source>
-        <translation>ബവേറിയന്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="156"/>
         <source>Bench</source>
-        <translation>ബെന്‍ച്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="157"/>
         <source>Bandjalang</source>
-        <translation>ബാന്‍ഡ്ജലാങ്ങ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="158"/>
         <source>Bemba</source>
-        <translation>ബെംബ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="162"/>
         <source>Berber</source>
-        <translation>ബെര്‍ബെര്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="163"/>
         <source>Beti (Cameroon)</source>
-        <translation>ബെടി (കാമെറൂണ്‍)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="164"/>
         <source>Beti (Côte d&apos;Ivoire)</source>
-        <translation>ബെടി (കോട് ഡി ല്‍വോയ്ര്‍)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="165"/>
         <source>Bhili</source>
-        <translation>ഭിലി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="166"/>
         <source>Bhojpuri</source>
-        <translation>ഭോജ്പുരി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="167"/>
         <source>Bikol</source>
-        <translation>ബികോല്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="168"/>
         <source>Bikol (Central)</source>
-        <translation>ബികോല്‍ (കേന്ദ്രം)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="169"/>
         <source>Bilen</source>
-        <translation>ബിലെന്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="170"/>
         <source>Bini</source>
-        <translation>ബിനി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="171"/>
         <source>Bishnupriya</source>
-        <translation>ബിഷ്ണുപ്രിയ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="172"/>
         <source>Bislama</source>
-        <translation>ബിസ്ലാമ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="173"/>
         <source>Blackfoot</source>
-        <translation>ബ്ലാക്‍ഫൂട്‌</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="174"/>
         <source>Bodo (India)</source>
-        <translation>ബോഡോ (ഇന്ത്യ)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="175"/>
         <source>Bouyei</source>
-        <translation>ബൗയെയ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="177"/>
         <source>Brahui</source>
-        <translation>ബ്രഹൂയ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="178"/>
         <source>Braj Bhasha</source>
-        <translation>ബ്രജ് ഭാഷ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="180"/>
         <source>Buginese</source>
-        <translation>ബുഗിനീസ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="182"/>
         <source>Burmese</source>
-        <translation>ബര്‍മീസ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="183"/>
         <source>Cajun French</source>
-        <translation>കഹൂന്‍ ഫ്രെഞ്ച്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="184"/>
         <source>Carrier</source>
-        <translation>കാരിയര്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="186"/>
         <source>Catanduanes Bikol Northern</source>
-        <translation>വടക്കന്‍ കാറ്റാന്‍ഡുവാനെസ് ബികോല്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="187"/>
         <source>Catanduanes Bikol Southern</source>
-        <translation>തെക്കന്‍ കാറ്റാന്‍ഡുവാനെസ് ബികോല്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="188"/>
         <source>Cebuano</source>
-        <translation>ചെബുവാനോ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="189"/>
         <source>Central Atlas Tamazight</source>
-        <translation>മധ്യ അറ്റ്ലസ് റ്റമാസിഘ്റ്റ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="190"/>
         <source>Chamorro</source>
-        <translation>ചമോറോ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="191"/>
         <source>Chattisgarhi</source>
-        <translation>ഛത്തീസ്ഗഡി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="192"/>
         <source>Chavacano</source>
-        <translation>ചവാകാനോ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="193"/>
         <source>Chechen</source>
-        <translation>ചെചെന്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="194"/>
         <source>Cherokee</source>
-        <translation>ചെറോക്കീ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="195"/>
         <source>Chewa</source>
-        <translation>ചേവാ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="196"/>
         <source>Cheyenne</source>
-        <translation>ചെയെന്നേ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="197"/>
         <source>Chiga</source>
-        <translation>ചിഗാ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="200"/>
         <source>Chipewyan</source>
-        <translation>ചിപെവ്യാന്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="201"/>
         <source>Chittagonian</source>
-        <translation>ചിറ്റഗോണിയന്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="202"/>
         <source>Choctaw</source>
-        <translation>ചോക്‍റ്റോ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="203"/>
         <source>Chukchi</source>
-        <translation>ചുക്ചി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="204"/>
         <source>Church Slavic</source>
-        <translation>ചര്‍ച്ച് സ്ലാവിക്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="205"/>
         <source>Chuvash</source>
-        <translation>ചുവാഷ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="206"/>
         <source>Comorian</source>
-        <translation>കൊമോറിയന്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="207"/>
         <source>Coptic</source>
-        <translation>കോപ്റ്റിക്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="208"/>
         <source>Cornish</source>
-        <translation>കോര്‍ണിഷ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="209"/>
         <source>Cree</source>
-        <translation>ക്രീ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="210"/>
         <source>Cree (Moose)</source>
-        <translation>ക്രീ (മൂസെ)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="211"/>
         <location filename="../../scribus/langmgr.cpp" line="212"/>
         <source>Cree (East Southern)</source>
-        <translation>ക്രീ (തെക്ക് കിഴക്കന്‍)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="213"/>
         <source>Woods Cree</source>
-        <translation>വുഡ്സ് ക്രീ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="214"/>
         <source>Creek</source>
-        <translation>ക്രീക്ക്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="215"/>
         <source>Crimean Tatar</source>
-        <translation>ക്രിമിയന്‍ റ്റാറ്റര്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="217"/>
@@ -28188,77 +28343,77 @@ External Links
     <message>
         <location filename="../../scribus/langmgr.cpp" line="223"/>
         <source>Dhundari</source>
-        <translation>ധുന്ദരി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="224"/>
         <source>Dinka</source>
-        <translation>ഡിങ്ക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="225"/>
         <source>Dimli</source>
-        <translation>ഡിംലി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="226"/>
         <source>Dogri</source>
-        <translation>ദോഗ്രി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="229"/>
         <source>Ebira</source>
-        <translation>എബിര</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="238"/>
         <source>English (Old 450-1100)</source>
-        <translation>ഇംഗ്ലീഷ് (പഴയത് 450-1100)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="240"/>
         <source>Erzya</source>
-        <translation>എര്‍സ്യ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="242"/>
         <source>Estonian (Standard)</source>
-        <translation>എസ്റ്റോണിയന്‍ (സ്റ്റാന്‍ഡേഡ്)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="243"/>
         <source>Even</source>
-        <translation>എവെന്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="244"/>
         <source>Evenki</source>
-        <translation>എവെന്‍കി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="245"/>
         <source>Ewe</source>
-        <translation>എവെ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="246"/>
         <source>Faroese</source>
-        <translation>ഫാറീസ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="247"/>
         <source>Fijian</source>
-        <translation>ഫിജിയന്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="248"/>
         <source>Filipino</source>
-        <translation>ഫിലിപീനോ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="250"/>
         <source>Fon</source>
-        <translation>ഫോണ്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="251"/>
@@ -28288,7 +28443,7 @@ External Links
     <message>
         <location filename="../../scribus/langmgr.cpp" line="257"/>
         <source>Ga</source>
-        <translation>ഗ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="258"/>
@@ -28388,7 +28543,7 @@ External Links
     <message>
         <location filename="../../scribus/langmgr.cpp" line="286"/>
         <source>Hawaiian</source>
-        <translation>ഹവായിന്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="287"/>
@@ -28438,12 +28593,12 @@ External Links
     <message>
         <location filename="../../scribus/langmgr.cpp" line="298"/>
         <source>Ho</source>
-        <translation>ഹോ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="299"/>
         <source>Hungarian</source>
-        <translation>ഹങ്കേറിയന്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="300"/>
@@ -28453,7 +28608,7 @@ External Links
     <message>
         <location filename="../../scribus/langmgr.cpp" line="302"/>
         <source>Ido</source>
-        <translation>ഇഡോ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="303"/>
@@ -28498,7 +28653,7 @@ External Links
     <message>
         <location filename="../../scribus/langmgr.cpp" line="311"/>
         <source>Irish</source>
-        <translation>ഐറിഷ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="312"/>
@@ -28508,7 +28663,7 @@ External Links
     <message>
         <location filename="../../scribus/langmgr.cpp" line="313"/>
         <source>Italian</source>
-        <translation>ഇറ്റാലിയന്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="314"/>
@@ -28523,7 +28678,7 @@ External Links
     <message>
         <location filename="../../scribus/langmgr.cpp" line="317"/>
         <source>Javanese</source>
-        <translation>ജാവനീസ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="318"/>
@@ -28623,7 +28778,7 @@ External Links
     <message>
         <location filename="../../scribus/langmgr.cpp" line="338"/>
         <source>Kazakh</source>
-        <translation>കസാഖ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="339"/>
@@ -28638,7 +28793,7 @@ External Links
     <message>
         <location filename="../../scribus/langmgr.cpp" line="341"/>
         <source>Khasi</source>
-        <translation>ഖാസി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="343"/>
@@ -28718,7 +28873,7 @@ External Links
     <message>
         <location filename="../../scribus/langmgr.cpp" line="359"/>
         <source>Konkani</source>
-        <translation>കൊങ്കണി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="360"/>
@@ -28733,22 +28888,22 @@ External Links
     <message>
         <location filename="../../scribus/langmgr.cpp" line="327"/>
         <source>Kannada</source>
-        <translation>കന്നഡ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="371"/>
         <source>Kurdish</source>
-        <translation>കുര്‍ദിഷ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="395"/>
         <source>Lithuanian</source>
-        <translation>ലിത്വാനിയന്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="453"/>
         <source>Mongolian</source>
-        <translation>മങ്കോളിയന്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="479"/>
@@ -28758,53 +28913,53 @@ External Links
     <message>
         <location filename="../../scribus/langmgr.cpp" line="477"/>
         <source>Norwegian</source>
-        <translation>നോര്‍വീജിയന്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="507"/>
         <source>Polish</source>
-        <translation>പോളിഷ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="524"/>
         <source>Russian</source>
-        <translation>റഷ്യന്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="566"/>
         <source>Somali</source>
-        <translation>സൊമാലി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="585"/>
         <location filename="../../scribus/pagesize.cpp" line="244"/>
         <source>Swedish</source>
-        <translation>സ്വീഡിഷ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="572"/>
         <source>Spanish</source>
-        <translation>സ്പാനിഷ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="576"/>
         <source>Spanish (Latin)</source>
-        <translation>സ്പാനിഷ് (ലാറ്റിന്‍)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="563"/>
         <source>Slovak</source>
-        <translation>സ്ലോവാക്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="564"/>
         <source>Slovenian</source>
-        <translation>സ്ലോവേനിയന്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="548"/>
         <source>Serbian</source>
-        <translation>സെര്‍ബിയന്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/scriptplugin/cmdtext.cpp" line="64"/>
@@ -29037,28 +29192,28 @@ External Links
     <message>
         <location filename="../../scribus/langmgr.cpp" line="99"/>
         <source>Afrikaans</source>
-        <translation>ആഫ്രിക്കാനസ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="614"/>
         <source>Turkish</source>
-        <translation>റ്റര്‍ക്കിഷ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="619"/>
         <source>Ukranian</source>
-        <translation>ഉക്രേനിയന്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="642"/>
         <source>Welsh</source>
-        <translation>വെല്‍ഷ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/scriptplugin/objimageexport.cpp" line="82"/>
         <source>The filename must be a string.</source>
         <comment>python error</comment>
-        <translation>ഫയലിന്റെ പേര് ഒരു സ്റ്റ്രിങ്ങ് ആയിരിക്കണം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/scriptplugin/objimageexport.cpp" line="105"/>
@@ -29095,7 +29250,7 @@ External Links
         <location filename="../../scribus/plugins/scriptplugin/cmdcolor.cpp" line="661"/>
         <source>Color not found.</source>
         <comment>python error</comment>
-        <translation>ഈ നിറം കണ്ടെത്താനായില്ല</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/scriptplugin/cmdcolor.cpp" line="151"/>
@@ -29106,7 +29261,7 @@ External Links
         <location filename="../../scribus/plugins/scriptplugin/cmdcolor.cpp" line="571"/>
         <source>Color not found in document.</source>
         <comment>python error</comment>
-        <translation>പ്രമാണത്തില്‍ ഈ നിറം കണ്ടെത്താനായില്ല</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/scriptplugin/cmdcolor.cpp" line="161"/>
@@ -29463,23 +29618,23 @@ External Links
     <message>
         <location filename="../../scribus/langmgr.cpp" line="216"/>
         <source>Croatian</source>
-        <translation>ക്രൊയേഷ്യന്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="509"/>
         <source>Portuguese</source>
-        <translation>പോര്‍ച്ചുഗീസ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="510"/>
         <source>Portuguese (BR)</source>
-        <translation>പോര്‍ച്ചുഗീസ് (ബ്രസീല്‍)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/scpage.cpp" line="40"/>
         <location filename="../../scribus/scpage.cpp" line="99"/>
         <source>Page</source>
-        <translation>താള്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/scpage.cpp" line="108"/>
@@ -29566,57 +29721,57 @@ External Links
     <message>
         <location filename="../../scribus/units.cpp" line="156"/>
         <source>pt</source>
-        <translation>പോയിന്റ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/units.cpp" line="157"/>
         <source>mm</source>
-        <translation>മില്ലിമീറ്റര്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/units.cpp" line="158"/>
         <source>in</source>
-        <translation>ഇഞ്ച്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/units.cpp" line="159"/>
         <source>p</source>
-        <translation>പൈക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/units.cpp" line="160"/>
         <source>cm</source>
-        <translation>സെന്റിമീറ്റര്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/units.cpp" line="208"/>
         <source>Points (pt)</source>
-        <translation>പോയിന്റുകള്‍ (pt)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/units.cpp" line="209"/>
         <source>Millimeters (mm)</source>
-        <translation>മില്ലിമീറ്ററുകള്‍ (mm)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/units.cpp" line="210"/>
         <source>Inches (in)</source>
-        <translation>ഇഞ്ചുകള്‍ (in)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/units.cpp" line="211"/>
         <source>Picas (p)</source>
-        <translation>പൈകകള്‍ (p)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/units.cpp" line="212"/>
         <source>Centimeters (cm)</source>
-        <translation>സെന്റിമീറ്ററുകള്‍ (cm)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/util.cpp" line="377"/>
         <source>File exists</source>
-        <translation>ഫയല്‍ നിലവിലുണ്ട്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/scribus.cpp" line="887"/>
@@ -29736,7 +29891,7 @@ External Links
         <location filename="../../scribus/plugins/scriptplugin/cmdobj.cpp" line="706"/>
         <source>Style not found.</source>
         <comment>python error</comment>
-        <translation>ശൈലി കണ്ടുകിട്ടിയില്ല.</translation>
+        <translation>ਅੰਦਾਜ਼ ਨਹੀਂ ਲੱਭਿਆ।</translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/scriptplugin/cmdobj.cpp" line="768"/>
@@ -29895,19 +30050,19 @@ External Links
         <location filename="../../scribus/plugins/scriptplugin/scriptercore.cpp" line="52"/>
         <location filename="../../scribus/plugins/scriptplugin/scriptercore.cpp" line="598"/>
         <source>&amp;About Script...</source>
-        <translation>&amp;സ്ക്രിപ്റ്റിനെ സംബന്ധിച്ച്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/scriptplugin/scriptercore.cpp" line="86"/>
         <location filename="../../scribus/plugins/scriptplugin/scriptercore.cpp" line="600"/>
         <source>&amp;Script</source>
-        <translation>&amp;സ്ക്രിപ്റ്റ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/scriptplugin/scriptercore.cpp" line="88"/>
         <location filename="../../scribus/plugins/scriptplugin/scriptercore.cpp" line="601"/>
         <source>&amp;Scribus Scripts</source>
-        <translation>&amp;സ്ക്രൈബസ് സ്ക്രിപ്റ്റുകള്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/scriptplugin/scriptercore.cpp" line="91"/>
@@ -29918,7 +30073,7 @@ External Links
     <message>
         <location filename="../../scribus/plugins/scriptplugin/scriptercore.cpp" line="568"/>
         <source>About Script</source>
-        <translation>സ്ക്രിപ്റ്റിനെ സംബന്ധിച്ച്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/scriptplugin/scriptplugin.cpp" line="1033"/>
@@ -29939,18 +30094,18 @@ not currently documented in the docstring for each function.
 without a document to operate on.
 - If you do not pass a frame name to a function that requires one,
 the function will use the currently selected frame, if any, or
-raise a NoValidObjectError if it can&apos;t find anything to operate
+raise a NoValidObjectError if it can't find anything to operate
 on.
 - Many functions will raise WrongFrameTypeError if you try to use them
 on a frame type that they do not make sense with. For example, setting
-the text color on a graphics frame doesn&apos;t make sense, and will result
+the text color on a graphics frame doesn't make sense, and will result
 in this exception being raised.
 - Errors resulting from calls to the underlying Python API will be
 passed through unaltered. As such, the list of exceptions thrown by
 any function as provided here and in its docstring is incomplete.
 
 Details of what exceptions each function may throw are provided on the
-function&apos;s documentation, though as with most Python code this list
+function's documentation, though as with most Python code this list
 is not exhaustive due to exceptions from called functions.
 </source>
         <translation type="unfinished"></translation>
@@ -29967,7 +30122,15 @@ is not exhaustive due to exceptions from called functions.
     </message>
     <message>
         <source>Freetype2 library not available</source>
-        <translation type="vanished">Freetype2 ലൈബ്രറി ലഭ്യമല്ല</translation>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Font %1 is broken (read stream), no embedding</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Font %1 has broken glyph %2 (charcode %3)</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/scfonts.cpp" line="701"/>
@@ -29995,9 +30158,13 @@ is not exhaustive due to exceptions from called functions.
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <source>extracting face %1 from font %2 (offset=%3, nTables=%4)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../../scribus/main_nix.cpp" line="81"/>
         <source>Fatal Error</source>
-        <translation>ഗുരുതരമായ പിഴവ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/main_nix.cpp" line="82"/>
@@ -30055,12 +30222,12 @@ is not exhaustive due to exceptions from called functions.
     <message>
         <location filename="../../scribus/units.cpp" line="161"/>
         <source>c</source>
-        <translation>c</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/units.cpp" line="213"/>
         <source>Cicero (c)</source>
-        <translation>സിസെറോ (c)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/scriptplugin/objimageexport.cpp" line="87"/>
@@ -30072,12 +30239,12 @@ is not exhaustive due to exceptions from called functions.
         <location filename="../../scribus/util.cpp" line="542"/>
         <source>page</source>
         <comment>page export</comment>
-        <translation>താള്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/colorwheel/colorwheel.cpp" line="58"/>
         <source>Color Wheel</source>
-        <translation>വര്‍ണചക്രം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/fontpreview/fontpreviewplugin.cpp" line="59"/>
@@ -30107,12 +30274,12 @@ is not exhaustive due to exceptions from called functions.
     <message>
         <location filename="../../scribus/plugins/scriptplugin/scriptplugin.cpp" line="135"/>
         <source>Scripter</source>
-        <translation>സ്ക്രിപ്റ്റര്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/short-words/shortwords.cpp" line="84"/>
         <source>Short Words</source>
-        <translation>ഹ്രസ്വവാക്കുകള്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/export/svgexplugin/svgexplugin.cpp" line="104"/>
@@ -30224,7 +30391,7 @@ is not exhaustive due to exceptions from called functions.
     <message>
         <location filename="../../scribus/langmgr.cpp" line="268"/>
         <source>German (Trad.)</source>
-        <translation>ജെര്‍മന്‍ (പരമ്പരാഗതം)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/pslib.cpp" line="1629"/>
@@ -30239,7 +30406,7 @@ is not exhaustive due to exceptions from called functions.
     <message>
         <location filename="../../scribus/langmgr.cpp" line="602"/>
         <source>Thai</source>
-        <translation>തായ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/barcodegenerator/barcode.cpp" line="44"/>
@@ -30273,13 +30440,13 @@ is not exhaustive due to exceptions from called functions.
     <message>
         <location filename="../../scribus/langmgr.cpp" line="401"/>
         <source>Luxembourgish</source>
-        <translation>ലക്സംബര്‍ഗിഷ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="316"/>
         <location filename="../../scribus/pagesize.cpp" line="238"/>
         <source>Japanese</source>
-        <translation>ജാപ്പനീസ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/scriptplugin/cmdpage.cpp" line="151"/>
@@ -30288,9 +30455,13 @@ is not exhaustive due to exceptions from called functions.
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <source>Font %1(%2) is broken</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../../scribus/langmgr.cpp" line="107"/>
         <source>Arabic</source>
-        <translation>അറബിക്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="228"/>
@@ -30300,7 +30471,7 @@ is not exhaustive due to exceptions from called functions.
     <message>
         <location filename="../../scribus/langmgr.cpp" line="241"/>
         <source>Estonian</source>
-        <translation>എസ്റ്റോണിയന്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/styles/charstyle.cpp" line="209"/>
@@ -30310,7 +30481,7 @@ is not exhaustive due to exceptions from called functions.
     <message>
         <location filename="../../scribus/styles/charstyle.cpp" line="211"/>
         <source>size %1</source>
-        <translation>വലിപ്പം %1  {1?}</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/styles/charstyle.cpp" line="213"/>
@@ -30320,22 +30491,22 @@ is not exhaustive due to exceptions from called functions.
     <message>
         <location filename="../../scribus/styles/charstyle.cpp" line="215"/>
         <source>+style</source>
-        <translation>+ശൈലി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/styles/charstyle.cpp" line="217"/>
         <source>+color</source>
-        <translation>+നിറം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/styles/charstyle.cpp" line="219"/>
         <source>+underline</source>
-        <translation>+അടിവര</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/styles/charstyle.cpp" line="219"/>
         <source>-underline</source>
-        <translation>-അടിവര</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/styles/charstyle.cpp" line="221"/>
@@ -30400,22 +30571,22 @@ is not exhaustive due to exceptions from called functions.
     <message>
         <location filename="../../scribus/langmgr.cpp" line="386"/>
         <source>Latin</source>
-        <translation>ലാറ്റിന്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="301"/>
         <source>Icelandic</source>
-        <translation>ഐസ്‌ലാന്‍ഡിക്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="520"/>
         <source>Romanian</source>
-        <translation>റൊമാനിയന്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/pagesize.cpp" line="393"/>
         <source>Quarto</source>
-        <translation>ക്വാര്‍ടോ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/pagesize.cpp" line="394"/>
@@ -30475,7 +30646,7 @@ is not exhaustive due to exceptions from called functions.
     <message>
         <location filename="../../scribus/pagesize.cpp" line="242"/>
         <source>Others</source>
-        <translation>മറ്റുള്ളവ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/pagesize.cpp" line="246"/>
@@ -30665,7 +30836,7 @@ is not exhaustive due to exceptions from called functions.
     <message>
         <location filename="../../scribus/pagesize.cpp" line="400"/>
         <source>Medium</source>
-        <translation>മധ്യമം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/pagesize.cpp" line="401"/>
@@ -30690,7 +30861,7 @@ is not exhaustive due to exceptions from called functions.
     <message>
         <location filename="../../scribus/pagesize.cpp" line="405"/>
         <source>STMT</source>
-        <translation>STMT</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/pagesize.cpp" line="524"/>
@@ -30863,6 +31034,10 @@ is not exhaustive due to exceptions from called functions.
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <source>Font %1 has broken glyph %2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../../scribus/plugins/scriptplugin/cmdsetprop.cpp" line="191"/>
         <location filename="../../scribus/plugins/scriptplugin/cmdsetprop.cpp" line="268"/>
         <source>Transparency out of bounds, must be 0 &lt;= transparency &lt;= 1.</source>
@@ -30879,7 +31054,7 @@ is not exhaustive due to exceptions from called functions.
     <message>
         <location filename="../../scribus/plugins/fileloader/scribus12format/scribus12format.cpp" line="69"/>
         <source>Scribus 1.2.x Support</source>
-        <translation>സ്ക്രൈബസ് 1.2 പിന്തുണ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/gettext/pdbim/pdbim.cpp" line="117"/>
@@ -30896,7 +31071,7 @@ is not exhaustive due to exceptions from called functions.
     <message>
         <location filename="../../scribus/langmgr.cpp" line="179"/>
         <source>Breton</source>
-        <translation>ബ്രെറ്റണ്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/imagedataloaders/scimgdataloader_jpeg.cpp" line="230"/>
@@ -30908,12 +31083,12 @@ is not exhaustive due to exceptions from called functions.
     <message>
         <location filename="../../scribus/langmgr.cpp" line="267"/>
         <source>German (Swiss)</source>
-        <translation>ജെര്‍മന്‍ (സ്വിസ്സ്)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="289"/>
         <source>Hebrew</source>
-        <translation>ഹീബ്രു</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/fonts/scface_ps.cpp" line="111"/>
@@ -30923,32 +31098,32 @@ is not exhaustive due to exceptions from called functions.
     <message>
         <location filename="../../scribus/langmgr.cpp" line="199"/>
         <source>Chinese (Trad.)</source>
-        <translation>ചൈനീസ് (പരമ്പരാഗതം)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/fileloader/scribus13format/scribus13format.cpp" line="72"/>
         <source>Scribus 1.3.0-&gt;1.3.3.x Support</source>
-        <translation>സ്ക്രൈബസ് 1.3.0-&gt;1.3.3.x പിന്തുണ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/units.cpp" line="163"/>
         <source>%</source>
-        <translation>%</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="342"/>
         <source>Khmer</source>
-        <translation>ഖെമ്ര്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="385"/>
         <source>Lao</source>
-        <translation>ലാവോ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="632"/>
         <source>Vietnamese</source>
-        <translation>വിയെറ്റ്നാമീസ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/scdocoutput_ps2.cpp" line="121"/>
@@ -30964,7 +31139,7 @@ is not exhaustive due to exceptions from called functions.
         <location filename="../../scribus/units.cpp" line="162"/>
         <source>°</source>
         <comment>degrees, unicode 0xB0</comment>
-        <translation>°</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/import/wmf/wmfimportplugin.cpp" line="84"/>
@@ -30990,7 +31165,7 @@ is not exhaustive due to exceptions from called functions.
     <message>
         <location filename="../../scribus/plugins/export/svgexplugin/svgexplugin.cpp" line="134"/>
         <source>%1;;All Files (*)</source>
-        <translation>%1;;എല്ലാ ഫയലുകളും (*)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/export/svgexplugin/svgexplugin.cpp" line="174"/>
@@ -31002,12 +31177,12 @@ is not exhaustive due to exceptions from called functions.
     <message>
         <location filename="../../scribus/util_formats.cpp" line="87"/>
         <source>GIF</source>
-        <translation>GIF</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/util_formats.cpp" line="88"/>
         <source>JPEG</source>
-        <translation>JPEG</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/util_formats.cpp" line="89"/>
@@ -31017,7 +31192,7 @@ is not exhaustive due to exceptions from called functions.
     <message>
         <location filename="../../scribus/util_formats.cpp" line="90"/>
         <source>Krita</source>
-        <translation>ക്രിത</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/util_formats.cpp" line="91"/>
@@ -31032,22 +31207,22 @@ is not exhaustive due to exceptions from called functions.
     <message>
         <location filename="../../scribus/util_formats.cpp" line="93"/>
         <source>PDF Document</source>
-        <translation>PDF പ്രമാണം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/util_formats.cpp" line="95"/>
         <source>PNG</source>
-        <translation>PNG</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/util_formats.cpp" line="99"/>
         <source>TIFF</source>
-        <translation>TIFF</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/util_formats.cpp" line="103"/>
         <source>XPM</source>
-        <translation>XPM</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/fonts/scface_ps.cpp" line="106"/>
@@ -31064,7 +31239,7 @@ is not exhaustive due to exceptions from called functions.
         <location filename="../../scribus/latexhelpers.cpp" line="454"/>
         <location filename="../../scribus/ui/latexeditor.cpp" line="407"/>
         <source>Error</source>
-        <translation>പിഴവ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/latexeditor.cpp" line="408"/>
@@ -31181,7 +31356,7 @@ is not exhaustive due to exceptions from called functions.
     <message>
         <location filename="../../scribus/langmgr.cpp" line="478"/>
         <source>Norwegian (Bokmål)</source>
-        <translation>നോര്‍വീജിയന്‍ (ബോക്‍മാല്‍)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/latexhelpers.cpp" line="455"/>
@@ -31220,17 +31395,17 @@ is not exhaustive due to exceptions from called functions.
     <message>
         <location filename="../../scribus/langmgr.cpp" line="160"/>
         <source>Bengali</source>
-        <translation>ബാംഗാളി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="538"/>
         <source>Sanskrit</source>
-        <translation>സംസ്കൃതം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/fileloader/scribus134format/scribus134format.cpp" line="80"/>
         <source>Scribus 1.3.4+ Support</source>
-        <translation>സ്ക്രൈബസ് 1.3.4+ പിന്തുണ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/tools/pathconnect/pathconnect.cpp" line="91"/>
@@ -31253,7 +31428,7 @@ Therefore the image may be not correct</source>
     <message>
         <location filename="../../scribus/scprintengine_gdi.cpp" line="249"/>
         <source>Printing...</source>
-        <translation>അച്ചടിക്കുന്നു...</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/scriptplugin/cmdcolor.cpp" line="629"/>
@@ -31375,12 +31550,12 @@ Therefore the image may be not correct</source>
     <message>
         <location filename="../../scribus/util_formats.cpp" line="94"/>
         <source>PGF</source>
-        <translation>PGF</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/util_formats.cpp" line="84"/>
         <source>BMP</source>
-        <translation>BMP</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/import/shape/importshapeplugin.cpp" line="68"/>
@@ -31766,77 +31941,77 @@ Therefore the image may be not correct</source>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="125"/>
         <source>Aragonese</source>
-        <translation>അരഗണീസ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="159"/>
         <source>Belarusian</source>
-        <translation>ബെലാറുസിയന്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="231"/>
         <source>English (Australia)</source>
-        <translation>ഇംഗ്ലീഷ് (ഓസ്റ്റ്രേലിയ)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="232"/>
         <source>English (Canada)</source>
-        <translation>ഇംഗ്ലീഷ് (കാനഡ)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="235"/>
         <source>English (UK)</source>
-        <translation>ഇംഗ്ലീഷ് (യു.കെ.)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="233"/>
         <source>English (New Zealand)</source>
-        <translation>ഇംഗ്ലീഷ് (ന്യൂസിലാന്‍ഡ്)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="234"/>
         <source>English (South Africa)</source>
-        <translation>ഇംഗ്ലീഷ് (ദക്ഷിണാഫ്രിക്ക)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="574"/>
         <source>Spanish (Argentina)</source>
-        <translation>സ്പാനിഷ് (അര്‍ജന്റീന)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/tools/hunspellcheck/hunspellplugin.cpp" line="61"/>
         <source>Hunspell Plugin</source>
-        <translation>ഹണ്‍സ്പെല്‍ പ്ലഗിന്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="161"/>
         <source>Bengali (Bangladesh)</source>
-        <translation>ബാംഗാളി (ബംഗ്ലാദേശ്)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="266"/>
         <source>German (Austria)</source>
-        <translation>ജെര്‍മന്‍ (ഓസ്റ്റ്രിയ)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="236"/>
         <source>English (US)</source>
-        <translation>ഇംഗ്ലീഷ് (യു.എസ്.)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="543"/>
         <source>Scottish Gaelic</source>
-        <translation>സ്കോട്ടിഷ് ഗെയ്‌ലിക്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="277"/>
         <source>Gujarati</source>
-        <translation>ഗുജറാത്തി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="468"/>
         <source>Nepali</source>
-        <translation>നേപ്പാളി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/import/pub/importpubplugin.cpp" line="68"/>
@@ -31916,7 +32091,7 @@ Therefore the image may be not correct</source>
     <message>
         <location filename="../../scribus/plugins/import/oodraw/oodrawimp.cpp" line="150"/>
         <source>OpenOffice.org Draw (*.sxd *.SXD);;All Files (*)</source>
-        <translation>ഓപ്പണ്‍ഓഫീസ് ഡ്രോ (*.sxd *.SXD);;എല്ലാ ഫയലുകളും (*)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/import/cdr/importcdrplugin.cpp" line="70"/>
@@ -31979,17 +32154,17 @@ Therefore the image may be not correct</source>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="176"/>
         <source>Bosnian</source>
-        <translation>ബോസ്നിയന്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="549"/>
         <source>Serbian (Latin)</source>
-        <translation>സെര്‍ബിയന്‍ (ലാറ്റിന്‍)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="599"/>
         <source>Telugu</source>
-        <translation>തെലുഗു</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/import/emf/importemfplugin.cpp" line="73"/>
@@ -32009,53 +32184,53 @@ Therefore the image may be not correct</source>
     <message>
         <location filename="../../scribus/util_formats.cpp" line="86"/>
         <source>Encapsulated PostScript</source>
-        <translation>എന്‍കാപ്‌സുലേറ്റഡ് പോസ്റ്റ്‌സ്ക്രിപ്റ്റ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/util_formats.cpp" line="97"/>
         <source>PostScript</source>
-        <translation>പോസ്റ്റ് സ്ക്രിപ്റ്റ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/util_formats.cpp" line="96"/>
         <source>Adobe Photoshop</source>
-        <translation>അഡോബി ഫോട്ടോഷോപ്പ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/util_formats.cpp" line="100"/>
         <source>Windows Meta File</source>
-        <translation>വിന്‍ഡോസ് മെറ്റാ ഫയല്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/util_formats.cpp" line="98"/>
         <source>Scalable Vector Graphics</source>
-        <translation>സ്കേലബ്‌ള്‍ വെക്റ്റര്‍ ഗ്രാഫിക്സ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/util_formats.cpp" line="83"/>
         <source>Adobe Illustrator</source>
-        <translation>അഡോബി ഇല്ലസ്റ്റ്രേറ്റര്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/util_formats.cpp" line="106"/>
         <source>GraphicsMagick</source>
-        <translation>ഗ്രാഫിക്സ്‌മാജിക്ക്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/util_formats.cpp" line="110"/>
         <source>UniConvertor</source>
-        <translation>യൂണികണ്‍വെര്‍ടര്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/util_formats.cpp" line="108"/>
         <source>Macintosh Pict</source>
-        <translation>മാക്കിന്റോഷ് പിക്റ്റ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/pdfoptionsio.cpp" line="528"/>
         <source>&lt;fontEmbedding&gt; invalid</source>
         <comment>Load PDF settings</comment>
-        <translation>&lt;fontEmbedding&gt; അസാധു</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/import/cvg/importcvgplugin.cpp" line="68"/>
@@ -32065,17 +32240,17 @@ Therefore the image may be not correct</source>
     <message>
         <location filename="../../scribus/util_formats.cpp" line="85"/>
         <source>Calamus Vector Graphics</source>
-        <translation>കലാമസ് വെക്റ്റര്‍ ഗ്രാഫിക്സ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/util_formats.cpp" line="101"/>
         <source>WordPerfect Graphics</source>
-        <translation>വേഡ്‌പെര്‍ഫെക്റ്റ് ഗ്രാഫിക്സ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/util_formats.cpp" line="109"/>
         <source>Qt Supported File</source>
-        <translation>ക്യൂറ്റി പിന്തുണയുള്ള ഫയല്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/import/fh/importfhplugin.cpp" line="68"/>
@@ -32085,17 +32260,17 @@ Therefore the image may be not correct</source>
     <message>
         <location filename="../../scribus/plugins/gettext/rtfim/rtfim.cpp" line="25"/>
         <source>RTF Document</source>
-        <translation>RTF പ്രമാണം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/gettext/docxim/docxim.cpp" line="28"/>
         <source>DOCX Document</source>
-        <translation>DOCX പ്രമാണം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/gettext/odt2im/importodt.cpp" line="32"/>
         <source>ODT Document</source>
-        <translation>ODT പ്രമാണം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/scriptplugin/cmdannotations.cpp" line="44"/>
@@ -32140,7 +32315,7 @@ Therefore the image may be not correct</source>
     <message>
         <location filename="../../scribus/plugins/scriptplugin/cmdannotations.cpp" line="551"/>
         <source>3DAnnot</source>
-        <translation>3DAnnot</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/scriptplugin/cmdannotations.cpp" line="664"/>
@@ -32167,7 +32342,7 @@ Therefore the image may be not correct</source>
         <location filename="../../scribus/api/api_application.cpp" line="98"/>
         <location filename="../../scribus/api/api_application.cpp" line="103"/>
         <source>Scribus</source>
-        <translation>സ്ക്രൈബസ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/third_party/Qt-Advanced-Docking-System/src/DockAreaTitleBar.cpp" line="193"/>
@@ -32182,7 +32357,7 @@ Therefore the image may be not correct</source>
     <message>
         <location filename="../../scribus/third_party/Qt-Advanced-Docking-System/src/DockAreaTitleBar.cpp" line="231"/>
         <source>Minimize</source>
-        <translation>ചെറുതാക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/third_party/Qt-Advanced-Docking-System/src/DockWidgetTab.cpp" line="267"/>
@@ -32392,12 +32567,12 @@ Therefore the image may be not correct</source>
     <message>
         <location filename="../../scribus/translationdummy.cpp" line="94"/>
         <source>Clear</source>
-        <translation>വൃത്തിയാക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/translationdummy.cpp" line="100"/>
         <source>Select All</source>
-        <translation>എല്ലാം തിരഞ്ഞെടുക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/translationdummy.cpp" line="95"/>
@@ -32412,17 +32587,17 @@ Therefore the image may be not correct</source>
     <message>
         <location filename="../../scribus/translationdummy.cpp" line="97"/>
         <source>Cu&amp;t</source>
-        <translation>&amp;വെട്ടിയെടുക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/translationdummy.cpp" line="98"/>
         <source>&amp;Copy</source>
-        <translation>&amp;പകര്‍ത്തുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/translationdummy.cpp" line="99"/>
         <source>&amp;Paste</source>
-        <translation>&amp;ഒട്ടിക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -32450,7 +32625,7 @@ Therefore the image may be not correct</source>
     <message>
         <location filename="../../scribus/translationdummy.cpp" line="113"/>
         <source>Minimize</source>
-        <translation>ചെറുതാക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/translationdummy.cpp" line="114"/>
@@ -32460,7 +32635,7 @@ Therefore the image may be not correct</source>
     <message>
         <location filename="../../scribus/translationdummy.cpp" line="115"/>
         <source>Close</source>
-        <translation>അടയ്ക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -32502,7 +32677,7 @@ Therefore the image may be not correct</source>
     <message>
         <location filename="../../scribus/qtiocompressor.cpp" line="412"/>
         <source>Internal zlib error: </source>
-        <translation>ആന്തരിക zlib പിഴവ്:</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -32511,22 +32686,19 @@ Therefore the image may be not correct</source>
         <location filename="../../scribus/ui/query.cpp" line="84"/>
         <source>Name &quot;%1&quot; already exists.
 Do you want to replace the current contents?</source>
-        <translation>&quot;%1&quot; എന്ന പേര് ഇപ്പോള്‍ത്തന്നെ നിലവിലുണ്ട്.
-നിലവിലെ ഉള്ളടക്കം മാറ്റണമോ?</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/query.cpp" line="94"/>
         <source>Name &quot;%1&quot; is not unique.
 Please choose another.</source>
-        <translation>&quot;%1&quot; എന്ന നാമം അനന്യമല്ല.
-ദയവായി മറ്റൊന്ന് തിരഞ്ഞെടുക്കൂ.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/query.cpp" line="72"/>
         <source>Name &quot;%1&quot; is not allowed.
 Please choose another.</source>
-        <translation>&quot;%1&quot; എന്ന നാമം അനുവദനീയമല്ല.
-ദയവായി മറ്റൊന്ന് തിരഞ്ഞെടുക്കൂ.</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -32539,7 +32711,7 @@ Please choose another.</source>
     <message>
         <location filename="../../scribus/plugins/import/qxp/importqxp.cpp" line="138"/>
         <source>Analyzing File:</source>
-        <translation>ഫയല്‍ പരിശോധിക്കുന്നു:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/import/qxp/importqxp.cpp" line="341"/>
@@ -32571,7 +32743,7 @@ Document Liberation Project https://www.documentliberation.org</source>
     <message>
         <location filename="../../scribus/ui/recoverdialog.cpp" line="149"/>
         <source>Emergency</source>
-        <translation>അടിയന്തരം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/recoverdialog.cpp" line="161"/>
@@ -32624,12 +32796,12 @@ Document Liberation Project https://www.documentliberation.org</source>
         <location filename="../../scribus/ui/resourcemanager.cpp" line="866"/>
         <location filename="../../scribus/ui/resourcemanager.cpp" line="911"/>
         <source>Description</source>
-        <translation>വിവരണം</translation>
+        <translation>ਵੇਰਵਾ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/resourcemanager.cpp" line="590"/>
         <source>Type</source>
-        <translation>തരം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/resourcemanager.cpp" line="590"/>
@@ -32656,7 +32828,7 @@ Document Liberation Project https://www.documentliberation.org</source>
         <location filename="../../scribus/ui/resourcemanager.cpp" line="816"/>
         <location filename="../../scribus/ui/resourcemanager.cpp" line="866"/>
         <source>Language</source>
-        <translation>ഭാഷ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/resourcemanager.cpp" line="417"/>
@@ -32682,12 +32854,12 @@ Document Liberation Project https://www.documentliberation.org</source>
         <location filename="../../scribus/ui/resourcemanager.cpp" line="866"/>
         <location filename="../../scribus/ui/resourcemanager.cpp" line="911"/>
         <source>License</source>
-        <translation>ലൈസന്‍സ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/resourcemanager.cpp" line="911"/>
         <source>Source</source>
-        <translation>സ്രോതസ്സ്</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -32695,12 +32867,12 @@ Document Liberation Project https://www.documentliberation.org</source>
     <message>
         <location filename="../../scribus/ui/resourcemanagerbase.ui" line="14"/>
         <source>Resource Manager</source>
-        <translation>വിഭവപാലക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/resourcemanagerbase.ui" line="34"/>
         <source>Category:</source>
-        <translation>വിഭാഗം:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/resourcemanagerbase.ui" line="72"/>
@@ -32711,13 +32883,13 @@ Document Liberation Project https://www.documentliberation.org</source>
         <location filename="../../scribus/ui/resourcemanagerbase.ui" line="95"/>
         <location filename="../../scribus/ui/resourcemanagerbase.ui" line="196"/>
         <source>Description</source>
-        <translation>വിവരണം</translation>
+        <translation>ਵੇਰਵਾ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/resourcemanagerbase.ui" line="100"/>
         <location filename="../../scribus/ui/resourcemanagerbase.ui" line="201"/>
         <source>ID</source>
-        <translation>ID</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/resourcemanagerbase.ui" line="105"/>
@@ -32754,7 +32926,7 @@ Document Liberation Project https://www.documentliberation.org</source>
     <message>
         <location filename="../../scribus/ui/resourcemanagerbase.ui" line="246"/>
         <source>Show License</source>
-        <translation>ലൈസന്‍സ് കാണിക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -32762,7 +32934,7 @@ Document Liberation Project https://www.documentliberation.org</source>
     <message>
         <location filename="../../scribus/ui/resourcemanagerlicensebase.ui" line="14"/>
         <source>License</source>
-        <translation>ലൈസന്‍സ്</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -32770,7 +32942,7 @@ Document Liberation Project https://www.documentliberation.org</source>
     <message>
         <location filename="../../scribus/canvasgesture_rowresize.cpp" line="100"/>
         <source>Height</source>
-        <translation>പൊക്കം</translation>
+        <translation>ਉਚਾਈ</translation>
     </message>
 </context>
 <context>
@@ -32778,7 +32950,7 @@ Document Liberation Project https://www.documentliberation.org</source>
     <message>
         <location filename="../../scribus/ui/rulermover.cpp" line="84"/>
         <source>Reset Rulers</source>
-        <translation type="unfinished"></translation>
+        <translation>ਪੈਮਾਨੇ ਰੀਸੈੱਟ ਕਰੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/rulermover.cpp" line="91"/>
@@ -32826,7 +32998,7 @@ Document Liberation Project https://www.documentliberation.org</source>
     <message>
         <location filename="../../scribus/plugins/scriptplugin/runscriptdialog.cpp" line="28"/>
         <source>Python Scripts (*.py *.PY);; All Files (*)</source>
-        <translation>പൈത്തണ്‍ സ്ക്രിപ്റ്റുകള്‍ (*.py *.PY);; എല്ലാ ഫയലുകളും (*)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/scriptplugin/runscriptdialog.ui" line="23"/>
@@ -32836,7 +33008,7 @@ Document Liberation Project https://www.documentliberation.org</source>
     <message>
         <location filename="../../scribus/plugins/scriptplugin/runscriptdialog.ui" line="14"/>
         <source>Run Script</source>
-        <translation type="unfinished"></translation>
+        <translation>ਸਕਿ੍ਰਪਟ ਚਲਾਓ</translation>
     </message>
 </context>
 <context>
@@ -32844,12 +33016,12 @@ Document Liberation Project https://www.documentliberation.org</source>
     <message>
         <location filename="../../scribus/plugins/saveastemplateplugin/satdialog.cpp" line="69"/>
         <source>Save as Template</source>
-        <translation type="unfinished"></translation>
+        <translation>ਨਮੂਨੇ ਵਜੋਂ ਸਾਂਭੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/saveastemplateplugin/satdialog.cpp" line="226"/>
         <source>Legal</source>
-        <translation type="unfinished"></translation>
+        <translation>ਕਨੂੰਨੀ</translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/saveastemplateplugin/satdialog.cpp" line="227"/>
@@ -32874,7 +33046,7 @@ Document Liberation Project https://www.documentliberation.org</source>
     <message>
         <location filename="../../scribus/plugins/saveastemplateplugin/satdialog.cpp" line="255"/>
         <source>custom</source>
-        <translation type="unfinished"></translation>
+        <translation>ਖ਼ਾਸ</translation>
     </message>
 </context>
 <context>
@@ -32882,12 +33054,12 @@ Document Liberation Project https://www.documentliberation.org</source>
     <message>
         <location filename="../../scribus/plugins/saveastemplateplugin/satdialog.ui" line="14"/>
         <source>Save as Template</source>
-        <translation type="unfinished"></translation>
+        <translation>ਨਮੂਨੇ ਵਜੋਂ ਸਾਂਭੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/saveastemplateplugin/satdialog.ui" line="32"/>
         <source>Name:</source>
-        <translation>പേര്:</translation>
+        <translation>ਨਾਂ:</translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/saveastemplateplugin/satdialog.ui" line="39"/>
@@ -32897,17 +33069,17 @@ Document Liberation Project https://www.documentliberation.org</source>
     <message>
         <location filename="../../scribus/plugins/saveastemplateplugin/satdialog.ui" line="46"/>
         <source>Show more details to describe the document template</source>
-        <translation type="unfinished"></translation>
+        <translation>ਦਸਤਾਵੇਜ਼ ਨਮੂਨੇ ਦੇ ਹੋਰ ਵੇਰਵੇ ਲਈ ਹੋਰ ਜਾਣਕਾਰੀ ਵਖਾਓ</translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/saveastemplateplugin/satdialog.ui" line="49"/>
         <source>&amp;More Details</source>
-        <translation>&amp;കൂടുതല്‍ വിശദാംശങ്ങള്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/saveastemplateplugin/satdialog.ui" line="56"/>
         <source>Category:</source>
-        <translation>വിഭാഗം:</translation>
+        <translation>ਵਰਗ:</translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/saveastemplateplugin/satdialog.ui" line="63"/>
@@ -32917,7 +33089,7 @@ Document Liberation Project https://www.documentliberation.org</source>
     <message>
         <location filename="../../scribus/plugins/saveastemplateplugin/satdialog.ui" line="70"/>
         <source>Page Size:</source>
-        <translation>താള്‍ വലിപ്പം:</translation>
+        <translation>ਸਫ਼ਾ ਅਕਾਰ:</translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/saveastemplateplugin/satdialog.ui" line="77"/>
@@ -32927,27 +33099,27 @@ Document Liberation Project https://www.documentliberation.org</source>
     <message>
         <location filename="../../scribus/plugins/saveastemplateplugin/satdialog.ui" line="84"/>
         <source>Colors:</source>
-        <translation>നിറങ്ങള്‍:</translation>
+        <translation>ਰੰਗ:</translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/saveastemplateplugin/satdialog.ui" line="91"/>
         <source>Description of the color format of the document, or some hints regarding colors used</source>
-        <translation type="unfinished"></translation>
+        <translation>ਦਸਤਾਵੇਜ਼ ਦੇ ਰੰਗ ਫਾਰਮੈਟ ਦਾ ਵੇਰਵਾ, ਜਾਂ ਵਰਤੇ ਗਏ ਰੰਗਾਂ ਬਾਰੇ ਕੋਈ ਇਸ਼ਾਰਾ</translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/saveastemplateplugin/satdialog.ui" line="98"/>
         <source>Description:</source>
-        <translation>വിവരണം:</translation>
+        <translation>ਵੇਰਵਾ:</translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/saveastemplateplugin/satdialog.ui" line="111"/>
         <source>Description of the document template</source>
-        <translation type="unfinished"></translation>
+        <translation>ਦਸਤਾਵੇਜ਼ ਨਮੂਨੇ ਦਾ ਵੇਰਵਾ</translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/saveastemplateplugin/satdialog.ui" line="118"/>
         <source>Usage:</source>
-        <translation type="unfinished"></translation>
+        <translation>ਵਰਤੋਂ:</translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/saveastemplateplugin/satdialog.ui" line="131"/>
@@ -32957,22 +33129,22 @@ Document Liberation Project https://www.documentliberation.org</source>
     <message>
         <location filename="../../scribus/plugins/saveastemplateplugin/satdialog.ui" line="138"/>
         <source>Author:</source>
-        <translation>രചയിതാവ്:</translation>
+        <translation>ਲੇਖਕ:</translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/saveastemplateplugin/satdialog.ui" line="145"/>
         <source>Author of the document template</source>
-        <translation type="unfinished"></translation>
+        <translation>ਦਸਤਾਵੇਜ਼ ਨਮੂਨੇ ਦਾ ਲੇਖਕ</translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/saveastemplateplugin/satdialog.ui" line="152"/>
         <source>Email:</source>
-        <translation>ഈ-മെയ്‌ല്‍:</translation>
+        <translation>ਈਮੇਲ:</translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/saveastemplateplugin/satdialog.ui" line="159"/>
         <source>Email address of the author of the document template</source>
-        <translation type="unfinished"></translation>
+        <translation>ਦਸਤਾਵੇਜ਼ ਨਮੂਨੇ ਦੇ ਲੇਖਕ ਦਾ ਈਮੇਲ ਪਤਾ</translation>
     </message>
 </context>
 <context>
@@ -32993,7 +33165,7 @@ Document Liberation Project https://www.documentliberation.org</source>
     <message>
         <location filename="../../scribus/ui/smcstylewidget.ui" line="539"/>
         <source>Language</source>
-        <translation>ഭാഷ</translation>
+        <translation>ਭਾਸ਼ਾ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/smcstylewidget.ui" line="636"/>
@@ -33013,17 +33185,17 @@ Document Liberation Project https://www.documentliberation.org</source>
     <message>
         <location filename="../../scribus/ui/smcstylewidget.ui" line="749"/>
         <source>Size</source>
-        <translation>വലിപ്പം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/smcstylewidget.ui" line="816"/>
         <source>Based On:</source>
-        <translation>ആധാരമാക്കിയിരിക്കുന്നത്:</translation>
+        <translation>ਕਿਸ ਅਧਾਰ ’ਤੇ:</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/smcstylewidget.ui" line="42"/>
         <source>Properties</source>
-        <translation type="unfinished"></translation>
+        <translation>ਖ਼ਾਸੀਅਤਾਂ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/smcstylewidget.ui" line="271"/>
@@ -33032,17 +33204,17 @@ Document Liberation Project https://www.documentliberation.org</source>
         <location filename="../../scribus/ui/smcstylewidget.ui" line="400"/>
         <location filename="../../scribus/ui/smcstylewidget.ui" line="443"/>
         <source> %</source>
-        <translation> %</translation>
+        <translation>%</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/smcstylewidget.ui" line="63"/>
         <source>Colors</source>
-        <translation>നിറങ്ങള്‍</translation>
+        <translation>ਰੰਗ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/smcstylewidget.ui" line="154"/>
         <source>Typography</source>
-        <translation type="unfinished"></translation>
+        <translation>ਟਾਈਪੋਗ੍ਰਾਫ਼ੀ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/smcstylewidget.ui" line="268"/>
@@ -33062,12 +33234,12 @@ Document Liberation Project https://www.documentliberation.org</source>
     <message>
         <location filename="../../scribus/ui/smcstylewidget.ui" line="422"/>
         <source>Normal</source>
-        <translation>സാധാരണ</translation>
+        <translation>ਆਮ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/smcstylewidget.ui" line="489"/>
         <source>Space:</source>
-        <translation type="unfinished"></translation>
+        <translation>ਸਪੇਸ:</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/smcstylewidget.ui" line="507"/>
@@ -33077,12 +33249,12 @@ Document Liberation Project https://www.documentliberation.org</source>
     <message>
         <location filename="../../scribus/ui/smcstylewidget.ui" line="557"/>
         <source>Text Language</source>
-        <translation type="unfinished"></translation>
+        <translation>ਲਿਖਤ ਦੀ ਭਾਸ਼ਾ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/smcstylewidget.ui" line="596"/>
         <source>Smallest Word</source>
-        <translation type="unfinished"></translation>
+        <translation>ਸਭ ਤੋਂ ਛੋਟਾ ਸ਼ਬਦ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/smcstylewidget.ui" line="614"/>
@@ -33113,13 +33285,13 @@ Document Liberation Project https://www.documentliberation.org</source>
         <location filename="../../scribus/ui/smcstylewidget.cpp" line="28"/>
         <location filename="../../scribus/ui/smcstylewidget.cpp" line="97"/>
         <source>Color</source>
-        <translation>നിറം</translation>
+        <translation>ਰੰਗ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/smcstylewidget.cpp" line="32"/>
         <location filename="../../scribus/ui/smcstylewidget.cpp" line="100"/>
         <source>Background</source>
-        <translation>പശ്ചാത്തലം</translation>
+        <translation>ਪਿਛੋਕੜ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/smcstylewidget.cpp" line="36"/>
@@ -33159,22 +33331,22 @@ Document Liberation Project https://www.documentliberation.org</source>
         <location filename="../../scribus/ui/smcellstyle.cpp" line="28"/>
         <location filename="../../scribus/ui/smcellstyle.cpp" line="401"/>
         <source>Properties</source>
-        <translation type="unfinished"></translation>
+        <translation>ਖ਼ਾਸੀਅਤਾਂ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/smcellstyle.cpp" line="46"/>
         <source>Cell Styles</source>
-        <translation type="unfinished"></translation>
+        <translation>ਖ਼ਾਨੇ ਦੇ ਅੰਦਾਜ਼</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/smcellstyle.cpp" line="51"/>
         <source>Cell Style</source>
-        <translation type="unfinished"></translation>
+        <translation>ਖ਼ਾਨੇ ਦਾ ਅੰਦਾਜ਼</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/smcellstyle.cpp" line="161"/>
         <source>New Style</source>
-        <translation>പുതിയ ശൈലി</translation>
+        <translation>ਨਵਾਂ ਅੰਦਾਜ਼</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/smcellstyle.cpp" line="516"/>
@@ -33187,17 +33359,17 @@ Document Liberation Project https://www.documentliberation.org</source>
     <message>
         <location filename="../../scribus/ui/smcellstylewidget.ui" line="38"/>
         <source>Colors</source>
-        <translation>നിറങ്ങള്‍</translation>
+        <translation>ਰੰਗ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/smcellstylewidget.ui" line="68"/>
         <source>Fill Color</source>
-        <translation>നിറം നിറയ്ക്കുക</translation>
+        <translation>ਭਰਨ ਵਾਲਾ ਰੰਗ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/smcellstylewidget.ui" line="19"/>
         <source>Based On:</source>
-        <translation>ആധാരമാക്കിയിരിക്കുന്നത്:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/smcellstylewidget.ui" line="88"/>
@@ -33220,17 +33392,17 @@ Document Liberation Project https://www.documentliberation.org</source>
     <message>
         <location filename="../../scribus/ui/smtextstyles.cpp" line="1873"/>
         <source>Character Styles</source>
-        <translation type="unfinished"></translation>
+        <translation>ਅੱਖਰ ਦੇ ਅੰਦਾਜ਼</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/smtextstyles.cpp" line="1878"/>
         <source>Character Style</source>
-        <translation type="unfinished"></translation>
+        <translation>ਅੱਖਰ ਦਾ ਅੰਦਾਜ਼</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/smtextstyles.cpp" line="2012"/>
         <source>New Style</source>
-        <translation>പുതിയ ശൈലി</translation>
+        <translation>ਨਵਾਂ ਅੰਦਾਜ਼</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/smtextstyles.cpp" line="2707"/>
@@ -33350,7 +33522,7 @@ Document Liberation Project https://www.documentliberation.org</source>
     <message>
         <location filename="../../scribus/ui/smfontfeatures.cpp" line="521"/>
         <source>Old Style</source>
-        <translation>പഴയ ശൈലി</translation>
+        <translation>ਪੁਰਾਣਾ ਅੰਦਾਜ਼</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/smfontfeatures.cpp" line="529"/>
@@ -33360,7 +33532,7 @@ Document Liberation Project https://www.documentliberation.org</source>
     <message>
         <location filename="../../scribus/ui/smfontfeatures.cpp" line="532"/>
         <source>Proportional</source>
-        <translation>ആനുപാതികം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/smfontfeatures.cpp" line="534"/>
@@ -33389,22 +33561,22 @@ Document Liberation Project https://www.documentliberation.org</source>
         <location filename="../../scribus/ui/smlinestyle.cpp" line="36"/>
         <location filename="../../scribus/ui/smlinestyle.cpp" line="399"/>
         <source>Properties</source>
-        <translation type="unfinished"></translation>
+        <translation>ਖ਼ਾਸੀਅਤਾਂ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/smlinestyle.cpp" line="45"/>
         <source>Line Styles</source>
-        <translation type="unfinished"></translation>
+        <translation>ਲਾਈਨ ਦੇ ਅੰਦਾਜ਼</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/smlinestyle.cpp" line="50"/>
         <source>Line Style</source>
-        <translation type="unfinished"></translation>
+        <translation>ਲਾਈਨ ਦਾ ਅੰਦਾਜ਼</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/smlinestyle.cpp" line="191"/>
         <source>New Style</source>
-        <translation>പുതിയ ശൈലി</translation>
+        <translation>ਨਵਾਂ ਅੰਦਾਜ਼</translation>
     </message>
 </context>
 <context>
@@ -33442,12 +33614,12 @@ Document Liberation Project https://www.documentliberation.org</source>
     <message>
         <location filename="../../scribus/ui/smlinestylewidget.ui" line="202"/>
         <source>%</source>
-        <translation>%</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/smlinestylewidget.ui" line="224"/>
         <source>Line Width:</source>
-        <translation type="unfinished"></translation>
+        <translation>ਲਾਈਨ ਦੀ ਚੌੜਾਈ</translation>
     </message>
 </context>
 <context>
@@ -33477,7 +33649,7 @@ Document Liberation Project https://www.documentliberation.org</source>
     <message>
         <location filename="../../scribus/ui/smpstylewidget.ui" line="36"/>
         <source>Properties</source>
-        <translation type="unfinished"></translation>
+        <translation>ਖ਼ਾਸੀਅਤਾਂ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/smpstylewidget.ui" line="942"/>
@@ -33497,32 +33669,32 @@ Document Liberation Project https://www.documentliberation.org</source>
     <message>
         <location filename="../../scribus/ui/smpstylewidget.ui" line="1254"/>
         <source>Style:</source>
-        <translation>ശൈലി:</translation>
+        <translation>ਅੰਦਾਜ਼:</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/smpstylewidget.ui" line="1277"/>
         <source>Start:</source>
-        <translation>തുടക്കം:</translation>
+        <translation>ਸ਼ੁਰੂਆਤ:</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/smpstylewidget.ui" line="1304"/>
         <source>List number prefix</source>
-        <translation type="unfinished"></translation>
+        <translation>ਸੂਚੀ ਨੰਬਰ ਅਗੇਤਰ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/smpstylewidget.ui" line="1354"/>
         <source>List number suffix</source>
-        <translation type="unfinished"></translation>
+        <translation>ਸੂਚੀ ਨੰਬਰ ਪਿਛੇਤਰ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/smpstylewidget.ui" line="1387"/>
         <source>Hierarchy level of list numbering</source>
-        <translation type="unfinished"></translation>
+        <translation>ਸੂਚੀ ਨੰਬਰਾਂ ਦਾ ਦਰਜਾ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/smpstylewidget.ui" line="1416"/>
         <source>List numbering style</source>
-        <translation type="unfinished"></translation>
+        <translation>ਸੂਚੀ ਨੰਬਰ ਦਾ ਅੰਦਾਜ਼</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/smpstylewidget.ui" line="1423"/>
@@ -33532,17 +33704,17 @@ Document Liberation Project https://www.documentliberation.org</source>
     <message>
         <location filename="../../scribus/ui/smpstylewidget.ui" line="1452"/>
         <source>New Set:</source>
-        <translation type="unfinished"></translation>
+        <translation>ਨਵਾਂ ਸੈੱਟ:</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/smpstylewidget.ui" line="1517"/>
         <source>Distance</source>
-        <translation type="unfinished"></translation>
+        <translation>ਫ਼ਾਸਲਾ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/smpstylewidget.ui" line="1617"/>
         <source>Style</source>
-        <translation>ശൈലി</translation>
+        <translation>ਅੰਦਾਜ਼</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/smpstylewidget.ui" line="1635"/>
@@ -33562,7 +33734,7 @@ Document Liberation Project https://www.documentliberation.org</source>
     <message>
         <location filename="../../scribus/ui/smpstylewidget.ui" line="1677"/>
         <source>Character Style</source>
-        <translation type="unfinished"></translation>
+        <translation>ਅੱਖਰ ਦਾ ਅੰਦਾਜ਼</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/smpstylewidget.ui" line="72"/>
@@ -33583,23 +33755,23 @@ A value of 0 means unlimited hyphenations.</source>
     <message>
         <location filename="../../scribus/ui/smpstylewidget.ui" line="261"/>
         <source>Typography</source>
-        <translation type="unfinished"></translation>
+        <translation>ਟਾਈਪੋਗ੍ਰਾਫ਼ੀ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/smpstylewidget.ui" line="291"/>
         <location filename="../../scribus/ui/smpstylewidget.ui" line="430"/>
         <source>Minimum</source>
-        <translation>ഏറ്റവും കുറഞ്ഞത്</translation>
+        <translation>ਘੱਟ ਤੋਂ ਘੱਟ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/smpstylewidget.ui" line="321"/>
         <source>Minimal width of spaces between words</source>
-        <translation type="unfinished"></translation>
+        <translation>ਸ਼ਬਦਾਂ ਵਿਚਲੀ ਘੱਟ ਤੋਂ ਘੱਟ ਵਿੱਥ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/smpstylewidget.ui" line="337"/>
         <source>Maximum</source>
-        <translation>പരമാവധി</translation>
+        <translation>ਵੱਧ ਤੋਂ ਵੱਧ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/smpstylewidget.ui" line="361"/>
@@ -33634,7 +33806,7 @@ A value of 0 means unlimited hyphenations.</source>
     <message>
         <location filename="../../scribus/ui/smpstylewidget.ui" line="642"/>
         <source>Line Spacing</source>
-        <translation>വരിയകലം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/smpstylewidget.ui" line="702"/>
@@ -33669,7 +33841,7 @@ A value of 0 means unlimited hyphenations.</source>
     <message>
         <location filename="../../scribus/ui/smpstylewidget.cpp" line="985"/>
         <source>Numbered List</source>
-        <translation>അക്കമിട്ട പട്ടിക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/smpstylewidget.ui" line="1112"/>
@@ -33680,7 +33852,7 @@ A value of 0 means unlimited hyphenations.</source>
         <location filename="../../scribus/ui/smpstylewidget.cpp" line="42"/>
         <location filename="../../scribus/ui/smpstylewidget.cpp" line="161"/>
         <source>Background</source>
-        <translation>പശ്ചാത്തലം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/smpstylewidget.cpp" line="44"/>
@@ -33688,7 +33860,7 @@ A value of 0 means unlimited hyphenations.</source>
         <location filename="../../scribus/ui/smpstylewidget.cpp" line="197"/>
         <location filename="../../scribus/ui/smpstylewidget.cpp" line="507"/>
         <source>Fixed</source>
-        <translation type="unfinished"></translation>
+        <translation>ਬੱਝਵੀਂ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/smpstylewidget.cpp" line="45"/>
@@ -33696,7 +33868,7 @@ A value of 0 means unlimited hyphenations.</source>
         <location filename="../../scribus/ui/smpstylewidget.cpp" line="198"/>
         <location filename="../../scribus/ui/smpstylewidget.cpp" line="508"/>
         <source>Automatic</source>
-        <translation type="unfinished"></translation>
+        <translation>ਖ਼ੁਦਮੁਖ਼ਤਾਰ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/smpstylewidget.cpp" line="46"/>
@@ -33704,7 +33876,7 @@ A value of 0 means unlimited hyphenations.</source>
         <location filename="../../scribus/ui/smpstylewidget.cpp" line="199"/>
         <location filename="../../scribus/ui/smpstylewidget.cpp" line="509"/>
         <source>Baseline</source>
-        <translation type="unfinished"></translation>
+        <translation>ਬੇਸਲਾਈਨ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/smpstylewidget.cpp" line="132"/>
@@ -33736,12 +33908,12 @@ A value of 0 means unlimited hyphenations.</source>
         <location filename="../../scribus/ui/smpstylewidget.cpp" line="420"/>
         <location filename="../../scribus/ui/smpstylewidget.cpp" line="820"/>
         <source>Based On:</source>
-        <translation>ആധാരമാക്കിയിരിക്കുന്നത്:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/smpstylewidget.ui" line="99"/>
         <source>Colors</source>
-        <translation>നിറങ്ങള്‍</translation>
+        <translation>ਰੰਗ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/smpstylewidget.cpp" line="424"/>
@@ -33764,7 +33936,7 @@ A value of 0 means unlimited hyphenations.</source>
     <message>
         <location filename="../../scribus/ui/smpstylewidget.ui" line="907"/>
         <source>Do not split paragraph</source>
-        <translation type="unfinished"></translation>
+        <translation>ਪੈਰਿਆਂ ਨੂੰ ਤੋੜੋ ਨਾ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/smpstylewidget.ui" line="917"/>
@@ -33796,7 +33968,7 @@ A value of 0 means unlimited hyphenations.</source>
         <location filename="../../scribus/ui/smpstylewidget.cpp" line="418"/>
         <location filename="../../scribus/ui/smpstylewidget.cpp" line="904"/>
         <source>No Style</source>
-        <translation>ശൈലിയില്ല</translation>
+        <translation>ਕੋਈ ਅੰਦਾਜ਼ ਨਹੀਂ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/smpstylewidget.ui" line="1102"/>
@@ -33826,7 +33998,7 @@ A value of 0 means unlimited hyphenations.</source>
     <message>
         <location filename="../../scribus/ui/smpstylewidget.cpp" line="973"/>
         <source>Document</source>
-        <translation>പ്രമാണം</translation>
+        <translation>ਦਸਤਾਵੇਜ਼</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/smpstylewidget.cpp" line="974"/>
@@ -33836,17 +34008,17 @@ A value of 0 means unlimited hyphenations.</source>
     <message>
         <location filename="../../scribus/ui/smpstylewidget.ui" line="1267"/>
         <source>Level:</source>
-        <translation>തലം:</translation>
+        <translation>ਦਰਜਾ:</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/smpstylewidget.ui" line="1361"/>
         <source>Prefix:</source>
-        <translation type="unfinished"></translation>
+        <translation>ਅਗੇਤਰ:</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/smpstylewidget.ui" line="1436"/>
         <source>Suffix:</source>
-        <translation type="unfinished"></translation>
+        <translation>ਪਿਛੇਤਰ:</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/smpstylewidget.ui" line="1311"/>
@@ -33859,17 +34031,17 @@ A value of 0 means unlimited hyphenations.</source>
     <message>
         <location filename="../../scribus/ui/smtextstyles.cpp" line="57"/>
         <source>Paragraph Styles</source>
-        <translation>ഖണ്ഡികാ ശൈലികള്‍</translation>
+        <translation>ਪੈਰੇ ਦੇ ਅੰਦਾਜ਼</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/smtextstyles.cpp" line="62"/>
         <source>Paragraph Style</source>
-        <translation type="unfinished"></translation>
+        <translation>ਪੈਰੇ ਦਾ ਅੰਦਾਜ਼</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/smtextstyles.cpp" line="229"/>
         <source>New Style</source>
-        <translation>പുതിയ ശൈലി</translation>
+        <translation>ਨਵਾਂ ਅੰਦਾਜ਼</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/smtextstyles.cpp" line="1762"/>
@@ -33882,32 +34054,32 @@ A value of 0 means unlimited hyphenations.</source>
     <message>
         <location filename="../../scribus/ui/smreplacedia.cpp" line="64"/>
         <source>Remove</source>
-        <translation>നീക്കം ചെയ്യുക</translation>
+        <translation>ਹਟਾਓ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/smreplacedia.cpp" line="65"/>
         <source>Replace with</source>
-        <translation type="unfinished"></translation>
+        <translation>ਇਸ ਨਾਲ ਬਦਲੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/smreplacedia.ui" line="14"/>
         <source>Delete Styles</source>
-        <translation type="unfinished"></translation>
+        <translation>ਅੰਦਾਜ਼ ਮਿਟਾਓ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/smreplacedia.ui" line="78"/>
         <source>&amp;OK</source>
-        <translation>&amp;ശരി</translation>
+        <translation>ਠੀਕ ਹੈ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/smreplacedia.ui" line="94"/>
         <source>Ca&amp;ncel</source>
-        <translation type="unfinished"></translation>
+        <translation>ਰੱਦ ਕਰੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/smreplacedia.ui" line="97"/>
         <source>Alt+N</source>
-        <translation>Alt+N</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -33915,7 +34087,7 @@ A value of 0 means unlimited hyphenations.</source>
     <message>
         <location filename="../../scribus/ui/smreplacedia.cpp" line="22"/>
         <source>No Style</source>
-        <translation>ശൈലിയില്ല</translation>
+        <translation>ਕੋਈ ਅੰਦਾਜ਼ ਨਹੀਂ</translation>
     </message>
 </context>
 <context>
@@ -33942,27 +34114,27 @@ A value of 0 means unlimited hyphenations.</source>
     <message>
         <location filename="../../scribus/ui/smstyleimport.cpp" line="22"/>
         <source>Character Styles</source>
-        <translation type="unfinished"></translation>
+        <translation>ਅੱਖਰ ਦੇ ਅੰਦਾਜ਼</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/smstyleimport.cpp" line="34"/>
         <source>Paragraph Styles</source>
-        <translation>ഖണ്ഡികാ ശൈലികള്‍</translation>
+        <translation>ਪੈਰੇ ਦੇ ਅੰਦਾਜ਼</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/smstyleimport.cpp" line="46"/>
         <source>Line Styles</source>
-        <translation type="unfinished"></translation>
+        <translation>ਲਾਈਨ ਦੇ ਅੰਦਾਜ਼</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/smstyleimport.ui" line="14"/>
         <source>Choose Styles</source>
-        <translation type="unfinished"></translation>
+        <translation>ਅੰਦਾਜ਼ ਚੁਣੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/smstyleimport.ui" line="39"/>
         <source>Available Styles</source>
-        <translation type="unfinished"></translation>
+        <translation>ਉਪਲਬਧ ਅੰਦਾਜ਼</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/smstyleimport.ui" line="60"/>
@@ -34014,7 +34186,7 @@ A value of 0 means unlimited hyphenations.</source>
     <message>
         <location filename="../../scribus/ui/smtablestyle.cpp" line="161"/>
         <source>New Style</source>
-        <translation>പുതിയ ശൈലി</translation>
+        <translation>ਨਵਾਂ ਅੰਦਾਜ਼</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/smtablestyle.cpp" line="518"/>
@@ -34027,17 +34199,17 @@ A value of 0 means unlimited hyphenations.</source>
     <message>
         <location filename="../../scribus/ui/smtablestylewidget.ui" line="38"/>
         <source>Colors</source>
-        <translation>നിറങ്ങള്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/smtablestylewidget.ui" line="62"/>
         <source>Fill Color</source>
-        <translation>നിറം നിറയ്ക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/smtablestylewidget.ui" line="19"/>
         <source>Based On:</source>
-        <translation>ആധാരമാക്കിയിരിക്കുന്നത്:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/smtablestylewidget.cpp" line="85"/>
@@ -34068,12 +34240,12 @@ A value of 0 means unlimited hyphenations.</source>
     <message>
         <location filename="../../scribus/ui/storyeditor.cpp" line="1427"/>
         <source>Style of current paragraph</source>
-        <translation type="unfinished"></translation>
+        <translation>ਮੌਜੂਦਾ ਪੈਰੇ ਦਾ ਅੰਦਾਜ਼</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/storyeditor.cpp" line="1395"/>
         <source>Style Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>ਅੰਦਾਜ਼ ਦੀਆਂ ਸੈਟਿੰਗਾਂ</translation>
     </message>
 </context>
 <context>
@@ -34234,17 +34406,17 @@ Caution: this will increase the file size!</source>
         <location filename="../../scribus/plugins/short-words/swdialog.cpp" line="116"/>
         <source>Short Words</source>
         <comment>short words plugin</comment>
-        <translation>ഹ്രസ്വവാക്കുകള്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/short-words/swdialog.ui" line="14"/>
         <source>Short Words</source>
-        <translation>ഹ്രസ്വവാക്കുകള്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/short-words/swdialog.ui" line="77"/>
         <source>&amp;Languages:</source>
-        <translation>&amp;ഭാഷകള്‍:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/short-words/swdialog.ui" line="38"/>
@@ -34254,7 +34426,7 @@ Caution: this will increase the file size!</source>
     <message>
         <location filename="../../scribus/plugins/short-words/swdialog.ui" line="45"/>
         <source>Active &amp;Page</source>
-        <translation>സജീവ &amp;താള്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/short-words/swdialog.ui" line="52"/>
@@ -34264,12 +34436,12 @@ Caution: this will increase the file size!</source>
     <message>
         <location filename="../../scribus/plugins/short-words/swdialog.ui" line="62"/>
         <source>Language Settings</source>
-        <translation>ഭാഷാ സജ്ജീകരണങ്ങള്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/short-words/swdialog.ui" line="68"/>
         <source>&amp;Use Language from Style Definition</source>
-        <translation>&amp;ശൈലീ വിവരണത്തില്‍ നിന്നുള്ള ഭാഷയുപയോഗിക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/short-words/swdialog.ui" line="32"/>
@@ -34292,7 +34464,7 @@ Caution: this will increase the file size!</source>
         <location filename="../../scribus/plugins/short-words/swdialog.cpp" line="119"/>
         <source>Active &amp;Page</source>
         <comment>short words plugin</comment>
-        <translation>സജീവ &amp;താള്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/short-words/swdialog.cpp" line="120"/>
@@ -34349,7 +34521,7 @@ Caution: this will increase the file size!</source>
         <location filename="../../scribus/ui/annot.ui" line="34"/>
         <location filename="../../scribus/ui/annot.ui" line="909"/>
         <source>Type:</source>
-        <translation>തരം:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/annot.ui" line="42"/>
@@ -34384,7 +34556,7 @@ Caution: this will increase the file size!</source>
     <message>
         <location filename="../../scribus/ui/annot.ui" line="108"/>
         <source>Name:</source>
-        <translation>പേര്:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/annot.ui" line="2253"/>
@@ -34395,7 +34567,7 @@ Caution: this will increase the file size!</source>
         <location filename="../../scribus/ui/annot.ui" line="128"/>
         <location filename="../../scribus/ui/annot.ui" line="408"/>
         <source>Text</source>
-        <translation>പദസഞ്ചയം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/annot.ui" line="208"/>
@@ -34405,41 +34577,41 @@ Caution: this will increase the file size!</source>
     <message>
         <location filename="../../scribus/ui/annot.ui" line="220"/>
         <source>Border</source>
-        <translation>അതിര്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/annot.ui" line="226"/>
         <source>Color:</source>
-        <translation>നിറം:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/annot.ui" line="260"/>
         <source>Width:</source>
-        <translation>വീതി:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/annot.ui" line="242"/>
         <location filename="../../scribus/ui/annot.cpp" line="111"/>
         <source>Thin</source>
-        <translation>നേരിയ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/annot.ui" line="247"/>
         <location filename="../../scribus/ui/annot.ui" line="491"/>
         <location filename="../../scribus/ui/annot.cpp" line="111"/>
         <source>Normal</source>
-        <translation>സാധാരണ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/annot.ui" line="252"/>
         <location filename="../../scribus/ui/annot.cpp" line="111"/>
         <source>Wide</source>
-        <translation>വീതിയുള്ള</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/annot.ui" line="267"/>
         <source>Style:</source>
-        <translation>ശൈലി:</translation>
+        <translation>ਅੰਦਾਜ਼:</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/annot.ui" line="275"/>
@@ -34454,7 +34626,7 @@ Caution: this will increase the file size!</source>
     <message>
         <location filename="../../scribus/ui/annot.ui" line="285"/>
         <source>Underline</source>
-        <translation>അടിവരയിട്ട</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/annot.ui" line="290"/>
@@ -34469,17 +34641,17 @@ Caution: this will increase the file size!</source>
     <message>
         <location filename="../../scribus/ui/annot.ui" line="306"/>
         <source>Other</source>
-        <translation>മറ്റുള്ള</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/annot.ui" line="357"/>
         <source>Read Only</source>
-        <translation>വായന മാത്രം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/annot.ui" line="350"/>
         <source>Required</source>
-        <translation>ആവശ്യമുണ്ട്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/annot.ui" line="343"/>
@@ -34489,17 +34661,17 @@ Caution: this will increase the file size!</source>
     <message>
         <location filename="../../scribus/ui/annot.ui" line="312"/>
         <source>Visibility:</source>
-        <translation>ദൃശ്യത:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/annot.ui" line="320"/>
         <source>Visible</source>
-        <translation>ദൃശ്യം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/annot.ui" line="325"/>
         <source>Hidden</source>
-        <translation>ഗുപ്തം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/annot.ui" line="330"/>
@@ -34541,7 +34713,7 @@ Caution: this will increase the file size!</source>
         <location filename="../../scribus/ui/annot.ui" line="537"/>
         <location filename="../../scribus/ui/annot.ui" line="583"/>
         <source>Remove</source>
-        <translation>നീക്കം ചെയ്യുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/annot.ui" line="530"/>
@@ -34587,7 +34759,7 @@ Caution: this will increase the file size!</source>
     <message>
         <location filename="../../scribus/ui/annot.ui" line="671"/>
         <source>Password</source>
-        <translation>അടയാളവാക്ക്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/annot.ui" line="680"/>
@@ -34597,7 +34769,7 @@ Caution: this will increase the file size!</source>
     <message>
         <location filename="../../scribus/ui/annot.ui" line="697"/>
         <source>Characters</source>
-        <translation>അക്ഷരങ്ങള്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/annot.ui" line="719"/>
@@ -34617,12 +34789,12 @@ Caution: this will increase the file size!</source>
     <message>
         <location filename="../../scribus/ui/annot.ui" line="771"/>
         <source>Check Style:</source>
-        <translation>ശൈലി പരിശോധിക്കുക:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/annot.ui" line="779"/>
         <source>Check</source>
-        <translation>പരിശോധിക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/annot.ui" line="784"/>
@@ -34637,17 +34809,17 @@ Caution: this will increase the file size!</source>
     <message>
         <location filename="../../scribus/ui/annot.ui" line="794"/>
         <source>Circle</source>
-        <translation>വൃത്തം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/annot.ui" line="799"/>
         <source>Star</source>
-        <translation>നക്ഷത്രം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/annot.ui" line="804"/>
         <source>Square</source>
-        <translation>സമചതുരം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/annot.ui" line="827"/>
@@ -34657,7 +34829,7 @@ Caution: this will increase the file size!</source>
     <message>
         <location filename="../../scribus/ui/annot.ui" line="863"/>
         <source>Editable</source>
-        <translation>തിരുത്താവുന്നത്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/annot.ui" line="383"/>
@@ -34676,7 +34848,7 @@ Caution: this will increase the file size!</source>
         <location filename="../../scribus/ui/annot.cpp" line="1368"/>
         <location filename="../../scribus/ui/annot.cpp" line="1413"/>
         <source>JavaScript</source>
-        <translation>ജാവാസ്ക്രിപ്റ്റ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/annot.ui" line="927"/>
@@ -34746,7 +34918,7 @@ Caution: this will increase the file size!</source>
     <message>
         <location filename="../../scribus/ui/annot.ui" line="1056"/>
         <source>Script:</source>
-        <translation>സ്ക്രിപ്റ്റ്:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/annot.ui" line="1081"/>
@@ -34780,12 +34952,12 @@ Caution: this will increase the file size!</source>
     <message>
         <location filename="../../scribus/ui/annot.ui" line="1122"/>
         <source>Page:</source>
-        <translation>താള്‍:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/annot.ui" line="1174"/>
         <source>X-Pos:</source>
-        <translation>X-Pos:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/annot.ui" line="1160"/>
@@ -34793,12 +34965,12 @@ Caution: this will increase the file size!</source>
         <location filename="../../scribus/ui/annot.cpp" line="236"/>
         <location filename="../../scribus/ui/annot.cpp" line="240"/>
         <source> pt</source>
-        <translation>പോയിന്റ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/annot.ui" line="1146"/>
         <source>Y-Pos:</source>
-        <translation>Y-Pos:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/annot.ui" line="1229"/>
@@ -34813,32 +34985,32 @@ Caution: this will increase the file size!</source>
     <message>
         <location filename="../../scribus/ui/annot.ui" line="1247"/>
         <source>FDF</source>
-        <translation>FDF</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/annot.ui" line="1252"/>
         <source>HTML</source>
-        <translation>HTML</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/annot.ui" line="1257"/>
         <source>XFDF</source>
-        <translation>XFDF</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/annot.ui" line="1262"/>
         <source>PDF</source>
-        <translation>PDF</translation>
+        <translation>ਪੀਡੀਐਫ਼</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/annot.ui" line="1311"/>
         <source>Import Data from:</source>
-        <translation type="unfinished"></translation>
+        <translation>ਇੱਥੋਂ ਡਾਟਾ ਦਰਾਮਦ ਕਰੋ:</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/annot.ui" line="901"/>
         <source>Action</source>
-        <translation type="unfinished"></translation>
+        <translation>ਕਾਰਵਾਈ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/annot.ui" line="1401"/>
@@ -34848,27 +35020,27 @@ Caution: this will increase the file size!</source>
     <message>
         <location filename="../../scribus/ui/annot.ui" line="1414"/>
         <source>Number</source>
-        <translation>സംഖ്യ</translation>
+        <translation>ਨੰਬਰ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/annot.ui" line="1419"/>
         <source>Percentage</source>
-        <translation>ശതമാനം</translation>
+        <translation>ਫ਼ੀਸਦ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/annot.ui" line="1424"/>
         <source>Date</source>
-        <translation>തീയതി</translation>
+        <translation>ਮਿਤੀ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/annot.ui" line="1429"/>
         <source>Time</source>
-        <translation>സമയം</translation>
+        <translation>ਸਮਾਂ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/annot.ui" line="1434"/>
         <source>Custom</source>
-        <translation type="unfinished"></translation>
+        <translation>ਖ਼ਾਸ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/annot.ui" line="1489"/>
@@ -34879,7 +35051,7 @@ Caution: this will increase the file size!</source>
         <location filename="../../scribus/ui/annot.ui" line="1497"/>
         <location filename="../../scribus/ui/annot.ui" line="1630"/>
         <source>Decimals:</source>
-        <translation>ദശാംശങ്ങള്‍:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/annot.ui" line="1531"/>
@@ -34955,7 +35127,7 @@ Caution: this will increase the file size!</source>
     <message>
         <location filename="../../scribus/ui/annot.ui" line="2057"/>
         <source>Validate</source>
-        <translation>സാധുവാക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/annot.ui" line="2138"/>
@@ -34980,7 +35152,7 @@ Caution: this will increase the file size!</source>
     <message>
         <location filename="../../scribus/ui/annot.ui" line="2168"/>
         <source>average</source>
-        <translation>ശരാശരി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/annot.ui" line="2173"/>
@@ -35010,7 +35182,7 @@ Caution: this will increase the file size!</source>
     <message>
         <location filename="../../scribus/ui/annot.ui" line="2132"/>
         <source>Calculate</source>
-        <translation>കണക്കുകൂട്ടുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/annot.cpp" line="447"/>
@@ -35034,23 +35206,23 @@ Caution: this will increase the file size!</source>
         <location filename="../../scribus/ui/annot.cpp" line="621"/>
         <location filename="../../scribus/ui/annot.cpp" line="1572"/>
         <source>Open</source>
-        <translation>തുറക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/annot.cpp" line="565"/>
         <source>Images (*.tif *.png *.jpg *.xpm);;%1;;All Files (*)</source>
-        <translation>ചിത്രങ്ങള്‍ (*.tif *.png *.jpg *.xpm);;%1;; എല്ലാ ഫയലുകളും (*)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/annot.cpp" line="597"/>
         <location filename="../../scribus/ui/annot.cpp" line="622"/>
         <source>Images (*.tif *.png *.jpg *.xpm);;PostScript (*.eps *.epsi);;All Files (*)</source>
-        <translation>ചിത്രങ്ങള്‍  (*.tif *.png *.jpg *.xpm);;പോസ്റ്റ് സ്ക്രിപ്റ്റ് (*.eps *.epsi);; എല്ലാ ഫയലുകളും (*)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/annot.cpp" line="734"/>
         <source>Example:</source>
-        <translation>ഉദാഹരണം:</translation>
+        <translation>ਮਿਸਾਲ:</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/annot.cpp" line="1395"/>
@@ -35067,7 +35239,7 @@ Caution: this will increase the file size!</source>
     <message>
         <location filename="../../scribus/ui/annot.cpp" line="1572"/>
         <source>PDF Files (*.pdf);;All Files (*)</source>
-        <translation>PDFഫയലുകള്‍ (*.pdf);;എല്ലാ ഫയലുകളും (*)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/annot.ui" line="67"/>
@@ -35093,32 +35265,32 @@ Caution: this will increase the file size!</source>
     <message>
         <location filename="../../scribus/ui/annot.cpp" line="251"/>
         <source>Previous Page</source>
-        <translation type="unfinished"></translation>
+        <translation>ਪਿਛਲਾ ਸਫ਼ਾ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/annot.cpp" line="252"/>
         <source>Next Page</source>
-        <translation type="unfinished"></translation>
+        <translation>ਅਗਲਾ ਸਫ਼ਾ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/annot.cpp" line="253"/>
         <source>Last Page</source>
-        <translation type="unfinished"></translation>
+        <translation>ਆਖ਼ਰੀ ਸਫ਼ਾ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/annot.cpp" line="254"/>
         <source>Go Back</source>
-        <translation type="unfinished"></translation>
+        <translation>ਪਿੱਛੇ ਜਾਓ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/annot.cpp" line="255"/>
         <source>Go Forward</source>
-        <translation type="unfinished"></translation>
+        <translation>ਅੱਗੇ ਜਾਓ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/annot.cpp" line="256"/>
         <source>Go Back Doc</source>
-        <translation type="unfinished"></translation>
+        <translation>ਪਿਛਲਾ ਦਸਤਾਵੇਜ਼</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/annot.cpp" line="257"/>
@@ -35138,32 +35310,32 @@ Caution: this will increase the file size!</source>
     <message>
         <location filename="../../scribus/ui/annot.cpp" line="260"/>
         <source>Fit Page</source>
-        <translation type="unfinished"></translation>
+        <translation>ਸਫ਼ੇ ਦੇ ਮੇਚ ਦਾ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/annot.cpp" line="261"/>
         <source>Fit Width</source>
-        <translation type="unfinished"></translation>
+        <translation>ਚੌੜਾਈ ਦੇ ਮੇਚ ਦਾ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/annot.cpp" line="262"/>
         <source>Fit Height</source>
-        <translation type="unfinished"></translation>
+        <translation>ਉਚਾਈ ਦੇ ਮੇਚ ਦਾ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/annot.cpp" line="263"/>
         <source>Fit Visible</source>
-        <translation type="unfinished"></translation>
+        <translation>ਦਿਸਦੇ ਦੇ ਮੇਚ ਦਾ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/annot.cpp" line="264"/>
         <source>Single Page</source>
-        <translation>ഒറ്റത്താള്‍</translation>
+        <translation>ਇਕਹਿਰਾ ਸਫ਼ਾ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/annot.cpp" line="265"/>
         <source>Two Pages</source>
-        <translation type="unfinished"></translation>
+        <translation>ਦੋ ਸਫ਼ੇ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/annot.cpp" line="266"/>
@@ -35193,17 +35365,17 @@ Caution: this will increase the file size!</source>
     <message>
         <location filename="../../scribus/ui/annot.cpp" line="271"/>
         <source>Print</source>
-        <translation>അച്ചടി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/annot.cpp" line="272"/>
         <source>Close</source>
-        <translation>അടയ്ക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/annot.cpp" line="273"/>
         <source>Quit</source>
-        <translation>പുറത്തുകടക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/annot.cpp" line="274"/>
@@ -35213,7 +35385,7 @@ Caution: this will increase the file size!</source>
     <message>
         <location filename="../../scribus/ui/annot.cpp" line="275"/>
         <source>General Info</source>
-        <translation>പൊതുവിവരണം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/annot.cpp" line="276"/>
@@ -35348,7 +35520,7 @@ Caution: this will increase the file size!</source>
     <message>
         <location filename="../../scribus/ui/annot.ui" line="135"/>
         <source>Courier</source>
-        <translation>കുറിയര്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/annot.ui" line="140"/>
@@ -35368,7 +35540,7 @@ Caution: this will increase the file size!</source>
     <message>
         <location filename="../../scribus/ui/annot.ui" line="155"/>
         <source>Helvetica</source>
-        <translation>ഹെല്‍വെറ്റിക്ക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/annot.ui" line="160"/>
@@ -35388,7 +35560,7 @@ Caution: this will increase the file size!</source>
     <message>
         <location filename="../../scribus/ui/annot.ui" line="175"/>
         <source>Times</source>
-        <translation>റ്റൈംസ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/annot.ui" line="180"/>
@@ -35408,12 +35580,12 @@ Caution: this will increase the file size!</source>
     <message>
         <location filename="../../scribus/ui/annot.ui" line="195"/>
         <source>Zapf Dingbats</source>
-        <translation>സാപ്ഫ് ഡിങ്ങ്ബാറ്റ്സ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/annot.ui" line="200"/>
         <source>Symbols</source>
-        <translation>ചിഹ്നങ്ങള്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/annot.ui" line="1409"/>
@@ -35464,12 +35636,12 @@ Caution: this will increase the file size!</source>
     <message>
         <location filename="../../scribus/ui/scmwmenumanager.cpp" line="47"/>
         <source>Contents</source>
-        <translation>ഉള്ളടക്കങ്ങള്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/scmwmenumanager.cpp" line="52"/>
         <source>&amp;Level</source>
-        <translation>&amp;തലം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/scmwmenumanager.cpp" line="53"/>
@@ -35559,7 +35731,7 @@ Caution: this will increase the file size!</source>
     <message>
         <location filename="../../scribus/ui/scmwmenumanager.cpp" line="57"/>
         <source>Image</source>
-        <translation>ചിത്രം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/scmwmenumanager.cpp" line="61"/>
@@ -35609,7 +35781,7 @@ Caution: this will increase the file size!</source>
     <message>
         <location filename="../../scribus/ui/scmwmenumanager.cpp" line="80"/>
         <source>Document</source>
-        <translation>പ്രമാണം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/scmwmenumanager.cpp" line="81"/>
@@ -35639,7 +35811,7 @@ Caution: this will increase the file size!</source>
     <message>
         <location filename="../../scribus/scplugin.cpp" line="60"/>
         <source>Unknown</source>
-        <translation>അജ്ഞാതം</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -35656,12 +35828,12 @@ Caution: this will increase the file size!</source>
         <location filename="../../scribus/plugins/fileloader/scribus12format/scribus12format.cpp" line="63"/>
         <location filename="../../scribus/plugins/fileloader/scribus12format/scribus12format.cpp" line="119"/>
         <source>Scribus 1.2.x Document</source>
-        <translation>സ്ക്രൈബസ് 1.2.x പ്രമാണം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/fileloader/scribus12format/scribus12format.cpp" line="2497"/>
         <source>Copy #%1 of </source>
-        <translation>#%1ന്റെ പകര്‍പ്പ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/fileloader/scribus12format/scribus12format.cpp" line="79"/>
@@ -35690,7 +35862,7 @@ If you save it in this version, it will no longer be readable by older Scribus v
     <message>
         <location filename="../../scribus/plugins/fileloader/scribus134format/scribus134format.cpp" line="3968"/>
         <source>Copy #%1 of </source>
-        <translation>#%1ന്റെ പകര്‍പ്പ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/fileloader/scribus134format/scribus134format.cpp" line="90"/>
@@ -35712,7 +35884,7 @@ If you save it in this version, it will no longer be readable by older Scribus v
         <location filename="../../scribus/plugins/fileloader/scribus134format/scribus134format.cpp" line="74"/>
         <location filename="../../scribus/plugins/fileloader/scribus134format/scribus134format.cpp" line="108"/>
         <source>Scribus 1.3.4+ Document</source>
-        <translation>സ്ക്രൈബസ് 1.3.4+ പ്രമാണം</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -35720,13 +35892,13 @@ If you save it in this version, it will no longer be readable by older Scribus v
     <message>
         <location filename="../../scribus/plugins/fileloader/scribus13format/scribus13format.cpp" line="2666"/>
         <source>Copy #%1 of </source>
-        <translation>#%1ന്റെ പകര്‍പ്പ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/fileloader/scribus13format/scribus13format.cpp" line="66"/>
         <location filename="../../scribus/plugins/fileloader/scribus13format/scribus13format.cpp" line="100"/>
         <source>Scribus 1.3.0-&gt;1.3.3.7 Document</source>
-        <translation>സ്ക്രൈബസ് 1.3.0-&gt;1.3.3.7 പ്രമാണം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/fileloader/scribus13format/scribus13format.cpp" line="82"/>
@@ -35766,7 +35938,7 @@ If you save it in this version, it will no longer be readable by older Scribus v
     <message>
         <location filename="../../scribus/plugins/fileloader/scribus150format/scribus150format.cpp" line="7331"/>
         <source>Copy #%1 of </source>
-        <translation>#%1ന്റെ പകര്‍പ്പ്</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -35790,7 +35962,7 @@ If you save it in this version, it will no longer be readable by older Scribus v
     <message>
         <location filename="../../scribus/plugins/fileloader/scribus170format/scribus170format.cpp" line="7401"/>
         <source>Copy #%1 of </source>
-        <translation type="unfinished">#%1ന്റെ പകര്‍പ്പ്</translation>
+        <translation>ਦੀ ਨਕਲ #%1</translation>
     </message>
 </context>
 <context>
@@ -35814,7 +35986,7 @@ If you save it in this version, it will no longer be readable by older Scribus v
     <message>
         <location filename="../../scribus/plugins/fileloader/scribus171format/scribus171format.cpp" line="8993"/>
         <source>Copy #%1 of </source>
-        <translation type="unfinished">#%1ന്റെ പകര്‍പ്പ്</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -35852,12 +36024,12 @@ If you save it in this version, it will no longer be readable by older Scribus v
     <message>
         <location filename="../../scribus/scribuscore.cpp" line="348"/>
         <source>Exiting now.</source>
-        <translation>ഇപ്പോള്‍ പുറത്തുകടന്നുകൊണ്ടിരിക്കുന്നു.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/scribuscore.cpp" line="349"/>
         <source>Fatal Error</source>
-        <translation>ഗുരുതരമായ പിഴവ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/scribuscore.cpp" line="352"/>
@@ -35878,12 +36050,12 @@ If you save it in this version, it will no longer be readable by older Scribus v
         <location filename="../../scribus/scribusdoc.cpp" line="237"/>
         <location filename="../../scribus/scribusdoc.cpp" line="17227"/>
         <source>Document</source>
-        <translation>പ്രമാണം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/scribusdoc.cpp" line="445"/>
         <source>Background</source>
-        <translation>പശ്ചാത്തലം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/scribusdoc.cpp" line="11761"/>
@@ -35974,7 +36146,7 @@ Vertical gap: %4</source>
         <location filename="../../scribus/scribusdoc.cpp" line="18410"/>
         <location filename="../../scribus/scribusdoc.cpp" line="18447"/>
         <source>No Style</source>
-        <translation>ശൈലിയില്ല</translation>
+        <translation>ਕੋਈ ਅੰਦਾਜ਼ ਨਹੀਂ</translation>
     </message>
     <message>
         <location filename="../../scribus/scribusdoc.cpp" line="18775"/>
@@ -36002,7 +36174,7 @@ Vertical gap: %4</source>
     <message>
         <location filename="../../scribus/scribus.cpp" line="3385"/>
         <source>Fatal Error</source>
-        <translation>ഗുരുതരമായ പിഴവ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/scribus.cpp" line="922"/>
@@ -36028,7 +36200,7 @@ Vertical gap: %4</source>
     <message>
         <location filename="../../scribus/scribus.cpp" line="1019"/>
         <source>Level</source>
-        <translation>തലം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/scribus.cpp" line="1025"/>
@@ -36052,7 +36224,7 @@ Vertical gap: %4</source>
         <location filename="../../scribus/scribus.cpp" line="3165"/>
         <location filename="../../scribus/scribus.cpp" line="3785"/>
         <source>Open</source>
-        <translation>തുറക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/scribus.cpp" line="3186"/>
@@ -36108,7 +36280,7 @@ Vertical gap: %4</source>
     <message>
         <location filename="../../scribus/scribus.cpp" line="3973"/>
         <source>All Files (*)</source>
-        <translation>എല്ലാ ഫയലുകളും (*)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/scribus.cpp" line="4066"/>
@@ -36129,7 +36301,7 @@ Vertical gap: %4</source>
     <message>
         <location filename="../../scribus/scribus.cpp" line="4139"/>
         <source>Saving...</source>
-        <translation>സൂക്ഷിക്കുന്നു...</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/scribus.cpp" line="4271"/>
@@ -36142,7 +36314,7 @@ Vertical gap: %4</source>
     <message>
         <location filename="../../scribus/scribus.cpp" line="4306"/>
         <source>Printing...</source>
-        <translation>അച്ചടിക്കുന്നു...</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/scribus.cpp" line="1275"/>
@@ -36151,12 +36323,12 @@ Vertical gap: %4</source>
         <location filename="../../scribus/scribus.cpp" line="7030"/>
         <location filename="../../scribus/scribus.cpp" line="8293"/>
         <source>Document</source>
-        <translation>പ്രമാണം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/scribus.cpp" line="4356"/>
         <source>Printing failed!</source>
-        <translation>അച്ചടിക്കുന്നത് പരാജയപ്പെട്ടു!</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/scribus.cpp" line="4446"/>
@@ -36171,7 +36343,7 @@ Vertical gap: %4</source>
     <message>
         <location filename="../../scribus/scribus.cpp" line="5065"/>
         <source>About Qt</source>
-        <translation>ക്യൂറ്റിയെ സംബന്ധിച്ച്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/scribus.cpp" line="5096"/>
@@ -36181,13 +36353,13 @@ Vertical gap: %4</source>
     <message>
         <location filename="../../scribus/scribus.cpp" line="6187"/>
         <source>&amp;Size:</source>
-        <translation>&amp;വലിപ്പം:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/scribus.cpp" line="1604"/>
         <location filename="../../scribus/scribus.cpp" line="6187"/>
         <source>Size</source>
-        <translation>വലിപ്പം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/scribus.cpp" line="6597"/>
@@ -36241,7 +36413,7 @@ Consider using the Preflight Verifier to correct them</source>
     <message>
         <location filename="../../scribus/scribus.cpp" line="974"/>
         <source>Contents</source>
-        <translation>ഉള്ളടക്കങ്ങള്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/scribus.cpp" line="1144"/>
@@ -36276,7 +36448,7 @@ Consider using the Preflight Verifier to correct them</source>
     <message>
         <location filename="../../scribus/scribus.cpp" line="7051"/>
         <source>%1;;All Files (*)</source>
-        <translation>%1;;എല്ലാ ഫയലുകളും (*)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/scribus.cpp" line="392"/>
@@ -36309,7 +36481,7 @@ Consider using the Preflight Verifier to correct them</source>
         <location filename="../../scribus/scribus.cpp" line="9036"/>
         <location filename="../../scribus/scribus.cpp" line="9115"/>
         <source>&amp;Name:</source>
-        <translation>&amp;പേര്:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/scribus.cpp" line="9036"/>
@@ -36340,7 +36512,7 @@ Consider using the Preflight Verifier to correct them</source>
     <message>
         <location filename="../../scribus/scribus.cpp" line="1558"/>
         <source>Unknown</source>
-        <translation>അജ്ഞാതം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/scribus.cpp" line="1609"/>
@@ -36430,7 +36602,7 @@ Consider using the Preflight Verifier to correct them</source>
     <message>
         <location filename="../../scribus/scribus.cpp" line="1056"/>
         <source>Image</source>
-        <translation>ചിത്രം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/scribus.cpp" line="1101"/>
@@ -36440,6 +36612,10 @@ Consider using the Preflight Verifier to correct them</source>
     <message>
         <location filename="../../scribus/scribus.cpp" line="1089"/>
         <source>Text Frame Links</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Path Tools</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -36496,19 +36672,19 @@ Consider using the Preflight Verifier to correct them</source>
     <message>
         <location filename="../../scribus/scribus.cpp" line="1432"/>
         <source> %</source>
-        <translation> %</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/scribus.cpp" line="1473"/>
         <location filename="../../scribus/scribus.cpp" line="8558"/>
         <source>X:</source>
-        <translation>X:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/scribus.cpp" line="1475"/>
         <location filename="../../scribus/scribus.cpp" line="8559"/>
         <source>Y:</source>
-        <translation>Y:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/scribus.cpp" line="3371"/>
@@ -36528,12 +36704,12 @@ Consider using the Preflight Verifier to correct them</source>
     <message>
         <location filename="../../scribus/scribus.cpp" line="6200"/>
         <source>&amp;Language:</source>
-        <translation>&amp;ഭാഷ:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/scribus.cpp" line="6200"/>
         <source>Language</source>
-        <translation>ഭാഷ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/scribus.cpp" line="7568"/>
@@ -36599,7 +36775,7 @@ Consider using the Preflight Verifier to correct them</source>
     <message>
         <location filename="../../scribus/scribus.cpp" line="1604"/>
         <source>%1 selected</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 ਚੁਣੇ</translation>
     </message>
     <message>
         <location filename="../../scribus/scribus.cpp" line="3223"/>
@@ -36658,7 +36834,7 @@ Consider using the Preflight Verifier to correct them</source>
     <message>
         <location filename="../../scribus/scribusapp.cpp" line="597"/>
         <source>path</source>
-        <translation>പാത</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/scribusapp.cpp" line="597"/>
@@ -36693,7 +36869,7 @@ Consider using the Preflight Verifier to correct them</source>
     <message>
         <location filename="../../scribus/scribusapp.cpp" line="641"/>
         <source>Scribus Version</source>
-        <translation>സ്ക്രൈബസ് പതിപ്പ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/scribusapp.cpp" line="652"/>
@@ -36713,7 +36889,7 @@ Consider using the Preflight Verifier to correct them</source>
     <message>
         <location filename="../../scribus/scribusapp.cpp" line="662"/>
         <source>Wiki</source>
-        <translation>വിക്കി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/scribusapp.cpp" line="663"/>
@@ -36775,7 +36951,7 @@ Consider using the Preflight Verifier to correct them</source>
     <message>
         <location filename="../../scribus/scribusapp.cpp" line="601"/>
         <source>script</source>
-        <translation>സ്ക്രിപ്റ്റ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/scribusapp.cpp" line="601"/>
@@ -36803,7 +36979,7 @@ Consider using the Preflight Verifier to correct them</source>
     <message>
         <location filename="../../scribus/scribusview.cpp" line="1039"/>
         <source>Copy Here</source>
-        <translation type="unfinished"></translation>
+        <translation>ਇੱਥੇ ਨਕਲ ਕਰੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/scribusview.cpp" line="1040"/>
@@ -36813,12 +36989,12 @@ Consider using the Preflight Verifier to correct them</source>
     <message>
         <location filename="../../scribus/scribusview.cpp" line="1041"/>
         <source>Cancel</source>
-        <translation>റദ്ദാക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/pageitem.cpp" line="11046"/>
         <source>Print: </source>
-        <translation>അച്ചടി:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/pageitem.cpp" line="11048"/>
@@ -36843,7 +37019,7 @@ Consider using the Preflight Verifier to correct them</source>
     <message>
         <location filename="../../scribus/scribusview.cpp" line="1964"/>
         <source>Page %1 to %2</source>
-        <translation>%1 മുതല്‍ %2 വരെയുള്ള താള്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/scribusview.cpp" line="310"/>
@@ -36866,7 +37042,7 @@ Consider using the Preflight Verifier to correct them</source>
     <message>
         <location filename="../../scribus/scribuswin.cpp" line="65"/>
         <source>Document:</source>
-        <translation>പ്രമാണം:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/scribuswin.cpp" line="67"/>
@@ -36884,12 +37060,12 @@ Consider using the Preflight Verifier to correct them</source>
     <message>
         <location filename="../../scribus/plugins/scripter/python/sceditor/mainwindow.ui" line="28"/>
         <source>&amp;File</source>
-        <translation>&amp;ഫയല്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/scripter/python/sceditor/mainwindow.ui" line="32"/>
         <source>&amp;New</source>
-        <translation>&amp;പുതിയത്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/scripter/python/sceditor/mainwindow.ui" line="47"/>
@@ -36900,22 +37076,22 @@ Consider using the Preflight Verifier to correct them</source>
     <message>
         <location filename="../../scribus/plugins/scripter/python/sceditor/mainwindow.ui" line="59"/>
         <source>&amp;Close</source>
-        <translation>&amp;അടയ്ക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/scripter/python/sceditor/mainwindow.ui" line="62"/>
         <source>Ctrl+W</source>
-        <translation>Ctrl+W</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/scripter/python/sceditor/mainwindow.ui" line="67"/>
         <source>&amp;Exit</source>
-        <translation>&amp;പുറത്തുകടക്കുക</translation>
+        <translation>ਬਾਹਰ ਜਾਓ</translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/scripter/python/sceditor/mainwindow.ui" line="75"/>
         <source>Ctrl+R</source>
-        <translation>Ctrl+R</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/scripter/python/sceditor/mainwindow.ui" line="80"/>
@@ -36925,27 +37101,27 @@ Consider using the Preflight Verifier to correct them</source>
     <message>
         <location filename="../../scribus/plugins/scripter/python/sceditor/mainwindow.ui" line="83"/>
         <source>Ctrl+C</source>
-        <translation>Ctrl+C</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/scripter/python/sceditor/mainwindow.ui" line="88"/>
         <source>Python</source>
-        <translation>പൈത്തണ്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/scripter/python/sceditor/mainwindow.ui" line="91"/>
         <source>Ctrl+N</source>
-        <translation>Ctrl+N</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/scripter/python/sceditor/mainwindow.ui" line="96"/>
         <source>QtScript</source>
-        <translation>ക്യൂറ്റിസ്ക്രിപ്റ്റ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/scripter/python/sceditor/mainwindow.ui" line="101"/>
         <source>Clear</source>
-        <translation>വൃത്തിയാക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/scripter/python/sceditor/mainwindow.ui" line="104"/>
@@ -36965,12 +37141,12 @@ Consider using the Preflight Verifier to correct them</source>
     <message>
         <location filename="../../scribus/plugins/scripter/python/sceditor/mainwindow.ui" line="115"/>
         <source>Ctrl+A</source>
-        <translation>Ctrl+A</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/scripter/python/sceditor/mainwindow.ui" line="120"/>
         <source>&amp;Open</source>
-        <translation>&amp;തുറക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/scripter/python/sceditor/mainwindow.ui" line="123"/>
@@ -36980,12 +37156,12 @@ Consider using the Preflight Verifier to correct them</source>
     <message>
         <location filename="../../scribus/plugins/scripter/python/sceditor/mainwindow.ui" line="126"/>
         <source>Ctrl+O</source>
-        <translation>Ctrl+O</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/scripter/python/sceditor/mainwindow.ui" line="131"/>
         <source>&amp;Save</source>
-        <translation>&amp;സൂക്ഷിക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/scripter/python/sceditor/mainwindow.ui" line="134"/>
@@ -36995,7 +37171,7 @@ Consider using the Preflight Verifier to correct them</source>
     <message>
         <location filename="../../scribus/plugins/scripter/python/sceditor/mainwindow.ui" line="137"/>
         <source>Ctrl+S</source>
-        <translation>Ctrl+S</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -37016,6 +37192,10 @@ Consider using the Preflight Verifier to correct them</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <source>If you are running an official script report it at &lt;a href=&quot;http://bugs.scribus.net&quot;&gt;bugs.scribus.net&lt;/a&gt; please.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../../scribus/plugins/scriptplugin/scriptercore.cpp" line="367"/>
         <source>This message is in your clipboard too. Use Ctrl+V to paste it into bug tracker.</source>
         <translation type="unfinished"></translation>
@@ -37023,7 +37203,7 @@ Consider using the Preflight Verifier to correct them</source>
     <message>
         <location filename="../../scribus/plugins/scriptplugin/scriptercore.cpp" line="545"/>
         <source>Examine Script</source>
-        <translation>സ്ക്രിപ്റ്റ് പരിശോധിക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/scriptplugin/scriptercore.cpp" line="459"/>
@@ -37058,7 +37238,7 @@ Consider using the Preflight Verifier to correct them</source>
     <message>
         <location filename="../../scribus/plugins/scriptplugin/scriptercore.cpp" line="563"/>
         <source>Script</source>
-        <translation>സ്ക്രിപ്റ്റ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/scriptplugin/scriptercore.cpp" line="563"/>
@@ -37068,7 +37248,7 @@ Consider using the Preflight Verifier to correct them</source>
     <message>
         <location filename="../../scribus/plugins/scriptplugin/scriptercore.cpp" line="545"/>
         <source>Python Scripts (*.py *.PY);;All Files (*)</source>
-        <translation>പൈത്തണ്‍ സ്ക്രിപ്റ്റുകള്‍ (*.py *.PY);;എല്ലാ ഫയലുകളൂം (*)</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -37076,7 +37256,7 @@ Consider using the Preflight Verifier to correct them</source>
     <message>
         <location filename="../../scribus/plugins/scripter/scripterimpl.cpp" line="308"/>
         <source>Scripter</source>
-        <translation>സ്ക്രിപ്റ്റര്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/scripter/scripterimpl.cpp" line="308"/>
@@ -37086,7 +37266,7 @@ Consider using the Preflight Verifier to correct them</source>
     <message>
         <location filename="../../scribus/plugins/scripter/scripterimpl.cpp" line="331"/>
         <source>Scribus - Scripter Plugin</source>
-        <translation>സ്ക്രൈബസ് - സ്ക്രിപ്റ്റര്‍ പ്ലഗിന്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/scripter/scripterimpl.cpp" line="332"/>
@@ -37105,27 +37285,59 @@ Consider using the Preflight Verifier to correct them</source>
 <context>
     <name>SearchReplace</name>
     <message>
+        <source>Search/Replace</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Search for:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Text</source>
-        <translation type="vanished">പദസഞ്ചയം</translation>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Font</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Font Size</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Font Effects</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Fill Color</source>
-        <translation type="vanished">നിറം നിറയ്ക്കുക</translation>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Fill Shade</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Stroke Color</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Stroke Shade</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/search.cpp" line="66"/>
         <source>Left</source>
-        <translation>ഇടത്ത്</translation>
+        <translation>ਖੱਬਾ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/search.cpp" line="66"/>
         <source>Center</source>
-        <translation>മധ്യം</translation>
+        <translation>ਵਿਚਾਲੇ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/search.cpp" line="66"/>
         <source>Right</source>
-        <translation>വലത്ത്</translation>
+        <translation>ਸੱਜਾ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/search.cpp" line="66"/>
@@ -37153,20 +37365,40 @@ Consider using the Preflight Verifier to correct them</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <source>Replace with:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Ignore Case, Diacritics and Kashida</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>&amp;Whole Word</source>
-        <translation type="vanished">&amp;വാക്ക് മുഴുവനും</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>&amp;Search</source>
-        <translation type="vanished">&amp;തിരയുക</translation>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Replace</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Replace &amp;All</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>&amp;Close</source>
-        <translation type="vanished">&amp;അടയ്ക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>C&amp;lear</source>
-        <translation type="vanished">&amp;വൃത്തിയാക്കുക</translation>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Alignment</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/search.cpp" line="121"/>
@@ -37195,7 +37427,7 @@ Consider using the Preflight Verifier to correct them</source>
     </message>
     <message>
         <source>Style</source>
-        <translation type="vanished">ശൈലി</translation>
+        <translation type="vanished">ਅੰਦਾਜ਼</translation>
     </message>
 </context>
 <context>
@@ -37208,12 +37440,12 @@ Consider using the Preflight Verifier to correct them</source>
     <message>
         <location filename="../../scribus/ui/searchbase.ui" line="36"/>
         <source>Search:</source>
-        <translation type="unfinished">തിരയുക:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/searchbase.ui" line="59"/>
         <source>&amp;Whole Word</source>
-        <translation type="unfinished">&amp;വാക്ക് മുഴുവനും</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/searchbase.ui" line="69"/>
@@ -37271,7 +37503,7 @@ Consider using the Preflight Verifier to correct them</source>
         <location filename="../../scribus/ui/searchbase.ui" line="238"/>
         <location filename="../../scribus/ui/searchbase.ui" line="337"/>
         <source>Fill Color</source>
-        <translation type="unfinished">നിറം നിറയ്ക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/searchbase.ui" line="245"/>
@@ -37295,12 +37527,12 @@ Consider using the Preflight Verifier to correct them</source>
         <location filename="../../scribus/ui/searchbase.ui" line="293"/>
         <location filename="../../scribus/ui/searchbase.ui" line="323"/>
         <source>Style</source>
-        <translation type="unfinished">ശൈലി</translation>
+        <translation>ਅੰਦਾਜ਼</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/searchbase.ui" line="460"/>
         <source>&amp;Search</source>
-        <translation type="unfinished">&amp;തിരയുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/searchbase.ui" line="473"/>
@@ -37320,12 +37552,12 @@ Consider using the Preflight Verifier to correct them</source>
     <message>
         <location filename="../../scribus/ui/searchbase.ui" line="513"/>
         <source>C&amp;lear</source>
-        <translation type="unfinished">&amp;വൃത്തിയാക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/searchbase.ui" line="520"/>
         <source>&amp;Close</source>
-        <translation type="unfinished">&amp;അടയ്ക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -37348,12 +37580,12 @@ Consider using the Preflight Verifier to correct them</source>
     <message>
         <location filename="../../scribus/ui/selfield.cpp" line="82"/>
         <source>&amp;&gt;&gt;</source>
-        <translation>&amp;&gt;&gt;</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/selfield.cpp" line="84"/>
         <source>&amp;&lt;&lt;</source>
-        <translation>&amp;&lt;&lt;</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -37380,7 +37612,7 @@ Consider using the Preflight Verifier to correct them</source>
         <location filename="../../scribus/ui/styleselect.cpp" line="122"/>
         <location filename="../../scribus/ui/styleselect.cpp" line="124"/>
         <source> %</source>
-        <translation> %</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/styleselect.cpp" line="123"/>
@@ -37431,7 +37663,7 @@ Consider using the Preflight Verifier to correct them</source>
     <message>
         <location filename="../../scribus/plugins/import/shape/importshape.cpp" line="131"/>
         <source>Analyzing File:</source>
-        <translation>ഫയല്‍ പരിശോധിക്കുന്നു:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/import/shape/importshape.cpp" line="325"/>
@@ -37486,7 +37718,7 @@ Consider using the Preflight Verifier to correct them</source>
     <message>
         <location filename="../../scribus/plugins/short-words/shortwords.cpp" line="98"/>
         <source>Short Words</source>
-        <translation>ഹ്രസ്വവാക്കുകള്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/short-words/shortwords.cpp" line="99"/>
@@ -37515,60 +37747,60 @@ Consider using the Preflight Verifier to correct them</source>
         <location filename="../../scribus/ui/shortcutwidget.cpp" line="71"/>
         <location filename="../../scribus/ui/shortcutwidget.cpp" line="130"/>
         <source>Alt</source>
-        <translation>Alt</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/shortcutwidget.cpp" line="71"/>
         <location filename="../../scribus/ui/shortcutwidget.cpp" line="130"/>
         <source>Ctrl</source>
-        <translation>Ctrl</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/shortcutwidget.cpp" line="71"/>
         <location filename="../../scribus/ui/shortcutwidget.cpp" line="130"/>
         <source>Shift</source>
-        <translation>Shift</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/shortcutwidget.cpp" line="71"/>
         <location filename="../../scribus/ui/shortcutwidget.cpp" line="130"/>
         <source>Meta</source>
-        <translation>Meta</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/shortcutwidget.cpp" line="81"/>
         <source>Meta+</source>
-        <translation>Meta+</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/shortcutwidget.cpp" line="88"/>
         <source>Shift+</source>
-        <translation>Shift+</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/shortcutwidget.cpp" line="95"/>
         <source>Alt+</source>
-        <translation>Alt+</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/shortcutwidget.cpp" line="102"/>
         <source>Ctrl+</source>
-        <translation>Ctrl+</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/shortcutwidget.cpp" line="47"/>
         <source>No shortcut for the style</source>
-        <translation>ശൈലിക്ക് കുറുക്കുവഴിയില്ല</translation>
+        <translation>ਇਸ ਅੰਦਾਜ਼ ਕੋਲ ਕੋਈ ਸ਼ਾਟਕੱਟ ਨਹੀਂ ਹੈ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/shortcutwidget.cpp" line="48"/>
         <source>Style has user defined shortcut</source>
-        <translation type="unfinished"></translation>
+        <translation>ਇਸ ਅੰਦਾਜ਼ ਕੋਲ ਵਰਤੋਂਕਾਰ ਦਾ ਦਿੱਤਾ ਸ਼ਾਟਕੱਟ ਹੈ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/shortcutwidget.cpp" line="49"/>
         <source>Assign a shortcut for the style</source>
-        <translation type="unfinished"></translation>
+        <translation>ਇਸ ਅੰਦਾਜ਼ ਨੂੰ ਕੋਈ ਸ਼ਾਟਕੱਟ ਦਿਉ</translation>
     </message>
 </context>
 <context>
@@ -37577,7 +37809,7 @@ Consider using the Preflight Verifier to correct them</source>
         <location filename="../../scribus/ui/storyeditor.cpp" line="121"/>
         <location filename="../../scribus/ui/storyeditor.cpp" line="208"/>
         <source>No Style</source>
-        <translation>ശൈലിയില്ല</translation>
+        <translation>ਕੋਈ ਅੰਦਾਜ਼ ਨਹੀਂ</translation>
     </message>
 </context>
 <context>
@@ -37590,7 +37822,7 @@ Consider using the Preflight Verifier to correct them</source>
     <message>
         <location filename="../../scribus/plugins/import/sml/importsml.cpp" line="137"/>
         <source>Analyzing File:</source>
-        <translation>ഫയല്‍ പരിശോധിക്കുന്നു:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/import/sml/importsml.cpp" line="338"/>
@@ -37646,7 +37878,7 @@ Consider using the Preflight Verifier to correct them</source>
     <message>
         <location filename="../../scribus/ui/spiralvectorbase.ui" line="90"/>
         <source> %</source>
-        <translation> %</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/spiralvectorbase.ui" line="120"/>
@@ -37674,7 +37906,7 @@ Consider using the Preflight Verifier to correct them</source>
     <message>
         <location filename="../../scribus/ui/spiralwidgetbase.ui" line="89"/>
         <source> %</source>
-        <translation> %</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/spiralwidgetbase.ui" line="145"/>
@@ -37709,7 +37941,7 @@ Consider using the Preflight Verifier to correct them</source>
         <location filename="../../scribus/ui/storyeditor.cpp" line="2042"/>
         <location filename="../../scribus/ui/storyeditor.cpp" line="2046"/>
         <source>Words: </source>
-        <translation>വാക്കുകള്‍:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/storyeditor.cpp" line="2043"/>
@@ -37725,12 +37957,12 @@ Consider using the Preflight Verifier to correct them</source>
     <message>
         <location filename="../../scribus/ui/storyeditor.cpp" line="2045"/>
         <source>Paragraphs: </source>
-        <translation>ഖണ്ഡികകള്‍:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/storyeditor.cpp" line="3305"/>
         <source>Open</source>
-        <translation>തുറക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/storyeditor.cpp" line="3340"/>
@@ -37740,7 +37972,7 @@ Consider using the Preflight Verifier to correct them</source>
     <message>
         <location filename="../../scribus/ui/storyeditor.cpp" line="2169"/>
         <source>Do you want to save your changes?</source>
-        <translation>നിങ്ങള്‍ നടത്തിയ മാറ്റങ്ങള്‍ സുക്ഷിക്കേണ്ടതുണ്ടോ?</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/storyeditor.cpp" line="2003"/>
@@ -37775,22 +38007,22 @@ Consider using the Preflight Verifier to correct them</source>
     <message>
         <location filename="../../scribus/ui/storyeditor.cpp" line="2012"/>
         <source>Cu&amp;t</source>
-        <translation>&amp;വെട്ടിയെടുക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/storyeditor.cpp" line="2013"/>
         <source>&amp;Copy</source>
-        <translation>&amp;പകര്‍ത്തുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/storyeditor.cpp" line="2014"/>
         <source>&amp;Paste</source>
-        <translation>&amp;ഒട്ടിക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/storyeditor.cpp" line="2015"/>
         <source>C&amp;lear</source>
-        <translation>&amp;വൃത്തിയാക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/storyeditor.cpp" line="2020"/>
@@ -37801,23 +38033,23 @@ Consider using the Preflight Verifier to correct them</source>
         <location filename="../../scribus/ui/storyeditor.cpp" line="1716"/>
         <location filename="../../scribus/ui/storyeditor.cpp" line="2001"/>
         <source>&amp;File</source>
-        <translation>&amp;ഫയല്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/storyeditor.cpp" line="1726"/>
         <location filename="../../scribus/ui/storyeditor.cpp" line="2011"/>
         <source>&amp;Edit</source>
-        <translation>&amp;തിരുത്തുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/storyeditor.cpp" line="2016"/>
         <source>Select &amp;All</source>
-        <translation>&amp;എല്ലാം തിരഞ്ഞെടുക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/storyeditor.cpp" line="2039"/>
         <source>File</source>
-        <translation>ഫയല്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/storyeditor.cpp" line="2017"/>
@@ -37934,13 +38166,13 @@ Consider using the Preflight Verifier to correct them</source>
     <message>
         <location filename="../../scribus/ui/styleselect.cpp" line="42"/>
         <source>Linewidth:</source>
-        <translation>വരിവീതി:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/styleselect.cpp" line="37"/>
         <location filename="../../scribus/ui/styleselect.cpp" line="40"/>
         <source> %</source>
-        <translation> %</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -37949,7 +38181,7 @@ Consider using the Preflight Verifier to correct them</source>
         <location filename="../../scribus/ui/stylemanager.ui" line="272"/>
         <location filename="../../scribus/ui/stylemanager.cpp" line="117"/>
         <source>Name:</source>
-        <translation>പേര്:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/stylemanager.ui" line="421"/>
@@ -37975,7 +38207,7 @@ Consider using the Preflight Verifier to correct them</source>
         <location filename="../../scribus/ui/stylemanager.ui" line="191"/>
         <location filename="../../scribus/ui/stylemanager.cpp" line="123"/>
         <source>&amp;New</source>
-        <translation>&amp;പുതിയത്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/stylemanager.ui" line="125"/>
@@ -38013,33 +38245,33 @@ Consider using the Preflight Verifier to correct them</source>
     <message>
         <location filename="../../scribus/ui/stylemanager.cpp" line="107"/>
         <source>Create a new style</source>
-        <translation type="unfinished"></translation>
+        <translation>ਨਵਾਂ ਅੰਦਾਜ਼ ਬਣਾਓ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/stylemanager.cpp" line="108"/>
         <source>Import styles from another document</source>
-        <translation type="unfinished"></translation>
+        <translation>ਕਿਸੇ ਹੋਰ ਦਸਤਾਵੇਜ਼ ਵਿੱਚੋਂ ਅੰਦਾਜ਼ ਦਰਾਮਦ ਕਰੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/stylemanager.cpp" line="109"/>
         <source>Clone selected style</source>
-        <translation type="unfinished"></translation>
+        <translation>ਚੁਣੇ ਅੰਦਾਜ਼ ਦੀ ਨਕਲ ਬਣਾਓ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/stylemanager.cpp" line="110"/>
         <source>Delete selected styles</source>
-        <translation type="unfinished"></translation>
+        <translation>ਚੁਣੇ ਅੰਦਾਜ਼ ਮਿਟਾਓ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/stylemanager.cpp" line="111"/>
         <source>Find and remove all styles not used by any object in the document</source>
-        <translation type="unfinished"></translation>
+        <translation>ਇਸ ਦਸਤਾਵੇਜ਼ ਵਿਚਲੇ ਸਾਰੇ ਅਣਵਰਤੇ ਅੰਦਾਜ਼ ਲੱਭੋ ਅਤੇ ਮਿਟਾਓ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/stylemanager.cpp" line="163"/>
         <location filename="../../scribus/ui/stylemanager.cpp" line="906"/>
         <source>New</source>
-        <translation>പുതിയത്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/stylemanager.cpp" line="164"/>
@@ -38060,82 +38292,84 @@ Consider using the Preflight Verifier to correct them</source>
         <location filename="../../scribus/ui/stylemanager.cpp" line="121"/>
         <location filename="../../scribus/ui/stylemanager.cpp" line="1022"/>
         <source>&amp;Edit</source>
-        <translation>&amp;തിരുത്തുക</translation>
+        <translation>ਸੋਧੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/stylemanager.cpp" line="120"/>
         <source>&amp;Done</source>
-        <translation type="unfinished"></translation>
+        <translation>ਮੁਕੰਮਲ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/stylemanager.ui" line="69"/>
         <location filename="../../scribus/ui/stylemanager.cpp" line="1248"/>
         <source>Shortcut</source>
-        <translation type="unfinished"></translation>
+        <translation>ਸ਼ਾਟਕੱਟ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/stylemanager.ui" line="64"/>
         <source>Name</source>
-        <translation>പേര്</translation>
+        <translation>ਨਾਂ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/stylemanager.cpp" line="166"/>
         <source>Edit</source>
-        <translation>തിരുത്തുക</translation>
+        <translation>ਸੋਧੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/stylemanager.cpp" line="509"/>
         <location filename="../../scribus/ui/stylemanager.cpp" line="520"/>
         <source>Remove Unused Styles</source>
-        <translation type="unfinished"></translation>
+        <translation>ਅਣਵਰਤੇ ਅੰਦਾਜ਼ ਮਿਟਾਓ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/stylemanager.cpp" line="510"/>
         <source>All styles in this document are in use. Nothing to remove.</source>
-        <translation type="unfinished"></translation>
+        <translation>ਇਸ ਦਸਤਾਵੇਜ਼ ਵਿਚਲੇ ਸਾਰੇ ਅੰਦਾਜ਼ ਵਰਤੋਂ ਵਿੱਚ ਹਨ। ਮਿਟਾਉਣ ਲਈ ਕੁਝ ਵੀ ਨਹੀਂ ਹੈ।</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/stylemanager.cpp" line="515"/>
         <source>Found %1 unused style(s):
 
 </source>
-        <translation type="unfinished"></translation>
+        <translation>%1 ਅਣਵਰਤੇ ਅੰਦਾਜ਼ ਮਿਲੇ:
+
+</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/stylemanager.cpp" line="518"/>
         <source>Remove all unused styles?</source>
-        <translation type="unfinished"></translation>
+        <translation>ਸਾਰੇ ਅਣਵਰਤੇ ਅੰਦਾਜ਼ ਮਿਟਾਈਏ?</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/stylemanager.cpp" line="854"/>
         <location filename="../../scribus/ui/stylemanager.cpp" line="888"/>
         <source>New %1</source>
-        <translation type="unfinished"></translation>
+        <translation>ਨਵਾਂ %1</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/stylemanager.cpp" line="1334"/>
         <source>This key sequence is already in use</source>
-        <translation type="unfinished"></translation>
+        <translation>ਇਹ ਕੀ-ਤਰਤੀਬ ਪਹਿਲਾਂ ਹੀ ਵਰਤੋਂ ਵਿੱਚ ਹੈ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/stylemanager.cpp" line="102"/>
         <source>Edit styles</source>
-        <translation type="unfinished"></translation>
+        <translation>ਅੰਦਾਜ਼ ਸੋਧੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/stylemanager.cpp" line="104"/>
         <source>Name of the selected style</source>
-        <translation type="unfinished"></translation>
+        <translation>ਚੁਣੇ ਅੰਦਾਜ਼ ਦਾ ਨਾਂ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/stylemanager.cpp" line="1420"/>
         <source>More than one style selected</source>
-        <translation type="unfinished"></translation>
+        <translation>ਇੱਕ ਤੋਂ ਵੱਧ ਅੰਦਾਜ਼ ਚੁਣੇ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/stylemanager.cpp" line="544"/>
         <source>Open</source>
-        <translation>തുറക്കുക</translation>
+        <translation>ਖੋਲ੍ਹੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/stylemanager.cpp" line="544"/>
@@ -38145,49 +38379,49 @@ Consider using the Preflight Verifier to correct them</source>
     <message>
         <location filename="../../scribus/ui/stylemanager.ui" line="194"/>
         <source>Alt+N</source>
-        <translation>Alt+N</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/stylemanager.ui" line="228"/>
         <source>Alt+C</source>
-        <translation>Alt+C</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/stylemanager.ui" line="128"/>
         <source>Alt+I</source>
-        <translation>Alt+I</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/stylemanager.ui" line="147"/>
         <location filename="../../scribus/ui/stylemanager.ui" line="374"/>
         <source>Alt+D</source>
-        <translation>Alt+D</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/stylemanager.ui" line="163"/>
         <source>Delete Unused</source>
-        <translation type="unfinished"></translation>
+        <translation>ਅਣਵਰਤੇ ਮਿਟਾਓ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/stylemanager.ui" line="302"/>
         <source>Please select a unique name for the style</source>
-        <translation type="unfinished"></translation>
+        <translation>ਅੰਦਾਜ਼ ਲਈ ਇਕ ਵਿਲੱਖਣ ਨਾਂ ਚੁਣੋ ਜੀ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/stylemanager.ui" line="399"/>
         <source>Alt+A</source>
-        <translation>Alt+A</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/stylemanager.ui" line="424"/>
         <source>Alt+R</source>
-        <translation>Alt+R</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/stylemanager.ui" line="17"/>
         <location filename="../../scribus/ui/stylemanager.cpp" line="93"/>
         <source>Style Manager</source>
-        <translation type="unfinished"></translation>
+        <translation>ਅੰਦਾਜ਼ ਪ੍ਰਬੰਧਕ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/stylemanager.ui" line="222"/>
@@ -38200,12 +38434,12 @@ Consider using the Preflight Verifier to correct them</source>
     <message>
         <location filename="../../scribus/ui/stylesearchdialog.ui" line="14"/>
         <source>Style Search</source>
-        <translation type="unfinished"></translation>
+        <translation>ਅੰਦਾਜ਼ ਖੋਜ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/stylesearchdialog.ui" line="32"/>
         <source>Search for style...</source>
-        <translation type="unfinished"></translation>
+        <translation>ਅੰਦਾਜ਼ ਲੱਭੋ...</translation>
     </message>
 </context>
 <context>
@@ -38294,7 +38528,7 @@ Consider using the Preflight Verifier to correct them</source>
     <message>
         <location filename="../../scribus/plugins/import/svm/importsvm.cpp" line="403"/>
         <source>Analyzing File:</source>
-        <translation>ഫയല്‍ പരിശോധിക്കുന്നു:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/import/svm/importsvm.cpp" line="673"/>
@@ -38312,12 +38546,12 @@ Consider using the Preflight Verifier to correct them</source>
     <message>
         <location filename="../../scribus/plugins/gettext/sxwim/sxwdia.cpp" line="60"/>
         <source>Do not ask again</source>
-        <translation>വീണ്ടും ചോദിക്കരുത്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/gettext/sxwim/sxwdia.cpp" line="71"/>
         <source>OK</source>
-        <translation>ശരി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/gettext/sxwim/sxwdia.cpp" line="24"/>
@@ -38332,7 +38566,7 @@ Consider using the Preflight Verifier to correct them</source>
     <message>
         <location filename="../../scribus/plugins/gettext/sxwim/sxwdia.cpp" line="42"/>
         <source>Merge Paragraph Styles</source>
-        <translation type="unfinished"></translation>
+        <translation>ਪੈਰੇ ਦੇ ਅੰਦਾਜ਼ ਰਲਾਓ</translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/gettext/sxwim/sxwdia.cpp" line="44"/>
@@ -38352,7 +38586,7 @@ Consider using the Preflight Verifier to correct them</source>
     <message>
         <location filename="../../scribus/plugins/gettext/sxwim/sxwdia.cpp" line="73"/>
         <source>Cancel</source>
-        <translation>റദ്ദാക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/gettext/sxwim/sxwdia.cpp" line="62"/>
@@ -38365,7 +38599,7 @@ Consider using the Preflight Verifier to correct them</source>
     <message>
         <location filename="../../scribus/ui/symbolpalette.cpp" line="329"/>
         <source>Symbols</source>
-        <translation>ചിഹ്നങ്ങള്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/symbolpalette.cpp" line="184"/>
@@ -38462,7 +38696,7 @@ Consider using the Preflight Verifier to correct them</source>
         <location filename="../../scribus/ui/tabpdfoptions.cpp" line="78"/>
         <location filename="../../scribus/ui/tabpdfoptions.cpp" line="84"/>
         <source> dpi</source>
-        <translation> dpi</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/tabpdfoptions.ui" line="247"/>
@@ -38487,27 +38721,27 @@ Consider using the Preflight Verifier to correct them</source>
     <message>
         <location filename="../../scribus/ui/tabpdfoptions.ui" line="336"/>
         <source>Maximum</source>
-        <translation>പരമാവധി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/tabpdfoptions.ui" line="341"/>
         <source>High</source>
-        <translation>ഉയര്‍ന്ന</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/tabpdfoptions.ui" line="346"/>
         <source>Medium</source>
-        <translation>മധ്യമം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/tabpdfoptions.ui" line="351"/>
         <source>Low</source>
-        <translation>താഴ്ന്ന</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/tabpdfoptions.ui" line="356"/>
         <source>Minimum</source>
-        <translation>ഏറ്റവും കുറഞ്ഞത്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/tabpdfoptions.ui" line="18"/>
@@ -38549,7 +38783,7 @@ Consider using the Preflight Verifier to correct them</source>
         <location filename="../../scribus/ui/tabpdfoptions.cpp" line="1182"/>
         <location filename="../../scribus/ui/tabpdfoptions.cpp" line="1190"/>
         <source>Page</source>
-        <translation>താള്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/tabpdfoptions.ui" line="546"/>
@@ -38721,7 +38955,7 @@ Consider using the Preflight Verifier to correct them</source>
     <message>
         <location filename="../../scribus/ui/tabpdfoptions.ui" line="995"/>
         <source>Settings</source>
-        <translation>സജ്ജീകരണങ്ങള്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/tabpdfoptions.ui" line="1001"/>
@@ -38796,12 +39030,12 @@ Consider using the Preflight Verifier to correct them</source>
     <message>
         <location filename="../../scribus/ui/tabpdfoptions.ui" line="1115"/>
         <source>Fre&amp;quency:</source>
-        <translation>&amp;ആവൃത്തി:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/tabpdfoptions.ui" line="1139"/>
         <source>&amp;Angle:</source>
-        <translation>&amp;കോണ്‍:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/tabpdfoptions.ui" line="1166"/>
@@ -38816,7 +39050,7 @@ Consider using the Preflight Verifier to correct them</source>
     <message>
         <location filename="../../scribus/ui/tabpdfoptions.ui" line="1185"/>
         <source>Line</source>
-        <translation>വര</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/tabpdfoptions.ui" line="1190"/>
@@ -38826,7 +39060,7 @@ Consider using the Preflight Verifier to correct them</source>
     <message>
         <location filename="../../scribus/ui/tabpdfoptions.ui" line="1195"/>
         <source>Ellipse</source>
-        <translation>ദീര്‍ഘവൃത്തം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/tabpdfoptions.ui" line="1208"/>
@@ -38866,12 +39100,12 @@ Consider using the Preflight Verifier to correct them</source>
     <message>
         <location filename="../../scribus/ui/tabpdfoptions.ui" line="1268"/>
         <source>Images:</source>
-        <translation>ചിത്രങ്ങള്‍:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/tabpdfoptions.ui" line="1046"/>
         <source>C&amp;olor</source>
-        <translation>&amp;നിറം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/tabpdfoptions.ui" line="1506"/>
@@ -38916,7 +39150,7 @@ Consider using the Preflight Verifier to correct them</source>
     <message>
         <location filename="../../scribus/ui/tabpdfoptions.cpp" line="198"/>
         <source>Export all pages to PDF</source>
-        <translation>എല്ലാ പേജുകളും PDF ആക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/tabpdfoptions.cpp" line="199"/>
@@ -39091,7 +39325,7 @@ Consider using the Preflight Verifier to correct them</source>
     <message>
         <location filename="../../scribus/ui/tabpdfoptions.ui" line="796"/>
         <source>Single Page</source>
-        <translation>ഒറ്റത്താള്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/tabpdfoptions.ui" line="803"/>
@@ -39218,7 +39452,7 @@ when PDF document is opened:</source>
     <message>
         <location filename="../../scribus/ui/tabpdfoptions.ui" line="1417"/>
         <source>Page Information</source>
-        <translation>താളിനെ പറ്റിയുള്ള വിവരങ്ങള്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/tabpdfoptions.ui" line="1391"/>
@@ -39233,22 +39467,22 @@ when PDF document is opened:</source>
     <message>
         <location filename="../../scribus/ui/tabpdfoptions.ui" line="1433"/>
         <source>Top:</source>
-        <translation>മുകളില്‍:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/tabpdfoptions.ui" line="1443"/>
         <source>Bottom:</source>
-        <translation>കീഴെ:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/tabpdfoptions.ui" line="1456"/>
         <source>Left:</source>
-        <translation>ഇടത്ത്:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/tabpdfoptions.ui" line="1466"/>
         <source>Right:</source>
-        <translation>വലത്ത്:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/tabpdfoptions.ui" line="1473"/>
@@ -39273,12 +39507,12 @@ when PDF document is opened:</source>
     <message>
         <location filename="../../scribus/ui/tabpdfoptions.cpp" line="637"/>
         <source>Inside:</source>
-        <translation>അകം:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/tabpdfoptions.cpp" line="638"/>
         <source>Outside:</source>
-        <translation>പുറം:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/tabpdfoptions.ui" line="450"/>
@@ -39454,7 +39688,11 @@ when PDF document is opened:</source>
     <message>
         <location filename="../../scribus/ui/tabpdfoptions.ui" line="1405"/>
         <source>Length:</source>
-        <translation>നീളം:</translation>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Indicate the size of crops&apos;marks</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/tabpdfoptions.ui" line="279"/>
@@ -39474,27 +39712,27 @@ when PDF document is opened:</source>
     <message>
         <location filename="../../scribus/ui/tabpdfoptions.ui" line="88"/>
         <source>0 °</source>
-        <translation>0 °</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/tabpdfoptions.ui" line="93"/>
         <source>90 °</source>
-        <translation>90 °</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/tabpdfoptions.ui" line="98"/>
         <source>180 °</source>
-        <translation>180 °</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/tabpdfoptions.ui" line="103"/>
         <source>270 °</source>
-        <translation>270 °</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/tabpdfoptions.ui" line="1149"/>
         <source> °</source>
-        <translation> °</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/tabpdfoptions.ui" line="424"/>
@@ -39598,22 +39836,22 @@ when PDF document is opened:</source>
     <message>
         <location filename="../../scribus/ui/tabruler.cpp" line="714"/>
         <source>Left</source>
-        <translation>ഇടത്ത്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/tabruler.cpp" line="718"/>
         <source>Right</source>
-        <translation>വലത്ത്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/tabruler.cpp" line="716"/>
         <source>Comma</source>
-        <translation>അല്പവിരാമം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/tabruler.cpp" line="715"/>
         <source>Center</source>
-        <translation>മധ്യം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/tabruler.cpp" line="746"/>
@@ -39702,7 +39940,7 @@ when PDF document is opened:</source>
     <message>
         <location filename="../../scribus/ui/textpalette.cpp" line="341"/>
         <source>Text Properties</source>
-        <translation type="unfinished"></translation>
+        <translation>ਲਿਖਤ ਦੀਆਂ ਖ਼ਾਸੀਅਤਾਂ</translation>
     </message>
 </context>
 <context>
@@ -39715,7 +39953,7 @@ when PDF document is opened:</source>
     <message>
         <location filename="../../scribus/ui/transformdialog.cpp" line="53"/>
         <source>Translation</source>
-        <translation type="unfinished"></translation>
+        <translation>ਤਰਜਮਾ</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/transformdialog.cpp" line="54"/>
@@ -39782,17 +40020,17 @@ when PDF document is opened:</source>
     <message>
         <location filename="../../scribus/ui/transformdialogbase.ui" line="20"/>
         <source>Transform</source>
-        <translation>പരിവര്‍ത്തനപ്പെടുത്തുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/transformdialogbase.ui" line="559"/>
         <source>Add</source>
-        <translation>ചേര്‍ക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/transformdialogbase.ui" line="569"/>
         <source>Remove</source>
-        <translation>നീക്കം ചെയ്യുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/transformdialogbase.ui" line="169"/>
@@ -39816,13 +40054,13 @@ when PDF document is opened:</source>
     <message>
         <location filename="../../scribus/ui/transformdialogbase.ui" line="292"/>
         <source>Angle:</source>
-        <translation>കോണ്‍:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/transformdialogbase.ui" line="75"/>
         <location filename="../../scribus/ui/transformdialogbase.ui" line="106"/>
         <source> %</source>
-        <translation> %</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/transformdialogbase.ui" line="226"/>
@@ -39847,7 +40085,7 @@ when PDF document is opened:</source>
     <message>
         <location filename="../../scribus/ui/transformdialogbase.ui" line="484"/>
         <source>Copies</source>
-        <translation>പകര്‍പ്പുകള്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -39873,7 +40111,7 @@ when PDF document is opened:</source>
     <message>
         <location filename="../../scribus/third_party/zip/unzip.cpp" line="1196"/>
         <source>zlib library error.</source>
-        <translation>zlib ലൈബ്രറിയുടെ പിഴവ്.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/third_party/zip/unzip.cpp" line="1197"/>
@@ -39893,7 +40131,7 @@ when PDF document is opened:</source>
     <message>
         <location filename="../../scribus/third_party/zip/unzip.cpp" line="1200"/>
         <source>Wrong password.</source>
-        <translation>തെറ്റായ അടയാളവാക്ക്.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/third_party/zip/unzip.cpp" line="1201"/>
@@ -39908,12 +40146,12 @@ when PDF document is opened:</source>
     <message>
         <location filename="../../scribus/third_party/zip/unzip.cpp" line="1203"/>
         <source>File read error.</source>
-        <translation>ഫയല്‍ വായിക്കുന്നതില്‍ പിഴവുപറ്റി.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/third_party/zip/unzip.cpp" line="1204"/>
         <source>File write error.</source>
-        <translation>ഫയലെഴുതുന്നതില്‍ പിഴവുപറ്റി.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/third_party/zip/unzip.cpp" line="1205"/>
@@ -39928,7 +40166,7 @@ when PDF document is opened:</source>
     <message>
         <location filename="../../scribus/third_party/zip/unzip.cpp" line="1207"/>
         <source>Invalid device.</source>
-        <translation>അസാധുവായ ഉപകരണം.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/third_party/zip/unzip.cpp" line="1208"/>
@@ -39943,7 +40181,7 @@ when PDF document is opened:</source>
     <message>
         <location filename="../../scribus/third_party/zip/unzip.cpp" line="1213"/>
         <source>Unknown error.</source>
-        <translation>അജ്ഞാതമായ പിഴവ്.</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -39958,7 +40196,7 @@ when PDF document is opened:</source>
         <location filename="../../scribus/ui/styleselect.cpp" line="71"/>
         <location filename="../../scribus/ui/styleselect.cpp" line="74"/>
         <source> %</source>
-        <translation> %</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/styleselect.cpp" line="72"/>
@@ -39968,7 +40206,7 @@ when PDF document is opened:</source>
     <message>
         <location filename="../../scribus/ui/styleselect.cpp" line="75"/>
         <source>Linewidth:</source>
-        <translation>വരിവീതി:</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -40029,7 +40267,7 @@ when PDF document is opened:</source>
     <message>
         <location filename="../../scribus/undomanager.cpp" line="589"/>
         <source>Resize</source>
-        <translation>വലിപ്പം മാറ്റുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/undomanager.cpp" line="590"/>
@@ -40040,15 +40278,13 @@ when PDF document is opened:</source>
         <location filename="../../scribus/undomanager.cpp" line="591"/>
         <source>X1: %1, Y1: %2, %3
 X2: %4, Y2: %5, %6</source>
-        <translation>X1: %1, Y1: %2, %3
-X2: %4, Y2: %5, %6</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/undomanager.cpp" line="592"/>
         <source>W1: %1, H1: %2
 W2: %3, H2: %4</source>
-        <translation>W1: %1, H1: %2
-W2: %3, H2: %4</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/undomanager.cpp" line="597"/>
@@ -40068,14 +40304,13 @@ W2: %3, H2: %4</translation>
     <message>
         <location filename="../../scribus/undomanager.cpp" line="600"/>
         <source>Create</source>
-        <translation>സൃഷ്ടിക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/undomanager.cpp" line="605"/>
         <source>X: %1, Y: %2
 W: %3, H: %4</source>
-        <translation>X: %1, Y: %2
-W: %3, H: %4</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/undomanager.cpp" line="606"/>
@@ -40090,17 +40325,17 @@ W: %3, H: %4</translation>
     <message>
         <location filename="../../scribus/undomanager.cpp" line="609"/>
         <source>Cancel</source>
-        <translation>റദ്ദാക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/undomanager.cpp" line="610"/>
         <source>Set fill color</source>
-        <translation>നിറയ്ക്കാനുള്ള നിറം ചിട്ടപ്പെടുത്തുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/undomanager.cpp" line="612"/>
         <source>Color1: %1, Color2: %2</source>
-        <translation>നിറം1: %1, നിറം2: %2</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/undomanager.cpp" line="613"/>
@@ -40110,7 +40345,7 @@ W: %3, H: %4</translation>
     <message>
         <location filename="../../scribus/undomanager.cpp" line="614"/>
         <source>Set line color</source>
-        <translation>വരനിറം ചിട്ടപ്പെടുത്തുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/undomanager.cpp" line="615"/>
@@ -40155,34 +40390,33 @@ W: %3, H: %4</translation>
     <message>
         <location filename="../../scribus/undomanager.cpp" line="629"/>
         <source>Delete</source>
-        <translation type="unfinished"></translation>
+        <translation>ਮਿਟਾਓ</translation>
     </message>
     <message>
         <location filename="../../scribus/undomanager.cpp" line="630"/>
         <source>Rename</source>
-        <translation>പേര് മാറ്റൂക</translation>
+        <translation>ਨਾਂ ਬਦਲੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/undomanager.cpp" line="631"/>
         <source>From %1
 to %2</source>
-        <translation>%1ല്‍ നിന്നും
-%2ലേക്ക്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/undomanager.cpp" line="585"/>
         <source>Apply Master Page</source>
-        <translation type="unfinished"></translation>
+        <translation>ਮਾਸਟਰ ਸਫ਼ਾ ਲਾਗੂ ਕਰੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/undomanager.cpp" line="632"/>
         <source>Paste</source>
-        <translation>ഒട്ടിക്കുക</translation>
+        <translation>ਚੇਪੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/undomanager.cpp" line="633"/>
         <source>Cut</source>
-        <translation>വെട്ടിയെടുക്കുക</translation>
+        <translation>ਕੱਟੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/undomanager.cpp" line="635"/>
@@ -40212,22 +40446,22 @@ to %2</source>
     <message>
         <location filename="../../scribus/undomanager.cpp" line="640"/>
         <source>Set line width</source>
-        <translation type="unfinished"></translation>
+        <translation>ਲਾਈਨ ਦੀ ਚੌੜਾਈ ਸੈੱਟ ਕਰੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/undomanager.cpp" line="641"/>
         <source>No style</source>
-        <translation>ശൈലിയില്ല</translation>
+        <translation>ਕੋਈ ਅੰਦਾਜ਼ ਨਹੀਂ</translation>
     </message>
     <message>
         <location filename="../../scribus/undomanager.cpp" line="642"/>
         <source>Set custom line style</source>
-        <translation type="unfinished"></translation>
+        <translation>ਅਪਣਾ ਖ਼ਾਸ ਲਾਈਨ ਅੰਦਾਜ਼ ਸੈੱਟ ਕਰੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/undomanager.cpp" line="643"/>
         <source>Do not use custom line style</source>
-        <translation type="unfinished"></translation>
+        <translation>ਅਪਣਾ ਖ਼ਾਸ ਲਾਈਨ ਅੰਦਾਜ਼ ਨਾ ਵਰਤੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/undomanager.cpp" line="644"/>
@@ -40252,7 +40486,7 @@ to %2</source>
     <message>
         <location filename="../../scribus/undomanager.cpp" line="669"/>
         <source>Set font</source>
-        <translation>ലിപിയേതെന്ന് ചിട്ടപ്പെടുത്തുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/undomanager.cpp" line="670"/>
@@ -40293,17 +40527,17 @@ to %2</source>
     <message>
         <location filename="../../scribus/undomanager.cpp" line="695"/>
         <source>Set line spacing</source>
-        <translation>വരിയകലമെത്രയെന്ന് ചിട്ടപ്പെടുത്തുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/undomanager.cpp" line="696"/>
         <source>Set paragraph style</source>
-        <translation>ഖണ്ഡികാശൈലിയേതെന്ന് ചിട്ടപ്പെടുത്തുക</translation>
+        <translation>ਪੈਰੇ ਦਾ ਅੰਦਾਜ਼ ਸੈੱਟ ਕਰੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/undomanager.cpp" line="697"/>
         <source>Set language</source>
-        <translation>ഭാഷയേതെന്ന് ചിട്ടപ്പെടുത്തുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/undomanager.cpp" line="698"/>
@@ -40328,7 +40562,7 @@ to %2</source>
     <message>
         <location filename="../../scribus/undomanager.cpp" line="704"/>
         <source>Polygon</source>
-        <translation>ബഹുഭുജം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/undomanager.cpp" line="708"/>
@@ -40338,7 +40572,7 @@ to %2</source>
     <message>
         <location filename="../../scribus/undomanager.cpp" line="709"/>
         <source>Polyline</source>
-        <translation>ബഹുവര</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/undomanager.cpp" line="711"/>
@@ -40398,7 +40632,7 @@ to %2</source>
     <message>
         <location filename="../../scribus/undomanager.cpp" line="755"/>
         <source>Page %1</source>
-        <translation>താള്‍ %1</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/undomanager.cpp" line="756"/>
@@ -40418,7 +40652,7 @@ to %2</source>
     <message>
         <location filename="../../scribus/undomanager.cpp" line="762"/>
         <source>Keep aspect ratio</source>
-        <translation>ആകാരാനുപാതം കാത്തുസൂക്ഷിക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/undomanager.cpp" line="763"/>
@@ -40555,20 +40789,18 @@ to %2</source>
         <location filename="../../scribus/undomanager.cpp" line="595"/>
         <source>X1: %1, Y1: %2
 X2: %4, Y2: %5</source>
-        <translation>X1: %1, Y1: %2
-X2: %4, Y2: %5</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/undomanager.cpp" line="596"/>
         <source>X: %1, Y: %2
 X: %4, Y: %5</source>
-        <translation>X: %1, Y: %2
-X: %4, Y: %5</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/undomanager.cpp" line="813"/>
         <source>Apply text style</source>
-        <translation type="unfinished"></translation>
+        <translation>ਲਿਖਤ ਅੰਦਾਜ਼ ਲਾਗੂ ਕਰੋ</translation>
     </message>
     <message>
         <location filename="../../scribus/undomanager.cpp" line="815"/>
@@ -40635,12 +40867,12 @@ X: %4, Y: %5</translation>
     <message>
         <location filename="../../scribus/undomanager.cpp" line="827"/>
         <source>Copy</source>
-        <translation>പകര്‍ത്തുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/undomanager.cpp" line="828"/>
         <source>Copy page</source>
-        <translation>താള്‍ പകര്‍ത്തുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/undomanager.cpp" line="571"/>
@@ -40815,32 +41047,32 @@ X: %4, Y: %5</translation>
     <message>
         <location filename="../../scribus/undomanager.cpp" line="587"/>
         <source>Combine Polygons</source>
-        <translation>ബഹുഭുജങ്ങള്‍ സംയോജിപ്പിക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/undomanager.cpp" line="588"/>
         <source>Split Polygons</source>
-        <translation>ബഹുഭുജങ്ങള്‍ പിരിക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/undomanager.cpp" line="601"/>
         <source>Level up</source>
-        <translation>തലം ഉയര്‍ത്തുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/undomanager.cpp" line="602"/>
         <source>Level down</source>
-        <translation>തലം താഴ്ത്തുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/undomanager.cpp" line="603"/>
         <source>Send to front</source>
-        <translation>മുന്നിലേക്കയയ്ക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/undomanager.cpp" line="604"/>
         <source>Send to bottom</source>
-        <translation>പിന്നിലേക്കയയ്ക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/undomanager.cpp" line="611"/>
@@ -41060,7 +41292,7 @@ X: %4, Y: %5</translation>
     <message>
         <location filename="../../scribus/undomanager.cpp" line="705"/>
         <source>Edit polygon</source>
-        <translation>ബഹുഭുജം തിരുത്തുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/undomanager.cpp" line="706"/>
@@ -41200,7 +41432,7 @@ X: %4, Y: %5</translation>
     <message>
         <location filename="../../scribus/undomanager.cpp" line="754"/>
         <source>Show image</source>
-        <translation>ചിത്രം കാണിക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/undomanager.cpp" line="758"/>
@@ -41306,7 +41538,7 @@ X: %4, Y: %5</translation>
     <message>
         <location filename="../../scribus/undomanager.cpp" line="810"/>
         <source>Duplicate</source>
-        <translation>ഇരട്ടിപ്പിക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/undomanager.cpp" line="812"/>
@@ -41336,7 +41568,7 @@ X: %4, Y: %5</translation>
     <message>
         <location filename="../../scribus/undomanager.cpp" line="838"/>
         <source>Transform</source>
-        <translation>പരിവര്‍ത്തനപ്പെടുത്തുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/undomanager.cpp" line="839"/>
@@ -41386,7 +41618,7 @@ X: %4, Y: %5</translation>
     <message>
         <location filename="../../scribus/undomanager.cpp" line="841"/>
         <source>Drop Shadow</source>
-        <translation>പിന്‍നിഴല്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/undomanager.cpp" line="842"/>
@@ -41434,7 +41666,7 @@ X: %4, Y: %5</translation>
     <message>
         <location filename="../../scribus/undogui.cpp" line="235"/>
         <source>Initial State</source>
-        <translation>പ്രാഥമികസ്ഥിതി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/undogui.cpp" line="260"/>
@@ -41470,8 +41702,7 @@ X: %4, Y: %5</translation>
         <location filename="../../scribus/undogui.cpp" line="441"/>
         <source>%1 - %2
 %3</source>
-        <translation>%1 - %2
-%3</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -41481,7 +41712,7 @@ X: %4, Y: %5</translation>
         <location filename="../../scribus/undogui.cpp" line="121"/>
         <source>%1: %2</source>
         <comment>undo target: action (f.e. Text frame: Resize)</comment>
-        <translation>%1: %2</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -41494,7 +41725,7 @@ X: %4, Y: %5</translation>
     <message>
         <location filename="../../scribus/ui/unicodesearch.ui" line="33"/>
         <source>&amp;Search:</source>
-        <translation>&amp;തിരയുക:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/unicodesearch.ui" line="46"/>
@@ -41569,27 +41800,27 @@ Error:%2 at line: %3, row: %4</source>
     <message>
         <location filename="../../scribus/upgradechecker.cpp" line="218"/>
         <source>No updates are available for your version of Scribus %1</source>
-        <translation>നിങ്ങളുടെ കൈവശമിപ്പോഴുള്ള Scribus %1 പതിപ്പിന്റെ മെച്ചപ്പെടുത്തിയ പതിപ്പുകളൊന്നും തന്നെ ലഭ്യമല്ല</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/upgradechecker.cpp" line="221"/>
         <source>One or more updates for your version of Scribus (%1) are available:</source>
-        <translation>നിങ്ങളുടെ Scribus (%1) പതിപ്പിന്റെ ഒന്നോ അതിലധികമോ മെച്ചപ്പെടുത്തിയ പതിപ്പുകള്‍ ലഭ്യമാണ്:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/upgradechecker.cpp" line="225"/>
         <source>Please visit www.scribus.net for details.</source>
-        <translation>വിവരങ്ങള്‍ക്കായി www.scribus.net സന്ദര്‍ശിക്കുക.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/upgradechecker.cpp" line="88"/>
         <source>Finished</source>
-        <translation>പൂര്‍ണം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/upgradechecker.cpp" line="222"/>
         <source>This list may contain development/unstable versions.</source>
-        <translation>ഈ പട്ടികയില്‍ ഇപ്പോള്‍ വികസനത്തിലിരിക്കുന്നതോ അസ്ഥിരമായതോ ആയ പതിപ്പുകള്‍ കണ്ടേക്കും.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/upgradechecker.cpp" line="226"/>
@@ -41599,12 +41830,12 @@ Error:%2 at line: %3, row: %4</source>
     <message>
         <location filename="../../scribus/upgradechecker.cpp" line="248"/>
         <source>Error: %1</source>
-        <translation>പിഴവ്: %1</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/upgradechecker.cpp" line="53"/>
         <source>No data on your computer will be sent to an external location</source>
-        <translation>നിങ്ങളുടെ കമ്പ്യൂട്ടറില്‍ നിന്നൊരു വിവരവും ബാഹ്യമായൊരു സ്ഥലത്തേക്ക് അയയ്ക്കുകയില്ല</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/upgradechecker.cpp" line="60"/>
@@ -41651,47 +41882,47 @@ Would you like to start the system&apos;s default browser instead?</source>
     <message>
         <location filename="../../scribus/ui/useprintermarginsdialog.ui" line="59"/>
         <source>Margins</source>
-        <translation>വിളുമ്പുകള്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/useprintermarginsdialog.ui" line="74"/>
         <source>Right:</source>
-        <translation>വലത്ത്:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/useprintermarginsdialog.ui" line="117"/>
         <source>&amp;Top:</source>
-        <translation>&amp;മുകളില്‍:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/useprintermarginsdialog.ui" line="130"/>
         <source>&amp;Bottom:</source>
-        <translation>&amp;കീഴെ:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/useprintermarginsdialog.ui" line="143"/>
         <source>&amp;Left:</source>
-        <translation>&amp;ഇടത്ത്:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/useprintermarginsdialog.ui" line="202"/>
         <source>&amp;OK</source>
-        <translation>&amp;ശരി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/useprintermarginsdialog.ui" line="205"/>
         <source>Alt+O</source>
-        <translation>Alt+O</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/useprintermarginsdialog.ui" line="212"/>
         <source>&amp;Cancel</source>
-        <translation>&amp;റദ്ദാക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/useprintermarginsdialog.ui" line="215"/>
         <source>Alt+C</source>
-        <translation>Alt+C</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -41704,17 +41935,17 @@ Would you like to start the system&apos;s default browser instead?</source>
     <message>
         <location filename="../../scribus/ui/viewtoolbar.cpp" line="117"/>
         <source>High</source>
-        <translation>ഉയര്‍ന്ന</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/viewtoolbar.cpp" line="118"/>
         <source>Normal</source>
-        <translation>സാധാരണ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/viewtoolbar.cpp" line="119"/>
         <source>Low</source>
-        <translation>താഴ്ന്ന</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/viewtoolbar.cpp" line="120"/>
@@ -41747,7 +41978,7 @@ Would you like to start the system&apos;s default browser instead?</source>
     <message>
         <location filename="../../scribus/plugins/import/viva/importviva.cpp" line="217"/>
         <source>Analyzing File:</source>
-        <translation>ഫയല്‍ പരിശോധിക്കുന്നു:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/import/viva/importviva.cpp" line="373"/>
@@ -41765,7 +41996,7 @@ Would you like to start the system&apos;s default browser instead?</source>
     <message>
         <location filename="../../scribus/plugins/import/vsd/importvsd.cpp" line="130"/>
         <source>Analyzing File:</source>
-        <translation>ഫയല്‍ പരിശോധിക്കുന്നു:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/import/vsd/importvsd.cpp" line="327"/>
@@ -41814,7 +42045,7 @@ Document Liberation Project https://www.documentliberation.org</source>
     <message>
         <location filename="../../scribus/plugins/import/wpg/importwpg.cpp" line="484"/>
         <source>Analyzing File:</source>
-        <translation>ഫയല്‍ പരിശോധിക്കുന്നു:</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -41845,7 +42076,7 @@ Document Liberation Project https://www.documentliberation.org</source>
     <message>
         <location filename="../../scribus/plugins/import/xar/importxar.cpp" line="243"/>
         <source>Analyzing File:</source>
-        <translation>ഫയല്‍ പരിശോധിക്കുന്നു:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/import/xar/importxar.cpp" line="3481"/>
@@ -41868,7 +42099,7 @@ Document Liberation Project https://www.documentliberation.org</source>
     <message>
         <location filename="../../scribus/plugins/import/xfig/importxfig.cpp" line="263"/>
         <source>Analyzing File:</source>
-        <translation>ഫയല്‍ പരിശോധിക്കുന്നു:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/import/xfig/importxfig.cpp" line="1590"/>
@@ -41896,17 +42127,17 @@ Document Liberation Project https://www.documentliberation.org</source>
     <message>
         <location filename="../../scribus/plugins/import/xps/xpsimportoptions.ui" line="85"/>
         <source>All Pages</source>
-        <translation>എല്ലാ താളുകളും</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/import/xps/xpsimportoptions.ui" line="97"/>
         <source>Single Page</source>
-        <translation>ഒറ്റത്താള്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/import/xps/xpsimportoptions.ui" line="119"/>
         <source>Choose Pages</source>
-        <translation>താളുകള്‍ തിരഞ്ഞെടുക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -41919,7 +42150,7 @@ Document Liberation Project https://www.documentliberation.org</source>
     <message>
         <location filename="../../scribus/plugins/import/xps/importxps.cpp" line="207"/>
         <source>Analyzing File:</source>
-        <translation>ഫയല്‍ പരിശോധിക്കുന്നു:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/import/xps/importxps.cpp" line="375"/>
@@ -41942,17 +42173,17 @@ Document Liberation Project https://www.documentliberation.org</source>
     <message>
         <location filename="../../scribus/plugins/gettext/xtgim/xtgdialog.cpp" line="62"/>
         <source>Do not ask again</source>
-        <translation>വീണ്ടും ചോദിക്കരുത്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/gettext/xtgim/xtgdialog.cpp" line="73"/>
         <source>OK</source>
-        <translation>ശരി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/gettext/xtgim/xtgdialog.cpp" line="75"/>
         <source>Cancel</source>
-        <translation>റദ്ദാക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/gettext/xtgim/xtgdialog.cpp" line="55"/>
@@ -41980,7 +42211,7 @@ Document Liberation Project https://www.documentliberation.org</source>
     <message>
         <location filename="../../scribus/third_party/zip/zip.cpp" line="1608"/>
         <source>zlib library error.</source>
-        <translation>zlib ലൈബ്രറിയുടെ പിഴവ്.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/third_party/zip/zip.cpp" line="1609"/>
@@ -42000,12 +42231,12 @@ Document Liberation Project https://www.documentliberation.org</source>
     <message>
         <location filename="../../scribus/third_party/zip/zip.cpp" line="1612"/>
         <source>File read error.</source>
-        <translation>ഫയല്‍ വായിക്കുന്നതില്‍ പിഴവുപറ്റി.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/third_party/zip/zip.cpp" line="1613"/>
         <source>File write error.</source>
-        <translation>ഫയലെഴുതുന്നതില്‍ പിഴവുപറ്റി.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/third_party/zip/zip.cpp" line="1614"/>
@@ -42015,7 +42246,7 @@ Document Liberation Project https://www.documentliberation.org</source>
     <message>
         <location filename="../../scribus/third_party/zip/zip.cpp" line="1618"/>
         <source>Unknown error.</source>
-        <translation>അജ്ഞാതമായ പിഴവ്.</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -42028,7 +42259,7 @@ Document Liberation Project https://www.documentliberation.org</source>
     <message>
         <location filename="../../scribus/plugins/import/zmf/importzmf.cpp" line="130"/>
         <source>Analyzing File:</source>
-        <translation>ഫയല്‍ പരിശോധിക്കുന്നു:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/import/zmf/importzmf.cpp" line="316"/>
@@ -42054,22 +42285,22 @@ Document Liberation Project https://www.documentliberation.org</source>
     <message>
         <location filename="../../scribus/third_party/Qt-Advanced-Docking-System/src/AutoHideTab.cpp" line="390"/>
         <source>Top</source>
-        <translation>മുകളില്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/third_party/Qt-Advanced-Docking-System/src/AutoHideTab.cpp" line="391"/>
         <source>Left</source>
-        <translation>ഇടത്ത്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/third_party/Qt-Advanced-Docking-System/src/AutoHideTab.cpp" line="392"/>
         <source>Right</source>
-        <translation>വലത്ത്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/third_party/Qt-Advanced-Docking-System/src/AutoHideTab.cpp" line="393"/>
         <source>Bottom</source>
-        <translation>കീഴെ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/third_party/Qt-Advanced-Docking-System/src/AutoHideTab.cpp" line="395"/>
@@ -42079,7 +42310,7 @@ Document Liberation Project https://www.documentliberation.org</source>
     <message>
         <location filename="../../scribus/third_party/Qt-Advanced-Docking-System/src/AutoHideTab.cpp" line="397"/>
         <source>Close</source>
-        <translation>അടയ്ക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -42114,35 +42345,35 @@ Document Liberation Project https://www.documentliberation.org</source>
     <message>
         <location filename="../../scribus/third_party/Qt-Advanced-Docking-System/src/DockAreaTitleBar.cpp" line="766"/>
         <source>Top</source>
-        <translation>മുകളില്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/third_party/Qt-Advanced-Docking-System/src/DockAreaTitleBar.cpp" line="767"/>
         <source>Left</source>
-        <translation>ഇടത്ത്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/third_party/Qt-Advanced-Docking-System/src/DockAreaTitleBar.cpp" line="768"/>
         <source>Right</source>
-        <translation>വലത്ത്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/third_party/Qt-Advanced-Docking-System/src/DockAreaTitleBar.cpp" line="769"/>
         <source>Bottom</source>
-        <translation>കീഴെ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/third_party/Qt-Advanced-Docking-System/src/DockAreaTitleBar.cpp" line="777"/>
         <location filename="../../scribus/third_party/Qt-Advanced-Docking-System/src/DockAreaTitleBar.cpp" line="832"/>
         <source>Minimize</source>
-        <translation>ചെറുതാക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/third_party/Qt-Advanced-Docking-System/src/DockAreaTitleBar.cpp" line="778"/>
         <location filename="../../scribus/third_party/Qt-Advanced-Docking-System/src/DockAreaTitleBar.cpp" line="782"/>
         <location filename="../../scribus/third_party/Qt-Advanced-Docking-System/src/DockAreaTitleBar.cpp" line="832"/>
         <source>Close</source>
-        <translation>അടയ്ക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/third_party/Qt-Advanced-Docking-System/src/DockAreaTitleBar.cpp" line="782"/>
@@ -42194,27 +42425,27 @@ Document Liberation Project https://www.documentliberation.org</source>
     <message>
         <location filename="../../scribus/third_party/Qt-Advanced-Docking-System/src/DockWidgetTab.cpp" line="553"/>
         <source>Top</source>
-        <translation>മുകളില്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/third_party/Qt-Advanced-Docking-System/src/DockWidgetTab.cpp" line="554"/>
         <source>Left</source>
-        <translation>ഇടത്ത്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/third_party/Qt-Advanced-Docking-System/src/DockWidgetTab.cpp" line="555"/>
         <source>Right</source>
-        <translation>വലത്ത്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/third_party/Qt-Advanced-Docking-System/src/DockWidgetTab.cpp" line="556"/>
         <source>Bottom</source>
-        <translation>കീഴെ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/third_party/Qt-Advanced-Docking-System/src/DockWidgetTab.cpp" line="561"/>
         <source>Close</source>
-        <translation>അടയ്ക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/third_party/Qt-Advanced-Docking-System/src/DockWidgetTab.cpp" line="565"/>
@@ -42232,7 +42463,7 @@ Document Liberation Project https://www.documentliberation.org</source>
     <message>
         <location filename="../../scribus/ui/gradientaddedit.ui" line="46"/>
         <source>Name:</source>
-        <translation>പേര്:</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -42275,7 +42506,7 @@ please choose another one.</source>
     <message>
         <location filename="../../scribus/ui/gtfiledialog.ui" line="14"/>
         <source>Open</source>
-        <translation>തുറക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/gtfiledialog.ui" line="35"/>
@@ -42347,7 +42578,7 @@ please choose another one.</source>
     <message>
         <location filename="../../scribus/plugins/picbrowser/imagedialog.ui" line="70"/>
         <source>%</source>
-        <translation>%</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/picbrowser/imagedialog.ui" line="102"/>
@@ -42357,7 +42588,7 @@ please choose another one.</source>
     <message>
         <location filename="../../scribus/plugins/picbrowser/imagedialog.ui" line="127"/>
         <source>Close</source>
-        <translation>അടയ്ക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/picbrowser/imagedialog.ui" line="67"/>
@@ -42400,7 +42631,7 @@ please choose another one.</source>
     <message>
         <location filename="../../scribus/ui/newdocdialog.ui" line="185"/>
         <source>Document</source>
-        <translation>പ്രമാണം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/newdocdialog.ui" line="247"/>
@@ -42415,7 +42646,7 @@ please choose another one.</source>
     <message>
         <location filename="../../scribus/ui/newdocdialog.ui" line="283"/>
         <source>Pages</source>
-        <translation>താളുകള്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/newdocdialog.ui" line="329"/>
@@ -42430,12 +42661,12 @@ please choose another one.</source>
     <message>
         <location filename="../../scribus/ui/newdocdialog.ui" line="504"/>
         <source>Margins</source>
-        <translation>വിളുമ്പുകള്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/newdocdialog.ui" line="533"/>
         <source>Bleeds</source>
-        <translation>ബ്ലീഡുകള്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/newdocdialog.ui" line="562"/>
@@ -42501,32 +42732,32 @@ please choose another one.</source>
     <message>
         <location filename="../../scribus/ui/nftwidget.cpp" line="35"/>
         <source>&amp;Open</source>
-        <translation>&amp;തുറക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/nftwidget.cpp" line="70"/>
         <source>All</source>
-        <translation>എല്ലാം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/nftwidget.cpp" line="147"/>
         <source>Name</source>
-        <translation>പേര്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/nftwidget.cpp" line="149"/>
         <source>Page Size</source>
-        <translation>താള്‍ വലിപ്പം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/nftwidget.cpp" line="151"/>
         <source>Colors</source>
-        <translation>നിറങ്ങള്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/nftwidget.cpp" line="153"/>
         <source>Description</source>
-        <translation>വിവരണം</translation>
+        <translation>ਵੇਰਵਾ:</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/nftwidget.cpp" line="155"/>
@@ -42541,12 +42772,12 @@ please choose another one.</source>
     <message>
         <location filename="../../scribus/ui/nftwidget.cpp" line="159"/>
         <source>Date</source>
-        <translation>തീയതി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/nftwidget.cpp" line="161"/>
         <source>Author</source>
-        <translation>രചയിതാവ്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/nftwidget.cpp" line="176"/>
@@ -42606,7 +42837,7 @@ please choose another one.</source>
     <message>
         <location filename="../../scribus/ui/nftwidget.ui" line="88"/>
         <source>&amp;About</source>
-        <translation>&amp;സംബന്ധിച്ച്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/nftwidget.ui" line="121"/>
@@ -42616,7 +42847,7 @@ please choose another one.</source>
     <message>
         <location filename="../../scribus/ui/nftwidget.ui" line="158"/>
         <source>&amp;Help</source>
-        <translation>&amp;സഹായം</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -42644,12 +42875,12 @@ please choose another one.</source>
     <message>
         <location filename="../../scribus/ui/nodeeditpalette.ui" line="417"/>
         <source>OK</source>
-        <translation type="unfinished">ശരി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/nodeeditpalette.ui" line="424"/>
         <source>Cancel</source>
-        <translation type="unfinished">റദ്ദാക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -42657,7 +42888,7 @@ please choose another one.</source>
     <message>
         <location filename="../../scribus/ui/recoverdialog.ui" line="17"/>
         <source>Crash Recovery</source>
-        <translation>തകര്‍ച്ചയില്‍ നിന്നും ഉയിര്‍ത്തെഴുന്നേല്‍ക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/recoverdialog.ui" line="35"/>
@@ -42667,17 +42898,17 @@ please choose another one.</source>
     <message>
         <location filename="../../scribus/ui/recoverdialog.ui" line="77"/>
         <source>Name</source>
-        <translation>പേര്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/recoverdialog.ui" line="82"/>
         <source>Date</source>
-        <translation>തീയതി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/recoverdialog.ui" line="87"/>
         <source>Type</source>
-        <translation>തരം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/recoverdialog.ui" line="100"/>
@@ -42687,12 +42918,12 @@ please choose another one.</source>
     <message>
         <location filename="../../scribus/ui/recoverdialog.ui" line="110"/>
         <source>Remove</source>
-        <translation>നീക്കം ചെയ്യുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/recoverdialog.ui" line="130"/>
         <source>Close</source>
-        <translation>അടയ്ക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -42700,7 +42931,7 @@ please choose another one.</source>
     <message>
         <location filename="../../scribus/ui/replaceonecolor.ui" line="14"/>
         <source>Replace Color</source>
-        <translation>നിറം മാറ്റിവെയ്ക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/replaceonecolor.ui" line="46"/>
@@ -42728,7 +42959,7 @@ please choose another one.</source>
     <message>
         <location filename="../../scribus/ui/replacecolors.ui" line="14"/>
         <source>Replace Colors</source>
-        <translation>നിറങ്ങള്‍ മാറ്റിവെയ്ക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/replacecolors.ui" line="60"/>
@@ -42738,7 +42969,7 @@ please choose another one.</source>
     <message>
         <location filename="../../scribus/ui/replacecolors.ui" line="73"/>
         <source>Remove</source>
-        <translation>നീക്കം ചെയ്യുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/replacecolors.ui" line="86"/>
@@ -42761,17 +42992,17 @@ please choose another one.</source>
     <message>
         <location filename="../../scribus/ui/selectobjects.ui" line="122"/>
         <source>Shape</source>
-        <translation>ആകാരം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/selectobjects.ui" line="127"/>
         <source>Polyline</source>
-        <translation>ബഹുവര</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/selectobjects.ui" line="132"/>
         <source>Line</source>
-        <translation>വര</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/selectobjects.ui" line="137"/>
@@ -42781,41 +43012,41 @@ please choose another one.</source>
     <message>
         <location filename="../../scribus/ui/selectobjects.ui" line="142"/>
         <source>Symbol</source>
-        <translation>ചിഹ്നം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/selectobjects.ui" line="153"/>
         <source>Fill Color</source>
-        <translation>നിറം നിറയ്ക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/selectobjects.ui" line="170"/>
         <source>Line Color</source>
-        <translation>വരനിറം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/selectobjects.ui" line="187"/>
         <source>Line Width</source>
-        <translation>വരവീതി</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/selectobjects.ui" line="204"/>
         <source>Printable</source>
-        <translation>അച്ചടിക്കാവുന്നത്</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/selectobjects.ui" line="215"/>
         <location filename="../../scribus/ui/selectobjects.ui" line="245"/>
         <location filename="../../scribus/ui/selectobjects.ui" line="272"/>
         <source>Yes</source>
-        <translation>അതെ</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/selectobjects.ui" line="220"/>
         <location filename="../../scribus/ui/selectobjects.ui" line="250"/>
         <location filename="../../scribus/ui/selectobjects.ui" line="277"/>
         <source>No</source>
-        <translation>ഇല്ല</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/selectobjects.ui" line="231"/>
@@ -43014,7 +43245,7 @@ please choose another one.</source>
     <message>
         <location filename="../../scribus/ui/smfontfeaturesbase.ui" line="478"/>
         <source>Position:</source>
-        <translation>സ്ഥാനം:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/smfontfeaturesbase.ui" line="486"/>
@@ -43044,7 +43275,7 @@ please choose another one.</source>
     <message>
         <location filename="../../scribus/ui/smfontfeaturesbase.ui" line="280"/>
         <source>Style:</source>
-        <translation>ശൈലി:</translation>
+        <translation>ਅੰਦਾਜ਼:</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/smfontfeaturesbase.ui" line="249"/>
@@ -43059,12 +43290,12 @@ please choose another one.</source>
     <message>
         <location filename="../../scribus/ui/smfontfeaturesbase.ui" line="259"/>
         <source>Old Style</source>
-        <translation>പഴയ ശൈലി</translation>
+        <translation>ਪੁਰਾਣਾ ਅੰਦਾਜ਼</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/smfontfeaturesbase.ui" line="287"/>
         <source>Width:</source>
-        <translation>വീതി:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/smfontfeaturesbase.ui" line="308"/>
@@ -43074,7 +43305,7 @@ please choose another one.</source>
     <message>
         <location filename="../../scribus/ui/smfontfeaturesbase.ui" line="313"/>
         <source>Proportional</source>
-        <translation>ആനുപാതികം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/ui/smfontfeaturesbase.ui" line="318"/>
@@ -43132,7 +43363,7 @@ please choose another one.</source>
     <message>
         <location filename="../../scribus/plugins/gettext/textfilter/tfdia.cpp" line="77"/>
         <source>C&amp;lear</source>
-        <translation>&amp;വൃത്തിയാക്കുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/gettext/textfilter/tfdia.cpp" line="80"/>
@@ -43197,12 +43428,12 @@ please choose another one.</source>
     <message>
         <location filename="../../scribus/plugins/gettext/textfilter/tffilter.cpp" line="228"/>
         <source>words</source>
-        <translation>വാക്കുകള്‍</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/gettext/textfilter/tffilter.cpp" line="267"/>
         <source>Remove</source>
-        <translation>നീക്കം ചെയ്യുക</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/gettext/textfilter/tffilter.cpp" line="268"/>
@@ -43228,7 +43459,7 @@ please choose another one.</source>
     <message>
         <location filename="../../scribus/plugins/gettext/textfilter/tffilter.cpp" line="314"/>
         <source>paragraph style</source>
-        <translation>ഖണ്ഡികാശൈലി</translation>
+        <translation>ਪੈਰੇ ਦਾ ਅੰਦਾਜ਼</translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/gettext/textfilter/tffilter.cpp" line="318"/>
@@ -43238,7 +43469,7 @@ please choose another one.</source>
     <message>
         <location filename="../../scribus/plugins/gettext/textfilter/tffilter.cpp" line="400"/>
         <source>all paragraphs</source>
-        <translation>എല്ലാ ഖണ്ഡികകളൂം</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/gettext/textfilter/tffilter.cpp" line="401"/>

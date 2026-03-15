@@ -3235,7 +3235,7 @@
     <message>
         <location filename="../../scribus/plugins/barcodegenerator/barcodegenerator.ui" line="456"/>
         <source>0.00</source>
-        <translation type="unfinished"></translation>
+        <translation>0.00</translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/barcodegenerator/barcodegenerator.ui" line="251"/>
@@ -7228,27 +7228,27 @@ További információk a dokumentáció Színek szerkesztése fejezetében.</tra
     <message>
         <location filename="../../scribus/ui/cupsoptions.cpp" line="390"/>
         <source>Paper Size</source>
-        <translation type="unfinished"></translation>
+        <translation>Papírméret</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/cupsoptions.cpp" line="392"/>
         <source>Paper Source</source>
-        <translation type="unfinished"></translation>
+        <translation>Papírforrás</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/cupsoptions.cpp" line="394"/>
         <source>Duplex</source>
-        <translation type="unfinished"></translation>
+        <translation>Kétoldalas</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/cupsoptions.cpp" line="396"/>
         <source>Print Quality</source>
-        <translation type="unfinished"></translation>
+        <translation>Nyomtatási minőség</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/cupsoptions.cpp" line="398"/>
         <source>Color Mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Színmód</translation>
     </message>
     <message>
         <location filename="../../scribus/ui/cupsoptions.cpp" line="400"/>
@@ -10248,18 +10248,15 @@ converting their vector data into Scribus objects.</source>
 <context>
     <name>ImportPagesPlugin</name>
     <message>
-        <location filename="../../scribus/plugins/import/pages/importpagesplugin.cpp" line="61"/>
         <source>Import iWorks Pages...</source>
-        <translation>iWorks Pages importálása...</translation>
+        <translation type="vanished">iWorks Pages importálása...</translation>
     </message>
     <message>
-        <location filename="../../scribus/plugins/import/pages/importpagesplugin.cpp" line="63"/>
         <location filename="../../scribus/plugins/import/pages/importpagesplugin.cpp" line="97"/>
         <source>iWorks Pages</source>
         <translation>iWorks Pages</translation>
     </message>
     <message>
-        <location filename="../../scribus/plugins/import/pages/importpagesplugin.cpp" line="64"/>
         <location filename="../../scribus/plugins/import/pages/importpagesplugin.cpp" line="98"/>
         <source>iWorks Pages (*.pages *.PAGES)</source>
         <translation>iWorks Pages (*.pages *.PAGES)</translation>
@@ -10268,6 +10265,21 @@ converting their vector data into Scribus objects.</source>
         <location filename="../../scribus/plugins/import/pages/importpagesplugin.cpp" line="81"/>
         <source>Imports iWorks Pages Files</source>
         <translation>iWorks Pages fájlok importálása</translation>
+    </message>
+    <message>
+        <location filename="../../scribus/plugins/import/pages/importpagesplugin.cpp" line="61"/>
+        <source>Import iWork Pages...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../scribus/plugins/import/pages/importpagesplugin.cpp" line="63"/>
+        <source>iWork Pages</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../scribus/plugins/import/pages/importpagesplugin.cpp" line="64"/>
+        <source>iWork Pages (*.pages *.PAGES)</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/import/pages/importpagesplugin.cpp" line="82"/>
@@ -27169,9 +27181,8 @@ Külső hivatkozások
         <translation>palpa</translation>
     </message>
     <message>
-        <location filename="../../scribus/langmgr.cpp" line="495"/>
         <source>Panjabi</source>
-        <translation>pandzsábi</translation>
+        <translation type="vanished">pandzsábi</translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="496"/>
@@ -27486,17 +27497,17 @@ Külső hivatkozások
     <message>
         <location filename="../../scribus/langmgr.cpp" line="575"/>
         <source>Spanish (Colombia)</source>
-        <translation type="unfinished"></translation>
+        <translation>spanyol (Kolumbia)</translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="577"/>
         <source>Spanish (Mexico)</source>
-        <translation type="unfinished"></translation>
+        <translation>spanyol (Mexikó)</translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="578"/>
         <source>Spanish (Venezuela)</source>
-        <translation type="unfinished"></translation>
+        <translation>spanyol (Venezuela)</translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="579"/>
@@ -27733,6 +27744,11 @@ Külső hivatkozások
         <location filename="../../scribus/langmgr.cpp" line="227"/>
         <source>Dutch</source>
         <translation>holland</translation>
+    </message>
+    <message>
+        <location filename="../../scribus/langmgr.cpp" line="495"/>
+        <source>Panjabi (India)</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="506"/>
@@ -32544,17 +32560,17 @@ A kép valószínűleg így nem lesz helyes</translation>
         <location filename="../../scribus/numeration.cpp" line="48"/>
         <location filename="../../scribus/numeration.cpp" line="49"/>
         <source>Arabic: </source>
-        <translation type="unfinished"></translation>
+        <translation>Arab:</translation>
     </message>
     <message>
         <location filename="../../scribus/numeration.cpp" line="51"/>
         <source>Bengali: </source>
-        <translation type="unfinished"></translation>
+        <translation>Bengáli:</translation>
     </message>
     <message>
         <location filename="../../scribus/numeration.cpp" line="52"/>
         <source>Burmese: </source>
-        <translation type="unfinished"></translation>
+        <translation>Burmai:</translation>
     </message>
     <message>
         <location filename="../../scribus/numeration.cpp" line="54"/>
@@ -32564,12 +32580,12 @@ A kép valószínűleg így nem lesz helyes</translation>
     <message>
         <location filename="../../scribus/numeration.cpp" line="55"/>
         <source>Greek: </source>
-        <translation type="unfinished"></translation>
+        <translation>Görög:</translation>
     </message>
     <message>
         <location filename="../../scribus/numeration.cpp" line="56"/>
         <source>Gujarati: </source>
-        <translation type="unfinished"></translation>
+        <translation>Gudzsaráti:</translation>
     </message>
     <message>
         <location filename="../../scribus/numeration.cpp" line="57"/>
@@ -32579,27 +32595,27 @@ A kép valószínűleg így nem lesz helyes</translation>
     <message>
         <location filename="../../scribus/numeration.cpp" line="58"/>
         <source>Hebrew: </source>
-        <translation type="unfinished"></translation>
+        <translation>Héber:</translation>
     </message>
     <message>
         <location filename="../../scribus/numeration.cpp" line="59"/>
         <source>Kannada: </source>
-        <translation type="unfinished"></translation>
+        <translation>Kannada:</translation>
     </message>
     <message>
         <location filename="../../scribus/numeration.cpp" line="60"/>
         <source>Khmer: </source>
-        <translation type="unfinished"></translation>
+        <translation>Khmer:</translation>
     </message>
     <message>
         <location filename="../../scribus/numeration.cpp" line="61"/>
         <source>Lao: </source>
-        <translation type="unfinished"></translation>
+        <translation>Lao:</translation>
     </message>
     <message>
         <location filename="../../scribus/numeration.cpp" line="62"/>
         <source>Malayalam: </source>
-        <translation type="unfinished"></translation>
+        <translation>Malajálam:</translation>
     </message>
     <message>
         <location filename="../../scribus/numeration.cpp" line="63"/>
@@ -32609,22 +32625,22 @@ A kép valószínűleg így nem lesz helyes</translation>
     <message>
         <location filename="../../scribus/numeration.cpp" line="64"/>
         <source>Tamil: </source>
-        <translation type="unfinished"></translation>
+        <translation>Tamil:</translation>
     </message>
     <message>
         <location filename="../../scribus/numeration.cpp" line="65"/>
         <source>Telugu: </source>
-        <translation type="unfinished"></translation>
+        <translation>Telugu:</translation>
     </message>
     <message>
         <location filename="../../scribus/numeration.cpp" line="66"/>
         <source>Thai: </source>
-        <translation type="unfinished"></translation>
+        <translation>Thaiföldi:</translation>
     </message>
     <message>
         <location filename="../../scribus/numeration.cpp" line="67"/>
         <source>Tibetan: </source>
-        <translation type="unfinished"></translation>
+        <translation>Tibeti:</translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/scriptplugin/cmdbarcode.cpp" line="74"/>
