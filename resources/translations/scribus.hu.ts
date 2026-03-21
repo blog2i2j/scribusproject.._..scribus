@@ -663,7 +663,7 @@
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1621"/>
         <source>&amp;Aspect ratio is Locked</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Méretarány zárolva</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1625"/>
@@ -768,12 +768,12 @@
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1673"/>
         <source>lowercase</source>
-        <translation type="unfinished"></translation>
+        <translation>kisbetűs</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1674"/>
         <source>UPPERCASE</source>
-        <translation type="unfinished"></translation>
+        <translation>NAGYBETŰS</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="1675"/>
