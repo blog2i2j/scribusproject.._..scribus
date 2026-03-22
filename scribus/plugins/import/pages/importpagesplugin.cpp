@@ -78,8 +78,8 @@ const ScActionPlugin::AboutData* ImportPagesPlugin::getAboutData() const
 {
 	auto* about = new AboutData;
 	about->authors = "Franz Schmid <franz@scribus.info>";
-	about->shortDescription = tr("Imports iWorks Pages Files");
-	about->description = tr("Imports most iWorks Pages files into the current document, converting their vector data into Scribus objects.");
+	about->shortDescription = tr("Imports iWork Pages Files");
+	about->description = tr("Imports most iWork Pages files into the current document, converting their vector data into Scribus objects.");
 	about->license = "GPL";
 	Q_CHECK_PTR(about);
 	return about;
@@ -94,8 +94,8 @@ void ImportPagesPlugin::deleteAboutData(const AboutData* about) const
 void ImportPagesPlugin::registerFormats()
 {
 	FileFormat fmt(this);
-	fmt.trName = tr("iWorks Pages");
-	fmt.filter = tr("iWorks Pages (*.pages *.PAGES)");
+	fmt.trName = tr("iWork Pages");
+	fmt.filter = tr("iWork Pages (*.pages *.PAGES)");
 	fmt.formatId = 0;
 	fmt.fileExtensions = QStringList() << "pages";
 	fmt.load = true;
