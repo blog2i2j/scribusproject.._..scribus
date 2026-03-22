@@ -1844,7 +1844,10 @@
     <lrelease Include="..\..\..\resources\translations\scribus.en_US.ts" />
     <lrelease Include="..\..\..\resources\translations\scribus.eo.ts" />
     <lrelease Include="..\..\..\resources\translations\scribus.es_AR.ts" />
+    <lrelease Include="..\..\..\resources\translations\scribus.es_CO.ts" />
     <lrelease Include="..\..\..\resources\translations\scribus.es_ES.ts" />
+    <lrelease Include="..\..\..\resources\translations\scribus.es_MX.ts" />
+    <lrelease Include="..\..\..\resources\translations\scribus.es_VE.ts" />
     <lrelease Include="..\..\..\resources\translations\scribus.et.ts" />
     <lrelease Include="..\..\..\resources\translations\scribus.eu.ts" />
     <lrelease Include="..\..\..\resources\translations\scribus.fa_IR.ts" />
@@ -1855,6 +1858,7 @@
     <lrelease Include="..\..\..\resources\translations\scribus.hi_IN.ts" />
     <lrelease Include="..\..\..\resources\translations\scribus.hr_HR.ts" />
     <lrelease Include="..\..\..\resources\translations\scribus.hu.ts" />
+    <lrelease Include="..\..\..\resources\translations\scribus.ia.ts" />
     <lrelease Include="..\..\..\resources\translations\scribus.id.ts" />
     <lrelease Include="..\..\..\resources\translations\scribus.it.ts" />
     <lrelease Include="..\..\..\resources\translations\scribus.ja.ts" />
@@ -1870,6 +1874,8 @@
     <lrelease Include="..\..\..\resources\translations\scribus.nl.ts" />
     <lrelease Include="..\..\..\resources\translations\scribus.nn_NO.ts" />
     <lrelease Include="..\..\..\resources\translations\scribus.oc.ts" />
+    <lrelease Include="..\..\..\resources\translations\scribus.pa.ts" />
+    <lrelease Include="..\..\..\resources\translations\scribus.pa_IN.ts" />
     <lrelease Include="..\..\..\resources\translations\scribus.pl_PL.ts" />
     <lrelease Include="..\..\..\resources\translations\scribus.pms.ts" />
     <lrelease Include="..\..\..\resources\translations\scribus.pt_BR.ts" />
