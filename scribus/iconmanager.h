@@ -100,8 +100,8 @@ private:
 	bool createLookupTable();
 	bool readXMLFile(QString filePath, QDomDocument &document, QString fileExtension);
 
-	QPixmap *pixmapFromFile(const QString filePath, QColor color, QSize size);
-	QPixmap *pixmapFromPainterPath(QPainterPath path);
+	QPixmap pixmapFromFile(const QString filePath, QColor color, QSize size);
+	QPixmap pixmapFromPainterPath(QPainterPath path);
 
 	QString buildName(const QString &name, const QString &prefix = "", const QString &suffix = "") const;
 
