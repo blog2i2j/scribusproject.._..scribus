@@ -2310,13 +2310,13 @@ void PDFLibCore::PDF_Begin_WriteUsedFonts(const QMap<QString, QMap<uint, QString
 	SCFonts& allFonts = PrefsManager::instance().appPrefs.fontPrefs.AvailFonts;
 	bool docUseAnnotations = doc.useAnnotations();
 
-	int a = 0;
+	int i = 0;
 	for (auto it = usedFonts.cbegin(); it != usedFonts.cend(); ++it)
 	{
 		ScFace& face(allFonts[it.key()]);
 		ScFace::FontFormat fformat = face.format();
 		PdfFont pdfFont;
-		QByteArray fontName = QByteArray("Fo") + Pdf::toPdf(a);
+		QByteArray fontName = QByteArray("Fo") + Pdf::toPdf(i);
 
 		// Control glyphs are not written to PDF so we can remove them safely,
 		// and we'd better do so otherwise sfnt::subsetFace might crash...
@@ -2325,7 +2325,7 @@ void PDFLibCore::PDF_Begin_WriteUsedFonts(const QMap<QString, QMap<uint, QString
 		if (usedGlyphs.count() <= 0)
 			continue;
 		
-		qDebug() << "pdf font" << it.key();
+		// qDebug() << "pdf font" << it.key();
 		if (Options.OutlineList.contains(it.key()))
 		{
 			pdfFont = PDF_WriteGlyphsAsXForms(fontName, face, usedGlyphs);
@@ -2380,24 +2380,24 @@ void PDFLibCore::PDF_Begin_WriteUsedFonts(const QMap<QString, QMap<uint, QString
 			}
 			pdfFont.usage = Used_in_Content;
 		}
-		a++;
-		QString meth;
+		i++;
+		QString method;
 		switch (pdfFont.method)
 		{
 			case Use_System:
-				meth = "Systemfont (no embedding)"; break;
+				method = "Systemfont (no embedding)"; break;
 			case Use_Embedded:
-				meth = "Embed"; break;
+				method = "Embed"; break;
 			case Use_Subset:
-				meth = "Subset"; break;
+				method = "Subset"; break;
 			case Use_Type3:
-				meth = "Subset as Type3 font"; break;
+				method = "Subset as Type3 font"; break;
 			case Use_XForm:
-				meth = "Outline (PDF XForm)"; break;
+				method = "Outline (PDF XForm)"; break;
 			default:
-				meth = "?"; break;
+				method = "?"; break;
 		}
-		qDebug() << pdfFont.name << "uses method" << meth << "and encoding" << pdfFont.encoding;
+		// qDebug() << pdfFont.name << "uses method" << method << "and encoding" << pdfFont.encoding;
 		UsedFontsP.insert(it.key(), pdfFont);
 	}
 
