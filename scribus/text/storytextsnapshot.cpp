@@ -14,73 +14,96 @@
 StoryTextSnapshot StoryTextSnapshot::create(const StoryText& story)
 {
 	StoryTextSnapshot snapshot;
-	
-	int textLength = story.length();
-	if (textLength == 0)
+
+	int storyLength = story.length();
+	if (storyLength == 0)
 		return snapshot;
-	
-	// 1. Extract plain text (PARSEP will be converted to \n)
-	snapshot.plainText = story.plainText();
-	
-	// 2. Extract paragraph boundaries
-	uint numParas = story.nrOfParagraphs();
-	snapshot.paragraphs.reserve(numParas);
-	
-	for (uint i = 0; i < numParas; ++i)
-	{
-		int start = story.startOfParagraph(i);
-		int end = story.endOfParagraph(i);
-		int length = end - start + 1;
-		
-		snapshot.paragraphs.append(ParagraphInfo(start, length));
-	}
-	
-	// 3. Extract language runs
-	// Multiple languages can appear in a single paragraph or sentence,
-	// so we need to track each contiguous run separately
-	snapshot.languages.reserve(textLength / 10); // Heuristic: ~10 chars per run
-	
-	int runStart = 0;
+
+	// Build everything in a single pass over the StoryText.
+	// We skip ignorable code points (soft hyphens, etc.) so that
+	// plainText, paragraph boundaries, and language runs all use
+	// consistent positions in the filtered text.
+
+	snapshot.plainText.reserve(storyLength);
+	snapshot.toOriginal.reserve(storyLength);
+	snapshot.paragraphs.reserve(story.nrOfParagraphs());
+	snapshot.languages.reserve(storyLength / 10);
+
+	int outPos = 0;        // current position in filtered plainText
+	int paraStart = 0;     // start of current paragraph in filtered text
+	int langRunStart = 0;  // start of current language run in filtered text
 	QString currentLang;
-	
-	// Get the language of the first character
-	if (textLength > 0)
+
+	for (int i = 0; i < storyLength; ++i)
 	{
-		const CharStyle& firstStyle = story.charStyle(0);
-		currentLang = firstStyle.language();
-	}
-	
-	// Scan through the text to find language changes
-	for (int pos = 1; pos < textLength; ++pos)
-	{
-		const CharStyle& style = story.charStyle(pos);
-		QString lang = style.language();
-		
-		// Check if language has changed
-		if (lang != currentLang)
+		QChar ch = story.text(i);
+
+		// Handle paragraph separators
+		if (ch == SpecialChars::PARSEP)
 		{
-			// Save the previous run if it has a valid language
-			if (!currentLang.isEmpty() && (pos - runStart) > 0)
+			// Close the current paragraph
+			snapshot.paragraphs.append(ParagraphInfo(paraStart, outPos - paraStart));
+
+			// Close the current language run at the paragraph boundary
+			if (!currentLang.isEmpty() && outPos > langRunStart)
 			{
 				snapshot.languages.append(
-					LanguageRun(runStart, pos - runStart, currentLang)
+					LanguageRun(langRunStart, outPos - langRunStart, currentLang)
 				);
 			}
-			
-			// Start a new run
-			runStart = pos;
-			currentLang = lang;
+
+			// Emit a newline in the output
+			snapshot.plainText += QChar('\n');
+			snapshot.toOriginal.append(i);
+			++outPos;
+
+			// Start new paragraph and language run
+			paraStart = outPos;
+			langRunStart = outPos;
+			currentLang.clear(); // will be set by next character
+			continue;
 		}
+
+		// Skip ignorable code points (soft hyphens, etc.)
+		if (SpecialChars::isIgnorableCodePoint(ch.unicode()))
+			continue;
+
+		// Track language changes
+		const CharStyle& style = story.charStyle(i);
+		QString lang = style.language();
+
+		if (currentLang.isNull())
+		{
+			// First character of a paragraph or of the text
+			currentLang = lang;
+			langRunStart = outPos;
+		}
+		else if (lang != currentLang)
+		{
+			// Language changed — close the previous run
+			if (!currentLang.isEmpty() && outPos > langRunStart)
+			{
+				snapshot.languages.append(
+					LanguageRun(langRunStart, outPos - langRunStart, currentLang)
+				);
+			}
+			currentLang = lang;
+			langRunStart = outPos;
+		}
+
+		snapshot.plainText += ch;
+		snapshot.toOriginal.append(i);
+		++outPos;
 	}
-	
-	// Don't forget the last run
-	if (!currentLang.isEmpty() && (textLength - runStart) > 0)
-	{
-		snapshot.languages.append(
-			LanguageRun(runStart, textLength - runStart, currentLang)
-		);
-	}
-	
+
+	// Close the final paragraph (text may not end with PARSEP)
+	if (outPos > paraStart)
+		snapshot.paragraphs.append(ParagraphInfo(paraStart, outPos - paraStart));
+
+	// Close the final language run
+	if (!currentLang.isEmpty() && outPos > langRunStart)
+		snapshot.languages.append(LanguageRun(langRunStart, outPos - langRunStart, currentLang));
+
 	return snapshot;
 }
 
@@ -176,4 +199,23 @@ int StoryTextSnapshot::getParagraphIndexAt(int pos) const
 	}
 	
 	return -1; // Not found (shouldn't happen with valid input)
+}
+
+int StoryTextSnapshot::mapToOriginal(int pos) const
+{
+	if (pos < 0 || pos >= toOriginal.size())
+		return -1;
+	return toOriginal[pos];
+}
+
+bool StoryTextSnapshot::mapRangeToOriginal(int filteredStart, int filteredLength, int& originalStart, int& originalLength) const
+{
+	if (filteredStart < 0 || filteredStart >= toOriginal.size())
+		return false;
+	int filteredEnd = filteredStart + filteredLength - 1;
+	if (filteredEnd < 0 || filteredEnd >= toOriginal.size())
+		return false;
+	originalStart = toOriginal[filteredStart];
+	originalLength = toOriginal[filteredEnd] - originalStart + 1;
+	return true;
 }

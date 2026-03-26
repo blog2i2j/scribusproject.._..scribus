@@ -78,6 +78,17 @@ class SCRIBUS_API StoryTextSnapshot
 		/// Plain text content with PARSEP converted to \n
 		QString plainText;
 
+		/**
+		 * @brief Maps filtered plainText positions back to original StoryText positions.
+		 *
+		 * Each entry toOriginal[filteredPos] gives the corresponding position in the
+		 * original StoryText. This is needed because ignorable code points (soft hyphens,
+		 * etc.) are stripped from plainText, so positions diverge from the original.
+		 * Use this to convert SpellError positions back to StoryText indices for
+		 * rendering underlines, applying corrections, etc.
+		 */
+		QVector<int> toOriginal;
+
 		/// Paragraph boundaries
 		QVector<ParagraphInfo> paragraphs;
 
@@ -163,6 +174,28 @@ class SCRIBUS_API StoryTextSnapshot
 		 * @return Number of language runs in the snapshot
 		 */
 		int languageRunCount() const { return languages.size(); }
+
+		/**
+		 * @brief Convert a position in filtered plainText to the original StoryText position.
+		 *
+		 * @param pos Position in the filtered plainText
+		 * @return Original StoryText position, or -1 if pos is out of range
+		 */
+		int mapToOriginal(int pos) const;
+
+		/**
+		 * @brief Convert a range in filtered plainText to original StoryText coordinates.
+		 *
+		 * Useful for mapping a SpellError (position + length) back to the original
+		 * StoryText positions for rendering underlines or applying corrections.
+		 *
+		 * @param filteredStart Start position in filtered plainText
+		 * @param filteredLength Length of the range in filtered plainText
+		 * @param originalStart Receives the start position in original StoryText
+		 * @param originalLength Receives the length in original StoryText coordinates
+		 * @return True if the mapping succeeded, false if the range is out of bounds
+		 */
+		bool mapRangeToOriginal(int filteredStart, int filteredLength, int& originalStart, int& originalLength) const;
 };
 
 #endif // STORYTEXTSNAPSHOT_H

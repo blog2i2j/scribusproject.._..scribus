@@ -174,7 +174,7 @@ class TextFrameSpellChecker : public QObject
 		* @brief Get cached spell check results for a frame
 		* Returns empty vector if no results available
 		*/
-		QVector<SpellError> getErrors(PageItem_TextFrame* frame) const;
+		QVector<SpellError> getErrors(PageItem_TextFrame* frame);
 
 		/**
 		* @brief Check if a frame has cached results

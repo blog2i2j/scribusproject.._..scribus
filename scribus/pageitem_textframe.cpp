@@ -4353,7 +4353,7 @@ void PageItem_TextFrame::handleModeEditKey(QKeyEvent *k, bool& keyRepeat)
 			}
 		}
 		m_Doc->scMW()->setTBvals(this);
-		TextFrameSpellChecker::instance()->frameTextChanged(this);
+		// TextFrameSpellChecker::instance()->frameTextChanged(this);
 //		update();
 //		view->RefreshItem(this);
 		break;
@@ -4518,26 +4518,26 @@ void PageItem_TextFrame::handleModeEditKey(QKeyEvent *k, bool& keyRepeat)
 		}
 		break;
 	}
-	switch (kk)
-	{
-		case Qt::Key_PageDown:
-		case Qt::Key_PageUp:
-		case Qt::Key_End:
-		case Qt::Key_Home:
-		case Qt::Key_Right:
-		case Qt::Key_Left:
-		case Qt::Key_Up:
-		case Qt::Key_Down:
-		case Qt::Key_Shift:
-		case Qt::Key_Control:
-		case Qt::Key_Alt:
-		case Qt::Key_Meta:
-		case Qt::Key_CapsLock:
-		case Qt::Key_Escape:
-			break;
-		default:
-			TextFrameSpellChecker::instance()->frameTextChanged(this);
-	}
+	// switch (kk)
+	// {
+	// 	case Qt::Key_PageDown:
+	// 	case Qt::Key_PageUp:
+	// 	case Qt::Key_End:
+	// 	case Qt::Key_Home:
+	// 	case Qt::Key_Right:
+	// 	case Qt::Key_Left:
+	// 	case Qt::Key_Up:
+	// 	case Qt::Key_Down:
+	// 	case Qt::Key_Shift:
+	// 	case Qt::Key_Control:
+	// 	case Qt::Key_Alt:
+	// 	case Qt::Key_Meta:
+	// 	case Qt::Key_CapsLock:
+	// 	case Qt::Key_Escape:
+	// 		break;
+	// 	default:
+	// 		TextFrameSpellChecker::instance()->frameTextChanged(this);
+	// }
 // 	update();
 //	view->slotDoCurs(true);
 	if ((kk == Qt::Key_Left) || (kk == Qt::Key_Right) || (kk == Qt::Key_Up) || (kk == Qt::Key_Down))

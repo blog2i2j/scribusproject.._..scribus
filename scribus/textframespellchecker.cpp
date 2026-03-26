@@ -292,6 +292,7 @@ void TextFrameSpellChecker::frameDeactivated(PageItem_TextFrame* frame)
 
 void TextFrameSpellChecker::frameTextChanged(PageItem_TextFrame* frame)
 {
+	qDebug()<<Q_FUNC_INFO;
 	if (!frame || !m_enabled)
 		return;
 	
@@ -376,6 +377,7 @@ void TextFrameSpellChecker::onDebounceTimeout()
 
 void TextFrameSpellChecker::performCheck(PageItem_TextFrame* frame)
 {
+	qDebug()<<Q_FUNC_INFO;
 	if (!frame || !m_enabled || m_paused)
 		return;
 	
@@ -440,13 +442,24 @@ void TextFrameSpellChecker::onCheckComplete(PageItem_TextFrame* frame, const QVe
 // Query Methods
 // ============================================================================
 
-QVector<SpellError> TextFrameSpellChecker::getErrors(PageItem_TextFrame* frame) const
+QVector<SpellError> TextFrameSpellChecker::getErrors(PageItem_TextFrame* frame)
 {
-	auto it = m_frameStates.find(frame);
-	if (it != m_frameStates.end())
-		return it->cachedErrors;
-	
-	return QVector<SpellError>();
+	auto it = m_frameStates.constFind(frame);
+	if (it == m_frameStates.end())
+		return QVector<SpellError>();
+
+	// Don't return stale errors — if text has changed since
+	// these were computed, the positions may be wrong
+	QString currentHash = calculateTextHash(frame);
+	if (it->textHash != currentHash)
+	{
+		// Text changed without notification — schedule a recheck
+		// and return nothing until new results arrive
+		frameTextChanged(frame);
+		return QVector<SpellError>();
+	}
+
+	return it->cachedErrors;
 }
 
 bool TextFrameSpellChecker::hasResults(PageItem_TextFrame* frame) const
@@ -541,9 +554,20 @@ void SpellCheckerWorker::checkSnapshot(PageItem_TextFrame* frame, const StoryTex
 	}
 	
 	// Perform spell check
-	QVector<SpellError> errors;
-	errors = performSpellCheck(snapshot);
+	QVector<SpellError> errors = performSpellCheck(snapshot);
 	// qDebug()<<"Perform spell check";
+
+	// Map positions back to original StoryText coordinates
+	for (int i = 0; i < errors.size(); ++i)
+	{
+		int origStart, origLength;
+		if (snapshot.mapRangeToOriginal(errors[i].position, errors[i].length, origStart, origLength))
+		{
+			errors[i].position = origStart;
+			errors[i].length = origLength;
+		}
+	}
+
 	// Emit results back to main thread
 	emit checkComplete(frame, errors);
 }
