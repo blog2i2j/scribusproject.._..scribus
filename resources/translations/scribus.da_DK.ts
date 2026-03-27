@@ -2,40 +2,6 @@
 <!DOCTYPE TS>
 <TS version="2.1" language="da_DK">
 <context>
-    <name></name>
-    <message>
-        <location filename="../../scribus/fonts/ftface.cpp" line="55"/>
-        <source>Freetype2 library not available</source>
-        <translation type="unfinished">Freetype2 bibliotek ikke tilgængelig</translation>
-    </message>
-    <message>
-        <location filename="../../scribus/fonts/ftface.cpp" line="73"/>
-        <location filename="../../scribus/fonts/ftface.cpp" line="91"/>
-        <source>Font %1(%2) is broken</source>
-        <translation type="unfinished">Skrifttype %1(%2) indeholder fejl</translation>
-    </message>
-    <message>
-        <location filename="../../scribus/fonts/ftface.cpp" line="151"/>
-        <source>Font %1 has broken glyph %2 (charcode %3)</source>
-        <translation type="unfinished">Skrifttype %1 indeholder fejl i glyf %2 (tegnkode %3)</translation>
-    </message>
-    <message>
-        <location filename="../../scribus/fonts/ftface.cpp" line="209"/>
-        <source>Font %1 has broken glyph %2</source>
-        <translation type="unfinished">Skrifttype %1 indeholder fejl i glyf %2</translation>
-    </message>
-    <message>
-        <location filename="../../scribus/fonts/ftface.cpp" line="436"/>
-        <source>Font %1 is broken (read stream), no embedding</source>
-        <translation type="unfinished">Skrifttype %1 indeholder fejl (læse strøm), ingen indlejring</translation>
-    </message>
-    <message>
-        <location filename="../../scribus/fonts/scface_ttf.cpp" line="132"/>
-        <source>extracting face %1 from font %2 (offset=%3, nTables=%4)</source>
-        <translation type="unfinished">Udpakker skriftsnit %1 fra skrifttype %2 (forskydning=%3, nTabeller=%4)</translation>
-    </message>
-</context>
-<context>
     <name>AIPlug</name>
     <message>
         <location filename="../../scribus/plugins/import/ai/importai.cpp" line="331"/>
@@ -1763,15 +1729,18 @@
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="2480"/>
+        <location filename="../../scribus/actionmanager.cpp" line="2480"/>
         <source>Plugin Menu Items</source>
         <translation>Plugin menuelementer</translation>
     </message>
     <message>
         <location filename="../../scribus/actionmanager.cpp" line="2482"/>
+        <location filename="../../scribus/actionmanager.cpp" line="2482"/>
         <source>Others</source>
         <translation>Andet</translation>
     </message>
     <message>
+        <location filename="../../scribus/actionmanager.cpp" line="2484"/>
         <location filename="../../scribus/actionmanager.cpp" line="2484"/>
         <source>Unicode Characters</source>
         <translation>Unicodetegn</translation>
@@ -10254,19 +10223,16 @@ og konverterer deres vektordata til Scribus objekter.</translation>
         <translation type="vanished">Importer iWorks Pages...</translation>
     </message>
     <message>
-        <location filename="../../scribus/plugins/import/pages/importpagesplugin.cpp" line="97"/>
         <source>iWorks Pages</source>
-        <translation>iWorks Pages</translation>
+        <translation type="vanished">iWorks Pages</translation>
     </message>
     <message>
-        <location filename="../../scribus/plugins/import/pages/importpagesplugin.cpp" line="98"/>
         <source>iWorks Pages (*.pages *.PAGES)</source>
-        <translation>iWorks Pages (*.pages *.PAGES)</translation>
+        <translation type="vanished">iWorks Pages (*.pages *.PAGES)</translation>
     </message>
     <message>
-        <location filename="../../scribus/plugins/import/pages/importpagesplugin.cpp" line="81"/>
         <source>Imports iWorks Pages Files</source>
-        <translation>Importerer iWorks Pages Filer</translation>
+        <translation type="vanished">Importerer iWorks Pages Filer</translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/import/pages/importpagesplugin.cpp" line="61"/>
@@ -10275,17 +10241,24 @@ og konverterer deres vektordata til Scribus objekter.</translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/import/pages/importpagesplugin.cpp" line="63"/>
+        <location filename="../../scribus/plugins/import/pages/importpagesplugin.cpp" line="97"/>
         <source>iWork Pages</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/import/pages/importpagesplugin.cpp" line="64"/>
+        <location filename="../../scribus/plugins/import/pages/importpagesplugin.cpp" line="98"/>
         <source>iWork Pages (*.pages *.PAGES)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../../scribus/plugins/import/pages/importpagesplugin.cpp" line="81"/>
+        <source>Imports iWork Pages Files</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../../scribus/plugins/import/pages/importpagesplugin.cpp" line="82"/>
-        <source>Imports most iWorks Pages files into the current document, converting their vector data into Scribus objects.</source>
+        <source>Imports most iWork Pages files into the current document, converting their vector data into Scribus objects.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -14401,69 +14374,69 @@ Kontroller det venligst og prøv igen.</translation>
 <context>
     <name>PDFLibCore</name>
     <message>
-        <location filename="../../scribus/pdflib_core.cpp" line="587"/>
+        <location filename="../../scribus/pdflib_core.cpp" line="590"/>
         <source>Saving PDF</source>
         <translation>Gemmer PDF</translation>
     </message>
     <message>
-        <location filename="../../scribus/pdflib_core.cpp" line="591"/>
+        <location filename="../../scribus/pdflib_core.cpp" line="594"/>
         <source>Exporting Master Page:</source>
         <translation>Eksporterer masterside:</translation>
     </message>
     <message>
-        <location filename="../../scribus/pdflib_core.cpp" line="591"/>
+        <location filename="../../scribus/pdflib_core.cpp" line="594"/>
         <source>Exporting Page:</source>
         <translation>Eksporterer Side:</translation>
     </message>
     <message>
-        <location filename="../../scribus/pdflib_core.cpp" line="591"/>
+        <location filename="../../scribus/pdflib_core.cpp" line="594"/>
         <source>Exporting Items on Current Page:</source>
         <translation>Eksporterer elementer på nuværende side:</translation>
     </message>
     <message>
-        <location filename="../../scribus/pdflib_core.cpp" line="649"/>
+        <location filename="../../scribus/pdflib_core.cpp" line="652"/>
         <source>Qt build miss both &quot;UTF-16&quot; and &quot;ISO-10646-UCS-2&quot; text codecs, pdf export is not possible</source>
         <translation>Qt Build mangler både &quot;UTF-16&quot; og &quot;ISO-10646-UCS-2&quot; kodeks for tekst, så pdf eksport er ikke muligt</translation>
     </message>
     <message>
-        <location filename="../../scribus/pdflib_core.cpp" line="3476"/>
+        <location filename="../../scribus/pdflib_core.cpp" line="3479"/>
         <source>Page:</source>
         <translation>Side:</translation>
     </message>
     <message>
-        <location filename="../../scribus/pdflib_core.cpp" line="3486"/>
+        <location filename="../../scribus/pdflib_core.cpp" line="3489"/>
         <source>Date:</source>
         <translation>Dato:</translation>
     </message>
     <message>
-        <location filename="../../scribus/pdflib_core.cpp" line="10676"/>
+        <location filename="../../scribus/pdflib_core.cpp" line="10679"/>
         <source>Failed to embed the PDF file : %1.
 Please disable experimental PDF and PS embedding and try again.</source>
         <translation>Kunne ikke indlejre PDF-filen : %1.
 Deaktiver venligst eksperimentel PDF og PS indlejring, og prøv igen.</translation>
     </message>
     <message>
-        <location filename="../../scribus/pdflib_core.cpp" line="11965"/>
+        <location filename="../../scribus/pdflib_core.cpp" line="11968"/>
         <source>Failed to load an image : %1</source>
         <translation>Kunne ikke indlæse et billede: %1</translation>
     </message>
     <message>
-        <location filename="../../scribus/pdflib_core.cpp" line="11970"/>
+        <location filename="../../scribus/pdflib_core.cpp" line="11973"/>
         <source>Failed to write an image : %1</source>
         <translation>Kunne ikke gemme et billede: %1</translation>
     </message>
     <message>
-        <location filename="../../scribus/pdflib_core.cpp" line="11975"/>
+        <location filename="../../scribus/pdflib_core.cpp" line="11978"/>
         <source>Failed to load an image mask : %1</source>
         <translation>Kunne ikke indlæse en billedmaske: %1</translation>
     </message>
     <message>
-        <location filename="../../scribus/pdflib_core.cpp" line="11980"/>
+        <location filename="../../scribus/pdflib_core.cpp" line="11983"/>
         <source>Insufficient memory for processing an image</source>
         <translation>Utilstrækkelig hukommelse for behandling af et billede</translation>
     </message>
     <message>
-        <location filename="../../scribus/pdflib_core.cpp" line="11960"/>
+        <location filename="../../scribus/pdflib_core.cpp" line="11963"/>
         <source>A write error occurred, please check available disk space</source>
         <translation>Der opstod en skrivefejl, kontroller venligst tilgængelig diskplads</translation>
     </message>
@@ -25557,22 +25530,22 @@ Scripter documentation for further information. </source>
 <context>
     <name>QColorDialog</name>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="135"/>
+        <location filename="../../scribus/translationdummy.cpp" line="146"/>
         <source>Hu&amp;e:</source>
         <translation>&amp;Kulør::</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="136"/>
+        <location filename="../../scribus/translationdummy.cpp" line="141"/>
         <source>&amp;Sat:</source>
         <translation>&amp;Mætn:</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="137"/>
+        <location filename="../../scribus/translationdummy.cpp" line="142"/>
         <source>&amp;Val:</source>
         <translation>&amp;Værdi:</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="138"/>
+        <location filename="../../scribus/translationdummy.cpp" line="140"/>
         <source>&amp;Red:</source>
         <translation>&amp;Rød:</translation>
     </message>
@@ -25582,47 +25555,47 @@ Scripter documentation for further information. </source>
         <translation>&amp;Grøn:</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="140"/>
+        <location filename="../../scribus/translationdummy.cpp" line="144"/>
         <source>Bl&amp;ue:</source>
         <translation>Bl&amp;å:</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="141"/>
+        <location filename="../../scribus/translationdummy.cpp" line="143"/>
         <source>A&amp;lpha channel:</source>
         <translation>A&amp;lfa kanal:</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="142"/>
+        <location filename="../../scribus/translationdummy.cpp" line="136"/>
         <source>&amp;Basic colors</source>
         <translation>&amp;Grundlæggende farver</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="144"/>
+        <location filename="../../scribus/translationdummy.cpp" line="137"/>
         <source>&amp;Custom colors</source>
         <translation>&amp;Brugerdefinerede farver</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="145"/>
+        <location filename="../../scribus/translationdummy.cpp" line="138"/>
         <source>&amp;Define Custom Colors &gt;&gt;</source>
         <translation>&amp;Angiv brugerdefinerede farver &gt;&gt;</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="146"/>
+        <location filename="../../scribus/translationdummy.cpp" line="147"/>
         <source>OK</source>
         <translation>OK</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="147"/>
+        <location filename="../../scribus/translationdummy.cpp" line="145"/>
         <source>Cancel</source>
         <translation>Annuller</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="148"/>
+        <location filename="../../scribus/translationdummy.cpp" line="135"/>
         <source>&amp;Add to Custom Colors</source>
         <translation>&amp;Føj til brugerdefinerede farver</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="143"/>
+        <location filename="../../scribus/translationdummy.cpp" line="148"/>
         <source>Pick Screen Color</source>
         <translation>Vælg Skærmfarve</translation>
     </message>
@@ -25635,62 +25608,62 @@ Scripter documentation for further information. </source>
 <context>
     <name>QFileDialog</name>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="10"/>
+        <location filename="../../scribus/translationdummy.cpp" line="26"/>
         <source>Copy or Move a File</source>
         <translation>Kopier eller flyt en fil</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="11"/>
+        <location filename="../../scribus/translationdummy.cpp" line="59"/>
         <source>Read: %1</source>
         <translation>Indlæs: %1</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="12"/>
+        <location filename="../../scribus/translationdummy.cpp" line="76"/>
         <source>Write: %1</source>
         <translation>Skriv: %1</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="13"/>
+        <location filename="../../scribus/translationdummy.cpp" line="36"/>
         <source>File &amp;name:</source>
         <translation>Fil &amp;navn:</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="14"/>
+        <location filename="../../scribus/translationdummy.cpp" line="37"/>
         <source>File &amp;type:</source>
         <translation>Fil &amp;type:</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="16"/>
+        <location filename="../../scribus/translationdummy.cpp" line="51"/>
         <source>One directory up</source>
         <translation>En mappe tilbage</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="17"/>
+        <location filename="../../scribus/translationdummy.cpp" line="25"/>
         <source>Cancel</source>
         <translation>Annuller</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="18"/>
+        <location filename="../../scribus/translationdummy.cpp" line="20"/>
         <source>All Files (*)</source>
         <translation>Alle filer (*)</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="19"/>
+        <location filename="../../scribus/translationdummy.cpp" line="46"/>
         <source>Name</source>
         <translation>Navn</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="20"/>
+        <location filename="../../scribus/translationdummy.cpp" line="65"/>
         <source>Size</source>
         <translation>Størrelse</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="21"/>
+        <location filename="../../scribus/translationdummy.cpp" line="74"/>
         <source>Type</source>
         <translation>Type</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="22"/>
+        <location filename="../../scribus/translationdummy.cpp" line="28"/>
         <source>Date</source>
         <translation>Dato</translation>
     </message>
@@ -25700,222 +25673,222 @@ Scripter documentation for further information. </source>
         <translation>Kvaliteter</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="24"/>
+        <location filename="../../scribus/translationdummy.cpp" line="50"/>
         <source>OK</source>
         <translation>OK</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="25"/>
+        <location filename="../../scribus/translationdummy.cpp" line="44"/>
         <source>Look &amp;in:</source>
         <translation>Se &amp;i:</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="28"/>
+        <location filename="../../scribus/translationdummy.cpp" line="24"/>
         <source>Back</source>
         <translation>Tilbage</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="31"/>
+        <location filename="../../scribus/translationdummy.cpp" line="27"/>
         <source>Create New Folder</source>
         <translation>Opret ny mappe</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="32"/>
+        <location filename="../../scribus/translationdummy.cpp" line="43"/>
         <source>List View</source>
         <translation>Vis liste</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="33"/>
+        <location filename="../../scribus/translationdummy.cpp" line="31"/>
         <source>Detail View</source>
         <translation>Vis detaljer</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="34"/>
+        <location filename="../../scribus/translationdummy.cpp" line="55"/>
         <source>Preview File Info</source>
         <translation>Vis filinfo</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="35"/>
+        <location filename="../../scribus/translationdummy.cpp" line="54"/>
         <source>Preview File Contents</source>
         <translation>Vis indhold af fil</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="36"/>
+        <location filename="../../scribus/translationdummy.cpp" line="58"/>
         <source>Read-write</source>
         <translation>Læs-skriv</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="37"/>
+        <location filename="../../scribus/translationdummy.cpp" line="57"/>
         <source>Read-only</source>
         <translation>Læs-kun</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="38"/>
+        <location filename="../../scribus/translationdummy.cpp" line="75"/>
         <source>Write-only</source>
         <translation>Skriv-kun</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="39"/>
+        <location filename="../../scribus/translationdummy.cpp" line="42"/>
         <source>Inaccessible</source>
         <translation>Utilgængelig</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="40"/>
+        <location filename="../../scribus/translationdummy.cpp" line="72"/>
         <source>Symlink to File</source>
         <translation>Symlink til fil</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="41"/>
+        <location filename="../../scribus/translationdummy.cpp" line="71"/>
         <source>Symlink to Directory</source>
         <translation>Symlink til mappe</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="42"/>
+        <location filename="../../scribus/translationdummy.cpp" line="73"/>
         <source>Symlink to Special</source>
         <translation>Symlink til speciel</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="43"/>
+        <location filename="../../scribus/translationdummy.cpp" line="38"/>
         <source>File</source>
         <translation>Fil</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="44"/>
+        <location filename="../../scribus/translationdummy.cpp" line="32"/>
         <source>Dir</source>
         <translation>Mappe</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="45"/>
+        <location filename="../../scribus/translationdummy.cpp" line="70"/>
         <source>Special</source>
         <translation>Speciel</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="46"/>
+        <location filename="../../scribus/translationdummy.cpp" line="52"/>
         <source>Open</source>
         <translation>Åbn</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="47"/>
+        <location filename="../../scribus/translationdummy.cpp" line="61"/>
         <source>Save As</source>
         <translation>Gem som</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="48"/>
+        <location filename="../../scribus/translationdummy.cpp" line="15"/>
         <source>&amp;Open</source>
         <translation>&amp;Åbn</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="49"/>
+        <location filename="../../scribus/translationdummy.cpp" line="17"/>
         <source>&amp;Save</source>
         <translation>&amp;Gem</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="50"/>
+        <location filename="../../scribus/translationdummy.cpp" line="16"/>
         <source>&amp;Rename</source>
         <translation>&amp;Nyt navn</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="51"/>
+        <location filename="../../scribus/translationdummy.cpp" line="13"/>
         <source>&amp;Delete</source>
         <translation>&amp;Slet</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="52"/>
+        <location filename="../../scribus/translationdummy.cpp" line="56"/>
         <source>R&amp;eload</source>
         <translation>&amp;Indlæs igen</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="53"/>
+        <location filename="../../scribus/translationdummy.cpp" line="67"/>
         <source>Sort by &amp;Name</source>
         <translation>Sorter efter &amp;navn</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="54"/>
+        <location filename="../../scribus/translationdummy.cpp" line="68"/>
         <source>Sort by &amp;Size</source>
         <translation>Sorter efter &amp;størrelse</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="55"/>
+        <location filename="../../scribus/translationdummy.cpp" line="66"/>
         <source>Sort by &amp;Date</source>
         <translation>Sorter efter &amp;dato</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="56"/>
+        <location filename="../../scribus/translationdummy.cpp" line="18"/>
         <source>&amp;Unsorted</source>
         <translation>&amp;Usorteret</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="57"/>
+        <location filename="../../scribus/translationdummy.cpp" line="69"/>
         <source>Sort</source>
         <translation>Sorter</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="58"/>
+        <location filename="../../scribus/translationdummy.cpp" line="64"/>
         <source>Show &amp;hidden files</source>
         <translation>Vis &amp;skjulte filer</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="59"/>
+        <location filename="../../scribus/translationdummy.cpp" line="78"/>
         <source>the file</source>
         <translation>Filen</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="60"/>
+        <location filename="../../scribus/translationdummy.cpp" line="77"/>
         <source>the directory</source>
         <translation>Mappen</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="61"/>
+        <location filename="../../scribus/translationdummy.cpp" line="79"/>
         <source>the symlink</source>
         <translation>Symlinken</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="62"/>
+        <location filename="../../scribus/translationdummy.cpp" line="29"/>
         <source>Delete %1</source>
         <translation>Slet %1</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="64"/>
+        <location filename="../../scribus/translationdummy.cpp" line="19"/>
         <source>&lt;qt&gt;Are you sure you wish to delete %1 &quot;%2&quot;?&lt;/qt&gt;</source>
         <translation>&lt;qt&gt;Er du sikker på, at du vil slette %1 &quot;%2&quot;?&lt;/qt&gt;</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="68"/>
+        <location filename="../../scribus/translationdummy.cpp" line="48"/>
         <source>New Folder 1</source>
         <translation>Ny mappe 1</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="69"/>
+        <location filename="../../scribus/translationdummy.cpp" line="49"/>
         <source>New Folder</source>
         <translation>Ny mappe</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="70"/>
+        <location filename="../../scribus/translationdummy.cpp" line="47"/>
         <source>New Folder %1</source>
         <translation>Ny mappe %1</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="72"/>
+        <location filename="../../scribus/translationdummy.cpp" line="40"/>
         <source>Find Directory</source>
         <translation>Find mappe</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="73"/>
+        <location filename="../../scribus/translationdummy.cpp" line="33"/>
         <source>Directories</source>
         <translation>Mapper</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="74"/>
+        <location filename="../../scribus/translationdummy.cpp" line="62"/>
         <source>Save</source>
         <translation>Gem</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="75"/>
+        <location filename="../../scribus/translationdummy.cpp" line="35"/>
         <source>Error</source>
         <translation>Fejl</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="76"/>
+        <location filename="../../scribus/translationdummy.cpp" line="12"/>
         <source>%1
 File not found.
 Check path and filename.</source>
@@ -25924,57 +25897,57 @@ Fil ikke fundet.
 Kontroller sti og filnavn.</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="77"/>
+        <location filename="../../scribus/translationdummy.cpp" line="21"/>
         <source>All Files (*.*)</source>
         <translation>Alle filer (*.*)</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="78"/>
+        <location filename="../../scribus/translationdummy.cpp" line="63"/>
         <source>Select a Directory</source>
         <translation>Vælg en mappe</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="79"/>
+        <location filename="../../scribus/translationdummy.cpp" line="34"/>
         <source>Directory:</source>
         <translation>Mappe:</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="15"/>
+        <location filename="../../scribus/translationdummy.cpp" line="39"/>
         <source>Files of type:</source>
         <translation>Filer af typen:</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="26"/>
+        <location filename="../../scribus/translationdummy.cpp" line="45"/>
         <source>Look in:</source>
         <translation>Se i:</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="29"/>
+        <location filename="../../scribus/translationdummy.cpp" line="41"/>
         <source>Forward</source>
         <translation>Fremad</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="30"/>
+        <location filename="../../scribus/translationdummy.cpp" line="53"/>
         <source>Parent Directory</source>
         <translation>Forældermappe</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="27"/>
+        <location filename="../../scribus/translationdummy.cpp" line="60"/>
         <source>Recent Places</source>
         <translation>Nyere steder</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="63"/>
+        <location filename="../../scribus/translationdummy.cpp" line="30"/>
         <source>Delete</source>
         <translation>Slet</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="65"/>
+        <location filename="../../scribus/translationdummy.cpp" line="22"/>
         <source>Are you sure you want to delete &apos;%1&apos;?</source>
         <translation>Er du sikker på, at du ønsker at slette &apos;%1&apos;?</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="71"/>
+        <location filename="../../scribus/translationdummy.cpp" line="14"/>
         <source>&amp;New Folder</source>
         <translation>&amp;Ny mappe</translation>
     </message>
@@ -25982,12 +25955,12 @@ Kontroller sti og filnavn.</translation>
 <context>
     <name>QFontDialog</name>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="153"/>
+        <location filename="../../scribus/translationdummy.cpp" line="154"/>
         <source>&amp;Font</source>
         <translation>&amp;Skrifttype</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="154"/>
+        <location filename="../../scribus/translationdummy.cpp" line="161"/>
         <source>Font st&amp;yle</source>
         <translation>T&amp;ypografi</translation>
     </message>
@@ -25997,32 +25970,32 @@ Kontroller sti og filnavn.</translation>
         <translation>&amp;Størrelse</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="156"/>
+        <location filename="../../scribus/translationdummy.cpp" line="160"/>
         <source>Effects</source>
         <translation>Effekter</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="157"/>
+        <location filename="../../scribus/translationdummy.cpp" line="166"/>
         <source>Stri&amp;keout</source>
         <translation>&amp;Gennemstreg</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="158"/>
+        <location filename="../../scribus/translationdummy.cpp" line="156"/>
         <source>&amp;Underline</source>
         <translation>&amp;Understreg</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="159"/>
+        <location filename="../../scribus/translationdummy.cpp" line="153"/>
         <source>&amp;Color</source>
         <translation>Far&amp;ve</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="160"/>
+        <location filename="../../scribus/translationdummy.cpp" line="163"/>
         <source>Sample</source>
         <translation>Prøve</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="161"/>
+        <location filename="../../scribus/translationdummy.cpp" line="164"/>
         <source>Scr&amp;ipt</source>
         <translation>S&amp;cript</translation>
     </message>
@@ -26032,22 +26005,22 @@ Kontroller sti og filnavn.</translation>
         <translation>OK</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="163"/>
+        <location filename="../../scribus/translationdummy.cpp" line="157"/>
         <source>Apply</source>
         <translation>Anvend</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="164"/>
+        <location filename="../../scribus/translationdummy.cpp" line="158"/>
         <source>Cancel</source>
         <translation>Annuller</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="165"/>
+        <location filename="../../scribus/translationdummy.cpp" line="159"/>
         <source>Close</source>
         <translation>Luk</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="166"/>
+        <location filename="../../scribus/translationdummy.cpp" line="165"/>
         <source>Select Font</source>
         <translation>Vælg skrifttype</translation>
     </message>
@@ -26055,7 +26028,7 @@ Kontroller sti og filnavn.</translation>
 <context>
     <name>QLineEdit</name>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="83"/>
+        <location filename="../../scribus/translationdummy.cpp" line="87"/>
         <source>Clear</source>
         <translation>Ryd</translation>
     </message>
@@ -26065,7 +26038,7 @@ Kontroller sti og filnavn.</translation>
         <translation>Marker alt</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="84"/>
+        <location filename="../../scribus/translationdummy.cpp" line="86"/>
         <source>&amp;Undo</source>
         <translation>&amp;Fortryd</translation>
     </message>
@@ -26075,17 +26048,17 @@ Kontroller sti og filnavn.</translation>
         <translation>&amp;Gentag</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="86"/>
+        <location filename="../../scribus/translationdummy.cpp" line="88"/>
         <source>Cu&amp;t</source>
         <translation>Skæ&amp;r</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="87"/>
+        <location filename="../../scribus/translationdummy.cpp" line="83"/>
         <source>&amp;Copy</source>
         <translation>&amp;Kopier</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="88"/>
+        <location filename="../../scribus/translationdummy.cpp" line="84"/>
         <source>&amp;Paste</source>
         <translation>&amp;Indsæt</translation>
     </message>
@@ -26098,12 +26071,12 @@ Kontroller sti og filnavn.</translation>
 <context>
     <name>QMainWindow</name>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="104"/>
+        <location filename="../../scribus/translationdummy.cpp" line="105"/>
         <source>Line up</source>
         <translation>Stil på række</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="105"/>
+        <location filename="../../scribus/translationdummy.cpp" line="104"/>
         <source>Customize...</source>
         <translation>Tilpas...</translation>
     </message>
@@ -26111,67 +26084,67 @@ Kontroller sti og filnavn.</translation>
 <context>
     <name>QMdiArea</name>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="119"/>
+        <location filename="../../scribus/translationdummy.cpp" line="122"/>
         <source>&amp;Restore</source>
         <translation>&amp;Gendan</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="120"/>
+        <location filename="../../scribus/translationdummy.cpp" line="121"/>
         <source>&amp;Move</source>
         <translation>&amp;Flyt</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="121"/>
+        <location filename="../../scribus/translationdummy.cpp" line="123"/>
         <source>&amp;Size</source>
         <translation>&amp;Størrelse</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="122"/>
+        <location filename="../../scribus/translationdummy.cpp" line="127"/>
         <source>Mi&amp;nimize</source>
         <translation>Mi&amp;nimer</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="123"/>
+        <location filename="../../scribus/translationdummy.cpp" line="126"/>
         <source>Ma&amp;ximize</source>
         <translation>Mak&amp;simer</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="124"/>
+        <location filename="../../scribus/translationdummy.cpp" line="120"/>
         <source>&amp;Close</source>
         <translation>&amp;Luk</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="125"/>
+        <location filename="../../scribus/translationdummy.cpp" line="131"/>
         <source>Stay on &amp;Top</source>
         <translation>Forbliv &amp;Øverst</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="126"/>
+        <location filename="../../scribus/translationdummy.cpp" line="128"/>
         <source>Minimize</source>
         <translation>Minimer</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="127"/>
+        <location filename="../../scribus/translationdummy.cpp" line="129"/>
         <source>Restore Down</source>
         <translation>Gendan ned</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="128"/>
+        <location filename="../../scribus/translationdummy.cpp" line="125"/>
         <source>Close</source>
         <translation>Luk</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="129"/>
+        <location filename="../../scribus/translationdummy.cpp" line="130"/>
         <source>Sh&amp;ade</source>
         <translation>Rul &amp;op</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="130"/>
+        <location filename="../../scribus/translationdummy.cpp" line="119"/>
         <source>%1 - [%2]</source>
         <translation>%1 - [%2]</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="131"/>
+        <location filename="../../scribus/translationdummy.cpp" line="124"/>
         <source>&amp;Unshade</source>
         <translation>Rul &amp;ned</translation>
     </message>
@@ -30213,16 +30186,19 @@ er denne liste ikke udtømmende, på grund af indsigelser fra kaldte funktioner.
         <translation>kunne ikke åbne input-fil %1</translation>
     </message>
     <message>
+        <location filename="../../scribus/fonts/ftface.cpp" line="55"/>
         <source>Freetype2 library not available</source>
-        <translation type="vanished">Freetype2 bibliotek ikke tilgængelig</translation>
+        <translation>Freetype2 bibliotek ikke tilgængelig</translation>
     </message>
     <message>
+        <location filename="../../scribus/fonts/ftface.cpp" line="436"/>
         <source>Font %1 is broken (read stream), no embedding</source>
-        <translation type="vanished">Skrifttype %1 indeholder fejl (læse strøm), ingen indlejring</translation>
+        <translation>Skrifttype %1 indeholder fejl (læse strøm), ingen indlejring</translation>
     </message>
     <message>
+        <location filename="../../scribus/fonts/ftface.cpp" line="151"/>
         <source>Font %1 has broken glyph %2 (charcode %3)</source>
-        <translation type="vanished">Skrifttype %1 indeholder fejl i glyf %2 (tegnkode %3)</translation>
+        <translation>Skrifttype %1 indeholder fejl i glyf %2 (tegnkode %3)</translation>
     </message>
     <message>
         <location filename="../../scribus/scfonts.cpp" line="701"/>
@@ -30250,8 +30226,9 @@ er denne liste ikke udtømmende, på grund af indsigelser fra kaldte funktioner.
         <translation>Kunne ikke indlæse en skrifttype - freetype2 kunne ikke finde skrifttype-filen</translation>
     </message>
     <message>
+        <location filename="../../scribus/fonts/scface_ttf.cpp" line="132"/>
         <source>extracting face %1 from font %2 (offset=%3, nTables=%4)</source>
-        <translation type="vanished">Udpakker skriftsnit %1 fra skrifttype %2 (forskydning=%3, nTabeller=%4)</translation>
+        <translation>Udpakker skriftsnit %1 fra skrifttype %2 (forskydning=%3, nTabeller=%4)</translation>
     </message>
     <message>
         <location filename="../../scribus/main_nix.cpp" line="81"/>
@@ -30547,8 +30524,10 @@ er denne liste ikke udtømmende, på grund af indsigelser fra kaldte funktioner.
         <translation>Den givne masterside stemmer ikke overens med nogen eksisterende.</translation>
     </message>
     <message>
+        <location filename="../../scribus/fonts/ftface.cpp" line="73"/>
+        <location filename="../../scribus/fonts/ftface.cpp" line="91"/>
         <source>Font %1(%2) is broken</source>
-        <translation type="vanished">Skrifttype %1(%2) indeholder fejl</translation>
+        <translation>Skrifttype %1(%2) indeholder fejl</translation>
     </message>
     <message>
         <location filename="../../scribus/langmgr.cpp" line="107"/>
@@ -31126,8 +31105,9 @@ er denne liste ikke udtømmende, på grund af indsigelser fra kaldte funktioner.
         <translation>%1 er måske beskadiget: manglende opløsnings-mærker</translation>
     </message>
     <message>
+        <location filename="../../scribus/fonts/ftface.cpp" line="209"/>
         <source>Font %1 has broken glyph %2</source>
-        <translation type="vanished">Skrifttype %1 indeholder fejl i glyf %2</translation>
+        <translation>Skrifttype %1 indeholder fejl i glyf %2</translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/scriptplugin/cmdsetprop.cpp" line="191"/>
@@ -32660,9 +32640,102 @@ Derfor er billedet måske ikke korrekt</translation>
     </message>
 </context>
 <context>
+    <name>QPlatformTheme</name>
+    <message>
+        <location filename="../../scribus/translationdummy.cpp" line="170"/>
+        <source>OK</source>
+        <translation type="unfinished">OK</translation>
+    </message>
+    <message>
+        <location filename="../../scribus/translationdummy.cpp" line="171"/>
+        <source>Save</source>
+        <translation type="unfinished">Gem</translation>
+    </message>
+    <message>
+        <location filename="../../scribus/translationdummy.cpp" line="172"/>
+        <source>Save All</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../scribus/translationdummy.cpp" line="173"/>
+        <source>Open</source>
+        <translation type="unfinished">Åbn</translation>
+    </message>
+    <message>
+        <location filename="../../scribus/translationdummy.cpp" line="174"/>
+        <source>&amp;Yes</source>
+        <translation type="unfinished">&amp;Ja</translation>
+    </message>
+    <message>
+        <location filename="../../scribus/translationdummy.cpp" line="175"/>
+        <source>Yes to &amp;All</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../scribus/translationdummy.cpp" line="176"/>
+        <source>&amp;No</source>
+        <translation type="unfinished">&amp;Nej</translation>
+    </message>
+    <message>
+        <location filename="../../scribus/translationdummy.cpp" line="177"/>
+        <source>N&amp;o to All</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../scribus/translationdummy.cpp" line="178"/>
+        <source>Abort</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../scribus/translationdummy.cpp" line="179"/>
+        <source>Retry</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../scribus/translationdummy.cpp" line="180"/>
+        <source>Ignore</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../scribus/translationdummy.cpp" line="181"/>
+        <source>Close</source>
+        <translation type="unfinished">Luk</translation>
+    </message>
+    <message>
+        <location filename="../../scribus/translationdummy.cpp" line="182"/>
+        <source>Cancel</source>
+        <translation type="unfinished">Annuller</translation>
+    </message>
+    <message>
+        <location filename="../../scribus/translationdummy.cpp" line="183"/>
+        <source>Discard</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../scribus/translationdummy.cpp" line="184"/>
+        <source>Help</source>
+        <translation type="unfinished">Hjælp</translation>
+    </message>
+    <message>
+        <location filename="../../scribus/translationdummy.cpp" line="185"/>
+        <source>Apply</source>
+        <translation type="unfinished">Anvend</translation>
+    </message>
+    <message>
+        <location filename="../../scribus/translationdummy.cpp" line="186"/>
+        <source>Reset</source>
+        <translation type="unfinished">Nulstil</translation>
+    </message>
+    <message>
+        <location filename="../../scribus/translationdummy.cpp" line="187"/>
+        <source>Restore Defaults</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>QTextEdit</name>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="94"/>
+        <location filename="../../scribus/translationdummy.cpp" line="98"/>
         <source>Clear</source>
         <translation>Ryd</translation>
     </message>
@@ -32672,7 +32745,7 @@ Derfor er billedet måske ikke korrekt</translation>
         <translation>Marker alt</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="95"/>
+        <location filename="../../scribus/translationdummy.cpp" line="97"/>
         <source>&amp;Undo</source>
         <translation>&amp;Fortryd</translation>
     </message>
@@ -32682,17 +32755,17 @@ Derfor er billedet måske ikke korrekt</translation>
         <translation>&amp;Gentag</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="97"/>
+        <location filename="../../scribus/translationdummy.cpp" line="99"/>
         <source>Cu&amp;t</source>
         <translation>Skæ&amp;r</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="98"/>
+        <location filename="../../scribus/translationdummy.cpp" line="94"/>
         <source>&amp;Copy</source>
         <translation>&amp;Kopier</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="99"/>
+        <location filename="../../scribus/translationdummy.cpp" line="95"/>
         <source>&amp;Paste</source>
         <translation>&amp;Indsæt</translation>
     </message>
@@ -32700,17 +32773,17 @@ Derfor er billedet måske ikke korrekt</translation>
 <context>
     <name>QTitleBar</name>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="109"/>
+        <location filename="../../scribus/translationdummy.cpp" line="114"/>
         <source>System Menu</source>
         <translation>System Menu</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="110"/>
+        <location filename="../../scribus/translationdummy.cpp" line="113"/>
         <source>Shade</source>
         <translation>Rul op</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="111"/>
+        <location filename="../../scribus/translationdummy.cpp" line="115"/>
         <source>Unshade</source>
         <translation>Rul ned</translation>
     </message>
@@ -32720,17 +32793,17 @@ Derfor er billedet måske ikke korrekt</translation>
         <translation>Normaliser</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="113"/>
+        <location filename="../../scribus/translationdummy.cpp" line="111"/>
         <source>Minimize</source>
         <translation>Minimer</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="114"/>
+        <location filename="../../scribus/translationdummy.cpp" line="110"/>
         <source>Maximize</source>
         <translation>Maksimer</translation>
     </message>
     <message>
-        <location filename="../../scribus/translationdummy.cpp" line="115"/>
+        <location filename="../../scribus/translationdummy.cpp" line="109"/>
         <source>Close</source>
         <translation>Luk</translation>
     </message>
