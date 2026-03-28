@@ -6,10 +6,13 @@ for which a new license (GPL+exception) is in place.
 */
 
 #include <QDebug>
-#include <QRegularExpression>
-#include <QStandardItemModel>
+#include <QKeyEvent>
+#include <QMouseEvent>
+#include <QFile>
+#include <QJsonArray>
+#include <QJsonDocument>
+#include <QJsonObject>
 #include <QTextStream>
-#include <QThread>
 #include <QTimer>
 
 #include "../formatidlist.h"
@@ -18,6 +21,7 @@ for which a new license (GPL+exception) is in place.
 #include "iconmanager.h"
 #include "loadsaveplugin.h"
 #include "scpaths.h"
+#include "ui/helpbrowser.h"
 #include "scribus.h"
 #include "scribuscore.h"
 #include "scribusview.h"
@@ -45,269 +49,122 @@ BarcodeGenerator::BarcodeGenerator(QWidget* parent, const char* name)
 	ui.bcodeBox->layout()->setAlignment(Qt::AlignTop);
 	ui.colorBox->layout()->setAlignment(Qt::AlignTop);
 
+	// Equal stretch for widget columns in text grid (labels=0, widgets=1)
+	for (int c = 0; c < 8; ++c)
+		ui.textGridLayout->setColumnStretch(c, c % 2);
+
 	connect(&thread, SIGNAL(renderedImage(QString)),this, SLOT(updatePreview(QString)));
 
-	/*
-	 *  We extract the barcode information from the BWIPP metadata which looks like this:
-	 *
-	 *  % --BEGIN ENCODER gs1-128--
-	 *  % --REQUIRES preamble raiseerror renlinear code128--
-	 *  % --DESC: GS1-128
-	 *  % --EXAM: (01)95012345678903(3103)000123
-	 *  % --EXOP: includetext
-	 *  % --RNDR: renlinear
-	 *
-	 */
-
-	QFile f(ScPaths::instance().shareDir() + QString("/plugins/barcode.ps"));
-	if(!f.open(QIODevice::ReadOnly))
+	QString barcodeFile = ScPaths::instance().shareDir() + QString("/plugins/barcode.ps");
+	try
 	{
-		qDebug()<<"Barcodegenerator unable to open "<<f.fileName();
+		m_bwipp.emplace(bwipp::InitOpts{}.filename(barcodeFile.toLocal8Bit().constData()).lazy_load(true));
+	}
+	catch (const std::exception &)
+	{
+		qDebug() << "Barcodegenerator unable to load" << barcodeFile;
 		return;
 	}
-	QTextStream ts(&f);
-	QString bwipp = ts.readAll();
-	f.close();
 
-	QRegularExpression rx(
-				"[\\r\\n]+% --BEGIN (RESOURCE|RENDERER|ENCODER) ([\\w-]+)--[\\r\\n]+"
-				"(.*[\\r\\n]+)?"
-				"(%%BeginResource.*[\\r\\n]+)"
-				"% --END \\1 \\2--[\\r\\n]+",
-				QRegularExpression::InvertedGreedinessOption | QRegularExpression::DotMatchesEverythingOption);
-
-	for (const QRegularExpressionMatch& match : rx.globalMatch(bwipp))
+	struct BarcodeMetadata {
+		QString desc;
+		QString exam;
+		QString exop;
+	};
+	QHash<QString, BarcodeMetadata> metadata;
+	QList<QString> encoderlist;
+	for (const auto &encoder : m_bwipp->list_encoders())
 	{
-		QString restype = match.captured(1);
-		QString resname = match.captured(2);
-		QString reshead = match.captured(3);
-		QString resbody = match.captured(4);
+		QString enc = QString::fromLatin1(encoder.c_str());
+		encoderlist.append(enc);
+		BarcodeMetadata& md = metadata[enc];
+		std::string v;
+		if (!(v = m_bwipp->get_property(encoder, "DESC")).empty())
+			md.desc = QString::fromUtf8(v.c_str());
+		if (!(v = m_bwipp->get_property(encoder, "EXAM")).empty())
+			md.exam = QString::fromUtf8(v.c_str());
+		if (!(v = m_bwipp->get_property(encoder, "EXOP")).empty())
+			md.exop = QString::fromUtf8(v.c_str());
+	}
 
-		resbodys[resname] = resbody;
+	// Load UI configuration (combos, checkboxes, family ordering) from JSON
+	loadUIConfig(ScPaths::instance().shareDir() + QString("/plugins/barcode_ui.json"));
 
-		if (restype == "ENCODER")
-		{
-			QRegularExpression rxhead(
-						"% --REQUIRES (.*)--[\\r\\n]+"
-						"% --DESC:(.*)[\\r\\n]+"
-						"% --EXAM:(.*)[\\r\\n]+"
-						"% --EXOP:(.*)[\\r\\n]+"
-						"% --RNDR:(.*)[\\r\\n]+"
-						);
-			QRegularExpressionMatch match = rxhead.match(reshead);
-			if (match.hasMatch())
-			{
-				resreqs[resname] = match.captured(1).trimmed();
-				resdescs[resname] = match.captured(2).trimmed();
-				resexams[resname] = match.captured(3).trimmed();
-				resexops[resname] = match.captured(4).trimmed();
-				resrndrs[resname] = match.captured(5).trimmed();
-				encoderlist.append(resname);
-			}
-		}
+	// Apply desc/exam/exop overrides from JSON before building the map
+	for (auto it = encoderUI.constBegin(); it != encoderUI.constEnd(); ++it)
+	{
+		const QString& enc = it.key();
+		const BarcodeEncoderUI& eui = it.value();
+		BarcodeMetadata& md = metadata[enc];
+		if (!eui.desc.isEmpty())
+			md.desc = eui.desc;
+		if (!eui.exam.isEmpty())
+			md.exam = eui.exam;
+		if (!eui.exop.isEmpty())
+			md.exop = eui.exop;
 	}
 
 	foreach (const QString& enc, encoderlist)
-		map[resdescs[enc]] = BarcodeType(enc, resexams[enc], resexops[enc]);
+	{
+		if (encoderUI.contains(enc) && !encoderUI.value(enc).enabled)
+			continue;
+		const BarcodeMetadata& md = metadata[enc];
+		map[md.desc] = BarcodeType(enc, md.exam, md.exop);
+	}
 
-	/*
-	 *  Ultimately all of this static data about the capabilities of each barcode
-	 *  encoder will be replaced by data read from the barcode.ps metadata, when
-	 *  such data exists...
-	 *
-	 */
-
-	// Content for the version and ecc combos
-	resvers["qrcode"] = "1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40";
-	resecls["qrcode"] = "L,Q,M,H";
-	resvers["gs1qrcode"] = resvers["qrcode"];
-	resecls["gs1qrcode"] = resecls["qrcode"];
-	resvers["gs1dlqrcode"] = resvers["qrcode"];
-	resecls["gs1dlqrcode"] = resecls["qrcode"];
-	resvers["hibcqrcode"] = resvers["qrcode"];
-	resecls["hibcqrcode"] = resecls["qrcode"];
-	resvers["microqrcode"] = "M1,M2,M3,M4";
-	resecls["microqrcode"] = "L,Q,M,H";
-	resvers["datamatrix"] = "10x10,12x12,14x14,16x16,18x18,20x20,22x22,24x24,26x26,32x32,36x36,40x40,44x44,48x48,52x52,64x64,72x72,80x80,88x88,96x96,104x104,120x120,132x132,144x144,8x18,8x32,12x26,12x36,16x36,16x48";
-	resecls["datamatrix"] = "";
-	resvers["gs1datamatrix"] = resvers["datamatrix"];
-	resecls["gs1datamatrix"] = resvers["datamatrix"];
-	resvers["gs1dldatamatrix"] = resvers["datamatrix"];
-	resecls["gs1dldatamatrix"] = resvers["datamatrix"];
-	resvers["hibcdatamatrix"] = resvers["datamatrix"];
-	resecls["hibcdatamatrix"] = resecls["datamatrix"];
-	resvers["azteccode"] = "1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32";
-	resvlbl["azteccode"] = "Layers";
-	resecls["azteccode"] = "5,10,15,20,25,30,35,40,45,50,55,60,65,70,75,80,85,90,95";
-	resvers["azteccodecompact"] = "1,2,3,4";
-	resvlbl["azteccodecompact"] = resvlbl["azteccode"];
-	resecls["azteccodecompact"] = resecls["azteccode"];
-	resvers["pdf417"] = "1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30";
-	resvlbl["pdf417"] = "Columns";
-	resecls["pdf417"] = "1,2,3,4,5";
-	resvers["pdf417compact"] = resvers["pdf417"];
-	resvlbl["pdf417compact"] = resvlbl["pdf417"];
-	resecls["pdf417compact"] = resecls["pdf417"];
-	resvers["hibcpdf417"] = resvers["pdf417"];
-	resvlbl["hibcpdf417"] = resvlbl["pdf417"];
-	resecls["hibcpdf417"] = resecls["pdf417"];
-	resvers["micropdf417"] = "1x11,1x14,1x17,1x20,1x24,1x28,2x8,2x11,2x14,2x17,2x20,2x23,2x26,3x6,3x8,3x10,3x12,3x15,3x20,3x26,3x32,3x38,3x44,4x4,4x6,4x8,4x10,4x12,4x15,4x20,4x26,4x32,4x38,4x44";
-	resecls["micropdf417"] = "";
-	resvers["hibcmicropdf417"] = resvers["micropdf417"];
-	resecls["hibcmicropdf417"] = resecls["micropdf417"];
-	resvers["hanxin"] = "1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84";
-	resecls["hanxin"] = "L1,L2,L3,L4";
-	resecls["ultracode"] = "EC0,EC1,EC2,EC3,EC4,EC5";
-	resvers["rectangularmicroqrcode"] = "R7x43,R7x59,R7x77,R7x99,R7x139,R9x43,R9x59,R9x77,R9x99,R9x139,R11x27,R11x43,R11x59,R11x77,R11x99,R11x139,R13x27,R13x43,R13x59,R13x77,R13x99,R13x139,R15x43,R15x59,R15x77,R15x99,R15x139,R17x43,R17x59,R17x77,R17x99,R17x139";
-	resecls["rectangularmicroqrcode"] = "M,H";
-	resvers["datamatrixrectangular"] = "8x18,8x32,12x26,12x36,16x36,16x48";
-	resecls["datamatrixrectangular"] = "";
-	resvers["datamatrixrectangularextension"] = "8x18,8x32,12x26,12x36,16x36,16x48,8x48,8x64,8x80,8x96,8x120,8x144,12x64,12x88,16x64,20x36,20x44,20x64,22x48,24x48,24x64,26x40,26x48,26x64";
-	resecls["datamatrixrectangularextension"] = "";
-	resvers["gs1datamatrixrectangular"] = resvers["datamatrixrectangular"];
-	resecls["gs1datamatrixrectangular"] = resecls["datamatrixrectangular"];
-	resvers["hibcdatamatrixrectangular"] = resvers["datamatrixrectangular"];
-	resecls["hibcdatamatrixrectangular"] = resecls["datamatrixrectangular"];
-	resvers["hibcazteccode"] = resvers["azteccode"];
-	resvlbl["hibcazteccode"] = resvlbl["azteccode"];
-	resecls["hibcazteccode"] = resecls["azteccode"];
-	resvers["maxicode"] = "2,3,4,5,6";
-	resvlbl["maxicode"] = "Mode";
-	resvers["mailmark"] = "7,9,29";
-	resvlbl["mailmark"] = "Type";
-
-
-	// Which options checkboxes are enabled for each encoder
-	// Check whether `includetext` option is available for each encoder
-	for(const QString &enc : std::as_const(encoderlist))
-		resincludetextAvail[enc] = resexops[enc].contains("includetext");
-
-	QStringList guardwhitespaceAvail;
-	guardwhitespaceAvail << "ean13" << "ean8" << "isbn" << "ismn" << "issn" << "ean13composite" << "ean8composite";
-	foreach (const QString& enc, guardwhitespaceAvail)
-		resguardwhitespaceAvail[enc] = true;
-
-	QStringList includecheckAvail;
-	includecheckAvail << "bc412" << "channelcode" << "code11" << "code2of5" << "coop2of5" << "datalogic2of5"
-					  << "iata2of5" << "industrial2of5" << "matrix2of5" << "code39" << "code39ext"
-					  << "code93" << "code93ext" << "interleaved2of5" << "msi" << "rationalizedCodabar";
-	foreach (const QString& enc, includecheckAvail)
-		resincludecheckAvail[enc] = true;
-
-	QStringList includecheckintextAvail;
-	includecheckintextAvail << "bc412" << "code11" << "code2of5" << "coop2of5" << "datalogic2of5" << "iata2of5"
-							<< "industrial2of5" << "matrix2of5" << "code39" << "code39ext" << "interleaved2of5"
-							<< "japanpost" << "msi" << "planet" << "plessey" << "postnet" << "rationalizedCodabar" << "royalmail";
-	foreach (const QString& enc, includecheckintextAvail)
-		resincludecheckintextAvail[enc] = true;
-
-	QStringList parseAvail;
-	parseAvail << "azteccode" << "azteccodecompact" << "codablockf" << "hibccodablockf" << "code128" << "hibccode128" << "code16k" << "code39ext" << "code49"
-			   << "code93ext" << "codeone" << "datamatrix" << "hibcdatamatrix" << "maxicode" << "micropdf417" << "hibcmicropdf417" << "pdf417" << "hibcpdf417"
-			   << "pdf417compact" << "posicode" << "qrcode" << "hibcqrcode" << "microqrcode" << "telepen" << "hanxin" << "dotcode" << "ultracode"
-			   << "datamatrixrectangular" << "datamatrixrectangularextension" << "rectangularmicroqrcode"
-			   << "hibcazteccode" << "hibcdatamatrixrectangular" << "mailmark";
-	foreach (const QString& enc, parseAvail)
-		resparseAvail[enc] = true;
-
-	QStringList parsefncAvail;
-	parsefncAvail << "codablockf" << "code128" << "code16k" << "code49" << "code93" << "codeone"
-				  << "datamatrix" << "posicode" << "qrcode" << "microqrcode" << "dotcode" << "ultracode"
-				  << "datamatrixrectangular" << "datamatrixrectangularextension" << "rectangularmicroqrcode";
-	foreach (const QString& enc, parsefncAvail)
-		resparsefncAvail[enc] = true;
-
-	// Building up the bcFamilyCombo grouping the formats for readablity
+	// Building up the bcFamilyCombo grouping the formats for readability
 	ui.bcFamilyCombo->addItem(tr("Select a barcode family")); // to prevent 1st gs call
 	ui.bcFamilyCombo->insertSeparator(999);
 
-	// Building up the bcCombo grouping the formats for readablity
+	// Building up the bcCombo grouping the formats for readability
 	ui.bcCombo->addItem(tr("Select a barcode format")); // to prevent 1st gs call
 	ui.bcCombo->insertSeparator(999);
 
-	QString familyName;
-	QStringList bcNames;
-	bcNames << "EAN-13" << "EAN-8" << "UPC-A" << "UPC-E" << "ISBN" << "ISMN" << "ISSN";
-	familyName = tr("Point of Sale");
-	familyList.append(familyName);
-	familyItems.insert(familyName, bcNames);
+	for (const auto &fam : m_bwipp->list_families())
+	{
+		QString familyName = QString::fromUtf8(fam.c_str());
+		const BarcodeFamilyUI& fui = familyUI[familyName];
+		if (!fui.enabled)
+			continue;
+		familyList.append(familyName);
+		QStringList bcNames;
+		for (const auto &member : m_bwipp->list_family_members(fam))
+		{
+			QString enc = QString::fromLatin1(member.c_str());
+			if (encoderUI.contains(enc) && !encoderUI.value(enc).enabled)
+				continue;
+			if (metadata.contains(enc))
+				bcNames.append(metadata[enc].desc);
+		}
+		familyItems.insert(familyName, bcNames);
+	}
 
-	bcNames.clear();
-	bcNames << "EAN-14" << "GS1 Data Matrix" << "GS1 Data Matrix Rectangular" << "GS1 QR Code" << "GS1-128" << "ITF-14" << "SSCC-18"
-			<< "GS1 Digital Link QR Code" << "GS1 Digital Link Data Matrix" << "GS1 DotCode";
-	familyName = tr("Supply Chain");
-	familyList.append(familyName);
-	familyItems.insert(familyName, bcNames);
+	// Sort families by order then name
+	std::sort(familyList.begin(), familyList.end(), [this](const QString& a, const QString& b) {
+		int oa = familyUI.value(a).order;
+		int ob = familyUI.value(b).order;
+		if (oa != ob) return oa < ob;
+		return a.compare(b, Qt::CaseInsensitive) < 0;
+	});
 
-	bcNames.clear();
-	bcNames << "QR Code" << "Micro QR Code" << "Rectangular Micro QR Code" << "Data Matrix" << "Data Matrix Rectangular"
-			<< "Data Matrix Rectangular Extension" << "MaxiCode" << "Aztec Code" << "Compact Aztec Code"
-			<< "Aztec Runes" << "PDF417" << "Compact PDF417" << "MicroPDF417" << "Han Xin Code"
-			<< "DotCode" << "Ultracode";
-	familyName = tr("Two-dimensional symbols");
-	familyList.append(familyName);
-	familyItems.insert(familyName, bcNames);
+	// Build reverse lookup: display name -> encoder command
+	QHash<QString, QString> descToEnc;
+	for (auto m = map.cbegin(); m != map.cend(); ++m)
+		descToEnc[m.key()] = m.value().command;
 
-	bcNames.clear();
-	bcNames << "Code 128" << "Code 39" << "Code 39 Extended" << "Code 93" << "Code 93 Extended"
-			<< "Interleaved 2 of 5 (ITF)";
-	familyName = tr("One-dimensional symbols");
-	familyList.append(familyName);
-	familyItems.insert(familyName, bcNames);
-
-	bcNames.clear();
-	bcNames << "GS1 DataBar Omnidirectional" << "GS1 DataBar Stacked Omnidirectional"
-			<< "GS1 DataBar Expanded" << "GS1 DataBar Expanded Stacked" << "GS1 DataBar Truncated"
-			<< "GS1 DataBar Stacked" << "GS1 DataBar Limited" << "GS1 North American Coupon";
-	familyName = tr("GS1 DataBar family");
-	familyList.append(familyName);
-	familyItems.insert(familyName, bcNames);
-
-	bcNames.clear();
-	bcNames << "AusPost 4 State Customer Code" << "Deutsche Post Identcode" << "Deutsche Post Leitcode"
-			<< "Japan Post 4 State Customer Code" << "Royal Dutch TPG Post KIX"
-			<< "Royal Mail 4 State Customer Code" << "Royal Mail Mailmark" << "USPS Intelligent Mail" << "USPS PLANET" << "USPS POSTNET";
-	familyName = tr("Postal symbols");
-	familyList.append(familyName);
-	familyItems.insert(familyName, bcNames);
-
-	bcNames.clear();
-	bcNames << "Italian Pharmacode" << "Pharmaceutical Binary Code" << "Two-track Pharmacode"
-			<< "Pharmazentralnummer (PZN)" << "HIBC Codablock F" << "HIBC Code 128" << "HIBC Code 39"
-			<< "HIBC Data Matrix" << "HIBC Data Matrix Rectangular" << "HIBC MicroPDF417" << "HIBC PDF417" << "HIBC QR Code"
-			<< "HIBC Aztec Code";
-	familyName = tr("Pharmaceutical symbols");
-	familyList.append(familyName);
-	familyItems.insert(familyName, bcNames);
-
-	bcNames.clear();
-	bcNames << "Code 11" << "Codabar" << "Code 25" << "COOP 2 of 5" << "Datalogic 2 of 5" << "IATA 2 of 5"
-			<< "Industrial 2 of 5" << "Matrix 2 of 5" << "MSI Modified Plessey" << "Plessey UK"
-			<< "PosiCode" << "Telepen" << "Telepen Numeric" << "Channel Code"
-			<< "Code 16K" << "Codablock F" << "Code 49"
-			<< "Code One";
-	familyName = tr("Less-used symbols");
-	familyList.append(familyName);
-	familyItems.insert(familyName, bcNames);
-
-	bcNames.clear();
-	bcNames << "EAN-13 Composite" << "EAN-8 Composite" << "UPC-A Composite" << "UPC-E Composite"
-			<< "GS1 DataBar Omnidirectional Composite" << "GS1 DataBar Stacked Omnidirectional Composite"
-			<< "GS1 DataBar Expanded Composite" << "GS1 DataBar Expanded Stacked Composite"
-			<< "GS1 DataBar Truncated Composite" << "GS1 DataBar Stacked Composite"
-			<< "GS1 DataBar Limited Composite" << "GS1-128 Composite";
-	familyName = tr("GS1 Composite symbols");
-	familyList.append(familyName);
-	familyItems.insert(familyName, bcNames);
+	// Sort encoders within each family by order then description
+	for (auto it = familyItems.begin(); it != familyItems.end(); ++it)
+	{
+		QStringList& names = it.value();
+		std::sort(names.begin(), names.end(), [this, &descToEnc](const QString& a, const QString& b) {
+			int oa = encoderUI.value(descToEnc.value(a)).order;
+			int ob = encoderUI.value(descToEnc.value(b)).order;
+			if (oa != ob) return oa < ob;
+			return a.compare(b, Qt::CaseInsensitive) < 0;
+		});
+	}
 
 	ui.bcFamilyCombo->addItems(familyList);
-
-	/*
-	 *  End of the hard-coded data
-	 *
-	 */
-
-	guiColor = ui.codeEdit->palette().color(QPalette::Window);
 
 	ui.okButton->setText(CommonStrings::tr_OK);
 	ui.cancelButton->setText(CommonStrings::tr_Cancel);
@@ -345,25 +202,203 @@ BarcodeGenerator::BarcodeGenerator(QWidget* parent, const char* name)
 	syncOptionsUITimer->setSingleShot(true);
 	connect(syncOptionsUITimer, SIGNAL(timeout()), this, SLOT(syncOptionsUI()));
 
+	syncOptionsTextTimer = new QTimer(this);
+	syncOptionsTextTimer->setSingleShot(true);
+	connect(syncOptionsTextTimer, &QTimer::timeout, this, [this]() {
+		updateOptionsTextFromUI();
+		enqueuePaintBarcode(0);
+	});
+
 	connect(ui.bcFamilyCombo, SIGNAL(activated(int)), this, SLOT(bcFamilyComboChanged()));
 	connect(ui.bcCombo, SIGNAL(activated(int)), this, SLOT(bcComboChanged()));
 	connect(ui.bgColorButton, SIGNAL(clicked()), this, SLOT(bgColorButton_pressed()));
 	connect(ui.lnColorButton, SIGNAL(clicked()), this, SLOT(lnColorButton_pressed()));
 	connect(ui.txtColorButton, SIGNAL(clicked()), this, SLOT(txtColorButton_pressed()));
+	ui.helpSymbologiesButton->setIcon(IconManager::instance().loadIcon("help-browser"));
+	ui.helpOptionsButton->setIcon(IconManager::instance().loadIcon("help-browser"));
+	connect(ui.helpSymbologiesButton, SIGNAL(clicked()), this, SLOT(helpSymbologiesButton_pressed()));
+	connect(ui.helpOptionsButton, SIGNAL(clicked()), this, SLOT(helpOptionsButton_pressed()));
 	connect(ui.okButton, SIGNAL(clicked()), this, SLOT(okButton_pressed()));
 	connect(ui.cancelButton, SIGNAL(clicked()), this, SLOT(cancelButton_pressed()));
 	connect(ui.codeEdit, SIGNAL(textChanged(QString)), this, SLOT(codeEdit_textChanged(QString)));
 	connect(ui.resetButton, SIGNAL(clicked()), this, SLOT(resetButton_clicked()));
+
+	// UI controls → options text sync (immediate render)
+	auto immediateSync = [this]() { updateOptionsTextFromUI(); enqueuePaintBarcode(0); };
+	for (auto* cb : {ui.includetextCheck, ui.guardwhitespaceCheck, ui.includecheckCheck,
+					  ui.includecheckintextCheck, ui.parseCheck, ui.parsefncCheck,
+					  ui.dottyCheck, ui.cropCheck})
+		connect(cb, &QCheckBox::stateChanged, this, immediateSync);
+	for (auto* combo : {ui.formatCombo, ui.eccCombo, ui.textfontCombo,
+						 ui.textdirectionCombo, ui.textxalignCombo, ui.textyalignCombo})
+		connect(combo, &QComboBox::currentIndexChanged, this, immediateSync);
+	for (auto* radio : {ui.borderBorderRadio, ui.borderBearerRadio, ui.borderNoneRadio})
+		connect(radio, &QRadioButton::toggled, this, [immediateSync](bool checked) { if (checked) immediateSync(); });
+
+	// UI controls → options text sync (debounced render)
+	auto debouncedSync = [this]() { updateOptionsTextFromUI(); enqueuePaintBarcode(debounceInterval); };
+	for (auto* combo : {ui.textsizeCombo, ui.textgapsCombo, ui.textxoffsetCombo,
+						 ui.textyoffsetCombo, ui.alttextsubspaceCombo, ui.alttextsplitCombo})
+		connect(combo, &QComboBox::currentTextChanged, this, debouncedSync);
+	for (auto* spin : {ui.borderwidthSpin, ui.borderleftSpin, ui.borderrightSpin,
+					    ui.bordertopSpin, ui.borderbottomSpin})
+		connect(spin, &QDoubleSpinBox::valueChanged, this, debouncedSync);
+
+	// Sliders with label updates
+	connect(ui.heightSlider, &QSlider::valueChanged, this, [this](int value) {
+		if (value > 0 && value < 20)
+		{
+			ui.heightSlider->blockSignals(true);
+			ui.heightSlider->setValue(20);
+			ui.heightSlider->blockSignals(false);
+			value = 20;
+		}
+		ui.heightValue->setText(value == 0 ? tr("Auto") : QString::number(value / 100.0, 'f', 2));
+		updateOptionsTextFromUI();
+		enqueuePaintBarcode(debounceInterval);
+	});
+	connect(ui.inkspreadSlider, &QSlider::valueChanged, this, [this](int value) {
+		ui.inkspreadValue->setText(QString::number(value / 100.0, 'f', 2));
+		updateOptionsTextFromUI();
+		enqueuePaintBarcode(debounceInterval);
+	});
+
+	// Options text field → UI sync (debounced)
+	connect(ui.optionsEdit, &QPlainTextEdit::textChanged, this, [this]() {
+		syncOptionsUITimer->start(debounceInterval);
+	});
+
+	// Alt text → options text (debounced)
+	connect(ui.alttextEdit, &QPlainTextEdit::textChanged, this, [this]() {
+		syncOptionsTextTimer->start(debounceInterval);
+	});
+
+	// Populate text size combo: 4, 5, 6, ... 20
+	for (int i = 4; i <= 20; ++i)
+		ui.textsizeCombo->addItem(QString::number(i));
+
+	// Populate text gaps combo: 0.0, 0.5, 1.0, ... 20.0
+	for (int i = 0; i <= 40; ++i)
+		ui.textgapsCombo->addItem(QString::number(i / 2.0, 'f', 1));
+
+	ui.alttextEdit->installEventFilter(this);
+	ui.alttextEdit->viewport()->installEventFilter(this);
+	ui.alttextEdit->document()->setDocumentMargin(2);
+	ui.optionsEdit->installEventFilter(this);
+	ui.optionsEdit->viewport()->installEventFilter(this);
+	int collapsedHeight = ui.codeEdit->sizeHint().height();
+	ui.optionsEdit->document()->setDocumentMargin(2);
+	ui.optionsEdit->setMinimumHeight(collapsedHeight);
+	ui.optionsEdit->setMaximumHeight(collapsedHeight);
+	ui.alttextEdit->setMinimumHeight(collapsedHeight);
+	ui.alttextEdit->setMaximumHeight(collapsedHeight);
+	ui.alttextsubspaceCombo->lineEdit()->setMaxLength(1);
+	ui.alttextsubspaceCombo->lineEdit()->installEventFilter(this);
+	ui.alttextsplitCombo->lineEdit()->setMaxLength(1);
+	ui.alttextsplitCombo->lineEdit()->installEventFilter(this);
+
+	// Populate text offset combos: -10.00, -9.00, ... 10.00
+	for (auto* combo : {ui.textxoffsetCombo, ui.textyoffsetCombo})
+		for (int i = -10; i <= 10; ++i)
+			combo->addItem(QString::number(i, 'f', 2));
+
 	bcComboChanged();
 
 }
 
 BarcodeGenerator::~BarcodeGenerator()
 {
+	QFile::remove(QDir::toNativeSeparators(ScPaths::tempFileDir() + "bcode.ps"));
+	QFile::remove(QDir::toNativeSeparators(ScPaths::tempFileDir() + "bcode.png"));
+	if (m_helpBrowser)
+	{
+		m_helpBrowser->close();
+		delete m_helpBrowser;
+		m_helpBrowser = nullptr;
+	}
 	if (!paintBarcodeTimer)
 		return;
 	delete paintBarcodeTimer;
 	paintBarcodeTimer = nullptr;
+}
+
+static BarcodeComboConfig parseComboConfig(const QJsonObject& obj)
+{
+	BarcodeComboConfig cfg;
+	cfg.name = obj.value("name").toString();
+	cfg.key = obj.value("key").toString();
+	const QJsonArray arr = obj.value("values").toArray();
+	for (const QJsonValue& v : arr)
+		cfg.values.append(v.toString());
+	return cfg;
+}
+
+void BarcodeGenerator::loadUIConfig(const QString& path)
+{
+	QFile f(path);
+	if (!f.open(QIODevice::ReadOnly))
+	{
+		qDebug() << "Barcodegenerator: barcode_ui.json not found at" << path;
+		return;
+	}
+
+	QJsonParseError err;
+	QJsonDocument doc = QJsonDocument::fromJson(f.readAll(), &err);
+	f.close();
+	if (doc.isNull())
+	{
+		qDebug() << "Barcodegenerator: barcode_ui.json parse error:" << err.errorString();
+		return;
+	}
+
+	QJsonObject root = doc.object();
+
+	// Load family configuration
+	QJsonObject famObj = root.value("families").toObject();
+	for (auto it = famObj.begin(); it != famObj.end(); ++it)
+	{
+		BarcodeFamilyUI fui;
+		QJsonObject fo = it.value().toObject();
+		if (fo.contains("enabled"))
+			fui.enabled = fo.value("enabled").toBool();
+		if (fo.contains("order"))
+			fui.order = fo.value("order").toInt();
+		if (fo.contains("desc"))
+			fui.desc = fo.value("desc").toString();
+		familyUI[it.key()] = fui;
+	}
+
+	// Load encoder configuration
+	QJsonObject encObj = root.value("encoders").toObject();
+	for (auto it = encObj.begin(); it != encObj.end(); ++it)
+	{
+		BarcodeEncoderUI eui;
+		QJsonObject eo = it.value().toObject();
+		if (eo.contains("enabled"))
+			eui.enabled = eo.value("enabled").toBool();
+		if (eo.contains("order"))
+			eui.order = eo.value("order").toInt();
+		if (eo.contains("desc"))
+			eui.desc = eo.value("desc").toString();
+		if (eo.contains("exam"))
+			eui.exam = eo.value("exam").toString();
+		if (eo.contains("exop"))
+			eui.exop = eo.value("exop").toString();
+		if (eo.contains("combo1"))
+			eui.combo1 = parseComboConfig(eo.value("combo1").toObject());
+		if (eo.contains("combo2"))
+			eui.combo2 = parseComboConfig(eo.value("combo2").toObject());
+		eui.includetext = eo.value("includetext").toBool();
+		eui.guardwhitespace = eo.value("guardwhitespace").toBool();
+		eui.includecheck = eo.value("includecheck").toBool();
+		eui.includecheckintext = eo.value("includecheckintext").toBool();
+		eui.parse = eo.value("parse").toBool();
+		eui.parsefnc = eo.value("parsefnc").toBool();
+		eui.dotty = eo.value("dotty").toBool();
+		eui.dottyForced = eo.value("dottyForced").toBool();
+		eui.height = eo.value("height").toBool();
+		encoderUI[it.key()] = eui;
+	}
 }
 
 void BarcodeGenerator::loadBarcode(const QString& encoder, const QString& content, const QString& options)
@@ -419,18 +454,11 @@ void BarcodeGenerator::loadBarcode(const QString& encoder, const QString& conten
 	ui.codeEdit->blockSignals(false);
 
 	ui.optionsEdit->blockSignals(true);
-	ui.optionsEdit->setText(options);
+	ui.optionsEdit->setPlainText(options);
 	ui.optionsEdit->blockSignals(false);
 
 	updateUIFromOptionsText();
-
-	// Enable controls
-	ui.codeEdit->setEnabled(true);
-	ui.optionsEdit->setEnabled(true);
-	ui.bgColorButton->setEnabled(true);
-	ui.lnColorButton->setEnabled(true);
-	ui.txtColorButton->setEnabled(true);
-	ui.okButton->setEnabled(true);
+	setControlsEnabled(true);
 }
 
 void BarcodeGenerator::loadFromItem(PageItem* item)
@@ -477,28 +505,68 @@ static bool parseBwippColor(const QString& hex, ScColor& color)
 	return false;
 }
 
+// Find the value for a key=value token in a space-separated options string.
+// Returns the value if found, or a null QString if not present.
+static QString optGetValue(const QStringList& tokens, const QString& key)
+{
+	const QString prefix = key + "=";
+	for (const QString& t : tokens)
+		if (t.startsWith(prefix))
+			return t.mid(prefix.length());
+	return QString();
+}
+
+// Check whether a bare keyword token is present
+static bool optHasKeyword(const QStringList& tokens, const QString& key)
+{
+	return tokens.contains(key);
+}
+
+// Set key=value in a token list, replacing any existing key= token
+static void optSetValue(QStringList& tokens, const QString& key, const QString& value)
+{
+	const QString prefix = key + "=";
+	for (int i = 0; i < tokens.size(); ++i)
+	{
+		if (tokens[i].startsWith(prefix))
+		{
+			tokens[i] = key + "=" + value;
+			return;
+		}
+	}
+	tokens.append(key + "=" + value);
+}
+
+// Remove all tokens matching key= or bare keyword
+static void optRemoveKey(QStringList& tokens, const QString& key)
+{
+	const QString prefix = key + "=";
+	for (int i = tokens.size() - 1; i >= 0; --i)
+		if (tokens[i] == key || tokens[i].startsWith(prefix))
+			tokens.removeAt(i);
+}
+
 void BarcodeGenerator::updateOptionValue(const QString& key, const QString& value)
 {
-	QString opts = ui.optionsEdit->text();
-	QRegularExpression rx("\\b" + QRegularExpression::escape(key) + "=\\S*");
-	if (opts.contains(rx))
-		opts.replace(rx, key + "=" + value);
-	else
-		opts.append(" " + key + "=" + value);
-	ui.optionsEdit->blockSignals(true);
-	ui.optionsEdit->setText(opts.simplified());
-	ui.optionsEdit->blockSignals(false);
+	QStringList tokens = ui.optionsEdit->toPlainText().split(' ', Qt::SkipEmptyParts);
+	optSetValue(tokens, key, value);
+	QString newOpts = tokens.join(' ');
+	if (ui.optionsEdit->toPlainText() != newOpts)
+	{
+		ui.optionsEdit->blockSignals(true);
+		ui.optionsEdit->setPlainText(newOpts);
+		ui.optionsEdit->blockSignals(false);
+	}
 }
 
 void BarcodeGenerator::ensureOptionPresent(const QString& key)
 {
-	QString opts = ui.optionsEdit->text();
-	QRegularExpression rx("\\b" + QRegularExpression::escape(key) + "\\b");
-	if (!opts.contains(rx))
+	QStringList tokens = ui.optionsEdit->toPlainText().split(' ', Qt::SkipEmptyParts);
+	if (!optHasKeyword(tokens, key))
 	{
-		opts.append(" " + key);
+		tokens.append(key);
 		ui.optionsEdit->blockSignals(true);
-		ui.optionsEdit->setText(opts.simplified());
+		ui.optionsEdit->setPlainText(tokens.join(' '));
 		ui.optionsEdit->blockSignals(false);
 	}
 }
@@ -506,15 +574,16 @@ void BarcodeGenerator::ensureOptionPresent(const QString& key)
 void BarcodeGenerator::updateOptions()
 {
 	QString enc = map[ui.bcCombo->currentText()].command;
+	const BarcodeEncoderUI& eui = encoderUI[enc];
 
-	ui.formatLabel->setText(resvlbl.contains(enc) ? resvlbl[enc] + ":" : "Version:");
+	ui.formatLabel->setText(eui.combo1.name.isEmpty() ? "Version:" : eui.combo1.name + ":");
 	ui.formatCombo->blockSignals(true);
 	ui.formatCombo->clear();
 	ui.formatCombo->addItem("Auto");
-	if (resvers.contains(enc))
+	if (!eui.combo1.values.isEmpty())
 	{
 		ui.formatCombo->insertSeparator(999);
-		ui.formatCombo->addItems(resvers[enc].split(","));
+		ui.formatCombo->addItems(eui.combo1.values);
 		ui.formatLabel->setEnabled(true);
 		ui.formatCombo->setEnabled(true);
 	}
@@ -525,13 +594,14 @@ void BarcodeGenerator::updateOptions()
 	}
 	ui.formatCombo->blockSignals(false);
 
+	ui.eccLabel->setText(eui.combo2.name.isEmpty() ? "EC Level:" : eui.combo2.name + ":");
 	ui.eccCombo->blockSignals(true);
 	ui.eccCombo->clear();
 	ui.eccCombo->addItem("Auto");
-	if (resecls.contains(enc))
+	if (!eui.combo2.values.isEmpty())
 	{
 		ui.eccCombo->insertSeparator(999);
-		ui.eccCombo->addItems(resecls[enc].split(","));
+		ui.eccCombo->addItems(eui.combo2.values);
 		ui.eccLabel->setEnabled(true);
 		ui.eccCombo->setEnabled(true);
 	}
@@ -542,8 +612,29 @@ void BarcodeGenerator::updateOptions()
 	}
 	ui.eccCombo->blockSignals(false);
 
-}
+	// Per-encoder checkboxes
+	ui.guardwhitespaceCheck->setEnabled(eui.guardwhitespace);
+	ui.includecheckCheck->setEnabled(eui.includecheck);
+	ui.includecheckintextCheck->setEnabled(eui.includetext && eui.includecheckintext);
+	ui.parseCheck->setEnabled(eui.parse);
+	ui.parsefncCheck->setEnabled(eui.parsefnc);
+	if (eui.dottyForced)
+	{
+		ui.dottyCheck->blockSignals(true);
+		ui.dottyCheck->setChecked(true);
+		ui.dottyCheck->setEnabled(false);
+		ui.dottyCheck->blockSignals(false);
+	}
+	else
+	{
+		ui.dottyCheck->setEnabled(eui.dotty);
+	}
 
+	// Height slider
+	ui.heightLabel->setEnabled(eui.height);
+	ui.heightSlider->setEnabled(eui.height);
+	ui.heightValue->setEnabled(eui.height);
+}
 
 void BarcodeGenerator::bcFamilyComboChanged()
 {
@@ -567,50 +658,22 @@ void BarcodeGenerator::bcComboChanged()
 
 	if (ui.bcCombo->currentIndex() == 0)
 	{
-		ui.okButton->setEnabled(false);
+		setControlsEnabled(false);
 		ui.sampleLabel->setText(tr("Select Type"));
 		ui.codeEdit->clear();
-		ui.codeEdit->setEnabled(false);
 		ui.optionsEdit->clear();
-		ui.optionsEdit->setEnabled(false);
-		ui.includetextCheck->setEnabled(false);
-		ui.guardwhitespaceCheck->setEnabled(false);
-		ui.includecheckCheck->setEnabled(false);
-		ui.includecheckintextCheck->setEnabled(false);
-		ui.parseCheck->setEnabled(false);
-		ui.parsefncCheck->setEnabled(false);
-		ui.formatLabel->setEnabled(false);
-		ui.formatCombo->setEnabled(false);
-		ui.eccLabel->setEnabled(false);
-		ui.eccCombo->setEnabled(false);
-		ui.bgColorButton->setEnabled(false);
-		ui.lnColorButton->setEnabled(false);
-		ui.txtColorButton->setEnabled(false);
 		return;
 	}
 
-	ui.codeEdit->setEnabled(true);
-	ui.optionsEdit->setEnabled(true);
-	ui.bgColorButton->setEnabled(true);
-	ui.lnColorButton->setEnabled(true);
-	ui.txtColorButton->setEnabled(true);
-	ui.okButton->setEnabled(true);
+	setControlsEnabled(true);
 
 	QString s = ui.bcCombo->currentText();
 	ui.codeEdit->blockSignals(true);
 	ui.codeEdit->setText(map[s].exampleContents);
 	ui.codeEdit->blockSignals(false);
 	ui.optionsEdit->blockSignals(true);
-	ui.optionsEdit->setText(map[s].exampleOptions);
+	ui.optionsEdit->setPlainText(map[s].exampleOptions);
 	ui.optionsEdit->blockSignals(false);
-
-	QString enc = map[s].command;
-	ui.includetextCheck->setEnabled(resincludetextAvail[enc]);
-	ui.guardwhitespaceCheck->setEnabled(resguardwhitespaceAvail[enc]);
-	ui.includecheckCheck->setEnabled(resincludecheckAvail[enc]);
-	ui.includecheckintextCheck->setEnabled(resincludetextAvail[enc] && resincludecheckintextAvail[enc]);
-	ui.parseCheck->setEnabled(resparseAvail[enc]);
-	ui.parsefncCheck->setEnabled(resparsefncAvail[enc]);
 
 	updateUIFromOptionsText();
 
@@ -620,13 +683,12 @@ void BarcodeGenerator::bcComboChanged()
 void BarcodeGenerator::enqueuePaintBarcode(int delay)
 {
 	ui.okButton->setEnabled(false);
-	//	paintBarcode();
 	paintBarcodeTimer->start(delay);
 }
 
 void BarcodeGenerator::updateOptionsTextFromUI()
 {
-	QString opts = ui.optionsEdit->text();
+	QStringList tokens = ui.optionsEdit->toPlainText().split(' ', Qt::SkipEmptyParts);
 
 	const std::initializer_list<std::pair<QCheckBox*, const char*>> boolOpts = {
 		{ui.includetextCheck, "includetext"},
@@ -635,93 +697,162 @@ void BarcodeGenerator::updateOptionsTextFromUI()
 		{ui.includecheckintextCheck, "includecheckintext"},
 		{ui.parseCheck, "parse"},
 		{ui.parsefncCheck, "parsefnc"},
+		{ui.dottyCheck, "dotty"},
+		{ui.cropCheck, "crop"},
 	};
 	for (const auto& [cb, kw] : boolOpts)
 	{
-		QRegularExpression rx("\\b" + QString(kw) + "\\b");
+		QString key = QString::fromLatin1(kw);
 		if (cb->isChecked())
 		{
-			if (!opts.contains(rx))
-				opts.append(" " + QString(kw));
+			if (!optHasKeyword(tokens, key))
+				tokens.append(key);
 		}
 		else
-			opts.replace(rx, " ");
+			tokens.removeAll(key);
 	}
 
 	QString enc = map[ui.bcCombo->currentText()].command;
-	QString vlbl = resvlbl.contains(enc) ? resvlbl[enc].toLower() : "version";
+	const BarcodeEncoderUI& eui = encoderUI[enc];
+	QString combo1Key = eui.combo1.key.isEmpty() ? "version" : eui.combo1.key;
+	QString combo2Key = eui.combo2.key.isEmpty() ? "eclevel" : eui.combo2.key;
 
 	if (ui.formatCombo->currentIndex() != 0)
-	{
-		QString t = ui.formatCombo->currentText();
-		if (!opts.contains(QRegularExpression("\\b" + QRegularExpression::escape(vlbl) + "=.*\\b")))
-			opts.append(" " + vlbl + "=" + t);
-		else
-			opts.replace(QRegularExpression("\\b" + QRegularExpression::escape(vlbl) + "=\\S*\\b"), vlbl + "=" + t);
-	}
+		optSetValue(tokens, combo1Key, ui.formatCombo->currentText());
 	else
-	{
-		opts.replace(QRegularExpression("\\b" + QRegularExpression::escape(vlbl) + "=\\S*\\b"), " ");
-	}
+		optRemoveKey(tokens, combo1Key);
 
 	if (ui.eccCombo->currentIndex() != 0)
-	{
-		QString t = ui.eccCombo->currentText();
-		if (!opts.contains(QRegularExpression("\\beclevel=.*\\b")))
-			opts.append(" eclevel=" + t);
-		else
-			opts.replace(QRegularExpression("\\beclevel=\\S*\\b"), "eclevel=" + t);
-	}
+		optSetValue(tokens, combo2Key, ui.eccCombo->currentText());
 	else
-	{
-		opts.replace(QRegularExpression("\\beclevel=\\S*\\b")," ");
-	}
+		optRemoveKey(tokens, combo2Key);
 
 	if (ui.inkspreadSlider->value() > 0)
-	{
-		QString val = QString::number(ui.inkspreadSlider->value() / 100.0, 'f', 2);
-		if (!opts.contains(QRegularExpression("\\binkspread=\\S*")))
-			opts.append(" inkspread=" + val);
+		optSetValue(tokens, "inkspread", QString::number(ui.inkspreadSlider->value() / 100.0, 'f', 2));
+	else
+		optRemoveKey(tokens, "inkspread");
+
+	// Height slider
+	int hVal = ui.heightSlider->value();
+	if (hVal >= 20)
+		optSetValue(tokens, "height", QString::number(hVal / 100.0, 'f', 2));
+	else
+		optRemoveKey(tokens, "height");
+
+	// Text formatting options
+	auto syncComboOption = [&](QComboBox* combo, const QString& key, bool lc = false) {
+		if (combo->currentIndex() > 0)
+		{
+			QString val = combo->currentText();
+			if (lc)
+				val = val.toLower().remove(' ');
+			optSetValue(tokens, key, val);
+		}
 		else
-			opts.replace(QRegularExpression("\\binkspread=\\S*"), "inkspread=" + val);
+			optRemoveKey(tokens, key);
+	};
+	auto syncSpinOption = [&](QDoubleSpinBox* spin, const QString& key) {
+		if (spin->value() != spin->minimum())
+			optSetValue(tokens, key, QString::number(spin->value(), 'f', 2));
+		else
+			optRemoveKey(tokens, key);
+	};
+
+	// Font combo: display "OCR-A"/"OCR-B" but BWIPP expects "OCRA"/"OCRB"
+	if (ui.textfontCombo->currentIndex() > 0)
+	{
+		QString val = ui.textfontCombo->currentText();
+		if (val.startsWith("OCR-"))
+			val.remove(3, 1); // "OCR-A" -> "OCRA"
+		optSetValue(tokens, "textfont", val);
 	}
 	else
+		optRemoveKey(tokens, "textfont");
+	auto syncEditableComboOption = [&](QComboBox* combo, const QString& key) {
+		QString text = combo->currentText().trimmed();
+		if (!text.isEmpty() && text.compare("Auto", Qt::CaseInsensitive) != 0)
+			optSetValue(tokens, key, text);
+		else
+			optRemoveKey(tokens, key);
+	};
+	syncEditableComboOption(ui.textsizeCombo, "textsize");
+	syncEditableComboOption(ui.textgapsCombo, "textgaps");
+	syncComboOption(ui.textdirectionCombo, "textdirection", true);
+	syncComboOption(ui.textxalignCombo, "textxalign", true);
+	syncComboOption(ui.textyalignCombo, "textyalign", true);
+	syncEditableComboOption(ui.textxoffsetCombo, "textxoffset");
+	syncEditableComboOption(ui.textyoffsetCombo, "textyoffset");
+	if (!ui.alttextEdit->toPlainText().isEmpty())
+		optSetValue(tokens, "alttext", ui.alttextEdit->toPlainText());
+	else
+		optRemoveKey(tokens, "alttext");
+	// alttextsubspace / alttextsplit: empty = omit, otherwise single char
+	for (auto [combo, key] : std::initializer_list<std::pair<QComboBox*, const char*>>{
+		{ui.alttextsubspaceCombo, "alttextsubspace"},
+		{ui.alttextsplitCombo, "alttextsplit"}})
 	{
-		opts.replace(QRegularExpression("\\binkspread=\\S*"), " ");
+		QString text = combo->currentText().trimmed();
+		if (!text.isEmpty())
+			optSetValue(tokens, key, text);
+		else
+			optRemoveKey(tokens, key);
 	}
 
-	ui.optionsEdit->blockSignals(true);
-	ui.optionsEdit->setText(opts.simplified());
-	ui.optionsEdit->blockSignals(false);
+	// Border controls
+	optRemoveKey(tokens, "showborder");
+	optRemoveKey(tokens, "showbearer");
+	if (ui.borderBorderRadio->isChecked())
+		tokens.append("showborder");
+	else if (ui.borderBearerRadio->isChecked())
+		tokens.append("showbearer");
 
+	syncSpinOption(ui.borderwidthSpin, "borderwidth");
+	syncSpinOption(ui.borderleftSpin, "borderleft");
+	syncSpinOption(ui.borderrightSpin, "borderright");
+	syncSpinOption(ui.bordertopSpin, "bordertop");
+	syncSpinOption(ui.borderbottomSpin, "borderbottom");
+
+	QString newOpts = tokens.join(' ');
+	if (ui.optionsEdit->toPlainText() != newOpts)
+	{
+		ui.optionsEdit->blockSignals(true);
+		ui.optionsEdit->setPlainText(newOpts);
+		ui.optionsEdit->blockSignals(false);
+	}
 }
 
 void BarcodeGenerator::updateUIFromOptionsText()
 {
-	QString opts = ui.optionsEdit->text();
+	QStringList tokens = ui.optionsEdit->toPlainText().split(' ', Qt::SkipEmptyParts);
 
-	auto setCheckIfChanged = [](QCheckBox* cb, bool val) {
+	const std::initializer_list<std::pair<QCheckBox*, const char*>> boolOpts = {
+		{ui.includetextCheck, "includetext"},
+		{ui.guardwhitespaceCheck, "guardwhitespace"},
+		{ui.includecheckCheck, "includecheck"},
+		{ui.includecheckintextCheck, "includecheckintext"},
+		{ui.parseCheck, "parse"},
+		{ui.parsefncCheck, "parsefnc"},
+		{ui.dottyCheck, "dotty"},
+		{ui.cropCheck, "crop"},
+	};
+	for (const auto& [cb, kw] : boolOpts)
+	{
+		bool val = optHasKeyword(tokens, QString::fromLatin1(kw));
 		if (cb->isChecked() != val)
 		{
 			cb->blockSignals(true);
 			cb->setChecked(val);
 			cb->blockSignals(false);
 		}
-	};
-
-	setCheckIfChanged(ui.includetextCheck, opts.contains(QRegularExpression("\\bincludetext\\b")));
-	setCheckIfChanged(ui.guardwhitespaceCheck, opts.contains(QRegularExpression("\\bguardwhitespace\\b")));
-	setCheckIfChanged(ui.includecheckCheck, opts.contains(QRegularExpression("\\bincludecheck\\b")));
-	setCheckIfChanged(ui.includecheckintextCheck, opts.contains(QRegularExpression("\\bincludecheckintext\\b")));
-	setCheckIfChanged(ui.parseCheck, opts.contains(QRegularExpression("\\bparse\\b")));
-	setCheckIfChanged(ui.parsefncCheck, opts.contains(QRegularExpression("\\bparsefnc\\b")));
+	}
 
 	QString enc = map[ui.bcCombo->currentText()].command;
-	QString vlbl = resvlbl.contains(enc) ? resvlbl[enc].toLower() : "version";
+	const BarcodeEncoderUI& eui = encoderUI[enc];
+	QString combo1Key = eui.combo1.key.isEmpty() ? "version" : eui.combo1.key;
+	QString combo2Key = eui.combo2.key.isEmpty() ? "eclevel" : eui.combo2.key;
 
-	QRegularExpression rxf("\\b" + QRegularExpression::escape(vlbl) + "=(\\S*)\\b");
-	QRegularExpressionMatch matchf = rxf.match(opts);
-	int fmtIdx = matchf.hasMatch() ? ui.formatCombo->findText(matchf.captured(1)) : 0;
+	QString fmtVal = optGetValue(tokens, combo1Key);
+	int fmtIdx = fmtVal.isNull() ? 0 : ui.formatCombo->findText(fmtVal);
 	if (fmtIdx == -1)
 		fmtIdx = 0;
 	if (ui.formatCombo->currentIndex() != fmtIdx)
@@ -731,9 +862,8 @@ void BarcodeGenerator::updateUIFromOptionsText()
 		ui.formatCombo->blockSignals(false);
 	}
 
-	QRegularExpression rxe("\\beclevel=(\\S*)\\b");
-	QRegularExpressionMatch matche = rxe.match(opts);
-	int eccIdx = matche.hasMatch() ? ui.eccCombo->findText(matche.captured(1)) : 0;
+	QString eccVal = optGetValue(tokens, combo2Key);
+	int eccIdx = eccVal.isNull() ? 0 : ui.eccCombo->findText(eccVal);
 	if (eccIdx == -1)
 		eccIdx = 0;
 	if (ui.eccCombo->currentIndex() != eccIdx)
@@ -743,50 +873,174 @@ void BarcodeGenerator::updateUIFromOptionsText()
 		ui.eccCombo->blockSignals(false);
 	}
 
+	// Sync height slider from options text
+	QString hVal = optGetValue(tokens, "height");
+	int hInt = hVal.isNull() ? 0 : qBound(20, qRound(hVal.toDouble() * 100), 300);
+	if (ui.heightSlider->value() != hInt)
+	{
+		ui.heightSlider->blockSignals(true);
+		ui.heightSlider->setValue(hInt);
+		ui.heightSlider->blockSignals(false);
+	}
+	ui.heightValue->setText(hInt == 0 ? tr("Auto") : QString::number(hInt / 100.0, 'f', 2));
+
 	// Sync inkspread slider from options text
-	QRegularExpression rxInk("\\binkspread=(\\S*)");
-	QRegularExpressionMatch matchInk = rxInk.match(opts);
-	int inkVal = 0;
-	if (matchInk.hasMatch())
-		inkVal = qBound(0, (int)(matchInk.captured(1).toDouble() * 100), 25);
-	if (ui.inkspreadSlider->value() != inkVal)
+	QString inkVal = optGetValue(tokens, "inkspread");
+	int inkInt = inkVal.isNull() ? 0 : qBound(0, (int)(inkVal.toDouble() * 100), 25);
+	if (ui.inkspreadSlider->value() != inkInt)
 	{
 		ui.inkspreadSlider->blockSignals(true);
-		ui.inkspreadSlider->setValue(inkVal);
+		ui.inkspreadSlider->setValue(inkInt);
 		ui.inkspreadSlider->blockSignals(false);
 	}
-	ui.inkspreadValue->setText(QString::number(inkVal / 100.0, 'f', 2));
-
+	ui.inkspreadValue->setText(QString::number(inkInt / 100.0, 'f', 2));
 
 	// Sync color members from options text
 	ScColor parsed;
 
-	QRegularExpression rxLn("\\bbarcolor=(\\w+)");
-	QRegularExpressionMatch mLn = rxLn.match(opts);
-	if (mLn.hasMatch() && parseBwippColor(mLn.captured(1), parsed) && !(parsed == lnColor))
+	QString lnVal = optGetValue(tokens, "barcolor");
+	if (!lnVal.isNull() && parseBwippColor(lnVal, parsed) && !(parsed == lnColor))
 	{
 		lnColor = parsed;
-		ui.linesLabel->setToolTip(mLn.captured(1));
+		ui.linesLabel->setToolTip(lnVal);
 		paintColorSample(ui.linesLabel, lnColor);
 	}
 
-	QRegularExpression rxBg("\\bbackgroundcolor=(\\w+)");
-	QRegularExpressionMatch mBg = rxBg.match(opts);
-	if (mBg.hasMatch() && parseBwippColor(mBg.captured(1), parsed) && !(parsed == bgColor))
+	QString bgVal = optGetValue(tokens, "backgroundcolor");
+	if (!bgVal.isNull() && parseBwippColor(bgVal, parsed) && !(parsed == bgColor))
 	{
 		bgColor = parsed;
-		ui.bgLabel->setToolTip(mBg.captured(1));
+		ui.bgLabel->setToolTip(bgVal);
 		paintColorSample(ui.bgLabel, bgColor);
 	}
 
-	QRegularExpression rxTxt("\\btextcolor=(\\w+)");
-	QRegularExpressionMatch mTxt = rxTxt.match(opts);
-	if (mTxt.hasMatch() && parseBwippColor(mTxt.captured(1), parsed) && !(parsed == txtColor))
+	QString txtVal = optGetValue(tokens, "textcolor");
+	if (!txtVal.isNull() && parseBwippColor(txtVal, parsed) && !(parsed == txtColor))
 	{
 		txtColor = parsed;
-		ui.txtLabel->setToolTip(mTxt.captured(1));
+		ui.txtLabel->setToolTip(txtVal);
 		paintColorSample(ui.txtLabel, txtColor);
 	}
+
+	// Sync text formatting from options text
+	auto syncComboFromOpt = [&](QComboBox* combo, const QString& key) {
+		QString val = optGetValue(tokens, key);
+		int idx = 0;
+		if (!val.isNull())
+		{
+			idx = combo->findText(val, Qt::MatchFixedString);
+			if (idx == -1)
+			{
+				// Try matching with spaces removed (e.g. "offleft" -> "Off Left")
+				for (int i = 1; i < combo->count(); ++i)
+					if (combo->itemText(i).remove(' ').compare(val, Qt::CaseInsensitive) == 0)
+					{ idx = i; break; }
+			}
+			if (idx == -1) idx = 0;
+		}
+		if (combo->currentIndex() != idx)
+		{
+			combo->blockSignals(true);
+			combo->setCurrentIndex(idx);
+			combo->blockSignals(false);
+		}
+	};
+	auto syncSpinFromOpt = [&](QDoubleSpinBox* spin, const QString& key) {
+		QString val = optGetValue(tokens, key);
+		double dv = val.isNull() ? spin->minimum() : val.toDouble();
+		if (spin->value() != dv)
+		{
+			spin->blockSignals(true);
+			spin->setValue(dv);
+			spin->blockSignals(false);
+		}
+	};
+
+	// Font combo: BWIPP "OCRA"/"OCRB" -> display "OCR-A"/"OCR-B"
+	{
+		QString val = optGetValue(tokens, "textfont");
+		int idx = 0;
+		if (!val.isNull())
+		{
+			if (val == "OCRA") val = "OCR-A";
+			else if (val == "OCRB") val = "OCR-B";
+			idx = ui.textfontCombo->findText(val, Qt::MatchFixedString);
+			if (idx == -1) idx = 0;
+		}
+		if (ui.textfontCombo->currentIndex() != idx)
+		{
+			ui.textfontCombo->blockSignals(true);
+			ui.textfontCombo->setCurrentIndex(idx);
+			ui.textfontCombo->blockSignals(false);
+		}
+	}
+	auto syncEditableComboFromOpt = [&](QComboBox* combo, const QString& key) {
+		QString val = optGetValue(tokens, key);
+		QString text = val.isNull() ? "Auto" : val;
+		if (combo->currentText() != text)
+		{
+			combo->blockSignals(true);
+			combo->setCurrentText(text);
+			combo->blockSignals(false);
+		}
+	};
+	syncEditableComboFromOpt(ui.textsizeCombo, "textsize");
+	syncEditableComboFromOpt(ui.textgapsCombo, "textgaps");
+	syncComboFromOpt(ui.textdirectionCombo, "textdirection");
+	syncComboFromOpt(ui.textxalignCombo, "textxalign");
+	syncComboFromOpt(ui.textyalignCombo, "textyalign");
+	syncEditableComboFromOpt(ui.textxoffsetCombo, "textxoffset");
+	syncEditableComboFromOpt(ui.textyoffsetCombo, "textyoffset");
+
+	QString altVal = optGetValue(tokens, "alttext");
+	QString altText = altVal.isNull() ? QString() : altVal;
+	if (ui.alttextEdit->toPlainText() != altText)
+	{
+		ui.alttextEdit->blockSignals(true);
+		ui.alttextEdit->setPlainText(altText);
+		ui.alttextEdit->blockSignals(false);
+	}
+	for (auto [combo, key] : std::initializer_list<std::pair<QComboBox*, const char*>>{
+		{ui.alttextsubspaceCombo, "alttextsubspace"},
+		{ui.alttextsplitCombo, "alttextsplit"}})
+	{
+		QString val = optGetValue(tokens, key);
+		QString text = val.isNull() ? QString() : val;
+		if (combo->currentText() != text)
+		{
+			combo->blockSignals(true);
+			combo->setCurrentText(text);
+			combo->blockSignals(false);
+		}
+	}
+
+	// Sync border from options text
+	bool hasBorder = optHasKeyword(tokens, "showborder");
+	bool hasBearer = optHasKeyword(tokens, "showbearer");
+	if (hasBorder && !ui.borderBorderRadio->isChecked())
+	{
+		ui.borderBorderRadio->blockSignals(true);
+		ui.borderBorderRadio->setChecked(true);
+		ui.borderBorderRadio->blockSignals(false);
+	}
+	else if (hasBearer && !ui.borderBearerRadio->isChecked())
+	{
+		ui.borderBearerRadio->blockSignals(true);
+		ui.borderBearerRadio->setChecked(true);
+		ui.borderBearerRadio->blockSignals(false);
+	}
+	else if (!hasBorder && !hasBearer && !ui.borderNoneRadio->isChecked())
+	{
+		ui.borderNoneRadio->blockSignals(true);
+		ui.borderNoneRadio->setChecked(true);
+		ui.borderNoneRadio->blockSignals(false);
+	}
+
+	syncSpinFromOpt(ui.borderwidthSpin, "borderwidth");
+	syncSpinFromOpt(ui.borderleftSpin, "borderleft");
+	syncSpinFromOpt(ui.borderrightSpin, "borderright");
+	syncSpinFromOpt(ui.bordertopSpin, "bordertop");
+	syncSpinFromOpt(ui.borderbottomSpin, "borderbottom");
 }
 
 void BarcodeGenerator::updatePreview(const QString& errorMsg)
@@ -803,59 +1057,127 @@ void BarcodeGenerator::updatePreview(const QString& errorMsg)
 	}
 }
 
-void BarcodeGenerator::on_includetextCheck_stateChanged(int)
+void BarcodeGenerator::setControlsEnabled(bool enabled)
 {
-	updateOptionsTextFromUI();
-	enqueuePaintBarcode(0);
+	ui.codeEdit->setEnabled(enabled);
+	ui.optionsEdit->setEnabled(enabled);
+	ui.includetextCheck->setEnabled(enabled);
+	ui.cropCheck->setEnabled(enabled);
+	ui.inkspreadLabel->setEnabled(enabled);
+	ui.inkspreadSlider->setEnabled(enabled);
+	ui.inkspreadValue->setEnabled(enabled);
+	ui.bgColorButton->setEnabled(enabled);
+	ui.lnColorButton->setEnabled(enabled);
+	ui.txtColorButton->setEnabled(enabled);
+	ui.textBox->setEnabled(enabled);
+	ui.borderBox->setEnabled(enabled);
+	ui.okButton->setEnabled(enabled);
+	if (!enabled)
+	{
+		ui.guardwhitespaceCheck->setEnabled(false);
+		ui.includecheckCheck->setEnabled(false);
+		ui.includecheckintextCheck->setEnabled(false);
+		ui.parseCheck->setEnabled(false);
+		ui.parsefncCheck->setEnabled(false);
+		ui.dottyCheck->setEnabled(false);
+		ui.formatLabel->setEnabled(false);
+		ui.formatCombo->setEnabled(false);
+		ui.eccLabel->setEnabled(false);
+		ui.eccCombo->setEnabled(false);
+		ui.heightLabel->setEnabled(false);
+		ui.heightSlider->setEnabled(false);
+		ui.heightValue->setEnabled(false);
+	}
 }
 
-void BarcodeGenerator::on_guardwhitespaceCheck_stateChanged(int)
+void BarcodeGenerator::mousePressEvent(QMouseEvent* event)
 {
-	updateOptionsTextFromUI();
-	enqueuePaintBarcode(0);
+	QWidget* fw = focusWidget();
+	if (fw == ui.optionsEdit || fw == ui.optionsEdit->viewport() ||
+	    fw == ui.alttextEdit || fw == ui.alttextEdit->viewport())
+		setFocus();
+	QDialog::mousePressEvent(event);
 }
 
-void BarcodeGenerator::on_includecheckCheck_stateChanged(int)
+bool BarcodeGenerator::eventFilter(QObject* obj, QEvent* event)
 {
-	updateOptionsTextFromUI();
-	enqueuePaintBarcode(0);
-}
+	// Expand text fields to 3 lines on focus, collapse on blur
+	auto expandField = [this](QPlainTextEdit* field, QEvent* ev, bool syncOnBlur) {
+		static const char* kConn = "expandConn";
+		int collapsedHeight = ui.codeEdit->sizeHint().height();
+		auto fitHeight = [field, collapsedHeight]() {
+			int docLines = field->document()->size().toSize().height();
+			if (docLines <= 1)
+			{
+				field->setMinimumHeight(collapsedHeight);
+				field->setMaximumHeight(collapsedHeight);
+				return;
+			}
+			QFontMetrics fm(field->font());
+			int lineHeight = fm.lineSpacing();
+			int margins = field->contentsMargins().top() + field->contentsMargins().bottom()
+				+ field->document()->documentMargin() * 2 + 4;
+			int maxHeight = 3 * lineHeight + margins;
+			int fitted = qMin(docLines * lineHeight + margins, maxHeight);
+			field->setMinimumHeight(fitted);
+			field->setMaximumHeight(fitted);
+		};
+		if (ev->type() == QEvent::FocusIn)
+		{
+			fitHeight();
+			auto conn = connect(field, &QPlainTextEdit::textChanged, field, fitHeight);
+			field->setProperty(kConn, QVariant::fromValue(conn));
+			QTimer::singleShot(0, this, [this]() { enqueuePaintBarcode(0); });
+		}
+		else if (ev->type() == QEvent::FocusOut)
+		{
+			auto conn = field->property(kConn).value<QMetaObject::Connection>();
+			disconnect(conn);
+			QTimer::singleShot(0, this, [this, field, collapsedHeight, syncOnBlur]() {
+				field->setMaximumHeight(collapsedHeight);
+				field->setMinimumHeight(collapsedHeight);
+				if (syncOnBlur)
+					updateUIFromOptionsText();
+			});
+		}
+	};
+	if (obj == ui.optionsEdit)
+		expandField(ui.optionsEdit, event, true);
+	if (obj == ui.alttextEdit)
+		expandField(ui.alttextEdit, event, false);
 
-void BarcodeGenerator::on_includecheckintextCheck_stateChanged(int)
-{
-	updateOptionsTextFromUI();
-	enqueuePaintBarcode(0);
-}
+	if (event->type() == QEvent::KeyPress)
+	{
+		QKeyEvent* ke = static_cast<QKeyEvent*>(event);
+		bool isOptions = (obj == ui.optionsEdit || obj == ui.optionsEdit->viewport());
+		bool isAlttext = (obj == ui.alttextEdit || obj == ui.alttextEdit->viewport());
 
-void BarcodeGenerator::on_parseCheck_stateChanged(int)
-{
-	updateOptionsTextFromUI();
-	enqueuePaintBarcode(0);
-}
-
-void BarcodeGenerator::on_parsefncCheck_stateChanged(int)
-{
-	updateOptionsTextFromUI();
-	enqueuePaintBarcode(0);
-}
-
-void BarcodeGenerator::on_formatCombo_currentIndexChanged(int)
-{
-	updateOptionsTextFromUI();
-	enqueuePaintBarcode(0);
-}
-
-void BarcodeGenerator::on_eccCombo_currentIndexChanged(int)
-{
-	updateOptionsTextFromUI();
-	enqueuePaintBarcode(0);
-}
-
-void BarcodeGenerator::on_inkspreadSlider_valueChanged(int value)
-{
-	ui.inkspreadValue->setText(QString::number(value / 100.0, 'f', 2));
-	updateOptionsTextFromUI();
-	enqueuePaintBarcode(debounceInterval);
+		// Block Enter in options field; substitute CR character in alttext
+		if ((isOptions || isAlttext) && (ke->key() == Qt::Key_Return || ke->key() == Qt::Key_Enter))
+		{
+			if (isAlttext)
+			{
+				QString split = ui.alttextsplitCombo->currentText();
+				if (!split.isEmpty())
+					ui.alttextEdit->textCursor().insertText(split);
+			}
+			return true;
+		}
+		// Substitute SP character in alttext
+		if (isAlttext && ke->key() == Qt::Key_Space)
+		{
+			QString sub = ui.alttextsubspaceCombo->currentText();
+			if (!sub.isEmpty())
+				ui.alttextEdit->textCursor().insertText(sub);
+			return true;
+		}
+		// Block spaces in the SP/CR combos
+		if ((obj == ui.alttextsubspaceCombo->lineEdit() ||
+		     obj == ui.alttextsplitCombo->lineEdit()) &&
+		    ke->key() == Qt::Key_Space)
+			return true;
+	}
+	return QDialog::eventFilter(obj, event);
 }
 
 void BarcodeGenerator::paintColorSample(QLabel *l, const ScColor & c)
@@ -932,9 +1254,7 @@ bool BarcodeGenerator::generateBarcode(PageItem* replaceItem, double placeX, dou
 {
 	QString psFile = QDir::toNativeSeparators(ScPaths::tempFileDir() + "bcode.ps");
 
-	// Write PS file synchronously (the preview path writes it via the
-	// render thread, but callers like the silent-regeneration path may
-	// not have run a preview)
+	// Write PS file synchronously
 	{
 		QFile f(psFile);
 		if (!f.open(QIODevice::WriteOnly))
@@ -1038,7 +1358,7 @@ bool BarcodeGenerator::generateBarcode(PageItem* replaceItem, double placeX, dou
 		};
 		addAttr("bwipp-encoder", map[ui.bcCombo->currentText()].command);
 		addAttr("bwipp-content", ui.codeEdit->text());
-		addAttr("bwipp-options", ui.optionsEdit->text());
+		addAttr("bwipp-options", ui.optionsEdit->toPlainText());
 		addAttr("bwipp-nativeWidth", QString::number(nativeW, 'f', 6));
 		addAttr("bwipp-nativeHeight", QString::number(nativeH, 'f', 6));
 		addAttr("plugin-editAction", "BarcodeGenerator");
@@ -1049,6 +1369,36 @@ bool BarcodeGenerator::generateBarcode(PageItem* replaceItem, double placeX, dou
 		tran.commit();
 
 	return true;
+}
+
+void BarcodeGenerator::showHelpBrowser(const QString& file)
+{
+	if (!m_helpBrowser)
+	{
+		m_helpBrowser = new HelpBrowser(this, tr("Barcode Reference"), "en", "", file);
+		m_helpBrowser->setWindowFlags(m_helpBrowser->windowFlags() | Qt::Tool);
+		connect(m_helpBrowser, &HelpBrowser::closed, this, [this]() {
+			m_helpBrowser->deleteLater();
+			m_helpBrowser = nullptr;
+		});
+	}
+	else
+	{
+		m_helpBrowser->jumpToHelpSection("", file, false);
+	}
+	m_helpBrowser->show();
+	m_helpBrowser->raise();
+	m_helpBrowser->activateWindow();
+}
+
+void BarcodeGenerator::helpSymbologiesButton_pressed()
+{
+	showHelpBrowser("bwipp-symbologies.html");
+}
+
+void BarcodeGenerator::helpOptionsButton_pressed()
+{
+	showHelpBrowser("bwipp-options.html");
 }
 
 void BarcodeGenerator::okButton_pressed()
@@ -1069,11 +1419,6 @@ void BarcodeGenerator::codeEdit_textChanged(const QString&)
 	enqueuePaintBarcode(0);
 }
 
-void BarcodeGenerator::on_optionsEdit_textChanged(const QString&)
-{
-	syncOptionsUITimer->start(debounceInterval);
-}
-
 void BarcodeGenerator::syncOptionsUI()
 {
 	updateUIFromOptionsText();
@@ -1082,26 +1427,35 @@ void BarcodeGenerator::syncOptionsUI()
 
 QString BarcodeGenerator::buildPSCommand()
 {
-	QString opts = ui.optionsEdit->text();
+	QString opts = ui.optionsEdit->toPlainText().replace('\n', ' ').replace('\r', ' ');
 
 	// Only append default colors for values NOT already in the options string
-	if (!opts.contains(QRegularExpression("\\bbarcolor=")))
-		opts += " barcolor=" + lnColor.name().replace('#', "").toUpper();
-	if (!opts.contains(QRegularExpression("\\bbackgroundcolor=")))
-		opts += " showbackground backgroundcolor=" + bgColor.name().replace('#', "").toUpper();
-	if (!opts.contains(QRegularExpression("\\btextcolor=")))
-		opts += " textcolor=" + txtColor.name().replace('#', "").toUpper();
+	QStringList tokens = opts.split(' ', Qt::SkipEmptyParts);
+
+	// "crop" controls import bounding — not a BWIPP option, so strip it
+	bool crop = optHasKeyword(tokens, "crop");
+	optRemoveKey(tokens, "crop");
+
+	if (optGetValue(tokens, "barcolor").isNull())
+		tokens.append("barcolor=" + lnColor.name().replace('#', "").toUpper());
+	if (!crop && optGetValue(tokens, "backgroundcolor").isNull())
+	{
+		tokens.append("showbackground");
+		tokens.append("backgroundcolor=" + bgColor.name().replace('#', "").toUpper());
+	}
+	if (optGetValue(tokens, "textcolor").isNull())
+		tokens.append("textcolor=" + txtColor.name().replace('#', "").toUpper());
+	opts = tokens.join(' ');
 
 	// Assemble PS from encoder and requirement bodies
 	QString psCommand = "%!PS-Adobe-2.0 EPSF-2.0\n"
 					"currentglobal true setglobal\n"
 					"/uk.co.terryburton.bwipp.global_ctx << /default_inkspread 0 >> def\n"
 					"setglobal\n";
-	QString req;
 	QString enc = map[ui.bcCombo->currentText()].command;
-	foreach (req, resreqs[enc].split(" "))
-		psCommand.append(resbodys[req]);
-	psCommand.append(resbodys[enc]);
+	std::string resources = m_bwipp->emit_required_resources(enc.toLatin1().constData());
+	if (!resources.empty())
+		psCommand.append(QString::fromLatin1(resources.c_str()));
 	psCommand.append(
 				"errordict begin\n"
 				"/handleerror {\n"
@@ -1119,7 +1473,7 @@ QString BarcodeGenerator::buildPSCommand()
 				"} bind def\n"
 				"end\n"
 				);
-	QString comm("20 10 moveto <%1> <%2> /%3 /uk.co.terryburton.bwipp findresource exec\n");
+	QString comm("100 100 moveto <%1> <%2> /%3 /uk.co.terryburton.bwipp findresource exec\n");
 	QString bcString = ui.codeEdit->text();
 	QByteArray bcLatin1 = ui.codeEdit->text().toLatin1();
 	QByteArray bcUtf8 = ui.codeEdit->text().toUtf8();
@@ -1135,9 +1489,9 @@ QString BarcodeGenerator::buildPSCommand()
 
 void BarcodeGenerator::paintBarcode()
 {
-	thread.render(buildPSCommand());
+	QSize sz = ui.sampleLabel->size();
+	thread.render(buildPSCommand(), sz.width(), sz.height());
 }
-
 
 void BarcodeGenerator::resetButton_clicked()
 {

@@ -10,17 +10,52 @@ for which a new license (GPL+exception) is in place.
 
 #include "ui_barcodegenerator.h"
 #include "barcodegeneratorrenderthread.h"
+#include "bwipp/postscriptbarcode.hpp"
 
-#include <QColor>
 #include <QDialog>
 #include <QLabel>
 #include <QList>
 #include <QString>
+#include <QStringList>
 #include <QTimer>
+#include <optional>
 
 #include "sccolor.h"
 
+class HelpBrowser;
+
 class PageItem;
+
+struct BarcodeComboConfig {
+	QString name;
+	QString key;
+	QStringList values;
+};
+
+struct BarcodeEncoderUI {
+	bool enabled = true;
+	int order = 0;
+	QString desc;
+	QString exam;
+	QString exop;
+	BarcodeComboConfig combo1;
+	BarcodeComboConfig combo2;
+	bool includetext = false;
+	bool guardwhitespace = false;
+	bool includecheck = false;
+	bool includecheckintext = false;
+	bool parse = false;
+	bool parsefnc = false;
+	bool dotty = false;
+	bool dottyForced = false;
+	bool height = false;
+};
+
+struct BarcodeFamilyUI {
+	bool enabled = true;
+	int order = 0;
+	QString desc;
+};
 
 /*! \brief One Barcode Entity.
 \author Petr Vanek <petr@yarpen.cz>
@@ -31,7 +66,6 @@ class BarcodeType
 		//! \brief Constructor provided for QMap initialization only.
 		BarcodeType(){};
 		/*! \brief Setup the Barcode entity.
-		\todo Make better regular expressions for BCDs.
 		\param cmd a Postsript command for given BC type
 		\param exa an example of the contents
 		\param exaop an example of the options */
@@ -50,7 +84,7 @@ class BarcodeType
 using BarcodeMap = QMap<QString, BarcodeType>;
 
 
-/*! \brief Active tasts for BC GUI.
+/*! \brief Active tasks for BC GUI.
 It's inherited from BarcodeGeneratorBase() class which is created
 by uic from designer. Don't change anything in BarcodeGeneratorBase
 manually! It will be overwritten automatically by uic.
@@ -65,7 +99,7 @@ class BarcodeGenerator : public QDialog
 		\param parent Parent of the dialog.
 		\param name name od the QObject to debug */
 		BarcodeGenerator(QWidget* parent = nullptr, const char* name = 0);
-		//! \brief Erase the temporary files here.
+		//! \brief Clean up temporary files and resources.
 		~BarcodeGenerator();
 
 		/*! \brief Pre-populate the dialog from a barcode item's stored attributes.
@@ -87,6 +121,9 @@ class BarcodeGenerator : public QDialog
 		bool generateBarcode(PageItem* replaceItem = nullptr, double placeX = -1, double placeY = -1);
 
 	protected:
+		bool eventFilter(QObject* obj, QEvent* event) override;
+		void mousePressEvent(QMouseEvent* event) override;
+
 		//! GUI namespace content. See designer.
 		Ui::BarcodeGeneratorBase ui;
 
@@ -95,41 +132,13 @@ class BarcodeGenerator : public QDialog
 
 		QTimer* paintBarcodeTimer { nullptr };
 
-		//! \brief List of available barcode encoders.
-		QList<QString> encoderlist;
-		//! \brief Descriptions of each encoder.
-		QHash<QString, QString> resdescs;
-		//! \brief Dependencies of each encoder.
-		QHash<QString, QString> resreqs;
-		//! \brief Example data input for each encoder.
-		QHash<QString, QString> resexams;
-		//! \brief Example options input for each encoder.
-		QHash<QString, QString> resexops;
-		//! \brief Renderers for each encoder.
-		QHash<QString, QString> resrndrs;
-		//! \brief PS body of each encoder.
-		QHash<QString, QString> resbodys;
-		//! \brief Symbol Versions of each encoder.
-		QHash<QString, QString> resvers;
-		//! \brief Label for the versions field.
-		QHash<QString, QString> resvlbl;
-		//! \brief Error correction levels of each encoder.
-		QHash<QString, QString> resecls;
-		//! \brief includetext option available for each encoder.
-		QHash<QString, bool> resincludetextAvail;
-		//! \brief guardwhitespace option available for each encoder.
-		QHash<QString, bool> resguardwhitespaceAvail;
-		//! \brief includecheck option available for each encoder.
-		QHash<QString, bool> resincludecheckAvail;
-		//! \brief includecheckintext option available for each encoder.
-		QHash<QString, bool> resincludecheckintextAvail;
-		//! \brief parse option available for each encoder.
-		QHash<QString, bool> resparseAvail;
-		//! \brief parsefnc option available for each encoder.
-		QHash<QString, bool> resparsefncAvail;
+		//! \brief Per-encoder UI configuration from barcode_ui.json.
+		QHash<QString, BarcodeEncoderUI> encoderUI;
+		//! \brief Per-family UI configuration from barcode_ui.json.
+		QHash<QString, BarcodeFamilyUI> familyUI;
 		//! \brief List of barcode families.
 		QList<QString> familyList;
-		//! \brief Family to item hash.
+		//! \brief Family name to encoder display names.
 		QHash<QString, QStringList> familyItems;
 
 		//! \brief Color of the BC lines.
@@ -139,17 +148,11 @@ class BarcodeGenerator : public QDialog
 		//! \brief Background color of the BC.
 		ScColor bgColor;
 
-		QColor guiColor;
-
 		/*! \brief Create color preview.
 		Used for Color box feedback.
 		\param l A pointer to the sample QLabel
 		\param c A color to fill */
 		void paintColorSample(QLabel *l, const ScColor & c);
-		/*! \brief Perform BarcodeCheckType checks here
-		\param s new string */
-		bool codeEdit_check(const QString & s);
-		bool optionsEdit_check(const QString & s);
 		void updateOptions();
 		void updateOptionsTextFromUI();
 		void updateUIFromOptionsText();
@@ -157,10 +160,15 @@ class BarcodeGenerator : public QDialog
 		PageItem* m_editItem {nullptr};
 
 	private:
+		std::optional<bwipp::BWIPP> m_bwipp;
+		HelpBrowser* m_helpBrowser {nullptr};
+		void loadUIConfig(const QString& path);
+		void showHelpBrowser(const QString& file);
 		void enqueuePaintBarcode(int);
 		QString buildPSCommand();
 		BarcodeGeneratorRenderThread thread;
 		QTimer* syncOptionsUITimer { nullptr };
+		QTimer* syncOptionsTextTimer { nullptr };
 
 		/*! \brief Shared UI population from encoder/content/options */
 		void loadBarcode(const QString& encoder, const QString& content, const QString& options);
@@ -169,37 +177,24 @@ class BarcodeGenerator : public QDialog
 		/*! \brief Ensure a boolean option is present in the options text field */
 		void ensureOptionPresent(const QString& key);
 
+		void setControlsEnabled(bool enabled);
+
 	protected slots:
 		void paintBarcode();
 		void updatePreview(const QString&);
 		void bcFamilyComboChanged();
 		void bcComboChanged();
 		void bcComboChanged(int);
-		//void textCheck_changed();
-		//void guardCheck_changed();
-		//void includeCheck_stateChanged(int state);
-		//void includeCheckInText_stateChanged(int state);
-		//void parseCheck_stateChanged(int state);
-		//void parsefncCheck_stateChanged(int state);
 		void bgColorButton_pressed();
 		void lnColorButton_pressed();
 		void txtColorButton_pressed();
 		void codeEdit_textChanged(const QString& s);
-		//void optionsEdit_textChanged(const QString& s);
 		void resetButton_clicked();
+		void helpSymbologiesButton_pressed();
+		void helpOptionsButton_pressed();
 		void okButton_pressed();
 		void cancelButton_pressed();
 	private slots:
-		void on_includetextCheck_stateChanged(int arg1);
-		void on_includecheckCheck_stateChanged(int arg1);
-		void on_includecheckintextCheck_stateChanged(int arg1);
-		void on_parseCheck_stateChanged(int arg1);
-		void on_parsefncCheck_stateChanged(int arg1);
-		void on_formatCombo_currentIndexChanged(int index);
-		void on_eccCombo_currentIndexChanged(int index);
-		void on_guardwhitespaceCheck_stateChanged(int arg1);
-		void on_optionsEdit_textChanged(const QString &arg1);
-		void on_inkspreadSlider_valueChanged(int value);
 		void syncOptionsUI();
 };
 
