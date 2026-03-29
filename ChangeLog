@@ -2,6 +2,7 @@ Scribus - 1.7.3 (Released 2026-xx-xx)
 =========================================
 https://bugs.scribus.net/changelog_page.php?version_id=134
 
+0017784: [General]  Real-time spell check should ignore soft hyphen (cbradney)
 0017188: [General]  ‘void ppdClose(ppd_file_t*)’ is deprecated (cbradney)
 0007095: [Text Frames / Story Editor]  Add ability to remove unused styles (cbradney)
 0017783: [General]  Scribus crashes when layouting text of inline elements (jghali)
@@ -13,7 +14,7 @@ https://bugs.scribus.net/changelog_page.php?version_id=134
 0017386: [Text Frames / Story Editor]  Make the chaining arrows visually more pleasing (cbradney)
 0013468: [Canvas]  If chained frames touching each other, in case marker arrow shown in wrong place. (cbradney)
 0013666: [Canvas]  Chained frame arrow artifacts (redraw issues) after using direction keys (cbradney)
-0017175: [General]  [PATCH] Multiple duplicate by page: optionally limit the number of copies (cbradney)
+0017175: [General]  Multiple duplicate by page: optionally limit the number of copies (cbradney)
 0016628: [Typography]  Khmer Numbering for Page Numbers and Lists (cbradney)
 0016219: [Graphics / Image Frames]  Import ms publisher files Photos shot in portrait are not rotated in image frame, and are off centered. (cbradney)
 0017769: [Typography]  Change case feature like in LibreOffice (cbradney)
@@ -31,7 +32,7 @@ https://bugs.scribus.net/changelog_page.php?version_id=134
 0016165: [Text Frames / Story Editor]  Spellcheck Issue (cbradney)
 0014567: [Text Frames / Story Editor]  [PATCH] Search \ replace all text frames (ale)
 0017753: [General]  [Style-based TOC] Wrong table of content setup when reading/openning a document (cbradney)
-0017749: [User Interface]  [PATCH] Action Search & Style Search not listed in keyboard shortcut menu (ale)
+0017749: [User Interface]  Action Search & Style Search not listed in keyboard shortcut menu (ale)
 0017727: [General]  Scribus crashes when copy pasting a group with Attributes (jghali)
 0011492: [General]  ECE15 new search dialog and feature (cbradney)
 
