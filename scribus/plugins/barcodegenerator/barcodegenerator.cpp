@@ -5,13 +5,15 @@ a copyright and/or license notice that predates the release of Scribus 1.3.2
 for which a new license (GPL+exception) is in place.
 */
 
+#include <QButtonGroup>
 #include <QDebug>
-#include <QKeyEvent>
-#include <QMouseEvent>
 #include <QFile>
 #include <QJsonArray>
 #include <QJsonDocument>
 #include <QJsonObject>
+#include <QKeyEvent>
+#include <QMouseEvent>
+#include <QPushButton>
 #include <QTextStream>
 #include <QTimer>
 
@@ -36,7 +38,6 @@ BarcodeType::BarcodeType(const QString &cmd, const QString &exa, const QString &
 	  exampleContents(exa),
 	  exampleOptions(exaop)
 {
-
 }
 
 BarcodeGenerator::BarcodeGenerator(QWidget* parent, const char* name)
@@ -52,6 +53,19 @@ BarcodeGenerator::BarcodeGenerator(QWidget* parent, const char* name)
 	// Equal stretch for widget columns in text grid (labels=0, widgets=1)
 	for (int c = 0; c < 8; ++c)
 		ui.textGridLayout->setColumnStretch(c, c % 2);
+
+	// Text block tab button group
+	m_textTabGroup = new QButtonGroup(this);
+	m_textTabGroup->setExclusive(true);
+	for (int i = 1; i <= 9; ++i)
+		m_textTabGroup->addButton(findChild<QPushButton*>(QString("textTab%1").arg(i)), i);
+	connect(m_textTabGroup, &QButtonGroup::idClicked, this, [this](int id) {
+		updateOptionsTextFromUI();
+		m_activeTextTab = id;
+		updateUIFromOptionsText();
+		updateTextControlsEnabled();
+		enqueuePaintBarcode(0);
+	});
 
 	connect(&thread, SIGNAL(renderedImage(QString)),this, SLOT(updatePreview(QString)));
 
@@ -206,6 +220,7 @@ BarcodeGenerator::BarcodeGenerator(QWidget* parent, const char* name)
 	syncOptionsTextTimer->setSingleShot(true);
 	connect(syncOptionsTextTimer, &QTimer::timeout, this, [this]() {
 		updateOptionsTextFromUI();
+		updateTextControlsEnabled();
 		enqueuePaintBarcode(0);
 	});
 
@@ -397,6 +412,8 @@ void BarcodeGenerator::loadUIConfig(const QString& path)
 		eui.dotty = eo.value("dotty").toBool();
 		eui.dottyForced = eo.value("dottyForced").toBool();
 		eui.height = eo.value("height").toBool();
+		eui.bearer = eo.value("bearer").toBool();
+		eui.fixedtext = eo.value("fixedtext").toBool();
 		encoderUI[it.key()] = eui;
 	}
 }
@@ -571,6 +588,28 @@ void BarcodeGenerator::ensureOptionPresent(const QString& key)
 	}
 }
 
+// Map text option suffix to option key for the active text block tab.
+// Tab 1: "textfont", "textsize", etc.
+// Tab 2: "extratextfont", "extratextsize", etc.
+// Tab 3-9: "text3font", "text3size", etc.
+QString BarcodeGenerator::textOptKey(const QString& suffix) const
+{
+	if (m_activeTextTab == 1) return "text" + suffix;
+	if (m_activeTextTab == 2) return "extratext" + suffix;
+	return "text" + QString::number(m_activeTextTab) + suffix;
+}
+
+// Map alttext subkey to option key for the active text block tab.
+// Tab 1: "alttext", "alttextsubspace", "alttextsplit"
+// Tab 2: "extratext", "extratextsubspace", "extratextsplit"
+// Tab 3-9: "text3", "text3subspace", "text3split"
+QString BarcodeGenerator::altTextKey(const QString& subkey) const
+{
+	if (m_activeTextTab == 1) return subkey.isEmpty() ? "alttext" : ("alttext" + subkey);
+	if (m_activeTextTab == 2) return "extratext" + subkey;
+	return "text" + QString::number(m_activeTextTab) + subkey;
+}
+
 void BarcodeGenerator::updateOptions()
 {
 	QString enc = map[ui.bcCombo->currentText()].command;
@@ -634,6 +673,35 @@ void BarcodeGenerator::updateOptions()
 	ui.heightLabel->setEnabled(eui.height);
 	ui.heightSlider->setEnabled(eui.height);
 	ui.heightValue->setEnabled(eui.height);
+
+	// Bearer bars
+	ui.borderBearerRadio->setEnabled(eui.bearer);
+	if (!eui.bearer && ui.borderBearerRadio->isChecked())
+	{
+		ui.borderNoneRadio->blockSignals(true);
+		ui.borderNoneRadio->setChecked(true);
+		ui.borderNoneRadio->blockSignals(false);
+	}
+
+	updateTextControlsEnabled();
+}
+
+void BarcodeGenerator::updateTextControlsEnabled()
+{
+	QString enc = map[ui.bcCombo->currentText()].command;
+	const BarcodeEncoderUI& eui = encoderUI[enc];
+
+	// For fixedtext encoders on tab 1, text positioning controls are
+	// disabled unless alttext overrides the encoder's native text
+	bool fixed = eui.fixedtext && m_activeTextTab == 1
+		&& ui.alttextEdit->toPlainText().isEmpty();
+
+	ui.textdirectionCombo->setEnabled(!fixed);
+	ui.textgapsCombo->setEnabled(!fixed);
+	ui.textxalignCombo->setEnabled(!fixed);
+	ui.textyalignCombo->setEnabled(!fixed);
+	ui.textxoffsetCombo->setEnabled(!fixed);
+	ui.textyoffsetCombo->setEnabled(!fixed);
 }
 
 void BarcodeGenerator::bcFamilyComboChanged()
@@ -654,6 +722,10 @@ void BarcodeGenerator::bcComboChanged(int)
 
 void BarcodeGenerator::bcComboChanged()
 {
+	m_activeTextTab = 1;
+	if (auto* btn = m_textTabGroup->button(1))
+		btn->setChecked(true);
+
 	updateOptions();
 
 	if (ui.bcCombo->currentIndex() == 0)
@@ -758,16 +830,7 @@ void BarcodeGenerator::updateOptionsTextFromUI()
 			optRemoveKey(tokens, key);
 	};
 
-	// Font combo: display "OCR-A"/"OCR-B" but BWIPP expects "OCRA"/"OCRB"
-	if (ui.textfontCombo->currentIndex() > 0)
-	{
-		QString val = ui.textfontCombo->currentText();
-		if (val.startsWith("OCR-"))
-			val.remove(3, 1); // "OCR-A" -> "OCRA"
-		optSetValue(tokens, "textfont", val);
-	}
-	else
-		optRemoveKey(tokens, "textfont");
+	// Text formatting options (tab-aware)
 	auto syncEditableComboOption = [&](QComboBox* combo, const QString& key) {
 		QString text = combo->currentText().trimmed();
 		if (!text.isEmpty() && text.compare("Auto", Qt::CaseInsensitive) != 0)
@@ -775,27 +838,38 @@ void BarcodeGenerator::updateOptionsTextFromUI()
 		else
 			optRemoveKey(tokens, key);
 	};
-	syncEditableComboOption(ui.textsizeCombo, "textsize");
-	syncEditableComboOption(ui.textgapsCombo, "textgaps");
-	syncComboOption(ui.textdirectionCombo, "textdirection", true);
-	syncComboOption(ui.textxalignCombo, "textxalign", true);
-	syncComboOption(ui.textyalignCombo, "textyalign", true);
-	syncEditableComboOption(ui.textxoffsetCombo, "textxoffset");
-	syncEditableComboOption(ui.textyoffsetCombo, "textyoffset");
-	if (!ui.alttextEdit->toPlainText().isEmpty())
-		optSetValue(tokens, "alttext", ui.alttextEdit->toPlainText());
+
+	// Font combo: display "OCR-A"/"OCR-B" but BWIPP expects "OCRA"/"OCRB"
+	if (ui.textfontCombo->currentIndex() > 0)
+	{
+		QString val = ui.textfontCombo->currentText();
+		if (val.startsWith("OCR-"))
+			val.remove(3, 1);
+		optSetValue(tokens, textOptKey("font"), val);
+	}
 	else
-		optRemoveKey(tokens, "alttext");
-	// alttextsubspace / alttextsplit: empty = omit, otherwise single char
-	for (auto [combo, key] : std::initializer_list<std::pair<QComboBox*, const char*>>{
-		{ui.alttextsubspaceCombo, "alttextsubspace"},
-		{ui.alttextsplitCombo, "alttextsplit"}})
+		optRemoveKey(tokens, textOptKey("font"));
+	syncEditableComboOption(ui.textsizeCombo, textOptKey("size"));
+	syncEditableComboOption(ui.textgapsCombo, textOptKey("gaps"));
+	syncComboOption(ui.textdirectionCombo, textOptKey("direction"), true);
+	syncComboOption(ui.textxalignCombo, textOptKey("xalign"), true);
+	syncComboOption(ui.textyalignCombo, textOptKey("yalign"), true);
+	syncEditableComboOption(ui.textxoffsetCombo, textOptKey("xoffset"));
+	syncEditableComboOption(ui.textyoffsetCombo, textOptKey("yoffset"));
+
+	if (!ui.alttextEdit->toPlainText().isEmpty())
+		optSetValue(tokens, altTextKey(), ui.alttextEdit->toPlainText());
+	else
+		optRemoveKey(tokens, altTextKey());
+	for (auto [combo, subkey] : std::initializer_list<std::pair<QComboBox*, const char*>>{
+		{ui.alttextsubspaceCombo, "subspace"},
+		{ui.alttextsplitCombo, "split"}})
 	{
 		QString text = combo->currentText().trimmed();
 		if (!text.isEmpty())
-			optSetValue(tokens, key, text);
+			optSetValue(tokens, altTextKey(subkey), text);
 		else
-			optRemoveKey(tokens, key);
+			optRemoveKey(tokens, altTextKey(subkey));
 	}
 
 	// Border controls
@@ -956,9 +1030,21 @@ void BarcodeGenerator::updateUIFromOptionsText()
 		}
 	};
 
+	// Text formatting options (tab-aware)
+	auto syncEditableComboFromOpt = [&](QComboBox* combo, const QString& key) {
+		QString val = optGetValue(tokens, key);
+		QString text = val.isNull() ? "Auto" : val;
+		if (combo->currentText() != text)
+		{
+			combo->blockSignals(true);
+			combo->setCurrentText(text);
+			combo->blockSignals(false);
+		}
+	};
+
 	// Font combo: BWIPP "OCRA"/"OCRB" -> display "OCR-A"/"OCR-B"
 	{
-		QString val = optGetValue(tokens, "textfont");
+		QString val = optGetValue(tokens, textOptKey("font"));
 		int idx = 0;
 		if (!val.isNull())
 		{
@@ -974,25 +1060,15 @@ void BarcodeGenerator::updateUIFromOptionsText()
 			ui.textfontCombo->blockSignals(false);
 		}
 	}
-	auto syncEditableComboFromOpt = [&](QComboBox* combo, const QString& key) {
-		QString val = optGetValue(tokens, key);
-		QString text = val.isNull() ? "Auto" : val;
-		if (combo->currentText() != text)
-		{
-			combo->blockSignals(true);
-			combo->setCurrentText(text);
-			combo->blockSignals(false);
-		}
-	};
-	syncEditableComboFromOpt(ui.textsizeCombo, "textsize");
-	syncEditableComboFromOpt(ui.textgapsCombo, "textgaps");
-	syncComboFromOpt(ui.textdirectionCombo, "textdirection");
-	syncComboFromOpt(ui.textxalignCombo, "textxalign");
-	syncComboFromOpt(ui.textyalignCombo, "textyalign");
-	syncEditableComboFromOpt(ui.textxoffsetCombo, "textxoffset");
-	syncEditableComboFromOpt(ui.textyoffsetCombo, "textyoffset");
+	syncEditableComboFromOpt(ui.textsizeCombo, textOptKey("size"));
+	syncEditableComboFromOpt(ui.textgapsCombo, textOptKey("gaps"));
+	syncComboFromOpt(ui.textdirectionCombo, textOptKey("direction"));
+	syncComboFromOpt(ui.textxalignCombo, textOptKey("xalign"));
+	syncComboFromOpt(ui.textyalignCombo, textOptKey("yalign"));
+	syncEditableComboFromOpt(ui.textxoffsetCombo, textOptKey("xoffset"));
+	syncEditableComboFromOpt(ui.textyoffsetCombo, textOptKey("yoffset"));
 
-	QString altVal = optGetValue(tokens, "alttext");
+	QString altVal = optGetValue(tokens, altTextKey());
 	QString altText = altVal.isNull() ? QString() : altVal;
 	if (ui.alttextEdit->toPlainText() != altText)
 	{
@@ -1000,11 +1076,11 @@ void BarcodeGenerator::updateUIFromOptionsText()
 		ui.alttextEdit->setPlainText(altText);
 		ui.alttextEdit->blockSignals(false);
 	}
-	for (auto [combo, key] : std::initializer_list<std::pair<QComboBox*, const char*>>{
-		{ui.alttextsubspaceCombo, "alttextsubspace"},
-		{ui.alttextsplitCombo, "alttextsplit"}})
+	for (auto [combo, subkey] : std::initializer_list<std::pair<QComboBox*, const char*>>{
+		{ui.alttextsubspaceCombo, "subspace"},
+		{ui.alttextsplitCombo, "split"}})
 	{
-		QString val = optGetValue(tokens, key);
+		QString val = optGetValue(tokens, altTextKey(subkey));
 		QString text = val.isNull() ? QString() : val;
 		if (combo->currentText() != text)
 		{

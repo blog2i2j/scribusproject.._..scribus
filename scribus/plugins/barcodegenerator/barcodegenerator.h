@@ -22,6 +22,7 @@ for which a new license (GPL+exception) is in place.
 
 #include "sccolor.h"
 
+class QButtonGroup;
 class HelpBrowser;
 
 class PageItem;
@@ -49,6 +50,8 @@ struct BarcodeEncoderUI {
 	bool dotty = false;
 	bool dottyForced = false;
 	bool height = false;
+	bool bearer = false;
+	bool fixedtext = false;
 };
 
 struct BarcodeFamilyUI {
@@ -160,6 +163,11 @@ class BarcodeGenerator : public QDialog
 		PageItem* m_editItem {nullptr};
 
 	private:
+		int m_activeTextTab { 1 };
+		QButtonGroup* m_textTabGroup { nullptr };
+		QString textOptKey(const QString& suffix) const;
+		QString altTextKey(const QString& subkey = QString()) const;
+
 		std::optional<bwipp::BWIPP> m_bwipp;
 		HelpBrowser* m_helpBrowser {nullptr};
 		void loadUIConfig(const QString& path);
@@ -178,6 +186,7 @@ class BarcodeGenerator : public QDialog
 		void ensureOptionPresent(const QString& key);
 
 		void setControlsEnabled(bool enabled);
+		void updateTextControlsEnabled();
 
 	protected slots:
 		void paintBarcode();
