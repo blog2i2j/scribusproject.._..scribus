@@ -7,9 +7,14 @@
 		</AfterBuildDependsOn>
 	</PropertyGroup>
 	
-	<Target Name="Install_plugins_barcodegenerator">  
+	<Target Name="Install_plugins_barcodegenerator">
+		<Copy
+			SourceFiles="$(MSBuildThisFileDirectory)barcode_ui.json"  
+			DestinationFiles="$(OutDir)\share\plugins\barcode_ui.json"
+			SkipUnchangedFiles="true"
+		/>
 		<Copy  
-			SourceFiles="$(MSBuildThisFileDirectory)barcode.ps"  
+			SourceFiles="$(MSBuildThisFileDirectory)bwipp\barcode.ps.src"  
 			DestinationFiles="$(OutDir)\share\plugins\barcode.ps"
 			SkipUnchangedFiles="true"
 		/>

@@ -96,8 +96,8 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>..;..\..\..\scribus;$(QT6_DIR)\include\QtCore;$(QT6_DIR)\include\QtCore5Compat;$(QT6_DIR)\include\QtGui;$(QT6_DIR)\include\QtWidgets;$(QT6_DIR)\include;$(LCMS_INCLUDE_DIR);$(CAIRO_INCLUDE_DIR);$(FREETYPE_INCLUDE_DIR);$(ICU_INCLUDE_DIR);$(LIBJPEG_INCLUDE_DIR);$(LIBTIFF_INCLUDE_DIR);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_USE_MATH_DEFINES;_USRDLL;_WINDOWS;QT_DLL;QT_GUI_LIB;QT_CORE_LIB;QT_THREAD_SUPPORT;COMPILE_PLUGIN_AS_DLL;AVOID_WIN32_FILEIO;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..;..\..\..\scribus;..\..\..\scribus\plugins\barcodegenerator\bwipp;$(QT6_DIR)\include\QtCore;$(QT6_DIR)\include\QtCore5Compat;$(QT6_DIR)\include\QtGui;$(QT6_DIR)\include\QtWidgets;$(QT6_DIR)\include;$(LCMS_INCLUDE_DIR);$(CAIRO_INCLUDE_DIR);$(FREETYPE_INCLUDE_DIR);$(ICU_INCLUDE_DIR);$(LIBJPEG_INCLUDE_DIR);$(LIBTIFF_INCLUDE_DIR);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_USE_MATH_DEFINES;_USRDLL;_WINDOWS;QT_DLL;QT_GUI_LIB;QT_CORE_LIB;QT_THREAD_SUPPORT;COMPILE_PLUGIN_AS_DLL;AVOID_WIN32_FILEIO;BWIPP_API=;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <MinimalRebuild>true</MinimalRebuild>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
@@ -125,8 +125,8 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>..;..\..\..\scribus;$(QT6_DIR)\include\QtCore;$(QT6_DIR)\include\QtCore5Compat;$(QT6_DIR)\include\QtGui;$(QT6_DIR)\include\QtWidgets;$(QT6_DIR)\include;$(LCMS_INCLUDE_DIR);$(CAIRO_INCLUDE_DIR);$(FREETYPE_INCLUDE_DIR);$(ICU_INCLUDE_DIR);$(LIBJPEG_INCLUDE_DIR);$(LIBTIFF_INCLUDE_DIR);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_USE_MATH_DEFINES;_USRDLL;_WINDOWS;QT_DLL;QT_GUI_LIB;QT_CORE_LIB;QT_THREAD_SUPPORT;COMPILE_PLUGIN_AS_DLL;AVOID_WIN32_FILEIO;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..;..\..\..\scribus;..\..\..\scribus\plugins\barcodegenerator\bwipp;$(QT6_DIR)\include\QtCore;$(QT6_DIR)\include\QtCore5Compat;$(QT6_DIR)\include\QtGui;$(QT6_DIR)\include\QtWidgets;$(QT6_DIR)\include;$(LCMS_INCLUDE_DIR);$(CAIRO_INCLUDE_DIR);$(FREETYPE_INCLUDE_DIR);$(ICU_INCLUDE_DIR);$(LIBJPEG_INCLUDE_DIR);$(LIBTIFF_INCLUDE_DIR);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_USE_MATH_DEFINES;_USRDLL;_WINDOWS;QT_DLL;QT_GUI_LIB;QT_CORE_LIB;QT_THREAD_SUPPORT;COMPILE_PLUGIN_AS_DLL;AVOID_WIN32_FILEIO;BWIPP_API=;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
@@ -155,8 +155,8 @@
       <Optimization>MinSpace</Optimization>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
       <OmitFramePointers>true</OmitFramePointers>
-      <AdditionalIncludeDirectories>..;..\..\..\scribus;$(QT6_DIR)\include\QtCore;$(QT6_DIR)\include\QtCore5Compat;$(QT6_DIR)\include\QtGui;$(QT6_DIR)\include\QtWidgets;$(QT6_DIR)\include;$(LCMS_INCLUDE_DIR);$(CAIRO_INCLUDE_DIR);$(FREETYPE_INCLUDE_DIR);$(ICU_INCLUDE_DIR);$(LIBJPEG_INCLUDE_DIR);$(LIBTIFF_INCLUDE_DIR);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <PreprocessorDefinitions>WIN32;NDEBUG;_USE_MATH_DEFINES;_USRDLL;_WINDOWS;QT_DLL;QT_GUI_LIB;QT_CORE_LIB;QT_THREAD_SUPPORT;COMPILE_PLUGIN_AS_DLL;AVOID_WIN32_FILEIO;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..;..\..\..\scribus;..\..\..\scribus\plugins\barcodegenerator\bwipp;$(QT6_DIR)\include\QtCore;$(QT6_DIR)\include\QtCore5Compat;$(QT6_DIR)\include\QtGui;$(QT6_DIR)\include\QtWidgets;$(QT6_DIR)\include;$(LCMS_INCLUDE_DIR);$(CAIRO_INCLUDE_DIR);$(FREETYPE_INCLUDE_DIR);$(ICU_INCLUDE_DIR);$(LIBJPEG_INCLUDE_DIR);$(LIBTIFF_INCLUDE_DIR);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_USE_MATH_DEFINES;_USRDLL;_WINDOWS;QT_DLL;QT_GUI_LIB;QT_CORE_LIB;QT_THREAD_SUPPORT;COMPILE_PLUGIN_AS_DLL;AVOID_WIN32_FILEIO;BWIPP_API=;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <StringPooling>true</StringPooling>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <FunctionLevelLinking>true</FunctionLevelLinking>
@@ -188,8 +188,8 @@
       <Optimization>MinSpace</Optimization>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
       <OmitFramePointers>true</OmitFramePointers>
-      <AdditionalIncludeDirectories>..;..\..\..\scribus;$(QT6_DIR)\include\QtCore;$(QT6_DIR)\include\QtCore5Compat;$(QT6_DIR)\include\QtGui;$(QT6_DIR)\include\QtWidgets;$(QT6_DIR)\include;$(LCMS_INCLUDE_DIR);$(CAIRO_INCLUDE_DIR);$(FREETYPE_INCLUDE_DIR);$(ICU_INCLUDE_DIR);$(LIBJPEG_INCLUDE_DIR);$(LIBTIFF_INCLUDE_DIR);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <PreprocessorDefinitions>WIN32;NDEBUG;_USE_MATH_DEFINES;_USRDLL;_WINDOWS;QT_DLL;QT_GUI_LIB;QT_CORE_LIB;QT_THREAD_SUPPORT;COMPILE_PLUGIN_AS_DLL;AVOID_WIN32_FILEIO;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..;..\..\..\scribus;..\..\..\scribus\plugins\barcodegenerator\bwipp;$(QT6_DIR)\include\QtCore;$(QT6_DIR)\include\QtCore5Compat;$(QT6_DIR)\include\QtGui;$(QT6_DIR)\include\QtWidgets;$(QT6_DIR)\include;$(LCMS_INCLUDE_DIR);$(CAIRO_INCLUDE_DIR);$(FREETYPE_INCLUDE_DIR);$(ICU_INCLUDE_DIR);$(LIBJPEG_INCLUDE_DIR);$(LIBTIFF_INCLUDE_DIR);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_USE_MATH_DEFINES;_USRDLL;_WINDOWS;QT_DLL;QT_GUI_LIB;QT_CORE_LIB;QT_THREAD_SUPPORT;COMPILE_PLUGIN_AS_DLL;AVOID_WIN32_FILEIO;BWIPP_API=;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <StringPooling>true</StringPooling>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <FunctionLevelLinking>true</FunctionLevelLinking>
@@ -220,6 +220,20 @@
     <ClCompile Include="..\..\..\scribus\plugins\barcodegenerator\barcode.cpp" />
     <ClCompile Include="..\..\..\scribus\plugins\barcodegenerator\barcodegenerator.cpp" />
     <ClCompile Include="..\..\..\scribus\plugins\barcodegenerator\barcodegeneratorrenderthread.cpp" />
+    <ClCompile Include="..\..\..\scribus\plugins\barcodegenerator\bwipp\postscriptbarcode.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </ForcedIncludeFiles>
+    </ClCompile>
     <ClCompile Include="..\..\..\scribus\plugins\plugins_pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
@@ -228,6 +242,9 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\..\scribus\plugins\barcodegenerator\bwipp\postscriptbarcode.h" />
+    <ClInclude Include="..\..\..\scribus\plugins\barcodegenerator\bwipp\postscriptbarcode.hpp" />
+    <ClInclude Include="..\..\..\scribus\plugins\barcodegenerator\bwipp\postscriptbarcode_private.h" />
     <ClInclude Include="..\..\..\scribus\plugins\plugins_pch.h" />
     <moc Include="..\..\..\scribus\plugins\barcodegenerator\barcode.h" />
     <moc Include="..\..\..\scribus\plugins\barcodegenerator\barcodegenerator.h" />
