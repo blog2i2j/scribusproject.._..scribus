@@ -304,10 +304,10 @@ void PDFExportDialog::updateDocOptions()
 	m_opts.useDocBleeds = Options->docBleeds->isChecked();
 	if (!Options->docBleeds->isChecked())
 	{
-		m_opts.bleeds.setTop(Options->BleedTop->value() / m_unitRatio);
-		m_opts.bleeds.setLeft(Options->BleedLeft->value() / m_unitRatio);
-		m_opts.bleeds.setRight(Options->BleedRight->value() / m_unitRatio);
-		m_opts.bleeds.setBottom(Options->BleedBottom->value()/ m_unitRatio);
+		m_opts.bleeds.setTop(Options->bleedTopSpinBox->value() / m_unitRatio);
+		m_opts.bleeds.setLeft(Options->bleedLeftSpinBox->value() / m_unitRatio);
+		m_opts.bleeds.setRight(Options->bleedRightSpinBox->value() / m_unitRatio);
+		m_opts.bleeds.setBottom(Options->bleedBottomSpinBox->value()/ m_unitRatio);
 	}
 	m_opts.markLength = Options->markLength->value() / m_unitRatio;
 	m_opts.markOffset = Options->markOffset->value() / m_unitRatio;

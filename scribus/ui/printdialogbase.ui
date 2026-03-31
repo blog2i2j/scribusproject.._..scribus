@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>572</width>
-    <height>529</height>
+    <height>547</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -57,7 +57,7 @@
         <item>
          <spacer>
           <property name="orientation">
-           <enum>Qt::Horizontal</enum>
+           <enum>Qt::Orientation::Horizontal</enum>
           </property>
           <property name="sizeHint" stdset="0">
            <size>
@@ -170,7 +170,7 @@
       <item row="0" column="2">
        <spacer>
         <property name="orientation">
-         <enum>Qt::Horizontal</enum>
+         <enum>Qt::Orientation::Horizontal</enum>
         </property>
         <property name="sizeHint" stdset="0">
          <size>
@@ -248,7 +248,7 @@ a range of pages or a single page number</string>
       <item row="2" column="4">
        <spacer>
         <property name="orientation">
-         <enum>Qt::Horizontal</enum>
+         <enum>Qt::Orientation::Horizontal</enum>
         </property>
         <property name="sizeHint" stdset="0">
          <size>
@@ -399,10 +399,10 @@ a range of pages or a single page number</string>
           <item>
            <spacer>
             <property name="orientation">
-             <enum>Qt::Vertical</enum>
+             <enum>Qt::Orientation::Vertical</enum>
             </property>
             <property name="sizeType">
-             <enum>QSizePolicy::MinimumExpanding</enum>
+             <enum>QSizePolicy::Policy::MinimumExpanding</enum>
             </property>
             <property name="sizeHint" stdset="0">
              <size>
@@ -507,7 +507,7 @@ a range of pages or a single page number</string>
        <item row="8" column="0">
         <spacer name="verticalSpacer">
          <property name="orientation">
-          <enum>Qt::Vertical</enum>
+          <enum>Qt::Orientation::Vertical</enum>
          </property>
          <property name="sizeHint" stdset="0">
           <size>
@@ -525,23 +525,23 @@ a range of pages or a single page number</string>
       </attribute>
       <layout class="QGridLayout">
        <item row="1" column="0">
-        <widget class="QLabel" name="bleedTopText">
+        <widget class="QLabel" name="bleedLeftText">
          <property name="text">
-          <string>Top:</string>
+          <string>Left:</string>
          </property>
         </widget>
        </item>
        <item row="1" column="1">
-        <widget class="ScrSpinBox" name="bleedTop">
+        <widget class="ScrSpinBox" name="bleedLeft">
          <property name="toolTip">
           <string>Distance for bleed from the top of the physical page</string>
          </property>
         </widget>
        </item>
        <item row="1" column="2">
-        <widget class="QLabel" name="bleedLeftText">
+        <widget class="QLabel" name="bleedRightText">
          <property name="text">
-          <string>Left:</string>
+          <string>Right:</string>
          </property>
         </widget>
        </item>
@@ -553,28 +553,28 @@ a range of pages or a single page number</string>
         </widget>
        </item>
        <item row="2" column="0">
-        <widget class="QLabel" name="bleedBottomText">
+        <widget class="QLabel" name="bleedTopText">
          <property name="text">
-          <string>Bottom:</string>
+          <string>Top:</string>
          </property>
         </widget>
        </item>
        <item row="2" column="1">
-        <widget class="ScrSpinBox" name="bleedBottom">
+        <widget class="ScrSpinBox" name="bleedTop">
          <property name="toolTip">
           <string>Distance for bleed from the bottom of the physical page</string>
          </property>
         </widget>
        </item>
        <item row="2" column="2">
-        <widget class="QLabel" name="bleedRightText">
+        <widget class="QLabel" name="bleedBottomText">
          <property name="text">
-          <string>Right:</string>
+          <string>Bottom:</string>
          </property>
         </widget>
        </item>
        <item row="2" column="3">
-        <widget class="ScrSpinBox" name="bleedLeft">
+        <widget class="ScrSpinBox" name="bleedBottom">
          <property name="toolTip">
           <string>Distance for bleed from the left of the physical page</string>
          </property>
@@ -599,7 +599,7 @@ a range of pages or a single page number</string>
      <item>
       <spacer>
        <property name="orientation">
-        <enum>Qt::Horizontal</enum>
+        <enum>Qt::Orientation::Horizontal</enum>
        </property>
        <property name="sizeHint" stdset="0">
         <size>
@@ -687,10 +687,10 @@ a range of pages or a single page number</string>
   <tabstop>markLength</tabstop>
   <tabstop>markOffset</tabstop>
   <tabstop>docBleeds</tabstop>
-  <tabstop>bleedTop</tabstop>
-  <tabstop>bleedRight</tabstop>
-  <tabstop>bleedBottom</tabstop>
   <tabstop>bleedLeft</tabstop>
+  <tabstop>bleedRight</tabstop>
+  <tabstop>bleedTop</tabstop>
+  <tabstop>bleedBottom</tabstop>
   <tabstop>previewButton</tabstop>
   <tabstop>okButton</tabstop>
   <tabstop>cancelButton</tabstop>

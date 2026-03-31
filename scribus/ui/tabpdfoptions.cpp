@@ -140,21 +140,21 @@ TabPDFOptions::TabPDFOptions(QWidget* parent, PDFOptions & Optionen,
 
 	bleedGroupLayout->setAlignment( Qt::AlignTop );
 
-	BleedTop->setNewUnit(m_Doc->unitIndex());
-	BleedTop->setMinimum(0);
-	BleedTop->setMaximum(3000 * unitRatio);
+	bleedTopSpinBox->setNewUnit(m_Doc->unitIndex());
+	bleedTopSpinBox->setMinimum(0);
+	bleedTopSpinBox->setMaximum(3000 * unitRatio);
 
-	BleedBottom->setNewUnit(m_Doc->unitIndex());
-	BleedBottom->setMinimum(0);
-	BleedBottom->setMaximum(3000 * unitRatio);
+	bleedBottomSpinBox->setNewUnit(m_Doc->unitIndex());
+	bleedBottomSpinBox->setMinimum(0);
+	bleedBottomSpinBox->setMaximum(3000 * unitRatio);
 
-	BleedLeft->setNewUnit(m_Doc->unitIndex());
-	BleedLeft->setMinimum(0);
-	BleedLeft->setMaximum(3000 * unitRatio);
+	bleedLeftSpinBox->setNewUnit(m_Doc->unitIndex());
+	bleedLeftSpinBox->setMinimum(0);
+	bleedLeftSpinBox->setMaximum(3000 * unitRatio);
 
-	BleedRight->setNewUnit(m_Doc->unitIndex());
-	BleedRight->setMinimum(0);
-	BleedRight->setMaximum(3000 * unitRatio);
+	bleedRightSpinBox->setNewUnit(m_Doc->unitIndex());
+	bleedRightSpinBox->setMinimum(0);
+	bleedRightSpinBox->setMaximum(3000 * unitRatio);
 
 	X3GroupLayout->setAlignment( Qt::AlignTop );
 
@@ -276,10 +276,10 @@ TabPDFOptions::TabPDFOptions(QWidget* parent, PDFOptions & Optionen,
 	docInfoMarks->setToolTip( "<qt>" + tr( "Add document information which includes the document title and page numbers" ) + "</qt>" );
 	markLength->setToolTip( "<qt>" + tr( "Indicate the size of crop marks" ) + "</qt>" );
 	markOffset->setToolTip( "<qt>" + tr( "Indicate the distance offset for the registration marks" ) + "</qt>" );
-	BleedTop->setToolTip( "<qt>" + tr( "Distance for bleed from the top of the physical page" ) + "</qt>" );
-	BleedBottom->setToolTip( "<qt>" + tr( "Distance for bleed from the bottom of the physical page" ) + "</qt>" );
-	BleedLeft->setToolTip( "<qt>" + tr( "Distance for bleed from the left of the physical page" ) + "</qt>" );
-	BleedRight->setToolTip( "<qt>" + tr( "Distance for bleed from the right of the physical page" )  + "</qt>");
+	bleedTopSpinBox->setToolTip( "<qt>" + tr( "Distance for bleed from the top of the physical page" ) + "</qt>" );
+	bleedBottomSpinBox->setToolTip( "<qt>" + tr( "Distance for bleed from the bottom of the physical page" ) + "</qt>" );
+	bleedLeftSpinBox->setToolTip( "<qt>" + tr( "Distance for bleed from the left of the physical page" ) + "</qt>" );
+	bleedRightSpinBox->setToolTip( "<qt>" + tr( "Distance for bleed from the right of the physical page" )  + "</qt>");
 	docBleeds->setToolTip( "<qt>" + tr( "Use the existing bleed settings from the document preferences" ) + "</qt>" );
 	PrintProfC->setToolTip( "<qt>" + tr( "Output profile for printing. If possible, get some guidance from your printer on profile selection." ) + "</qt>" );
 	InfoString->setToolTip( "<qt>" + tr( "Mandatory string for PDF/X or the PDF will fail PDF/X conformance. We recommend you use the title of the document." ) + "</qt>" );
@@ -576,10 +576,10 @@ void TabPDFOptions::restoreDefaults(const PDFOptions & Optionen,
 		InfoString->setText(fi.fileName());
 	}
 
-	BleedTop->setValue(Opts.bleeds.top()*unitRatio);
-	BleedBottom->setValue(Opts.bleeds.bottom()*unitRatio);
-	BleedRight->setValue(Opts.bleeds.right()*unitRatio);
-	BleedLeft->setValue(Opts.bleeds.left()*unitRatio);
+	bleedTopSpinBox->setValue(Opts.bleeds.top()*unitRatio);
+	bleedBottomSpinBox->setValue(Opts.bleeds.bottom()*unitRatio);
+	bleedRightSpinBox->setValue(Opts.bleeds.right()*unitRatio);
+	bleedLeftSpinBox->setValue(Opts.bleeds.left()*unitRatio);
 	docBleeds->setChecked(Opts.useDocBleeds);
 	doDocBleeds();
 
@@ -674,10 +674,10 @@ void TabPDFOptions::storeValues(PDFOptions& pdfOptions) const
 	pdfOptions.markLength = markLength->value() / unitRatio;
 	pdfOptions.markOffset = markOffset->value() / unitRatio;
 	pdfOptions.useDocBleeds = docBleeds->isChecked();
-	pdfOptions.bleeds.setBottom(BleedBottom->value() / unitRatio);
-	pdfOptions.bleeds.setTop(BleedTop->value() / unitRatio);
-	pdfOptions.bleeds.setLeft(BleedLeft->value() / unitRatio);
-	pdfOptions.bleeds.setRight(BleedRight->value() / unitRatio);
+	pdfOptions.bleeds.setBottom(bleedBottomSpinBox->value() / unitRatio);
+	pdfOptions.bleeds.setTop(bleedTopSpinBox->value() / unitRatio);
+	pdfOptions.bleeds.setLeft(bleedLeftSpinBox->value() / unitRatio);
+	pdfOptions.bleeds.setRight(bleedRightSpinBox->value() / unitRatio);
 	pdfOptions.doClip = ClipMarg->isChecked();
 	if (Encry->isChecked())
 	{
@@ -733,29 +733,29 @@ void TabPDFOptions::doDocBleeds()
 {
 	if (docBleeds->isChecked())
 	{
-		Opts.bleeds.setTop(BleedTop->value() / unitRatio);
-		Opts.bleeds.setBottom(BleedBottom->value() / unitRatio);
-		Opts.bleeds.setRight(BleedRight->value() / unitRatio);
-		Opts.bleeds.setLeft(BleedLeft->value() / unitRatio);
-		BleedTop->setValue(m_Doc->bleeds()->top()*unitRatio);
-		BleedBottom->setValue(m_Doc->bleeds()->bottom()*unitRatio);
-		BleedRight->setValue(m_Doc->bleeds()->right()*unitRatio);
-		BleedLeft->setValue(m_Doc->bleeds()->left()*unitRatio);
-		BleedTop->setEnabled(false);
-		BleedBottom->setEnabled(false);
-		BleedRight->setEnabled(false);
-		BleedLeft->setEnabled(false);
+		Opts.bleeds.setTop(bleedTopSpinBox->value() / unitRatio);
+		Opts.bleeds.setBottom(bleedBottomSpinBox->value() / unitRatio);
+		Opts.bleeds.setRight(bleedRightSpinBox->value() / unitRatio);
+		Opts.bleeds.setLeft(bleedLeftSpinBox->value() / unitRatio);
+		bleedTopSpinBox->setValue(m_Doc->bleeds()->top()*unitRatio);
+		bleedBottomSpinBox->setValue(m_Doc->bleeds()->bottom()*unitRatio);
+		bleedRightSpinBox->setValue(m_Doc->bleeds()->right()*unitRatio);
+		bleedLeftSpinBox->setValue(m_Doc->bleeds()->left()*unitRatio);
+		bleedTopSpinBox->setEnabled(false);
+		bleedBottomSpinBox->setEnabled(false);
+		bleedRightSpinBox->setEnabled(false);
+		bleedLeftSpinBox->setEnabled(false);
 	}
 	else
 	{
-		BleedTop->setValue(Opts.bleeds.top()*unitRatio);
-		BleedBottom->setValue(Opts.bleeds.bottom()*unitRatio);
-		BleedRight->setValue(Opts.bleeds.right()*unitRatio);
-		BleedLeft->setValue(Opts.bleeds.left()*unitRatio);
-		BleedTop->setEnabled(true);
-		BleedBottom->setEnabled(true);
-		BleedRight->setEnabled(true);
-		BleedLeft->setEnabled(true);
+		bleedTopSpinBox->setValue(Opts.bleeds.top()*unitRatio);
+		bleedBottomSpinBox->setValue(Opts.bleeds.bottom()*unitRatio);
+		bleedRightSpinBox->setValue(Opts.bleeds.right()*unitRatio);
+		bleedLeftSpinBox->setValue(Opts.bleeds.left()*unitRatio);
+		bleedTopSpinBox->setEnabled(true);
+		bleedBottomSpinBox->setEnabled(true);
+		bleedRightSpinBox->setEnabled(true);
+		bleedLeftSpinBox->setEnabled(true);
 	}
 }
 
@@ -1396,10 +1396,10 @@ QListWidgetItem* TabPDFOptions::addFontItem(const QString& fontName, QListWidget
 
 void TabPDFOptions::unitChange(int docUnitIndex)
 {
-	BleedBottom->setNewUnit(docUnitIndex);
-	BleedTop->setNewUnit(docUnitIndex);
-	BleedRight->setNewUnit(docUnitIndex);
-	BleedLeft->setNewUnit(docUnitIndex);
+	bleedBottomSpinBox->setNewUnit(docUnitIndex);
+	bleedTopSpinBox->setNewUnit(docUnitIndex);
+	bleedRightSpinBox->setNewUnit(docUnitIndex);
+	bleedLeftSpinBox->setNewUnit(docUnitIndex);
 	markOffset->setNewUnit(docUnitIndex);
 }
 

@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>657</width>
-    <height>549</height>
+    <height>608</height>
    </rect>
   </property>
   <property name="currentIndex">
@@ -147,7 +147,7 @@
          <string>File Options</string>
         </property>
         <property name="alignment">
-         <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+         <set>Qt::AlignmentFlag::AlignLeading|Qt::AlignmentFlag::AlignLeft|Qt::AlignmentFlag::AlignTop</set>
         </property>
         <layout class="QGridLayout" name="fileOptionsLayout">
          <item row="0" column="0">
@@ -156,7 +156,7 @@
             <string>Compatibilit&amp;y:</string>
            </property>
            <property name="alignment">
-            <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+            <set>Qt::AlignmentFlag::AlignLeading|Qt::AlignmentFlag::AlignLeft|Qt::AlignmentFlag::AlignVCenter</set>
            </property>
            <property name="buddy">
             <cstring>PDFVersionCombo</cstring>
@@ -176,7 +176,7 @@
             <string>&amp;Binding:</string>
            </property>
            <property name="alignment">
-            <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+            <set>Qt::AlignmentFlag::AlignLeading|Qt::AlignmentFlag::AlignLeft|Qt::AlignmentFlag::AlignVCenter</set>
            </property>
            <property name="buddy">
             <cstring>ComboBind</cstring>
@@ -207,7 +207,7 @@
            </property>
           </widget>
          </item>
-         <item row="6" column="1" alignment="Qt::AlignLeft">
+         <item row="6" column="1" alignment="Qt::AlignmentFlag::AlignLeft">
           <widget class="QSpinBox" name="Resolution">
            <property name="suffix">
             <string> dpi</string>
@@ -247,7 +247,7 @@
             <string>&amp;Resolution for EPS Graphics:</string>
            </property>
            <property name="alignment">
-            <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+            <set>Qt::AlignmentFlag::AlignLeading|Qt::AlignmentFlag::AlignLeft|Qt::AlignmentFlag::AlignVCenter</set>
            </property>
            <property name="buddy">
             <cstring>Resolution</cstring>
@@ -358,7 +358,7 @@
          </item>
         </widget>
        </item>
-       <item row="2" column="1" alignment="Qt::AlignLeft">
+       <item row="2" column="1" alignment="Qt::AlignmentFlag::AlignLeft">
         <widget class="QSpinBox" name="ValC">
          <property name="suffix">
           <string> dpi</string>
@@ -387,7 +387,7 @@
     <item>
      <spacer name="verticalSpacer_6">
       <property name="orientation">
-       <enum>Qt::Vertical</enum>
+       <enum>Qt::Orientation::Vertical</enum>
       </property>
       <property name="sizeHint" stdset="0">
        <size>
@@ -458,7 +458,7 @@
            <item>
             <spacer name="verticalSpacer">
              <property name="orientation">
-              <enum>Qt::Vertical</enum>
+              <enum>Qt::Orientation::Vertical</enum>
              </property>
              <property name="sizeHint" stdset="0">
               <size>
@@ -485,7 +485,7 @@
            <item>
             <spacer name="verticalSpacer_2">
              <property name="orientation">
-              <enum>Qt::Vertical</enum>
+              <enum>Qt::Orientation::Vertical</enum>
              </property>
              <property name="sizeHint" stdset="0">
               <size>
@@ -969,14 +969,14 @@ when PDF document is opened:</string>
        <item row="0" column="1">
         <widget class="QLineEdit" name="PassOwner">
          <property name="echoMode">
-          <enum>QLineEdit::Password</enum>
+          <enum>QLineEdit::EchoMode::Password</enum>
          </property>
         </widget>
        </item>
        <item row="1" column="1">
         <widget class="QLineEdit" name="PassUser">
          <property name="echoMode">
-          <enum>QLineEdit::Password</enum>
+          <enum>QLineEdit::EchoMode::Password</enum>
          </property>
         </widget>
        </item>
@@ -1029,7 +1029,7 @@ when PDF document is opened:</string>
     <item>
      <spacer name="verticalSpacer_5">
       <property name="orientation">
-       <enum>Qt::Vertical</enum>
+       <enum>Qt::Orientation::Vertical</enum>
       </property>
       <property name="sizeHint" stdset="0">
        <size>
@@ -1332,7 +1332,7 @@ when PDF document is opened:</string>
     <item>
      <spacer name="verticalSpacer_3">
       <property name="orientation">
-       <enum>Qt::Vertical</enum>
+       <enum>Qt::Orientation::Vertical</enum>
       </property>
       <property name="sizeHint" stdset="0">
        <size>
@@ -1428,42 +1428,42 @@ when PDF document is opened:</string>
       </property>
       <layout class="QGridLayout" name="bleedGroupLayout">
        <item row="1" column="0">
-        <widget class="QLabel" name="bleedTopLabel">
-         <property name="text">
-          <string>Top:</string>
-         </property>
-        </widget>
-       </item>
-       <item row="1" column="1">
-        <widget class="ScrSpinBox" name="BleedTop"/>
-       </item>
-       <item row="2" column="0">
-        <widget class="QLabel" name="bleedBottomLabel">
-         <property name="text">
-          <string>Bottom:</string>
-         </property>
-        </widget>
-       </item>
-       <item row="2" column="1">
-        <widget class="ScrSpinBox" name="BleedBottom"/>
-       </item>
-       <item row="2" column="3">
-        <widget class="ScrSpinBox" name="BleedRight"/>
-       </item>
-       <item row="1" column="2">
         <widget class="QLabel" name="bleedLeftLabel">
          <property name="text">
           <string>Left:</string>
          </property>
         </widget>
        </item>
-       <item row="1" column="3">
-        <widget class="ScrSpinBox" name="BleedLeft"/>
+       <item row="1" column="1">
+        <widget class="ScrSpinBox" name="bleedLeftSpinBox"/>
        </item>
-       <item row="2" column="2">
+       <item row="2" column="0">
+        <widget class="QLabel" name="bleedTopLabel">
+         <property name="text">
+          <string>Top:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="ScrSpinBox" name="bleedTopSpinBox"/>
+       </item>
+       <item row="2" column="3">
+        <widget class="ScrSpinBox" name="bleedBottomSpinBox"/>
+       </item>
+       <item row="1" column="2">
         <widget class="QLabel" name="bleedRightLabel">
          <property name="text">
           <string>Right:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="3">
+        <widget class="ScrSpinBox" name="bleedRightSpinBox"/>
+       </item>
+       <item row="2" column="2">
+        <widget class="QLabel" name="bleedBottomLabel">
+         <property name="text">
+          <string>Bottom:</string>
          </property>
         </widget>
        </item>
@@ -1519,7 +1519,7 @@ when PDF document is opened:</string>
     <item>
      <spacer name="verticalSpacer_4">
       <property name="orientation">
-       <enum>Qt::Vertical</enum>
+       <enum>Qt::Orientation::Vertical</enum>
       </property>
       <property name="sizeHint" stdset="0">
        <size>
@@ -1630,10 +1630,10 @@ when PDF document is opened:</string>
   <tabstop>markLength</tabstop>
   <tabstop>markOffset</tabstop>
   <tabstop>docBleeds</tabstop>
-  <tabstop>BleedTop</tabstop>
-  <tabstop>BleedBottom</tabstop>
-  <tabstop>BleedLeft</tabstop>
-  <tabstop>BleedRight</tabstop>
+  <tabstop>bleedLeftSpinBox</tabstop>
+  <tabstop>bleedTopSpinBox</tabstop>
+  <tabstop>bleedRightSpinBox</tabstop>
+  <tabstop>bleedBottomSpinBox</tabstop>
   <tabstop>PrintProfC</tabstop>
   <tabstop>InfoString</tabstop>
  </tabstops>
