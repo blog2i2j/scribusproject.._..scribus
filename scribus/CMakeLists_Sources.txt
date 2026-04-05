@@ -207,6 +207,7 @@ set(SCRIBUS_SOURCES
 	scstreamfilter_flate.cpp
 	scstreamfilter_jpeg.cpp
 	scstreamfilter_rc4.cpp
+	sctextcodec.cpp
 	sctextstream.cpp
 	sctextstruct.cpp
 	scxmlstreamreader.cpp
