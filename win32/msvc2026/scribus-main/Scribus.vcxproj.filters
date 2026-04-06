@@ -694,6 +694,9 @@
     <ClInclude Include="..\..\..\scribus\scstreamfilter_rc4.h">
       <Filter>Source Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\..\scribus\sctextcodec.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\..\scribus\sctextstream.h">
       <Filter>Source Files</Filter>
     </ClInclude>
@@ -1714,6 +1717,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\scribus\scstreamfilter_rc4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\scribus\sctextcodec.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\scribus\sctextstream.cpp">

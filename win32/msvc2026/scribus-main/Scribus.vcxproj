@@ -376,6 +376,7 @@
     <ClInclude Include="..\..\..\scribus\sccolorstructs.h" />
     <ClInclude Include="..\..\..\scribus\scprintengine_pdf.h" />
     <moc Include="..\..\..\scribus\storyloader.h" />
+    <ClInclude Include="..\..\..\scribus\sctextcodec.h" />
     <ClInclude Include="..\..\..\scribus\spellcheckfunctions.h" />
     <ClInclude Include="..\..\..\scribus\stylesearch.h" />
     <ClInclude Include="..\..\..\scribus\styles\cellstyle.h" />
@@ -982,6 +983,7 @@
     <ClCompile Include="..\..\..\scribus\scclipboardprocessor.cpp" />
     <ClCompile Include="..\..\..\scribus\sccolorstructs.cpp" />
     <ClCompile Include="..\..\..\scribus\scprintengine_pdf.cpp" />
+    <ClCompile Include="..\..\..\scribus\sctextcodec.cpp" />
     <ClCompile Include="..\..\..\scribus\selectionrubberband.cpp" />
     <ClCompile Include="..\..\..\scribus\spellcheckfunctions.cpp" />
     <ClCompile Include="..\..\..\scribus\storyloader.cpp" />
