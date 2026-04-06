@@ -44,7 +44,7 @@ SMPStyleWidget::SMPStyleWidget(ScribusDoc* doc, StyleSet<CharStyle> *cstyles) :
 	lineSpacingMode->addItem( tr("Fixed"));
 	lineSpacingMode->addItem( tr("Automatic"));
 	lineSpacingMode->addItem( tr("Baseline"));
-	connect(lineSpacingMode, SIGNAL(highlighted(int)), this, SLOT(slotLineSpacingModeChanged(int)));
+	connect(lineSpacingMode, SIGNAL(currentIndexChanged(int)), this, SLOT(slotLineSpacingModeChanged(int)));
 
 	lineSpacing->setSuffix(unitGetSuffixFromIndex(0));
 	spaceAbove->setSuffix(unitGetSuffixFromIndex(0));
