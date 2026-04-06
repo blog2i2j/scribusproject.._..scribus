@@ -21,17 +21,17 @@ A "current--new row" widget.
 class SMRowWidget : public QWidget
 {
 	Q_OBJECT
-public:
-	SMRowWidget(const QString &toBeDeleted, const QStringList& replaceOptions, QWidget *parent);
-	~SMRowWidget();
+	public:
+		SMRowWidget(const QString &toBeDeleted, const QStringList& replaceOptions, QWidget *parent);
+		~SMRowWidget();
 
-	QString toBeDeleted() const;
-	QString replaceWith() const;
+		QString toBeDeleted() const;
+		QString replaceWith() const;
 
-private:
-	QHBoxLayout *layout { nullptr };
-	QLabel      *deleteLabel { nullptr };
-	QComboBox   *optionsCombo { nullptr };
+	private:
+		QHBoxLayout *layout { nullptr };
+		QLabel      *deleteLabel { nullptr };
+		QComboBox   *optionsCombo { nullptr };
 };
 
 
@@ -40,18 +40,18 @@ private:
 class SMReplaceDia : public QDialog, Ui::SMReplaceDia
 {
 	Q_OBJECT
-public:
-	SMReplaceDia(const QStringList &toBeDeleted, const QStringList &replaceOptions, QWidget *parent);
-	~SMReplaceDia();
+	public:
+		SMReplaceDia(const QStringList &toBeDeleted, const QStringList &replaceOptions, QWidget *parent);
+		~SMReplaceDia();
 
-	QList<RemoveItem> items() const;
+		QList<RemoveItem> items() const;
 
-private:
-	QVBoxLayout *layout;
-	QHBoxLayout *headerLayout;
-	QLabel      *deleteHeader;
-	QLabel      *optionsHeader;
-	QList<SMRowWidget*>  rowWidgets;
+	private:
+		QVBoxLayout *layout;
+		QHBoxLayout *headerLayout;
+		QLabel      *deleteHeader;
+		QLabel      *optionsHeader;
+		QList<SMRowWidget*>  rowWidgets;
 };
 
 #endif
