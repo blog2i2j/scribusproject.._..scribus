@@ -279,7 +279,7 @@ PyObject *scribus_getimagescale(PyObject * /*self*/, PyObject* args);
 
  /*! docstring */
  PyDoc_STRVAR(scribus_getimagerotation__doc__,
-	 QT_TR_NOOP("getImageScale([\"name\"]) -> (deg)\n\
+	 QT_TR_NOOP("getImageRotation([\"name\"]) -> (deg)\n\
  \n\
  Returns the value of the rotation of an image frame\n\
  \"name\".  If \"name\" is not given the currently selected item is used.\n\
