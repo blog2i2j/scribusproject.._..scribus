@@ -264,6 +264,17 @@ May raise WrongFrameTypeError if the target frame is not an image frame\n\
 PyObject *scribus_setimagescale(PyObject * /*self*/, PyObject* args);
 
 /*! docstring */
+PyDoc_STRVAR(scribus_setimagerotation__doc__,
+QT_TR_NOOP("setImageRotation(deg [, \"name\"])\n\
+\n\
+Sets the rotation of the picture in the image frame \"name\".\n\
+If \"name\" is not given the currently selected item is used.\n\
+May raise WrongFrameTypeError if the target frame is not an image frame\n\
+"));
+/*! Rotate Image. */
+PyObject *scribus_setimagerotation(PyObject * /*self*/, PyObject* args);
+
+/*! docstring */
 PyDoc_STRVAR(scribus_setimagebrightness__doc__,
 QT_TR_NOOP("setImageBrightness(n [, \"name\"])\n\
 \n\

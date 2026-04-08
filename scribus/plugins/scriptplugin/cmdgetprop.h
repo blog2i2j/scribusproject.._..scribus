@@ -277,6 +277,16 @@ Returns a (x, y) tuple containing the scaling values of the image frame\n\
 /*! Returns image scale of the object */
 PyObject *scribus_getimagescale(PyObject * /*self*/, PyObject* args);
 
+ /*! docstring */
+ PyDoc_STRVAR(scribus_getimagerotation__doc__,
+	 QT_TR_NOOP("getImageScale([\"name\"]) -> (deg)\n\
+ \n\
+ Returns the value of the rotation of an image frame\n\
+ \"name\".  If \"name\" is not given the currently selected item is used.\n\
+ "));
+ /*! Returns image scale of the object */
+ PyObject *scribus_getimagerotation(PyObject * /*self*/, PyObject* args);
+
 /*! docstring */
 PyDoc_STRVAR(scribus_getimageppi__doc__,
 	QT_TR_NOOP("getImagePpi([\"name\"]) -> (x,y)\n\
