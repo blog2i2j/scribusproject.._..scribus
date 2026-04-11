@@ -240,8 +240,7 @@ QString WMFImport::symbolToUnicode(const QByteArray& chars) const
 
 FPointArray WMFImport::pointsFromParam(short num, const short* params) const
 {
-	FPointArray points;
-	points.resize(num);
+	FPointArray points(num);
 
 	for (int i = 0; i < num; i++, params += 2)
 		points.setPoint(i, params[0], params[1]);
