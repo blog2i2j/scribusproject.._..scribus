@@ -3174,14 +3174,6 @@
         <translation>اُدْرُجْ رمزًا شريطيًا</translation>
     </message>
     <message>
-        <source>Colors</source>
-        <translation type="vanished">الالوان</translation>
-    </message>
-    <message>
-        <source>Options</source>
-        <translation type="vanished">خيارات</translation>
-    </message>
-    <message>
         <location filename="../../scribus/plugins/barcodegenerator/barcodegenerator.ui" line="233"/>
         <source>Display checksum</source>
         <translation>أظهر تدقيق المجموع</translation>
@@ -3580,10 +3572,6 @@
         <location filename="../../scribus/plugins/barcodegenerator/barcodegenerator.ui" line="405"/>
         <source>&amp;Barcode:</source>
         <translation>&amp;رمز شريطي:</translation>
-    </message>
-    <message>
-        <source>Type</source>
-        <translation type="vanished">النوع</translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/barcodegenerator/barcodegenerator.ui" line="442"/>
@@ -29531,19 +29519,19 @@ External Links
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../scribus/plugins/scriptplugin/cmdgetprop.cpp" line="514"/>
+        <location filename="../../scribus/plugins/scriptplugin/cmdgetprop.cpp" line="530"/>
         <source>page number is invalid.</source>
         <comment>python error</comment>
         <translation>رقم الصفحة غير صالح.</translation>
     </message>
     <message>
-        <location filename="../../scribus/plugins/scriptplugin/cmdgetprop.cpp" line="524"/>
+        <location filename="../../scribus/plugins/scriptplugin/cmdgetprop.cpp" line="540"/>
         <source>layer name is invalid.</source>
         <comment>python error</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../scribus/plugins/scriptplugin/cmdgetprop.cpp" line="608"/>
+        <location filename="../../scribus/plugins/scriptplugin/cmdgetprop.cpp" line="624"/>
         <source>Page item must be an ImageFrame</source>
         <comment>python error</comment>
         <translation>يجب أن يكون عنصر الصفحة إطار صورة</translation>
@@ -29658,23 +29646,24 @@ External Links
         <translation>تعذّر الحصول على اللون في الألوان الافتراضية.</translation>
     </message>
     <message>
-        <location filename="../../scribus/plugins/scriptplugin/cmdmani.cpp" line="522"/>
+        <location filename="../../scribus/plugins/scriptplugin/cmdmani.cpp" line="564"/>
         <source>Cannot scale by 0%.</source>
         <comment>python error</comment>
         <translation>لا يمكن التحجيم بنسبة 0%.</translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/scriptplugin/cmdgetprop.cpp" line="362"/>
-        <location filename="../../scribus/plugins/scriptplugin/cmdgetprop.cpp" line="394"/>
+        <location filename="../../scribus/plugins/scriptplugin/cmdgetprop.cpp" line="410"/>
         <location filename="../../scribus/plugins/scriptplugin/cmdmani.cpp" line="53"/>
         <location filename="../../scribus/plugins/scriptplugin/cmdmani.cpp" line="97"/>
         <location filename="../../scribus/plugins/scriptplugin/cmdmani.cpp" line="130"/>
         <location filename="../../scribus/plugins/scriptplugin/cmdmani.cpp" line="160"/>
-        <location filename="../../scribus/plugins/scriptplugin/cmdmani.cpp" line="203"/>
-        <location filename="../../scribus/plugins/scriptplugin/cmdmani.cpp" line="247"/>
-        <location filename="../../scribus/plugins/scriptplugin/cmdmani.cpp" line="275"/>
-        <location filename="../../scribus/plugins/scriptplugin/cmdmani.cpp" line="712"/>
-        <location filename="../../scribus/plugins/scriptplugin/cmdmani.cpp" line="739"/>
+        <location filename="../../scribus/plugins/scriptplugin/cmdmani.cpp" line="204"/>
+        <location filename="../../scribus/plugins/scriptplugin/cmdmani.cpp" line="245"/>
+        <location filename="../../scribus/plugins/scriptplugin/cmdmani.cpp" line="289"/>
+        <location filename="../../scribus/plugins/scriptplugin/cmdmani.cpp" line="317"/>
+        <location filename="../../scribus/plugins/scriptplugin/cmdmani.cpp" line="754"/>
+        <location filename="../../scribus/plugins/scriptplugin/cmdmani.cpp" line="781"/>
         <source>Specified item not an image frame.</source>
         <comment>python error</comment>
         <translation>عنصر محدد وليس إطار صورة.</translation>
@@ -30459,7 +30448,7 @@ External Links
         <translation>حول  Script</translation>
     </message>
     <message>
-        <location filename="../../scribus/plugins/scriptplugin/scriptplugin.cpp" line="1033"/>
+        <location filename="../../scribus/plugins/scriptplugin/scriptplugin.cpp" line="1035"/>
         <source>Scribus Python interface module
 
 This module is the Python interface for Scribus. It provides functions
@@ -30611,25 +30600,25 @@ is not exhaustive due to exceptions from called functions.
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../scribus/plugins/scriptplugin/cmdmani.cpp" line="448"/>
+        <location filename="../../scribus/plugins/scriptplugin/cmdmani.cpp" line="490"/>
         <source>Need selection or argument list of items to group</source>
         <comment>python error</comment>
         <translation>تحتاج إلى تحديد أو قائمة وسيطة من العناصر لتجميعها</translation>
     </message>
     <message>
-        <location filename="../../scribus/plugins/scriptplugin/cmdmani.cpp" line="480"/>
+        <location filename="../../scribus/plugins/scriptplugin/cmdmani.cpp" line="522"/>
         <source>Cannot group less than two items</source>
         <comment>python error</comment>
         <translation>لا يمكن جَمَع أقل من عنصريين</translation>
     </message>
     <message>
-        <location filename="../../scribus/plugins/scriptplugin/cmdmani.cpp" line="640"/>
+        <location filename="../../scribus/plugins/scriptplugin/cmdmani.cpp" line="682"/>
         <source>Cannot have an empty item name.</source>
         <comment>python error</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../scribus/plugins/scriptplugin/cmdmani.cpp" line="808"/>
+        <location filename="../../scribus/plugins/scriptplugin/cmdmani.cpp" line="850"/>
         <source>Selection must contain only shapes or bezier curves.</source>
         <comment>python error</comment>
         <translation>يجب أن يحتوي الاختيار على الأشكال ومنحنيات بيزية فقط.</translation>

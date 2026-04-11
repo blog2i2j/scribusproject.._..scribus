@@ -29587,19 +29587,19 @@ External Links
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../scribus/plugins/scriptplugin/cmdgetprop.cpp" line="514"/>
+        <location filename="../../scribus/plugins/scriptplugin/cmdgetprop.cpp" line="530"/>
         <source>page number is invalid.</source>
         <comment>python error</comment>
         <translation>page number is invalid.</translation>
     </message>
     <message>
-        <location filename="../../scribus/plugins/scriptplugin/cmdgetprop.cpp" line="524"/>
+        <location filename="../../scribus/plugins/scriptplugin/cmdgetprop.cpp" line="540"/>
         <source>layer name is invalid.</source>
         <comment>python error</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../scribus/plugins/scriptplugin/cmdgetprop.cpp" line="608"/>
+        <location filename="../../scribus/plugins/scriptplugin/cmdgetprop.cpp" line="624"/>
         <source>Page item must be an ImageFrame</source>
         <comment>python error</comment>
         <translation>Page item must be an ImageFrame</translation>
@@ -29714,23 +29714,24 @@ External Links
         <translation>Color not found in default colors.</translation>
     </message>
     <message>
-        <location filename="../../scribus/plugins/scriptplugin/cmdmani.cpp" line="522"/>
+        <location filename="../../scribus/plugins/scriptplugin/cmdmani.cpp" line="564"/>
         <source>Cannot scale by 0%.</source>
         <comment>python error</comment>
         <translation>Cannot scale by 0%.</translation>
     </message>
     <message>
         <location filename="../../scribus/plugins/scriptplugin/cmdgetprop.cpp" line="362"/>
-        <location filename="../../scribus/plugins/scriptplugin/cmdgetprop.cpp" line="394"/>
+        <location filename="../../scribus/plugins/scriptplugin/cmdgetprop.cpp" line="410"/>
         <location filename="../../scribus/plugins/scriptplugin/cmdmani.cpp" line="53"/>
         <location filename="../../scribus/plugins/scriptplugin/cmdmani.cpp" line="97"/>
         <location filename="../../scribus/plugins/scriptplugin/cmdmani.cpp" line="130"/>
         <location filename="../../scribus/plugins/scriptplugin/cmdmani.cpp" line="160"/>
-        <location filename="../../scribus/plugins/scriptplugin/cmdmani.cpp" line="203"/>
-        <location filename="../../scribus/plugins/scriptplugin/cmdmani.cpp" line="247"/>
-        <location filename="../../scribus/plugins/scriptplugin/cmdmani.cpp" line="275"/>
-        <location filename="../../scribus/plugins/scriptplugin/cmdmani.cpp" line="712"/>
-        <location filename="../../scribus/plugins/scriptplugin/cmdmani.cpp" line="739"/>
+        <location filename="../../scribus/plugins/scriptplugin/cmdmani.cpp" line="204"/>
+        <location filename="../../scribus/plugins/scriptplugin/cmdmani.cpp" line="245"/>
+        <location filename="../../scribus/plugins/scriptplugin/cmdmani.cpp" line="289"/>
+        <location filename="../../scribus/plugins/scriptplugin/cmdmani.cpp" line="317"/>
+        <location filename="../../scribus/plugins/scriptplugin/cmdmani.cpp" line="754"/>
+        <location filename="../../scribus/plugins/scriptplugin/cmdmani.cpp" line="781"/>
         <source>Specified item not an image frame.</source>
         <comment>python error</comment>
         <translation>Specified item not an image frame.</translation>
@@ -30515,7 +30516,7 @@ External Links
         <translation>About Script</translation>
     </message>
     <message>
-        <location filename="../../scribus/plugins/scriptplugin/scriptplugin.cpp" line="1033"/>
+        <location filename="../../scribus/plugins/scriptplugin/scriptplugin.cpp" line="1035"/>
         <source>Scribus Python interface module
 
 This module is the Python interface for Scribus. It provides functions
@@ -30669,25 +30670,25 @@ is not exhaustive due to exceptions from called functions.
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../scribus/plugins/scriptplugin/cmdmani.cpp" line="448"/>
+        <location filename="../../scribus/plugins/scriptplugin/cmdmani.cpp" line="490"/>
         <source>Need selection or argument list of items to group</source>
         <comment>python error</comment>
         <translation>Need selection or argument list of items to group</translation>
     </message>
     <message>
-        <location filename="../../scribus/plugins/scriptplugin/cmdmani.cpp" line="480"/>
+        <location filename="../../scribus/plugins/scriptplugin/cmdmani.cpp" line="522"/>
         <source>Cannot group less than two items</source>
         <comment>python error</comment>
         <translation>Cannot group less than two items</translation>
     </message>
     <message>
-        <location filename="../../scribus/plugins/scriptplugin/cmdmani.cpp" line="640"/>
+        <location filename="../../scribus/plugins/scriptplugin/cmdmani.cpp" line="682"/>
         <source>Cannot have an empty item name.</source>
         <comment>python error</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../scribus/plugins/scriptplugin/cmdmani.cpp" line="808"/>
+        <location filename="../../scribus/plugins/scriptplugin/cmdmani.cpp" line="850"/>
         <source>Selection must contain only shapes or bezier curves.</source>
         <comment>python error</comment>
         <translation>Selection must contain only shapes or bezier curves.</translation>
