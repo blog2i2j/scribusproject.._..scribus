@@ -32665,7 +32665,7 @@ Therefore the image may be not correct</source>
         <translation>PUB-Importer</translation>
     </message>
     <message>
-        <location filename="../../scribus/scribusdoc.cpp" line="18781"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="18796"/>
         <source>Unacceptable settings for note style</source>
         <translation>Inakzeptable Einstellung für einen Anmerkungsstil</translation>
     </message>
@@ -36651,7 +36651,7 @@ If you save it in this version, it will no longer be readable by older Scribus v
         <location filename="../../scribus/scribusdoc.cpp" line="201"/>
         <location filename="../../scribus/scribusdoc.cpp" line="207"/>
         <location filename="../../scribus/scribusdoc.cpp" line="237"/>
-        <location filename="../../scribus/scribusdoc.cpp" line="17227"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="17242"/>
         <source>Document</source>
         <translation>Dokument</translation>
     </message>
@@ -36687,18 +36687,18 @@ Horizontaler Abstand: %3
 Vertikaler Abstand: %4</translation>
     </message>
     <message>
-        <location filename="../../scribus/scribusdoc.cpp" line="17243"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="17258"/>
         <source>File %1 autosaved</source>
         <translation>Datei %1 automatisch gespeichert</translation>
     </message>
     <message>
-        <location filename="../../scribus/scribusdoc.cpp" line="18410"/>
-        <location filename="../../scribus/scribusdoc.cpp" line="18447"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="18425"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="18462"/>
         <source>No Style</source>
         <translation>Kein Stil</translation>
     </message>
     <message>
-        <location filename="../../scribus/scribusdoc.cpp" line="18775"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="18790"/>
         <source>%1 note style has document as range and provide same numbering style as set %2</source>
         <translation type="unfinished"></translation>
     </message>
@@ -36719,7 +36719,7 @@ Vertikaler Abstand: %4</translation>
     </message>
     <message>
         <location filename="../../scribus/scribusdoc.cpp" line="953"/>
-        <location filename="../../scribus/scribusdoc.cpp" line="16907"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="16922"/>
         <source>Adjusting Colors</source>
         <translation>Farbanpassung</translation>
     </message>
@@ -36750,14 +36750,14 @@ Drehung: %4</translation>
         <translation>Möchten Sie wirklich alle Inhalte in den ausgewählten Rahmen entfernen?</translation>
     </message>
     <message>
-        <location filename="../../scribus/scribusdoc.cpp" line="14266"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="14281"/>
         <source>Copied %1 item(s) on %2 page(s)</source>
         <translation>%1 Objekt(e) auf %2 Seite(n) kopiert</translation>
     </message>
     <message>
-        <location filename="../../scribus/scribusdoc.cpp" line="15586"/>
-        <location filename="../../scribus/scribusdoc.cpp" line="15641"/>
-        <location filename="../../scribus/scribusdoc.cpp" line="15803"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="15601"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="15656"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="15818"/>
         <source>Group%1</source>
         <translation>Gruppe%1</translation>
     </message>

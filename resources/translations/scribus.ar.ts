@@ -32436,7 +32436,7 @@ Therefore the image may be not correct</source>
         <translation>&lt;p&gt;أنت تحاول استيراد صفحات أكثر من تلك المتوفرة في المستند الحالي بحسب الصفحة النشطة.&lt;/p&gt;اختر أحد الخيارات التالية:&lt;ul&gt;&lt;li&gt;&lt;b&gt;أنشئ&lt;/b&gt;صفحات مفقودة&lt;/li&gt;&lt;li&gt;&lt;b&gt;استورد&lt;/b&gt;صفحات حتى الصفحة الأخيرة&lt;/li&gt;&lt;li&gt;&lt;b&gt;ألغِ&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;</translation>
     </message>
     <message>
-        <location filename="../../scribus/scribusdoc.cpp" line="18781"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="18796"/>
         <source>Unacceptable settings for note style</source>
         <translation>إعدادات غير مقبولة لنمط الملاحظة</translation>
     </message>
@@ -36560,7 +36560,7 @@ If you save it in this version, it will no longer be readable by older Scribus v
         <location filename="../../scribus/scribusdoc.cpp" line="201"/>
         <location filename="../../scribus/scribusdoc.cpp" line="207"/>
         <location filename="../../scribus/scribusdoc.cpp" line="237"/>
-        <location filename="../../scribus/scribusdoc.cpp" line="17227"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="17242"/>
         <source>Document</source>
         <translation>مستند</translation>
     </message>
@@ -36601,7 +36601,7 @@ If you save it in this version, it will no longer be readable by older Scribus v
     </message>
     <message>
         <location filename="../../scribus/scribusdoc.cpp" line="953"/>
-        <location filename="../../scribus/scribusdoc.cpp" line="16907"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="16922"/>
         <source>Adjusting Colors</source>
         <translation>ضبط الألوان</translation>
     </message>
@@ -36638,9 +36638,9 @@ Vertical gap: %4</source>
 الفجوة الرأسية: %4</translation>
     </message>
     <message>
-        <location filename="../../scribus/scribusdoc.cpp" line="15586"/>
-        <location filename="../../scribus/scribusdoc.cpp" line="15641"/>
-        <location filename="../../scribus/scribusdoc.cpp" line="15803"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="15601"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="15656"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="15818"/>
         <source>Group%1</source>
         <translation> مجموعه%1</translation>
     </message>
@@ -36651,23 +36651,23 @@ Vertical gap: %4</source>
         <translation>اُستورِد</translation>
     </message>
     <message>
-        <location filename="../../scribus/scribusdoc.cpp" line="14266"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="14281"/>
         <source>Copied %1 item(s) on %2 page(s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../scribus/scribusdoc.cpp" line="17243"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="17258"/>
         <source>File %1 autosaved</source>
         <translation>حُفظ الملف 1% تلقائيًا</translation>
     </message>
     <message>
-        <location filename="../../scribus/scribusdoc.cpp" line="18410"/>
-        <location filename="../../scribus/scribusdoc.cpp" line="18447"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="18425"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="18462"/>
         <source>No Style</source>
         <translation>بلا نمط</translation>
     </message>
     <message>
-        <location filename="../../scribus/scribusdoc.cpp" line="18775"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="18790"/>
         <source>%1 note style has document as range and provide same numbering style as set %2</source>
         <translation>يحتوي نمط الملاحظة 1% على مستند كنطاق ويوفر نفس نمط الترقيم كالمجموعة 2%</translation>
     </message>

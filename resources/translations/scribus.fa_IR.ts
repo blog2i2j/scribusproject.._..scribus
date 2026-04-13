@@ -32442,7 +32442,7 @@ Therefore the image may be not correct</source>
         <translation>&lt;p&gt;در حال تلاش برای ایمپورت تعداد صفحاتی بیشتر از صفحات موجود در سند فعلی هستید (از صفحهٔ فعال شمرده می‌شود).&lt;/p&gt;یکی از گزینه‌های زیر را انتخاب کنید:&lt;ul&gt;&lt;li&gt;&lt;b&gt;ایجاد &lt;/b&gt; صفحات گمشده&lt;/li&gt;&lt;li&gt;&lt;b&gt;ایمپورت&lt;/b&gt; صفحات تا آخرین صفحه&lt;/li&gt;&lt;li&gt;&lt;b&gt;لغو&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;</translation>
     </message>
     <message>
-        <location filename="../../scribus/scribusdoc.cpp" line="18781"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="18796"/>
         <source>Unacceptable settings for note style</source>
         <translation>تنظیمات غیرقابل‌قبول برای استایل یادداشت</translation>
     </message>
@@ -36568,7 +36568,7 @@ If you save it in this version, it will no longer be readable by older Scribus v
         <location filename="../../scribus/scribusdoc.cpp" line="201"/>
         <location filename="../../scribus/scribusdoc.cpp" line="207"/>
         <location filename="../../scribus/scribusdoc.cpp" line="237"/>
-        <location filename="../../scribus/scribusdoc.cpp" line="17227"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="17242"/>
         <source>Document</source>
         <translation>داکیومنت</translation>
     </message>
@@ -36609,7 +36609,7 @@ If you save it in this version, it will no longer be readable by older Scribus v
     </message>
     <message>
         <location filename="../../scribus/scribusdoc.cpp" line="953"/>
-        <location filename="../../scribus/scribusdoc.cpp" line="16907"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="16922"/>
         <source>Adjusting Colors</source>
         <translation>در حال تنظیم رنگ‌ها</translation>
     </message>
@@ -36646,9 +36646,9 @@ Vertical gap: %4</source>
 فاصلهٔ عمودی: %4</translation>
     </message>
     <message>
-        <location filename="../../scribus/scribusdoc.cpp" line="15586"/>
-        <location filename="../../scribus/scribusdoc.cpp" line="15641"/>
-        <location filename="../../scribus/scribusdoc.cpp" line="15803"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="15601"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="15656"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="15818"/>
         <source>Group%1</source>
         <translation>گروه%1</translation>
     </message>
@@ -36659,23 +36659,23 @@ Vertical gap: %4</source>
         <translation>ایمپورت شد</translation>
     </message>
     <message>
-        <location filename="../../scribus/scribusdoc.cpp" line="14266"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="14281"/>
         <source>Copied %1 item(s) on %2 page(s)</source>
         <translation>%1 مورد در %2 صفحه کپی شد</translation>
     </message>
     <message>
-        <location filename="../../scribus/scribusdoc.cpp" line="17243"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="17258"/>
         <source>File %1 autosaved</source>
         <translation>فایل %1 بطور خودکار ذخیره شد</translation>
     </message>
     <message>
-        <location filename="../../scribus/scribusdoc.cpp" line="18410"/>
-        <location filename="../../scribus/scribusdoc.cpp" line="18447"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="18425"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="18462"/>
         <source>No Style</source>
         <translation>بدون استایل</translation>
     </message>
     <message>
-        <location filename="../../scribus/scribusdoc.cpp" line="18775"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="18790"/>
         <source>%1 note style has document as range and provide same numbering style as set %2</source>
         <translation>استایل یادداشت %1 بازه را بعنوان سند دارد و همان سبک شماره‌گذاری %2 را فراهم می‌کند</translation>
     </message>

@@ -32458,7 +32458,7 @@ Därför kanske bilden inte är korrekt</translation>
         <translation>&lt;p&gt;Du försöker importera fler sidor än vad som finns tillgängliga i det aktuella dokumentet, räknat från den aktiva sidan.&lt;/p&gt;Välj ett av följande alternativ:&lt;ul&gt;&lt;li&gt;&lt;b&gt;Skapa&lt;/b&gt; sidor som saknas&lt;/li&gt;&lt;li&gt;&lt;b&gt;Importera&lt;/b&gt; sidor till och med den sista sidan&lt;/li&gt;&lt;li&gt;&lt;b&gt;Avbryt&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;</translation>
     </message>
     <message>
-        <location filename="../../scribus/scribusdoc.cpp" line="18781"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="18796"/>
         <source>Unacceptable settings for note style</source>
         <translation>Oacceptabla inställningar för anteckningsstil</translation>
     </message>
@@ -36588,7 +36588,7 @@ Om du sparar den i den här versionen kommer den inte längre att kunna läsas a
         <location filename="../../scribus/scribusdoc.cpp" line="201"/>
         <location filename="../../scribus/scribusdoc.cpp" line="207"/>
         <location filename="../../scribus/scribusdoc.cpp" line="237"/>
-        <location filename="../../scribus/scribusdoc.cpp" line="17227"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="17242"/>
         <source>Document</source>
         <translation>Dokument</translation>
     </message>
@@ -36629,7 +36629,7 @@ Om du sparar den i den här versionen kommer den inte längre att kunna läsas a
     </message>
     <message>
         <location filename="../../scribus/scribusdoc.cpp" line="953"/>
-        <location filename="../../scribus/scribusdoc.cpp" line="16907"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="16922"/>
         <source>Adjusting Colors</source>
         <translation>Justerar färger</translation>
     </message>
@@ -36666,9 +36666,9 @@ Horisontellt mellanrum: %3
 Vertikalt mellanrum: %4</translation>
     </message>
     <message>
-        <location filename="../../scribus/scribusdoc.cpp" line="15586"/>
-        <location filename="../../scribus/scribusdoc.cpp" line="15641"/>
-        <location filename="../../scribus/scribusdoc.cpp" line="15803"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="15601"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="15656"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="15818"/>
         <source>Group%1</source>
         <translation>Grupp%1</translation>
     </message>
@@ -36679,23 +36679,23 @@ Vertikalt mellanrum: %4</translation>
         <translation>Importerade </translation>
     </message>
     <message>
-        <location filename="../../scribus/scribusdoc.cpp" line="14266"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="14281"/>
         <source>Copied %1 item(s) on %2 page(s)</source>
         <translation>Kopierade %1 objekt på %2 sida(n)</translation>
     </message>
     <message>
-        <location filename="../../scribus/scribusdoc.cpp" line="17243"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="17258"/>
         <source>File %1 autosaved</source>
         <translation>Fil %1 autosparad</translation>
     </message>
     <message>
-        <location filename="../../scribus/scribusdoc.cpp" line="18410"/>
-        <location filename="../../scribus/scribusdoc.cpp" line="18447"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="18425"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="18462"/>
         <source>No Style</source>
         <translation>Ingen stilmall</translation>
     </message>
     <message>
-        <location filename="../../scribus/scribusdoc.cpp" line="18775"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="18790"/>
         <source>%1 note style has document as range and provide same numbering style as set %2</source>
         <translation>%1 anteckningsstil har dokument som intervall och ger samma numreringsstil som set %2</translation>
     </message>

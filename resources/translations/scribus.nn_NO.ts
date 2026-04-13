@@ -32444,7 +32444,7 @@ Difor treng ikkje bildet vera korrekt</translation>
         <translation>&lt;p&gt;Du prøver å importera fleire sider enn antalet i resten av dokumentet.&lt;/p&gt;Vél eitt av følgjande alternativ:&lt;ul&gt;&lt;li&gt;Opprett manglande sider&lt;/b&gt; &lt;/li&gt;&lt;li&gt;&lt;b&gt;Importér&lt;/b&gt; fram til siste side&lt;/li&gt;&lt;li&gt;&lt;b&gt;Avbryt&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;</translation>
     </message>
     <message>
-        <location filename="../../scribus/scribusdoc.cpp" line="18781"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="18796"/>
         <source>Unacceptable settings for note style</source>
         <translation>Uakseptabelt oppsett for note-stil</translation>
     </message>
@@ -36568,7 +36568,7 @@ Dersom du lagrar ho i no aktiv versjon, vil ho ikkje lenger vera lesbar av eldre
         <location filename="../../scribus/scribusdoc.cpp" line="201"/>
         <location filename="../../scribus/scribusdoc.cpp" line="207"/>
         <location filename="../../scribus/scribusdoc.cpp" line="237"/>
-        <location filename="../../scribus/scribusdoc.cpp" line="17227"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="17242"/>
         <source>Document</source>
         <translation>Dokument</translation>
     </message>
@@ -36609,7 +36609,7 @@ Dersom du lagrar ho i no aktiv versjon, vil ho ikkje lenger vera lesbar av eldre
     </message>
     <message>
         <location filename="../../scribus/scribusdoc.cpp" line="953"/>
-        <location filename="../../scribus/scribusdoc.cpp" line="16907"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="16922"/>
         <source>Adjusting Colors</source>
         <translation>Tilpassar fargane</translation>
     </message>
@@ -36646,9 +36646,9 @@ Horisontalt gap: %3
 Vertikalt gap: %4</translation>
     </message>
     <message>
-        <location filename="../../scribus/scribusdoc.cpp" line="15586"/>
-        <location filename="../../scribus/scribusdoc.cpp" line="15641"/>
-        <location filename="../../scribus/scribusdoc.cpp" line="15803"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="15601"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="15656"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="15818"/>
         <source>Group%1</source>
         <translation>Gruppa %1</translation>
     </message>
@@ -36659,23 +36659,23 @@ Vertikalt gap: %4</translation>
         <translation>Importert </translation>
     </message>
     <message>
-        <location filename="../../scribus/scribusdoc.cpp" line="14266"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="14281"/>
         <source>Copied %1 item(s) on %2 page(s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../scribus/scribusdoc.cpp" line="17243"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="17258"/>
         <source>File %1 autosaved</source>
         <translation>Fil %1 autolagra</translation>
     </message>
     <message>
-        <location filename="../../scribus/scribusdoc.cpp" line="18410"/>
-        <location filename="../../scribus/scribusdoc.cpp" line="18447"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="18425"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="18462"/>
         <source>No Style</source>
         <translation>Ingen stil</translation>
     </message>
     <message>
-        <location filename="../../scribus/scribusdoc.cpp" line="18775"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="18790"/>
         <source>%1 note style has document as range and provide same numbering style as set %2</source>
         <translation>%1 note-stil har dokument som område og gjev same nummereringsstil som sett %2</translation>
     </message>

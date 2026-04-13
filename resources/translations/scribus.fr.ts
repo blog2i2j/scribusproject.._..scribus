@@ -32449,7 +32449,7 @@ Auquel cas l’image pourra ne pas être affichée correctement</translation>
         <translation>&lt;p&gt;Vous essayez d&apos;importer plus de pages que disponibles dans le document, de la page courante à la fin.&lt;/p&gt;Les choix possibles sont :&lt;ul&gt;&lt;li&gt;&lt;b&gt;Créer&lt;/b&gt; les pages manquantes&lt;/li&gt;&lt;li&gt;&lt;b&gt;Importer&lt;/b&gt; les pages jusqu&apos;à la dernière page du document&lt;/li&gt;&lt;li&gt;&lt;b&gt;Annuler&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;</translation>
     </message>
     <message>
-        <location filename="../../scribus/scribusdoc.cpp" line="18781"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="18796"/>
         <source>Unacceptable settings for note style</source>
         <translation>Paramètre invalide pour un style de note</translation>
     </message>
@@ -36573,7 +36573,7 @@ Si vous sauvez ce document, il ne sera plus lisible par les versions de Scribus 
         <location filename="../../scribus/scribusdoc.cpp" line="201"/>
         <location filename="../../scribus/scribusdoc.cpp" line="207"/>
         <location filename="../../scribus/scribusdoc.cpp" line="237"/>
-        <location filename="../../scribus/scribusdoc.cpp" line="17227"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="17242"/>
         <source>Document</source>
         <translation>Document</translation>
     </message>
@@ -36614,7 +36614,7 @@ Si vous sauvez ce document, il ne sera plus lisible par les versions de Scribus 
     </message>
     <message>
         <location filename="../../scribus/scribusdoc.cpp" line="953"/>
-        <location filename="../../scribus/scribusdoc.cpp" line="16907"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="16922"/>
         <source>Adjusting Colors</source>
         <translation>Ajustement des couleurs</translation>
     </message>
@@ -36651,9 +36651,9 @@ Gouttière horizontale&#xa0;: %3
 Gouttière verticale&#xa0;: %4</translation>
     </message>
     <message>
-        <location filename="../../scribus/scribusdoc.cpp" line="15586"/>
-        <location filename="../../scribus/scribusdoc.cpp" line="15641"/>
-        <location filename="../../scribus/scribusdoc.cpp" line="15803"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="15601"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="15656"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="15818"/>
         <source>Group%1</source>
         <translation>Groupe %1</translation>
     </message>
@@ -36664,23 +36664,23 @@ Gouttière verticale&#xa0;: %4</translation>
         <translation>Importé </translation>
     </message>
     <message>
-        <location filename="../../scribus/scribusdoc.cpp" line="14266"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="14281"/>
         <source>Copied %1 item(s) on %2 page(s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../scribus/scribusdoc.cpp" line="17243"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="17258"/>
         <source>File %1 autosaved</source>
         <translation>Fichier %1 sauvegardé automatiquement</translation>
     </message>
     <message>
-        <location filename="../../scribus/scribusdoc.cpp" line="18410"/>
-        <location filename="../../scribus/scribusdoc.cpp" line="18447"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="18425"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="18462"/>
         <source>No Style</source>
         <translation>Aucun style</translation>
     </message>
     <message>
-        <location filename="../../scribus/scribusdoc.cpp" line="18775"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="18790"/>
         <source>%1 note style has document as range and provide same numbering style as set %2</source>
         <translation>Le style de note %1 fournit le même style de numérotation que le style %2</translation>
     </message>

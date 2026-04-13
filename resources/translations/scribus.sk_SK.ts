@@ -32407,7 +32407,7 @@ Preto obrázok nemusí byť správny</translation>
         <translation>&lt;p&gt;Pokúšate sa importovať viac strán, ako je k dispozícii v aktuálnom počte dokumentov z aktívnej stránky.&lt;/p&gt;Vyberte si jednu z nasledujúcich možností:&lt;ul&gt;&lt;li&gt;&lt;b&gt;Vytvoriť&lt;/b&gt; chýbajúce strany&lt;/li&gt;&lt;li&gt;&lt;b&gt;Importovať&lt;/b&gt; strany až po poslednú stranu&lt;/li&gt;&lt;li&gt;&lt;b&gt;Zrušiť&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;</translation>
     </message>
     <message>
-        <location filename="../../scribus/scribusdoc.cpp" line="18781"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="18796"/>
         <source>Unacceptable settings for note style</source>
         <translation>Neprijateľné nastavenia štýlu poznámky</translation>
     </message>
@@ -36534,7 +36534,7 @@ Ak ho uložíte v aktuálnej verzií, nebudete ho vedieť prečítať v starší
         <location filename="../../scribus/scribusdoc.cpp" line="201"/>
         <location filename="../../scribus/scribusdoc.cpp" line="207"/>
         <location filename="../../scribus/scribusdoc.cpp" line="237"/>
-        <location filename="../../scribus/scribusdoc.cpp" line="17227"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="17242"/>
         <source>Document</source>
         <translation>Dokument</translation>
     </message>
@@ -36575,7 +36575,7 @@ Ak ho uložíte v aktuálnej verzií, nebudete ho vedieť prečítať v starší
     </message>
     <message>
         <location filename="../../scribus/scribusdoc.cpp" line="953"/>
-        <location filename="../../scribus/scribusdoc.cpp" line="16907"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="16922"/>
         <source>Adjusting Colors</source>
         <translation>Prispôsobenie farieb</translation>
     </message>
@@ -36612,9 +36612,9 @@ Horizontálna medzera: %3
 Vertikálna medzera: %4</translation>
     </message>
     <message>
-        <location filename="../../scribus/scribusdoc.cpp" line="15586"/>
-        <location filename="../../scribus/scribusdoc.cpp" line="15641"/>
-        <location filename="../../scribus/scribusdoc.cpp" line="15803"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="15601"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="15656"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="15818"/>
         <source>Group%1</source>
         <translation>Skupina%1</translation>
     </message>
@@ -36625,23 +36625,23 @@ Vertikálna medzera: %4</translation>
         <translation>Importovaný </translation>
     </message>
     <message>
-        <location filename="../../scribus/scribusdoc.cpp" line="14266"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="14281"/>
         <source>Copied %1 item(s) on %2 page(s)</source>
         <translation>Skopírované položky %1 na %2 stranách</translation>
     </message>
     <message>
-        <location filename="../../scribus/scribusdoc.cpp" line="17243"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="17258"/>
         <source>File %1 autosaved</source>
         <translation>Súbor %1 bol automaticky uložený</translation>
     </message>
     <message>
-        <location filename="../../scribus/scribusdoc.cpp" line="18410"/>
-        <location filename="../../scribus/scribusdoc.cpp" line="18447"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="18425"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="18462"/>
         <source>No Style</source>
         <translation>Bez štýlu</translation>
     </message>
     <message>
-        <location filename="../../scribus/scribusdoc.cpp" line="18775"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="18790"/>
         <source>%1 note style has document as range and provide same numbering style as set %2</source>
         <translation>Štýl poznámky %1 má dokument ako rozsah a poskytuje rovnaký štýl číslovania ako sada %2</translation>
     </message>

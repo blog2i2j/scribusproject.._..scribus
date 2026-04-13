@@ -32470,7 +32470,7 @@ Baliteke irudia zuzena ez izatea</translation>
         <translation>&lt;p&gt;Uneko dokumentuan (orrialde aktibotik hasita) daudenak baino orrialde gehiago inportatzen saiatzen ari zara&lt;/p&gt;Hautatu hauetako bat:&lt;ul&gt;&lt;li&gt;&lt;b&gt;Sortu&lt;/b&gt; falta diren orrialdeak&lt;/li&gt;&lt;li&gt;&lt;b&gt;Inportatu&lt;/b&gt;orrialdeak azkenekoraino&lt;/li&gt;&lt;li&gt;&lt;b&gt;Utzi&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;</translation>
     </message>
     <message>
-        <location filename="../../scribus/scribusdoc.cpp" line="18781"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="18796"/>
         <source>Unacceptable settings for note style</source>
         <translation>Ezarpen onartezinak oharpen-estilorako</translation>
     </message>
@@ -36598,7 +36598,7 @@ Bertsio honetan gordetzen baduzu, Scribus bertsio zaharrek ezin izango dute irak
         <location filename="../../scribus/scribusdoc.cpp" line="201"/>
         <location filename="../../scribus/scribusdoc.cpp" line="207"/>
         <location filename="../../scribus/scribusdoc.cpp" line="237"/>
-        <location filename="../../scribus/scribusdoc.cpp" line="17227"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="17242"/>
         <source>Document</source>
         <translation>Dokumentua</translation>
     </message>
@@ -36639,7 +36639,7 @@ Bertsio honetan gordetzen baduzu, Scribus bertsio zaharrek ezin izango dute irak
     </message>
     <message>
         <location filename="../../scribus/scribusdoc.cpp" line="953"/>
-        <location filename="../../scribus/scribusdoc.cpp" line="16907"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="16922"/>
         <source>Adjusting Colors</source>
         <translation>Koloreak doitzen</translation>
     </message>
@@ -36676,9 +36676,9 @@ Tarte horizontala: %3
 Tarte bertikala: %4</translation>
     </message>
     <message>
-        <location filename="../../scribus/scribusdoc.cpp" line="15586"/>
-        <location filename="../../scribus/scribusdoc.cpp" line="15641"/>
-        <location filename="../../scribus/scribusdoc.cpp" line="15803"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="15601"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="15656"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="15818"/>
         <source>Group%1</source>
         <translation>%1taldea</translation>
     </message>
@@ -36689,23 +36689,23 @@ Tarte bertikala: %4</translation>
         <translation>Inportatua</translation>
     </message>
     <message>
-        <location filename="../../scribus/scribusdoc.cpp" line="14266"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="14281"/>
         <source>Copied %1 item(s) on %2 page(s)</source>
         <translation>%1 elementu kopiatu dira %2 orrialdetan</translation>
     </message>
     <message>
-        <location filename="../../scribus/scribusdoc.cpp" line="17243"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="17258"/>
         <source>File %1 autosaved</source>
         <translation>%1 fitxategia automatikoki gorde da</translation>
     </message>
     <message>
-        <location filename="../../scribus/scribusdoc.cpp" line="18410"/>
-        <location filename="../../scribus/scribusdoc.cpp" line="18447"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="18425"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="18462"/>
         <source>No Style</source>
         <translation>Estilorik ez</translation>
     </message>
     <message>
-        <location filename="../../scribus/scribusdoc.cpp" line="18775"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="18790"/>
         <source>%1 note style has document as range and provide same numbering style as set %2</source>
         <translation>%1 ohar-estiloak dokumentua du barruti gisa eta %2(e)n ezarritako zenbakitze-estilo bera ematen du</translation>
     </message>

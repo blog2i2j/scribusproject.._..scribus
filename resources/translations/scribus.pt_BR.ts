@@ -32455,7 +32455,7 @@ A imagem portanto pode não estar correta</translation>
         <translation>&lt;p&gt;Você está tentando importar mais páginas do que estão disponíveis no documento atual contando a partir da página selecionada.&lt;/p&gt;Escolha uma das opções a seguir:&lt;ul&gt;&lt;li&gt;&lt;b&gt;Criar&lt;/b&gt; as páginas que faltam&lt;/li&gt;&lt;li&gt;&lt;b&gt;Importar&lt;/b&gt; as páginas que vão até a última página&lt;/li&gt;&lt;li&gt;&lt;b&gt;Cancelar&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;</translation>
     </message>
     <message>
-        <location filename="../../scribus/scribusdoc.cpp" line="18781"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="18796"/>
         <source>Unacceptable settings for note style</source>
         <translation>Configurações inaceitáveis para estilo de notas</translation>
     </message>
@@ -36583,7 +36583,7 @@ Se você salvá-lo com esta versão do Scribus, o arquivo não será lido por ve
         <location filename="../../scribus/scribusdoc.cpp" line="201"/>
         <location filename="../../scribus/scribusdoc.cpp" line="207"/>
         <location filename="../../scribus/scribusdoc.cpp" line="237"/>
-        <location filename="../../scribus/scribusdoc.cpp" line="17227"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="17242"/>
         <source>Document</source>
         <translation>Documento</translation>
     </message>
@@ -36624,7 +36624,7 @@ Se você salvá-lo com esta versão do Scribus, o arquivo não será lido por ve
     </message>
     <message>
         <location filename="../../scribus/scribusdoc.cpp" line="953"/>
-        <location filename="../../scribus/scribusdoc.cpp" line="16907"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="16922"/>
         <source>Adjusting Colors</source>
         <translation>Ajustando as cores</translation>
     </message>
@@ -36660,9 +36660,9 @@ Intervalo horizontal: %3
 Intervalo vertical: %4</translation>
     </message>
     <message>
-        <location filename="../../scribus/scribusdoc.cpp" line="15586"/>
-        <location filename="../../scribus/scribusdoc.cpp" line="15641"/>
-        <location filename="../../scribus/scribusdoc.cpp" line="15803"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="15601"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="15656"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="15818"/>
         <source>Group%1</source>
         <translation>Agrupar%1</translation>
     </message>
@@ -36673,23 +36673,23 @@ Intervalo vertical: %4</translation>
         <translation>Importado</translation>
     </message>
     <message>
-        <location filename="../../scribus/scribusdoc.cpp" line="14266"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="14281"/>
         <source>Copied %1 item(s) on %2 page(s)</source>
         <translation>Foram copiados %1 item(s) em %2 página(s)</translation>
     </message>
     <message>
-        <location filename="../../scribus/scribusdoc.cpp" line="17243"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="17258"/>
         <source>File %1 autosaved</source>
         <translation>Arquivo %1 salvo automaticamente</translation>
     </message>
     <message>
-        <location filename="../../scribus/scribusdoc.cpp" line="18410"/>
-        <location filename="../../scribus/scribusdoc.cpp" line="18447"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="18425"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="18462"/>
         <source>No Style</source>
         <translation>Sem estilo</translation>
     </message>
     <message>
-        <location filename="../../scribus/scribusdoc.cpp" line="18775"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="18790"/>
         <source>%1 note style has document as range and provide same numbering style as set %2</source>
         <translation>O estilo de notas %1 tem documento como intervalo e fornece o mesmo estilo de numeração do conjunto %2</translation>
     </message>

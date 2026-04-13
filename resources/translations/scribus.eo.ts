@@ -32458,7 +32458,7 @@ Do, la bildo povas esti ne ĝusta</translation>
         <translation>&lt;p&gt;Vi provas importi pli da paĝoj ol kiom estas disponeblaj en la aktuala dokumento, kalkulante ekde la aktiva paĝo.&lt;/p&gt;Elektu unu el la sekvaj opcioj:&lt;ul&gt;&lt;li&gt;&lt;b&gt;Kreu&lt;/b&gt;mankantajn paĝojn&lt;/li&gt;&lt;li&gt;&lt;b&gt;Importu&lt;/b&gt; paĝojn ĝis la lasta paĝo&lt;/li&gt;&lt;li&gt;&lt;b&gt;Rezignu&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;</translation>
     </message>
     <message>
-        <location filename="../../scribus/scribusdoc.cpp" line="18781"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="18796"/>
         <source>Unacceptable settings for note style</source>
         <translation>Agordoj neakcepteblaj por la notstilo</translation>
     </message>
@@ -36586,7 +36586,7 @@ Se vi konservas ĝin en ĉi tiu versio, ĝi ne estos legebla de pli malnovaj ver
         <location filename="../../scribus/scribusdoc.cpp" line="201"/>
         <location filename="../../scribus/scribusdoc.cpp" line="207"/>
         <location filename="../../scribus/scribusdoc.cpp" line="237"/>
-        <location filename="../../scribus/scribusdoc.cpp" line="17227"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="17242"/>
         <source>Document</source>
         <translation>Dokumento</translation>
     </message>
@@ -36627,7 +36627,7 @@ Se vi konservas ĝin en ĉi tiu versio, ĝi ne estos legebla de pli malnovaj ver
     </message>
     <message>
         <location filename="../../scribus/scribusdoc.cpp" line="953"/>
-        <location filename="../../scribus/scribusdoc.cpp" line="16907"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="16922"/>
         <source>Adjusting Colors</source>
         <translation>Kolorĝustigo</translation>
     </message>
@@ -36664,9 +36664,9 @@ Horizontala distanco: %3
 Vertikala distanco: %4</translation>
     </message>
     <message>
-        <location filename="../../scribus/scribusdoc.cpp" line="15586"/>
-        <location filename="../../scribus/scribusdoc.cpp" line="15641"/>
-        <location filename="../../scribus/scribusdoc.cpp" line="15803"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="15601"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="15656"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="15818"/>
         <source>Group%1</source>
         <translation>Grupo%1</translation>
     </message>
@@ -36677,23 +36677,23 @@ Vertikala distanco: %4</translation>
         <translation>Importita</translation>
     </message>
     <message>
-        <location filename="../../scribus/scribusdoc.cpp" line="14266"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="14281"/>
         <source>Copied %1 item(s) on %2 page(s)</source>
         <translation>Kopiita(j) %1 elemento(j) sur %2 paĝo(j)</translation>
     </message>
     <message>
-        <location filename="../../scribus/scribusdoc.cpp" line="17243"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="17258"/>
         <source>File %1 autosaved</source>
         <translation>Dosiero %1 aŭtokonservita</translation>
     </message>
     <message>
-        <location filename="../../scribus/scribusdoc.cpp" line="18410"/>
-        <location filename="../../scribus/scribusdoc.cpp" line="18447"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="18425"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="18462"/>
         <source>No Style</source>
         <translation>Neniu stilo</translation>
     </message>
     <message>
-        <location filename="../../scribus/scribusdoc.cpp" line="18775"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="18790"/>
         <source>%1 note style has document as range and provide same numbering style as set %2</source>
         <translation>Notstilo %1 estas aplikita al la tuta dokumento kaj posedas la saman numeradstilon kiel %2 </translation>
     </message>

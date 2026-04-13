@@ -32455,7 +32455,7 @@ Mogelijk is daarom het beeld niet correct.</translation>
         <translation>&lt;p&gt;U probeert meer pagina&apos;s te importeren dan er beschikbaar zijn in het huidige document, tellende vanaf de actieve pagina.&lt;/p&gt;Kies uit het volgende:&lt;ul&gt;&lt;li&gt;ontbrekende pagina&apos;s &lt;b&gt;aanmaken&lt;/b&gt;&lt;/li&gt;&lt;li&gt;pagina&apos;s t/m de laatste &lt;b&gt;importeren&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;Annuleren&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;</translation>
     </message>
     <message>
-        <location filename="../../scribus/scribusdoc.cpp" line="18781"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="18796"/>
         <source>Unacceptable settings for note style</source>
         <translation>Notitiestijl bevat ongeldige instellingen </translation>
     </message>
@@ -36583,7 +36583,7 @@ Als u het in deze versie opslaat, zal het niet langer leesbaar zijn voor oudere 
         <location filename="../../scribus/scribusdoc.cpp" line="201"/>
         <location filename="../../scribus/scribusdoc.cpp" line="207"/>
         <location filename="../../scribus/scribusdoc.cpp" line="237"/>
-        <location filename="../../scribus/scribusdoc.cpp" line="17227"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="17242"/>
         <source>Document</source>
         <translation>Document</translation>
     </message>
@@ -36624,7 +36624,7 @@ Als u het in deze versie opslaat, zal het niet langer leesbaar zijn voor oudere 
     </message>
     <message>
         <location filename="../../scribus/scribusdoc.cpp" line="953"/>
-        <location filename="../../scribus/scribusdoc.cpp" line="16907"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="16922"/>
         <source>Adjusting Colors</source>
         <translation>Kleuren aanpassen</translation>
     </message>
@@ -36661,9 +36661,9 @@ Horizontale tussenruimte: %3
 Verticale tussenruimte: %4</translation>
     </message>
     <message>
-        <location filename="../../scribus/scribusdoc.cpp" line="15586"/>
-        <location filename="../../scribus/scribusdoc.cpp" line="15641"/>
-        <location filename="../../scribus/scribusdoc.cpp" line="15803"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="15601"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="15656"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="15818"/>
         <source>Group%1</source>
         <translation>Groep%1</translation>
     </message>
@@ -36674,23 +36674,23 @@ Verticale tussenruimte: %4</translation>
         <translation>Geïmporteerd</translation>
     </message>
     <message>
-        <location filename="../../scribus/scribusdoc.cpp" line="14266"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="14281"/>
         <source>Copied %1 item(s) on %2 page(s)</source>
         <translation>%1 Item(s) gekopieerd naar %2 pagina(&apos;s)</translation>
     </message>
     <message>
-        <location filename="../../scribus/scribusdoc.cpp" line="17243"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="17258"/>
         <source>File %1 autosaved</source>
         <translation>Bestand %1 autom. opgeslagen</translation>
     </message>
     <message>
-        <location filename="../../scribus/scribusdoc.cpp" line="18410"/>
-        <location filename="../../scribus/scribusdoc.cpp" line="18447"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="18425"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="18462"/>
         <source>No Style</source>
         <translation>Geen stijl</translation>
     </message>
     <message>
-        <location filename="../../scribus/scribusdoc.cpp" line="18775"/>
+        <location filename="../../scribus/scribusdoc.cpp" line="18790"/>
         <source>%1 note style has document as range and provide same numbering style as set %2</source>
         <translation>%1 notitiestijl heeft document als bereik en biedt dezelfde nummeringsstijl als set %2</translation>
     </message>
