@@ -317,6 +317,13 @@ if (HARFBUZZ_SUBSET_FOUND)
 	set (HAVE_HARFBUZZ_SUBSET ON)
 endif()
 
+# OpenType subsetting support
+pkg_check_modules(HARFBUZZ_VECTOR harfbuzz-vector>=14.0)
+if (HARFBUZZ_VECTOR_FOUND)
+	message("Harfbuzz vector library Found OK")
+	set (HAVE_HARFBUZZ_VECTOR ON)
+endif()
+
 #if(WANT_QTADS)
   set(HAVE_QTADS ON)
 #endif()

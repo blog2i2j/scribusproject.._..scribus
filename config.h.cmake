@@ -20,6 +20,7 @@
 #cmakedefine HAVE_CUPS 1
 #cmakedefine HAVE_FONTCONFIG 1
 #cmakedefine HAVE_HARFBUZZ_SUBSET 1
+#cmakedefine HAVE_HARFBUZZ_VECTOR 1
 #cmakedefine HAVE_JXL 1
 #cmakedefine HAVE_LCMS2 1
 #cmakedefine HAVE_LIBZ 1
