@@ -97,6 +97,7 @@ void PageItem_TextFrame::init()
 {
 	m_origAnnotPos = QRectF(xPos(), yPos(), width(), height());
 	connect(&itemText, SIGNAL(changed(int,int)), this, SLOT(slotInvalidateLayout(int,int)));
+	connect(&itemText, SIGNAL(changed(int,int)), this, SLOT(slotSpellCheckTextChanged(int,int)));
 }
 
 QRegion PageItem_TextFrame::calcAvailableRegion()

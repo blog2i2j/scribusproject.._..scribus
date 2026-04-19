@@ -240,45 +240,19 @@ void TextFrameSpellChecker::frameActivated(PageItem_TextFrame* frame)
 		m_activeFrame = frame;
 		m_currentSnapshot = StoryTextSnapshot();
 	}
-	
-	// Get state for this frame
-	FrameState& state = getFrameState(frame);
-	
-	// Check if we need to recheck
-	bool redrawRequired = false;
-	if (state.needsRecheck || state.cachedErrors.isEmpty())
-	{
-		QString currentHash = calculateTextHash(frame);
-		
-		if (!state.textHash.isEmpty() && state.textHash == currentHash)
-		{
-			// Text hasn't changed - use cached results
-			state.needsRecheck = false;
-			
-			if (!state.cachedErrors.isEmpty())
-			{
-				emit resultsReady(frame, state.cachedErrors);
-				redrawRequired = true;
-			}
-		}
-		else
-		{
-			// Text changed or no hash - schedule check
-			scheduleCheck(frame);
-		}
-	}
-	else
-	{
-		// We have valid cached results - emit them
-		if (!state.cachedErrors.isEmpty())
-		{
-			emit resultsReady(frame, state.cachedErrors);
-			redrawRequired = true;
-		}
-	}
-	if (redrawRequired && frame->doc())
-		frame->doc()->regionsChanged()->update(frame->getBoundingRect());
 
+	FrameState& state = getFrameState(frame);
+
+	// Emit cached results if we have them (for immediate display)
+	if (!state.cachedErrors.isEmpty() && frame->doc())
+	{
+		emit resultsReady(frame, state.cachedErrors);
+		frame->doc()->regionsChanged()->update(frame->getBoundingRect());
+	}
+
+	// Schedule a check if we need one
+	if (state.needsRecheck || state.cachedErrors.isEmpty())
+		scheduleCheck(frame);
 }
 
 void TextFrameSpellChecker::frameDeactivated(PageItem_TextFrame* frame)
@@ -298,6 +272,12 @@ void TextFrameSpellChecker::frameTextChanged(PageItem_TextFrame* frame)
 	
 	// Mark as needing recheck
 	FrameState& state = getFrameState(frame);
+
+	QString currentHash = calculateTextHash(frame);
+	if (currentHash == state.textHash)
+		return;  // Formatting changed but not content — skip recheck
+	state.textHash = currentHash;
+
 	state.needsRecheck = true;
 	
 	// If this is the active frame, schedule a check
@@ -338,6 +318,40 @@ void TextFrameSpellChecker::frameDeleted(PageItem_TextFrame* frame)
 	removeFrameState(frame);
 }
 
+void TextFrameSpellChecker::documentClosed()
+{
+	m_debounceTimer.stop();
+	m_activeFrame = nullptr;
+	m_checkingFrame = nullptr;
+	m_currentSnapshot = StoryTextSnapshot();
+	m_frameStates.clear();
+	++m_generation;
+}
+
+void TextFrameSpellChecker::dumpStats() const
+{
+	qDebug() << "=== SpellChecker Stats ===";
+	qDebug() << "  Cached frames:" << m_frameStates.size();
+	qDebug() << "  Generation:" << m_generation;
+	qDebug() << "  Active frame:" << m_activeFrame;
+	qDebug() << "  Checking frame:" << m_checkingFrame;
+	qDebug() << "  Checks performed:" << m_checkCount;
+
+	int totalErrors = 0;
+	int totalStringBytes = 0;
+	for (auto it = m_frameStates.constBegin(); it != m_frameStates.constEnd(); ++it)
+	{
+		totalErrors += it->cachedErrors.size();
+		for (const SpellError& e : it->cachedErrors)
+			totalStringBytes += (e.word.size() + e.language.size()) * sizeof(QChar);
+		totalStringBytes += it->textHash.size() * sizeof(QChar);
+	}
+
+	qDebug() << "  Total cached errors:" << totalErrors;
+	qDebug() << "  Approx string memory:" << totalStringBytes << "bytes";
+	qDebug() << "========================";
+}
+
 // ============================================================================
 // Checking
 // ============================================================================
@@ -370,7 +384,6 @@ void TextFrameSpellChecker::scheduleCheck(PageItem_TextFrame* frame)
 
 void TextFrameSpellChecker::onDebounceTimeout()
 {
-	// qDebug()<<Q_FUNC_INFO;
 	if (m_activeFrame && m_enabled)
 		performCheck(m_activeFrame);
 }
@@ -380,12 +393,23 @@ void TextFrameSpellChecker::performCheck(PageItem_TextFrame* frame)
 	// qDebug()<<Q_FUNC_INFO;
 	if (!frame || !m_enabled || m_paused)
 		return;
-	
+
 	if (!isThreadRunning())
 	{
 		qWarning() << "Spell checker thread not running!";
 		return;
 	}
+
+	// Don't queue another snapshot if one is already pending for this frame
+	if (m_checkingFrame == frame)
+	{
+		// Mark it so we recheck after the current one completes
+		FrameState& state = getFrameState(frame);
+		state.needsRecheck = true;
+		return;
+	}
+
+	++m_checkCount;
 	
 	// Create snapshot
 	m_currentSnapshot = frame->itemText.createSnapshot();
@@ -403,21 +427,37 @@ void TextFrameSpellChecker::performCheck(PageItem_TextFrame* frame)
 	
 	// Send to worker thread via signal
 	// The snapshot is copied (safely) when emitted
-	emit requestCheck(frame, m_currentSnapshot);
+	emit requestCheck(frame, m_currentSnapshot, m_generation);
 	
 	// Clear snapshot in main thread (worker has its own copy)
 	m_currentSnapshot = StoryTextSnapshot();
 }
 
-void TextFrameSpellChecker::onCheckComplete(PageItem_TextFrame* frame, const QVector<SpellError>& errors)
+void TextFrameSpellChecker::onCheckComplete(PageItem_TextFrame* frame, const QVector<SpellError>& errors, int generation)
 {
 	// This slot runs in the MAIN thread (connected via Qt::AutoConnection)
-	
+
+	// Discard results from a previous document
+	if (generation != m_generation)
+		return;
+
 	if (!frame)
 		return;
 	
 	// Store in cache
 	FrameState& state = getFrameState(frame);
+
+	// Don't trigger a repaint if nothing changed
+	if (state.cachedErrors.size() == errors.size() && state.cachedErrors == errors)
+	{
+		if (m_checkingFrame == frame)
+			m_checkingFrame = nullptr;
+		// Still check if a recheck was requested while we were busy
+		if (state.needsRecheck && frame == m_activeFrame)
+			performCheck(frame);
+		return;
+	}
+
 	state.cachedErrors = errors;
 
 	// Emit results
@@ -427,15 +467,13 @@ void TextFrameSpellChecker::onCheckComplete(PageItem_TextFrame* frame, const QVe
 	if (m_checkingFrame == frame)
 		m_checkingFrame = nullptr;
 
+	// Just repaint the frame area — no layout invalidation needed
 	if (frame->doc())
-	{
-		frame->invalidateLayout();  // Mark layout as needing redraw
 		frame->doc()->regionsChanged()->update(frame->getBoundingRect());
 
-		// Also try forcing view update
-		if (frame->doc()->view())
-			frame->doc()->view()->update();
-	}
+	// If text changed again while we were checking, go again
+	if (state.needsRecheck && frame == m_activeFrame)
+		performCheck(frame);
 }
 
 // ============================================================================
@@ -447,18 +485,6 @@ QVector<SpellError> TextFrameSpellChecker::getErrors(PageItem_TextFrame* frame)
 	auto it = m_frameStates.constFind(frame);
 	if (it == m_frameStates.end())
 		return QVector<SpellError>();
-
-	// Don't return stale errors — if text has changed since
-	// these were computed, the positions may be wrong
-	QString currentHash = calculateTextHash(frame);
-	if (it->textHash != currentHash)
-	{
-		// Text changed without notification — schedule a recheck
-		// and return nothing until new results arrive
-		frameTextChanged(frame);
-		return QVector<SpellError>();
-	}
-
 	return it->cachedErrors;
 }
 
@@ -543,7 +569,7 @@ void SpellCheckerWorker::setPaused(bool paused)
 	m_paused = paused;
 }
 
-void SpellCheckerWorker::checkSnapshot(PageItem_TextFrame* frame, const StoryTextSnapshot& snapshot)
+void SpellCheckerWorker::checkSnapshot(PageItem_TextFrame* frame, const StoryTextSnapshot& snapshot, int generation)
 {
 	// This runs in the WORKER thread
 	
@@ -552,7 +578,7 @@ void SpellCheckerWorker::checkSnapshot(PageItem_TextFrame* frame, const StoryTex
 		qDebug() << "Worker is paused, ignoring check request";
 		return;
 	}
-	
+
 	// Perform spell check
 	QVector<SpellError> errors = performSpellCheck(snapshot);
 	// qDebug()<<"Perform spell check";
@@ -569,6 +595,6 @@ void SpellCheckerWorker::checkSnapshot(PageItem_TextFrame* frame, const StoryTex
 	}
 
 	// Emit results back to main thread
-	emit checkComplete(frame, errors);
+	emit checkComplete(frame, errors, generation);
 }
 

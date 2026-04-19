@@ -29,6 +29,14 @@ struct SpellError
 	int length;	               // Length of the error
 	QString word;              // The misspelled word
 	QString language;          // Language context
+
+	bool operator==(const SpellError& other) const
+	{
+		return position == other.position
+				&& length == other.length
+				&& word == other.word
+				&& language == other.language;
+	}
 };
 
 /**
@@ -164,7 +172,16 @@ class TextFrameSpellChecker : public QObject
 		*/
 		void checkFrameNow(PageItem_TextFrame* frame);
 
+		/**
+		* @brief Clean up all state when a document is closed
+		* Must be called before document page items are destroyed
+		*/
+		void documentClosed();
 
+		/**
+		* @brief Dump diagnostic stats to debug output
+		*/
+		void dumpStats() const;
 
 		// ========================================================================
 		// Query Methods
@@ -234,7 +251,7 @@ class TextFrameSpellChecker : public QObject
 		* @brief Signal to worker to check a snapshot
 		* @internal Connected to worker's checkSnapshot slot
 		*/
-		void requestCheck(PageItem_TextFrame* frame, StoryTextSnapshot snapshot);
+		void requestCheck(PageItem_TextFrame* frame, StoryTextSnapshot snapshot, int generation);
 
 	private:
 		// Private constructor for singleton
@@ -269,7 +286,7 @@ class TextFrameSpellChecker : public QObject
 
 	private slots:
 		void onDebounceTimeout();
-		void onCheckComplete(PageItem_TextFrame* frame, const QVector<SpellError>& errors);
+		void onCheckComplete(PageItem_TextFrame* frame, const QVector<SpellError>& errors, int generation);
 
 	private:
 		// Configuration
@@ -296,6 +313,12 @@ class TextFrameSpellChecker : public QObject
 
 		// Currently checking frame
 		PageItem_TextFrame* m_checkingFrame {nullptr};
+
+		// Generation counter — incremented on document close to discard stale results
+		int m_generation {0};
+
+		// Diagnostic counter
+		int m_checkCount {0};
 };
 
 // ============================================================================
@@ -327,14 +350,14 @@ class SpellCheckerWorker : public QObject
 		* @brief Check a snapshot for spelling errors
 		* This runs in the worker thread
 		*/
-		void checkSnapshot(PageItem_TextFrame* frame, const StoryTextSnapshot& snapshot);
+		void checkSnapshot(PageItem_TextFrame* frame, const StoryTextSnapshot& snapshot, int generation);
 
 	signals:
 		/**
 		* @brief Emitted when checking is complete
 		* Connected back to main thread
 		*/
-		void checkComplete(PageItem_TextFrame* frame, const QVector<SpellError>& errors);
+		void checkComplete(PageItem_TextFrame* frame, const QVector<SpellError>& errors, int generation);
 
 		/**
 		* @brief Emitted to report progress (optional)

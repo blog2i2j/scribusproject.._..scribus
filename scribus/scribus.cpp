@@ -4163,6 +4163,8 @@ bool ScribusMainWindow::slotFileClose()
 
 bool ScribusMainWindow::DoFileClose()
 {
+	// TextFrameSpellChecker::instance()->dumpStats();
+	TextFrameSpellChecker::instance()->documentClosed();
 	slotEndSpecialEdit();
 	view->deselectItems(false);
 	if (doc == storyEditor->currentDocument())
