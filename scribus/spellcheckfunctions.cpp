@@ -44,6 +44,16 @@ class HunspellManager
 			if (affPath.isEmpty() || dicPath.isEmpty())
 			{
 				altLanguage = LanguageManager::instance()->getAlternativeAbbrevfromAbbrev(language);
+
+				// Check if we already have the alt language cached
+				if (m_dictionaries.contains(altLanguage))
+				{
+					// Alias the original language to the existing dictionary
+					// We'll need to clean these aliases up in the destructor
+					m_dictionaries[language] = m_dictionaries[altLanguage];
+					return m_dictionaries[language];
+				}
+
 				affPath = findDictionaryFile(altLanguage, ".aff");
 				dicPath = findDictionaryFile(altLanguage, ".dic");
 				if (affPath.isEmpty() || dicPath.isEmpty())
@@ -54,13 +64,26 @@ class HunspellManager
 			}
 
 			Hunspell* hunspell = new Hunspell(affPath.toUtf8().constData(), dicPath.toUtf8().constData());
-			m_dictionaries[altLanguage.isEmpty() ? language : altLanguage] = hunspell;
+
+			// Cache under both the requested language AND the alt language if different
+			m_dictionaries[language] = hunspell;
+			if (!altLanguage.isEmpty() && altLanguage != language)
+				m_dictionaries[altLanguage] = hunspell;
+
 			return hunspell;
 		}
 
 		~HunspellManager()
 		{
+			// Multiple keys may point to the same Hunspell instance (aliasing for language fallbacks),
+			// so collect unique pointers before deleting.
+			QList<Hunspell*> toDelete;
 			for (Hunspell* hunspell : m_dictionaries.values())
+			{
+				if (!toDelete.contains(hunspell))
+					toDelete.append(hunspell);
+			}
+			for (Hunspell* hunspell : toDelete)
 				delete hunspell;
 		}
 
@@ -133,9 +156,7 @@ QVector<SpellError> performSpellCheck(const StoryTextSnapshot& snapshot)
 // Language-Specific Checking
 // ============================================================================
 
-QVector<SpellError> checkTextInLanguage(const QString& text,
-										const QString& language,
-										int basePosition)
+QVector<SpellError> checkTextInLanguage(const QString& text, const QString& language, int basePosition)
 {
 	QVector<SpellError> errors;
 	
@@ -146,10 +167,12 @@ QVector<SpellError> checkTextInLanguage(const QString& text,
 
 	static const QRegularExpression wordRegex("\\b([\\w']*\\p{L}[\\w']*)\\b", QRegularExpression::UseUnicodePropertiesOption);
 
-
 	Hunspell* hunspell = HunspellManager::instance()->getHunspell(language);
 	if (!hunspell)
 		return errors;
+
+	// int wordCount = 0;
+	// int misspelledCount = 0;
 
 	QRegularExpressionMatchIterator it = wordRegex.globalMatch(text);
 	while (it.hasNext())
@@ -160,10 +183,12 @@ QVector<SpellError> checkTextInLanguage(const QString& text,
 		if (word.length() < 2)
 			continue;
 
+		// wordCount++;
 		// Single conversion, single Hunspell call
 		const std::string wordUtf8 = word.toStdString();
 		if (!hunspell->spell(wordUtf8))
 		{
+			// misspelledCount++;
 			SpellError error;
 			error.position = basePosition + match.capturedStart(1);
 			error.length   = word.length();
@@ -172,6 +197,11 @@ QVector<SpellError> checkTextInLanguage(const QString& text,
 			errors.append(error);
 		}
 	}
+
+	// qDebug() << "checkTextInLanguage" << language
+	// 			 << "text length:" << text.length()
+	// 			 << "words checked:" << wordCount
+	// 			 << "misspelled:" << misspelledCount;
 	
 	return errors;
 }
