@@ -96,7 +96,7 @@ PageItem_TextFrame::~PageItem_TextFrame()
 void PageItem_TextFrame::init()
 {
 	m_origAnnotPos = QRectF(xPos(), yPos(), width(), height());
-	connect(&itemText,SIGNAL(changed(int,int)), this, SLOT(slotInvalidateLayout(int,int)));
+	connect(&itemText, SIGNAL(changed(int,int)), this, SLOT(slotInvalidateLayout(int,int)));
 }
 
 QRegion PageItem_TextFrame::calcAvailableRegion()
@@ -3059,6 +3059,11 @@ void PageItem_TextFrame::slotInvalidateLayout(int firstItem, int /*endItem*/)
 	}
 }
 
+void PageItem_TextFrame::slotSpellCheckTextChanged(int /*firstItem*/, int /*endItem*/)
+{
+	TextFrameSpellChecker::instance()->frameTextChanged(this);
+}
+
 bool PageItem_TextFrame::isValidChainFromBegin()
 {
 	if (invalid)
@@ -3680,14 +3685,28 @@ void PageItem_TextFrame::DrawObj_Decoration(ScPainter *p)
 
 void PageItem_TextFrame::drawSpellCheckSquiggles(ScPainter* p, const QVector<SpellError>& errors)
 {
+	const int textLen = itemText.length();
+	const Box* outerBox = textLayout.box();
 	p->save();
 
-	// Set red pen for spell check squiggles
-	p->setPen(Qt::red, 0.5, Qt::SolidLine, Qt::FlatCap, Qt::MiterJoin);
 	for (const SpellError& error : errors)
 	{
+		// Skip errors whose positions are no longer valid
+		if (error.position < 0 || error.position >= textLen)
+			continue;
+		if (error.position + error.length > textLen)
+			continue;
+
+		// Get font size at this error position (CharStyle stores size in tenths of a point)
+		const double fontSize = itemText.charStyle(error.position).fontSize() / 10.0;
+
+		// Scale pen width, amplitude, and wavelength to font size
+		// 12pt is the reference — adjust ratios to taste
+		const double penWidth = qMax(0.5, fontSize / 24.0);
+		p->setPen(Qt::red, penWidth, Qt::SolidLine, Qt::RoundCap, Qt::RoundJoin);
+
 		// Iterate over columns
-		for (const Box* column : textLayout.box()->boxes())
+		for (const Box* column : outerBox->boxes())
 		{
 			// Iterate over lines within each column
 			for (const Box* box : column->boxes())
@@ -3697,8 +3716,7 @@ void PageItem_TextFrame::drawSpellCheckSquiggles(ScPainter* p, const QVector<Spe
 					continue;
 
 				// Check if error overlaps this line
-				if (error.position > line->lastChar() ||
-					error.position + error.length <= line->firstChar())
+				if (error.position > line->lastChar() || error.position + error.length <= line->firstChar())
 					continue;
 
 				// Calculate x positions for the error span
@@ -3707,11 +3725,18 @@ void PageItem_TextFrame::drawSpellCheckSquiggles(ScPainter* p, const QVector<Spe
 
 				QLineF startPoint = line->positionToPoint(startPos, itemText);
 				QLineF endPoint = line->positionToPoint(endPos, itemText);
-				double startX = startPoint.x1();
-				double endX = endPoint.x1();
-				double squiggleY = startPoint.y2();
+
+				// positionToPoint returns coordinates in the line's local space.
+				// Translate by column offset and outer box offset to reach frame space.
+				double offsetX = column->x() + outerBox->x();
+				double offsetY = column->y() + outerBox->y();
+
+				double startX = startPoint.x1() + offsetX;
+				double endX = endPoint.x1() + offsetX;
+				double squiggleY = startPoint.y1() + offsetY + line->ascent() + (fontSize * 0.15);
+
 				// Draw squiggle
-				drawSquiggleLine(p, startX, squiggleY, endX - startX);
+				drawSquiggleLine(p, startX, squiggleY, endX - startX, fontSize);
 			}
 		}
 	}
@@ -3719,13 +3744,17 @@ void PageItem_TextFrame::drawSpellCheckSquiggles(ScPainter* p, const QVector<Spe
 	p->restore();
 }
 
-void PageItem_TextFrame::drawSquiggleLine(ScPainter* p, double x, double y, double width)
+void PageItem_TextFrame::drawSquiggleLine(ScPainter* p, double x, double y, double width, double fontSize)
 {
 	if (width <= 0)
 		return;
 
-	const double amplitude = 0.25;
-	const double wavelength = 4.0;
+	// Scale amplitude and wavelength with font size.
+	// Reference: 12pt text -> amplitude 0.6, wavelength 3.0
+	const double scale = fontSize / 12.0;
+	const double amplitude = 0.4 * scale;
+	const double halfAmplitude = amplitude * 0.5;
+	const double wavelength = 3.0 * scale;
 
 	// Create a smooth wave using bezier curves
 	FPointArray wave;
@@ -3744,13 +3773,9 @@ void PageItem_TextFrame::drawSquiggleLine(ScPainter* p, double x, double y, doub
 
 		// If this is the final segment, make it gentler
 		if (nextX >= x + width)
-			curveY = up ? y - amplitude * 0.5 : y + amplitude * 0.5;
+			curveY = up ? y - halfAmplitude : y + halfAmplitude;
 		// Final curve - use smaller amplitude
-		wave.svgCurveToCubic(
-					currentX + wavelength / 4.0, curveY,
-					currentX + 3 * wavelength / 4.0, curveY,
-					nextX, y
-					);
+		wave.svgCurveToCubic(currentX + wavelength / 4.0, curveY, currentX + 3 * wavelength / 4.0, curveY, nextX, y);
 
 		currentX = nextX;
 		up = !up;

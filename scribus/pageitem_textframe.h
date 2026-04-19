@@ -102,7 +102,7 @@ protected:
 	void drawUnderflowMarker(ScPainter *p);
 	void drawColumnBorders(ScPainter *p);
 	void drawSpellCheckSquiggles(ScPainter* p, const QVector<SpellError>& errors);
-	void drawSquiggleLine(ScPainter* p, double x, double y, double width);
+	void drawSquiggleLine(ScPainter* p, double x, double y, double width, double fontSize);
 
 	bool unicodeTextEditMode {false};
 	int unicodeInputCount {0};
@@ -133,6 +133,7 @@ private:
 
 private slots:
 	void slotInvalidateLayout(int firstItem, int endItem);
+	void slotSpellCheckTextChanged(int firstItem, int endItem);
 
 public:
 	//for footnotes/endnotes
