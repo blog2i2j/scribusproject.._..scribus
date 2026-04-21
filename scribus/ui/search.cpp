@@ -342,6 +342,8 @@ void SearchReplace::readSelectedPageItems()
 // TODO: as soon as available, use std::optional
 PageItem* SearchReplace::currentPageItem()
 {
+	if (m_pageItems.empty() || m_currentPageItem >= m_pageItems.size())
+		return nullptr;
 	return m_pageItems.at(m_currentPageItem);
 }
 
@@ -1212,7 +1214,7 @@ void SearchReplace::readPrefs()
 {
 	m_stateCollapsed = m_prefs->getBool("collapsed", false);
 
-	QRect screen = QApplication::primaryScreen()->availableGeometry();
+	// QRect screen = QApplication::primaryScreen()->availableGeometry();
 	// int left = m_prefs->getInt("left", screen.width() > width() ? (screen.width() - width()) / 2 : 0);
 	// int top = m_prefs->getInt("top", screen.height() > height() ? (screen.height() - height()) / 2 : 0);
 	// ensure that it's in the screen
