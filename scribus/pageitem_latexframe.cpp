@@ -311,6 +311,15 @@ void PageItem_LatexFrame::runApplication()
 			arg.replace("$scribus_" + it.key() + "$", it.value());
 		}
 
+		QString docDir = ".";
+		if (doc()->hasName)
+		{
+			QFileInfo fi(doc()->documentFileName());
+			docDir = fi.absoluteDir().absolutePath();
+		}
+
+		arg.replace("$scribus_doc_dir$", docDir);
+
 		args[i] = arg;
 	}
 	
