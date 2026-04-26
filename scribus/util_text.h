@@ -17,10 +17,8 @@ for which a new license (GPL+exception) is in place.
 
 class  ScribusDoc;
 
-#ifndef NLS_CONFORMANCE
 int SCRIBUS_API findParagraphStyle(ScribusDoc* doc, const ParagraphStyle& parStyle);
 int SCRIBUS_API findParagraphStyle(ScribusDoc* doc, const QString &name);
-#endif
 
 bool SCRIBUS_API localeAwareLessThan(const QString& s1, const QString& s2);
 
