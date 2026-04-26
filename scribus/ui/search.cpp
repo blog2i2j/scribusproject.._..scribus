@@ -228,6 +228,9 @@ void SearchReplace::searchOnCanvas()
 		if (pos.first < 0)
 		{
 			nextPageItem();
+			//If we're swtiching text chains, ensure we've deselected selected text
+			if (pageItem != currentPageItem())
+				storyText.deselectAll();
 			pageItem = currentPageItem();
 
 			if (m_endReached)
