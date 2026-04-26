@@ -1472,6 +1472,10 @@ void Scribus170Format::writeSections(ScXmlStreamWriter & docu) const
 			case Type_None:
 				docu.writeAttribute("Type", "Type_None");
 				break;
+			// Case of numeration formats not supported by 1.7.0 format
+			default:
+				docu.writeAttribute("Type", "Type_1_2_3");
+				break;
 		}
 		docu.writeAttribute("Start", (*it).sectionstartindex);
 		docu.writeAttribute("Reversed", (*it).reversed);
@@ -1621,6 +1625,10 @@ void  Scribus170Format::writeNotesStyles(ScXmlStreamWriter & docu, const QString
 				break;
 			case Type_None:
 				docu.writeAttribute("Type", "Type_None");
+				break;
+			// Case of numeration formats not supported by 1.7.0 format
+			default:
+				docu.writeAttribute("Type", "Type_1_2_3");
 				break;
 		}
 		docu.writeAttribute("Range", (int) noteStyle->range());
