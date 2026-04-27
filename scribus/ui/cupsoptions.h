@@ -64,6 +64,7 @@ class SCRIBUS_API CupsOptions : public QDialog
 		{
 			int comboIndex;
 			QString keyword;
+			QStringList rawValues;  // Raw IPP values matching combo indices
 		};
 
 		QString defaultOptionValue(const QString& optionKey) const;
@@ -74,11 +75,15 @@ class SCRIBUS_API CupsOptions : public QDialog
 
 		int optionIndex(const QString& optionKey) const;
 		QString optionText(const QString& optionKey) const;
+		QString optionRawValue(const QString& optionKey) const;
 
 #ifdef HAVE_CUPS
 	private:
 		void addIPPOption(const char* ipp_name, cups_dest_t* dest, cups_dinfo_t* dinfo);
 		QString getIPPOptionDisplayName(const char* ipp_name) const;
+		QString formatIPPDisplayValue(const char* ipp_name, const QString& rawValue) const;
+		QString formatMediaName(const QString& mediaName) const;
+
 #endif
 
 	protected:
