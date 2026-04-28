@@ -104,7 +104,7 @@ QPixmap IconManager::loadPixmap(const QString &name, QSize size)
 	}
 
 	// Show error only if icon file doesn't exist!
-	qWarning() << QString("IconManager: No icon with name '%1' found in %2").arg(name, m_activeSetBasename) ;
+	qWarning() << QString("IconManager: No icon with name '%1' found in %2, or iconset xml missing entry").arg(name, m_activeSetBasename) ;
 
 	return QPixmap();
 }
