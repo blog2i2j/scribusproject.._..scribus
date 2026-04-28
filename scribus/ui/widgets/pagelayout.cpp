@@ -56,12 +56,29 @@ PageLayouts::PageLayouts(QWidget* parent)  : QWidget( parent )
 	labelPages->setLabelVisibility(!m_hideLabels);
 	layoutGroupLayout->addWidget( labelPages );
 
+	// Binding direction toggle. Off = LTR (bind right), On = RTL (bind left).
+	// Only meaningful for facing-page layouts; visibility is tied to docPagePositioning > 0.
+	buttonBindingDirection = new QToolButton(this);
+	buttonBindingDirection->setCheckable(true);
+	buttonBindingDirection->setAutoRaise(true);
+	QIcon pageBindingIcon;
+	pageBindingIcon.addPixmap(IconManager::instance().loadPixmap("page-binding-left"), QIcon::Normal, QIcon::Off);
+	pageBindingIcon.addPixmap(IconManager::instance().loadPixmap("page-binding-right"), QIcon::Normal, QIcon::On);
+	buttonBindingDirection->setIcon(pageBindingIcon);
+
+	labelBinding = new FormWidget();
+	labelBinding->setFont(layFont);
+	labelBinding->addWidget( buttonBindingDirection );
+	labelBinding->setLabelVisibility(!m_hideLabels);
+	layoutGroupLayout->addWidget( labelBinding );
+
 	languageChange();
 
 	connect(ScQApp, SIGNAL(labelVisibilityChanged(bool)), this, SLOT(toggleLabelVisibility(bool)));
 	connect(ScQApp, SIGNAL(iconSetChanged()), this, SLOT(languageChange()));
 	connect(buttonScheme, &DropdownButton::activated, this, &PageLayouts::changeScheme, Qt::UniqueConnection);
 	connect(buttonFirstPage, &DropdownButton::activated, this, &PageLayouts::changeFirstPage, Qt::UniqueConnection);
+	connect(buttonBindingDirection, &QToolButton::toggled, this, &PageLayouts::changeBindingDirection, Qt::UniqueConnection);
 }
 
 void PageLayouts::updateSchemeSelector(QList<PageSet> pageSets, int pagePositioning)
@@ -69,6 +86,7 @@ void PageLayouts::updateSchemeSelector(QList<PageSet> pageSets, int pagePosition
 	m_pageSets = pageSets;
 	docPagePositioning = pagePositioning;
 	labelPages->setVisible( docPagePositioning > 0 );
+	labelBinding->setVisible( docPagePositioning > 0 );
 
 	reloadScheme();
 }
@@ -91,7 +109,13 @@ void PageLayouts::setScheme(int nr)
 
 	reloadFirstPage(m_scheme);
 	buttonScheme->setCurrentIndex(m_scheme);
+}
 
+void PageLayouts::setBindingDirection(int nr)
+{
+	m_bindingDirection = qBound(0, nr, 1);
+	QSignalBlocker block(buttonBindingDirection);
+	buttonBindingDirection->setChecked(m_bindingDirection == 1);
 }
 
 void PageLayouts::setHideLabelsPermanently(bool hide)
@@ -157,6 +181,7 @@ void PageLayouts::toggleLabelVisibility(bool visibility)
 
 	labelScheme->setLabelVisibility(visibility);
 	labelPages->setLabelVisibility(visibility);
+	labelBinding->setLabelVisibility(visibility);
 }
 
 void PageLayouts::languageChange()
@@ -165,16 +190,20 @@ void PageLayouts::languageChange()
 	reloadScheme();
 	reloadFirstPage(m_scheme);
 
-	labelScheme->setText( tr( "Scheme" ) );
-	labelPages->setText( tr( "First Page" ) );
+	labelScheme->setText(tr("Scheme"));
+	labelPages->setText(tr("First Page"));
+	labelBinding->setText(tr("Binding"));
 
 	QSignalBlocker sigButtonScheme(buttonScheme);
 	buttonScheme->setCurrentIndex(buttonScheme->currentIndex());
-	buttonScheme->setToolTip( tr( "Number of pages to show side-by-side on the canvas. Often used for allowing items to be placed across page spreads." ) );
+	buttonScheme->setToolTip(tr("Number of pages to show side-by-side on the canvas. Often used for allowing items to be placed across page spreads."));
 
 	QSignalBlocker sigFirstPage(buttonFirstPage);
 	buttonFirstPage->setCurrentIndex(buttonFirstPage->currentIndex());
-	buttonFirstPage->setToolTip( tr( "Location on the canvas where the first page of the document is placed" ) );
+	buttonFirstPage->setToolTip(tr("Location on the canvas where the first page of the document is placed"));
+
+	QSignalBlocker sigBinding(buttonBindingDirection);
+	buttonBindingDirection->setToolTip(tr("Bind the pages on the right (LTR) or left (RTL) side"));
 }
 
 void PageLayouts::changeScheme(int index)
@@ -199,4 +228,10 @@ void PageLayouts::changeFirstPage(int index)
 
 	m_firstPage = action->data().toInt();
 	emit firstPageChanged(m_firstPage);
+}
+
+void PageLayouts::changeBindingDirection(bool checked)
+{
+	m_bindingDirection = checked ? 1 : 0;
+	emit bindingDirectionChanged(m_bindingDirection);
 }

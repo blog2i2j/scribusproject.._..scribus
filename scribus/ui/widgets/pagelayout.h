@@ -10,12 +10,12 @@ for which a new license (GPL+exception) is in place.
 #include <QGroupBox>
 #include <QList>
 #include <QListWidget>
+#include <QToolButton>
 
 class FormWidget;
 class QHBoxLayout;
 class QLabel;
 class QMenu;
-class QToolButton;
 class DropdownButton;
 
 #include "scribusapi.h"
@@ -38,6 +38,8 @@ public:
 	int firstPage() const { return m_firstPage; };
 	void setScheme(int nr);
 	int scheme() const { return m_scheme; };
+	void setBindingDirection(int nr);
+	int bindingDirection() const { return m_bindingDirection; };
 
 	void setHideLabelsPermanently(bool hide);
 	bool hideLabelsPermanently() const { return m_hideLabels; };
@@ -48,18 +50,22 @@ public slots:
 signals:
 	void schemeChanged(int);
 	void firstPageChanged(int);
+	void bindingDirectionChanged(int);
 
 private:
 	int m_scheme {0};
 	int m_firstPage {0};
+	int m_bindingDirection {0};
 	bool m_hideLabels {false};
 	int docPagePositioning {0};
 	QList<PageSet> m_pageSets;
 
 	FormWidget* labelScheme { nullptr };
 	FormWidget* labelPages { nullptr };
+	FormWidget* labelBinding { nullptr };
 	DropdownButton* buttonScheme { nullptr };
 	DropdownButton* buttonFirstPage { nullptr };
+	QToolButton* buttonBindingDirection { nullptr };
 	QHBoxLayout* layoutGroupLayout { nullptr };
 
 	void reloadScheme();
@@ -69,7 +75,7 @@ protected slots:
 	void languageChange();
 	void changeScheme(int index);
 	void changeFirstPage(int index);
-
+	void changeBindingDirection(bool checked);
 };
 
 #endif // PAGELAYOUT_H

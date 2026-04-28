@@ -34,6 +34,7 @@ public slots:
 	void enablePalette(const bool);
 	void handlePageLayout(int layout);
 	void handleFirstPage(int fp);
+	void handleBindingDirection(int direction);
 	//! Recreate master pages thumbnails (if it's set on)
 	void rebuildMasters();
 	//! Recreate common pages arrangement
