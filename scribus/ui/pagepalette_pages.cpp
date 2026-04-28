@@ -306,8 +306,16 @@ void PagePalette_Pages::enablePalette(const bool enabled)
 
 void PagePalette_Pages::handlePageLayout(int layout)
 {
-	pageLayout->setFirstPage(currView->m_doc->pageSets()[layout].FirstPage);
 	currView->m_doc->setPagePositioning(layout);
+
+	// Block firstPageChanged signal while we sync the UI to the new layout's
+	// stored FirstPage value. Without this, setFirstPage() triggers
+	// handleFirstPage() before pagePositioning has been updated, which
+	// writes the new layout's FirstPage value into the old layout's slot.
+	disconnect(pageLayout, SIGNAL(firstPageChanged(int)), this, SLOT(handleFirstPage(int)));
+	pageLayout->setFirstPage(currView->m_doc->pageSets()[layout].FirstPage);
+	connect(pageLayout, SIGNAL(firstPageChanged(int)), this, SLOT(handleFirstPage(int)));
+
 	currView->reformPages();
 	currView->DrawNew();
 	currView->GotoPage(currView->m_doc->currentPageNumber());
